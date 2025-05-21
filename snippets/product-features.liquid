@@ -1,0 +1,31 @@
+{%  liquid
+  assign features = product.metafields.custom.features.value
+  
+  assign features_icons = product.metafields.custom.features_icons.value
+
+  if is_card
+    assign features = product.metafields.custom.card_features.value
+  endif
+%}
+
+<ul class="{{ class }}">
+  {% for feature in features limit: limit %}
+    {% liquid 
+      if is_card
+        assign feature_icon = 'tick'
+      else
+        assign feature_icon = features_icons[forloop.index0] | default: 'tick' | handle
+      endif
+    %}
+
+    <li class="self-start flex items-center">
+      <div class="{{ icon_class }}">
+        {% render 'svg', name: feature_icon %}
+      </div>
+
+      <p>
+        {{ feature }}
+      </p>
+    </li>
+  {% endfor %}
+</ul>

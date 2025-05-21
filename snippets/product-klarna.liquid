@@ -1,0 +1,13 @@
+{% comment %}
+  The `has-margin-top is-size-7` class is not arbitrary, it's used as a hook selector in the Klarna app settings
+{% endcomment %}
+
+<div
+  class=
+    "hidden [&:has(klarna-placement)]:block [&>*]:!m-0
+    [&_::part(osm-container)]:border-0 [&_::part(osm-container)]:bg-grey-50 [&_::part(osm-container)]:rounded-lg
+    [&_::part(osm-container)]:justify-center
+  "
+>
+  <div class="has-margin-top is-size-7"></div>
+</div>

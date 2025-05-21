@@ -1,0 +1,388 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy direct from the makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Learn More",
+            "url": "/"
+          }
+        },
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "/"
+          }
+        },
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "title": "01 Design Excellence",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Shop now",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "title": "02 Outstanding Service",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "title": "03 Educate, Inform and Support",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "title": "04 Technical Specifications",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "{{ product }}",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc",
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5",
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image": "shopify://shop_images/pdp-accordion.png",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Info",
+        "title_size": "large",
+        "title": "Specification",
+        "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
+      }
+    },
+    "featured_accordion_8xNYPh": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_NqN8Jp": {
+          "type": "entry",
+          "settings": {
+            "title": "Where is my order?",
+            "text": "<p>Orders placed before 12pm, Monday to Friday, are usually dispatched the same day. Orders placed after 12pm will be dispatched the following working day. <br/><br/>Fast 24 hour Delivery - Appliances<br/><br/>As standard, delivery for purchases that include appliances will usually be made 24 hours after dispatch on weekdays. If you place an order for an appliance after 12pm on a Friday, delivery will be made on the following Tuesday.<br/><br/>Standard 48 hour Delivery - Accessories<br/><br/>Delivery for orders of accessories only will usually be made 48 hours after dispatch on weekdays.<br/><br/>Please expect delays around public and bank holidays. See the delivery page for specific information.<br/><br/>To check the delivery status of your order, log into the My Account section of our website and click on the tracking link provided. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_cPhtB6": {
+          "type": "entry",
+          "settings": {
+            "title": "My order hasn’t arrived",
+            "text": "<p>If your delivery date has passed and you haven't received your order, log into the My Account section of our website, open your orders and click on the tracking link provided to trace where your parcel is up to with our courier partner. Please note that all of our Vacuum Cleaners, Air Movers, Fans and Lawnmaster products require a signature upon delivery. If this can’t be obtained by the courier then your order will be returned to the delivery depot, and you will need to contact them to arrange a collection or a new delivery.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_NqN8Jp",
+        "entry_cPhtB6"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "product_reviews_c3pgXb": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Reviews",
+        "title": "Don't just take our word for it"
+      }
+    },
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
+      "type": "product-recommendations",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Related",
+        "title": "You May Also Like"
+      }
+    },
+    "featured_accordion_T9UnNr": {
+      "type": "featured-accordion",
+      "blocks": {
+        "button_EkrenG": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://pages/vacmaster-support"
+          }
+        },
+        "entry_AHwC4z": {
+          "type": "entry",
+          "settings": {
+            "title": "Vacmaster Guarantee",
+            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/vacmaster-guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_c3jTWr": {
+          "type": "entry",
+          "settings": {
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "link",
+            "button_1_text": "Read more",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_YET7Qe": {
+          "type": "entry",
+          "settings": {
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_EkrenG",
+        "entry_AHwC4z",
+        "entry_c3jTWr",
+        "entry_YET7Qe"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "featured_content_BTAxpN": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "10% off when you sign up to hear from us",
+        "text": "<p>Join our community to access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "product-main",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "featured_accordion_8xNYPh",
+    "product_reviews_c3pgXb",
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
+    "featured_accordion_T9UnNr",
+    "featured_content_BTAxpN"
+  ]
+}

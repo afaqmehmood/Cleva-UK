@@ -1,0 +1,194 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign blocks = section.blocks | default: null
+%}
+
+<section class="{% render 'section-class', section: section %}">
+  <div class="container main-grid">
+    <div class="col-span-full">
+      {% if pretitle %}
+        <p class="font-bold text-[15px]/[normal] md:-tracking-[0.02em] underline underline-offset-4 mb-4 last:mb-0">
+          {{ pretitle }}
+        </p>
+      {% endif %}
+
+      {% if title %}
+        <h2 class="font-display !font-bold text-[33px]/[35px] md:text-[43px]/[51px]">
+          {{ title }}
+        </h2>
+      {% endif %}
+    </div>
+
+    {% if text %}
+      <div class="col-span-full md:col-span-6 xl:col-span-4 text-[20px]/[25px] -tracking-[0.02em] text-grey-300 mt-6">
+        {{ text }}
+      </div>
+    {% endif %}
+
+    {% if blocks %}
+      {% capture slides_content %}
+        {% for block in blocks %}
+          {% liquid
+            assign block_image = block.settings.image | default: null
+
+            assign block_image_loading = block.settings.image_loading | default: null
+
+            if forloop.index > 3
+              assign block_image_loading = 'lazy'
+            endif
+
+            assign block_title = block.settings.title | default: null
+
+            assign block_text = block.settings.text | default: null
+
+            assign block_url = block.settings.url | default: null
+          %}
+
+          {% capture slide_content %}
+            {% render 'card',
+              image: block_image,
+              image_loading: block_image_loading,
+              title: block_title,
+              text: block_text,
+              url: block_url,
+              is_carousel: true
+            %}
+          {% endcapture %}
+
+          {% render 'cards-carousel-embla-slide', slide_content: slide_content %}
+        {% endfor %}
+      {% endcapture %}
+
+      {% render 'cards-carousel-embla', slides_content: slides_content, slides_columns: 3, slides_gap: 14 %}
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Cards",
+    "presets": [
+      {
+        "name": "Cards"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

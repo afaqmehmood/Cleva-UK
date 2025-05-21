@@ -1,0 +1,137 @@
+{% assign blocks = section.blocks | default: null %}
+
+<section class="{% render 'section-class', section: section %}">
+  <div class="py-3.5 md:py-8 border-y text-center">
+    <div class="container">
+      <ul class="flex items-center gap-x-6" x-data="marquee({ totalLength: {{ blocks.size | json }} })">
+        {% for block in blocks %}
+          {% liquid
+            assign block_icon = block.settings.icon | default: null
+
+            assign block_title = block.settings.title | default: null
+          %}
+
+          <li
+            class="
+              flex-1
+
+              {% unless forloop.first %}
+                max-md:hidden
+              {% endunless %}
+            "
+            :class="{
+              'max-md:hidden': !getIsActive({{ forloop.index0 }})
+            }"
+          >
+            {% if block_title %}
+              <p class="flex justify-center items-center gap-x-4">
+                {% if block_icon %}
+                  {% render 'svg', name: block_icon, class: 'md:text-[22px]' %}
+                {% endif %}
+
+                <span class="font-bold max-md:text-[14px] leading-[24px] -tracking-[0.01em]">
+                  {{ block_title }}
+                </span>
+              </p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "USP Banner",
+    "presets": [
+      {
+        "name": "USP Banner"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "usp",
+        "name": "USP",
+        "settings": [
+          {
+            "type": "select",
+            "id": "icon",
+            "label": "Icon",
+            "options": [
+              { "value": "truck", "label": "Truck" },
+              { "value": "house", "label": "House" },
+              { "value": "chat", "label": "Chat" }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/VDK1538SWC-01M_M38_PCF_M_Class_Accessories_and_Spare_Parts.webp",
+            "image_loading": "",
+            "logo": "vacmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "Vacmaster WD M38 PCF 240V M Class Dust Extractor",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>VDK1538SWC-01M</p><p>Learn how to set up and use your M Class dust extractor with instruction manuals, user guides and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/m-class_wet-dry_vacuum-cleaner_dust-extractor_vacmaster_VDK1538SWC_WD_M38_PFC_manual_2021.pdf?v=1679587092",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Setting Up",
+            "text": "<p>1) Remove all the contents from inside of the vacuum cleaner container.<br/>2) Attach the carry handle into the slots located on the top of the power head. Secure them with supplied screws.<br/>3) Turn the container upside down and insert the front feet with casters into the slots and apply pressure until they click into place.<br/>4) Insert the wheel axle into the rear wheel housing on the base. Insert a washer onto the axle followed by the rear wheel and another washer. Insert the wheel retaining pin into the hole on the end of the axle to lock into place. Push fit the hub cap onto the wheel. Repeat the same steps on the other end of the axle.<br/>5) To position the hose storage rack, insert one end into the channel on the side of the power head, making sure it is secured in place. Apply inward pressure to the other side and insert it into the opposite channel.<br/>6) Unfold the upper handle assembly into the upright position. The upper handle has two adjustable height positions. Secure in place by tightening the wig knobs clockwise.<br/>7) Your vacuum cleaner comes ready for dry vacuum cleaning with the cartridge filter pre-installed.<br/>8) For wet vacuum cleaning, replace the cartridge filter with the foam filter supplied. Do not use a dust bag and/or a disposable bag when wet vacuuming.<br/>9) Secure the power head back on the container using the latches. Insert the locking end of the hose into the suction port of the container and turn clockwise to lock into place.<br/>10) Choose the desired accessories and/or extension wands and push fit onto the hose nozzle.<br/><br/><strong>For M-Class Certification</strong><br/><br/>To maintain M-class certification this vacuum cleaner must be used with a disposable collection means. By removing the dust bag and disposable bag when collecting debris the user runs the risk of voiding vacuum cleaner certification.<br/><br/>1) To use a dust bag, fully fit the dust bag flange onto the inlet stub.<br/>2) To use a disposable bag, place the disposable bag into the container, and fully fit the disposable bag flange onto the inlet stub. Fold the top edge of the disposable bag over the rim of the container.<br/>3) To use a disposable bag and a dust bag together, place the disposable bag into the container and fully fit the disposable bag flange onto the inlet stub, and fold the top edge of the disposable bag over the rim of the container, then fully fit the dust bag flange onto the inlet stub.<br/><br/><strong>Floor Nozzle Attachments</strong><br/><br/>The floor nozzle comes supplied with additional attachments to ensure correct suction across different floor surfaces and applications.<br/><br/>1) To remove the floor nozzle attachments, turn the floor tool holder upside down.<br/>2) Using a flathead screwdriver or other suitable tool, locate the holding clips on each outer edge. Insert a flat edged object directly next to the holding clip, between the insert and the floor tool holder. Pry the attachment up from underneath.<br/>3) Insert the new attachments into the holder applying downwards pressure.<br/>4) The attachments can be used in three combinations:<br/>Brush and Squeegee Combination: For use with mixture of wet or dry liquids.<br/>Dual Brush Combination: For use with dry materials or carpeted floor surfaces.<br/>Dual Squeegee Combination: For use on hard floor with wet liquids.<br/><br/>NOTE: The textured side of the rubber squeegee must be facing outwards.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_rBUCPV": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Maintenance",
+            "text": "<p><strong>General Maintenance</strong><br/><br/>1) Keep all safety devices, air vents and the motor housing free of dirt and dust. Use a soft, dry brush to clean the equipment regularly.<br/>2) Clear all dirt or debris from the collection tank after each use. Allow to dry before replacing the power head.<br/>3) Check the hose, attachments, and power cord to verify that they have not been damaged or any debris is trapped and blocking airflow.<br/><br/><strong>Cleaning Cartridge Filter</strong><br/><br/>IMPORTANT! After vacuuming hazardous dusts, it is recommended to dispose of the cartridge filter within a sealed bag and dispose of in accordance with legal regulations.<br/>IMPORTANT! When manually cleaning the cartridge filter, be careful not to damage the filter.<br/><br/>1) Remove the cartridge filter and clean by gently tapping or brushing dirt off. Ensure you always use a P2-respirator and only do so in a well ventilated environment. For optimal performance it is recommended to replace the old filter with a new filter regularly.<br/>2) If necessary, use a mild soap and water solution to wash cartridge filter and rinse with clean water. Allow the filters to air dry before re-installing.<br/><br/><strong>Cleaning Foam Filter</strong><br/><br/>Remove the foam filter and use a mild soap and water solution to wash and rinse with clean water. Allow filter to air dry before installing and using again.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_7bcfXa": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "vacmaster-wd-m38-pcf",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_t8VcMd": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories",
+            "text": "<p>Genuine Vacmaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Shop All",
+            "button_1_url": "shopify://collections/vdk1538swc-01m-accessories",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "vdk1538swc-01m-accessories",
+            "collection_products_per_page": 15,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_hU3Feg": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Spare Parts",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_rBUCPV",
+        "entry_7bcfXa",
+        "entry_t8VcMd",
+        "entry_hU3Feg"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why is dust escaping from the motor cover?",
+            "text": "<p>This can be caused by:<br/><br/>1) The cartridge filter is missing or damaged. Put in a cartridge filter or replace it.<br/>2) Misuse of the cartridge filter when wet vacuuming, causing the damage of cartridge filter. Replace the damaged cartridge filter with a new one when dry vacuuming.<br/>3) Misuse the foam filter when dry vacuuming. Replace the foam filter with the cartridge filter.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_8tVb6d": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why is the air flow indicator still flashing red after completing filter cleaning operation?",
+            "text": "<p>This can be caused by:<br/><br/>1) Suction nozzle, hose, or tank inlet is blocked. Check the suction nozzle, hose, and tank inlet for obstructions.<br/>2) The cartridge filter has been contaminated heavily. Remove and clean or replace with a new filter.<br/>3) The container is full. Empty the container.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_KDmbrB": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why isn't the power tool take-off socket working?",
+            "text": "<p>This can be caused by:<br/><br/>1) Power tool wattage is not compatible with the power takeoff socket. Check the wattage is compatible with the power tool take-off socket.<br/>2) Incorrect operating mode selected. Ensure the switch is moved into position II.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_8tVb6d",
+        "entry_KDmbrB"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/dust-extractors-push-clean-filter-pcf-system-explained",
+            "image_loading": ""
+          }
+        },
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/a-simple-guide-to-m-class-dust-extractors",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/what-s-the-best-vacuum-cleaner-for-chimney-sweeps",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>This Vacmaster appliance comes with a 1-year guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

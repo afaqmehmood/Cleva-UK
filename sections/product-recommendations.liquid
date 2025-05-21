@@ -1,0 +1,135 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign url = routes.product_recommendations_url | append: '?product_id='
+  assign url = url | append: product.id | append: '&section_id='
+  assign url = url | append: section.id | append: '&intent='
+  assign url = url | append: 'related' | append: '&limit=3'
+%}
+
+<section
+  {% unless recommendations.performed %}
+    x-data="productRecommendations({ url: {{ url | json | escape }} })"
+    x-intersect.once="getAndRender"
+  {% endunless %}
+>
+  <div data-ref="root">
+    {% if recommendations.performed and recommendations.products != empty %}
+      <div class="container {% render 'section-class', section: section %}">
+        {% if pretitle or title %}
+          <div class="md:text-center">
+            {% if pretitle %}
+              <p class="font-bold text-[15px]/[normal] underline underline-offset-4 mb-4 last:mb-0">
+                {{ pretitle }}
+              </p>
+            {% endif %}
+          
+            {% if title %}
+              <h2 class="font-display !font-bold text-[33px]/[35px] md:text-[43px]/[51px]">
+                {{ title }}
+              </h2>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% capture slides_content %}
+          {% for product in recommendations.products %}
+            {% capture slide_content %}
+              {% render 'product-card', product: product, is_carousel: true, image_loading: 'lazy', form_enable: true %}
+            {% endcapture %}
+  
+            {% render 'cards-carousel-slide', slide_content: slide_content %}
+          {% endfor %}
+        {% endcapture %}
+  
+        {% render 'cards-carousel', slides_content: slides_content, slides_columns: 3, slides_gap: 5 %}
+      </section>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Product recommendations",
+    "presets": [
+      {
+        "name": "Product recommendations"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["product"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ]
+  }
+{% endschema %}

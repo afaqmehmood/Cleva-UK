@@ -1,0 +1,561 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Artificial_Grass_AG_Plus_Accessories.webp",
+            "image_loading": "",
+            "logo": "vacmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "Vacmaster WD18 AG+ Garden & Artificial Grass Vacuum Cleaner",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>VBVB1518PF-01</p><p>Learn how to set up and use your Artificial Grass and Garden Vacuum Cleaner with instruction manuals, user guides and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/artificial-grass_outdoor_wet-dry_vacuum-cleaner_vacmaster_VBVB1518PF_manual.pdf?v=1717682004",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Setting Up",
+            "text": "<p>1) Remove all the contents from inside of the vacuum cleaner container.<br/><br/>2) Turn the container upside down and insert the feet with casters into the slots and apply pressure until they click into place. Secure them with supplied screws.<br/><br/>3) Your vacuum cleaner comes ready for dry vacuum cleaning with the washable cartridge filter and pre-filter pre-installed.<br/><br/>4) For wet vacuum cleaning, remove the pre-filter.<br/><br/>5) Secure the power head back on the container using the latches. Make sure the power head is properly installed with the blowing port positioned in the back of the unit.<br/><br/>6) Insert the locking end of the suction hose into the suction port of the container.<br/><br/>7) Choose the desired accessories and/or extension wands and push fit onto the suction hose nozzle.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Operating & Maintaining",
+            "text": "<p><strong>Switching On/Off</strong><br/>Connect the mains plug to a suitable power outlet. Position Status:<br/>I On<br/>O Off<br/><br/><strong>Wet & Dry Vacuum Operation</strong><br/><br/>1) Verify that the correct filter is installed for wet or dry vacuuming and the tank latches are secured.<br/><br/>2) Secure the locking end of the suction hose into the vacuum suction port.<br/><br/>3) Push the desired accessories onto the hose nozzle. The air flow regulation allows you to change vacuum cleaner suction. <br/><br/>4) Plug the power cord into a power outlet.<br/><br/>5) Turn on the appliance by assigning the switch to the “I” ON position.<br/><br/>6) Once you have completed vacuuming, switch to the “O” OFF position and unplug the power cord from the power outlet.<br/><br/>NOTE: If vacuuming a mixture of wet and dry surfaces, fully clean and dry the filters and container after each use.<br/><br/><strong>For Dry Vacuuming:</strong><br/><br/>1) To prepare your vacuum cleaner for dry vacuuming, install the cartridge filter over the filter cage with the flat end of the filter towards the vacuum power head. Carefully push the filter until it sits flush forming a tight seal.<br/><br/>2 )Place the filter retainer on top of the cartridge filter over the raised lip and tighten the retainer lock clockwise to secure against the internal filter cage.<br/><br/>3) Place the nylon pre-filter over the cartridge filter, making sure the whole filter is covered and securing the drawstring. Replace the power head, and secure it in place.<br/><br/><strong>For Wet Vacuuming:</strong><br/><br/>1) To prepare your vacuum cleaner for wet vacuuming, remove the pre-filter. Verify that the washable cartridge filter is installed.<br/><br/>NOTE: Please make sure the washable cartridge filter is dry before using it for wet vacuuming.</p><p>The vacuum cleaner is equipped with a float valve which is operational during wet suction. The suction power decreases when the maximum filling level is reached. You will notice an increase in motor noise. When this happens, switch the vacuum cleaner off immediately, and empty the container.<br/><br/><strong>Blower Operation</strong><br/><br/>1) Make sure the container and any collected waste is emptied and the filter is dry before using as a blower.<br/><br/>2) Insert the locking end of the suction hose into the blowing port on the rear of the power head.<br/><br/>3) Turn on the motor by turning the switch to the ‘I’ ON position.<br/><br/><strong>For Detachable Blowing Operation</strong><br/><br/>1) Hold the blower handle and press the blower release button to lift the detachable blower fromthe blower housing.<br/><br/>2) Secure the locking end of the blower adapter onto the blower port (Fig. 13).<br/><br/>3) Fit the blower tube onto the adapter. Make sure the blower tube is secured into place (Fig. 14).<br/> <br/>4) Firmly hold the blower before turning it on. Turn the appliance on by turning the switch to the ‘I’<br/>ON position.<br/><br/>NOTE: Make sure that the detachable blower is replaced properly onto the blower housing when<br/>finished blowing.<br/><br/><strong>Cleaning Washable Cartridge Filter & Nylon Pre-filter</strong><br/><br/>1) Remove the filter and clean by gently tapping or brushing dirt off. For optimal performance it is recommended to replace the old filter with a new filter regularly.<br/><br/>2) Use a mild soap and water solution to wash cartridge filter and nylon pre-filter and rinse with clean water. Allow the filters to air dry completely before storing or re-installing.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "vacmaster-wd18-ag-garden-vacuum-blower",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_wHBrcV": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories & Spare Parts",
+            "text": "<p>Genuine Vacmaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Shop All",
+            "button_1_url": "shopify://collections/vbvb1518pf-01",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "vbvb1518pf-01",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_fH7beV": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Parts Enquiry Form",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_wHBrcV",
+        "entry_fH7beV"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_NeyFA6": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Will this vacuum damage my artificial grass?",
+            "text": "<p>No. The Vacmaster artificial grass tool is tough on dirt, but gentle on your lawn. This specially developed tool combines nylon brushes with innovative moulded combs to gently dislodge and lift away dirt and debris as you clean. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_eCfQea": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Should I wet my artificial lawn first?",
+            "text": "<p>For optimal performance we recommend that you wet your artificial grass prior to use. This can be done with a hosepipe.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_jwg6wb": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Will this remove moss on my artificial grass and patio?",
+            "text": "<p>This Vacmaster vacuum cleaner is supplied with a brass brush tool specifically designed to dislodge trapped moss from all surfaces. The softened brass bristles are ideal for applications where you do not want to scratch surfaces. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_7tAwGT": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can I use this garden vacuum alongside an artificial grass cleaning solution?",
+            "text": "<p>Yes. The Vacmaster WD18 AG+ can be used to collect any residual liquid and/or dry your artificial lawn after using an artificial grass cleaning solution.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_ppeWFk": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can I use this as a traditional wet and dry vacuum cleaner?",
+            "text": "<p>Yes. An essential tool for any DIY enthusiast, the Vacmaster WD18 AG+ can be used to clean up dust, dirt, mud or sludge in your garage, workshop, car or home, without changing any filters.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_b4fAbV": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How long is the power cable when using the detachable blower?",
+            "text": "<p>The detachable handheld garden leaf blower includes a generous 10m long power cord. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_jjBRaT": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Does the Vacmaster WD18 AG+ use dustbags?",
+            "text": "<p>We don’t recommend you use a dust bag when using the Vacmaster WD18 AG+ outside and when vacuuming a mixture of wet and dry debris from your lawn. A dust bag can however be used when working in normal dusty or indoor environments.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_NeyFA6",
+        "entry_eCfQea",
+        "entry_jwg6wb",
+        "entry_7tAwGT",
+        "entry_ppeWFk",
+        "entry_b4fAbV",
+        "entry_jjBRaT"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/what-are-the-benefits-of-a-garden-vacuum-cleaner",
+            "image_loading": ""
+          }
+        },
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/can-i-vacuum-artificial-grass",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/5-tips-to-make-your-lawn-thrive",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>This Vacmaster appliance, spare parts and accessories carry a 2-year domestic use guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Mailing List",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

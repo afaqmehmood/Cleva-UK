@@ -1,0 +1,1099 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35": {
+      "type": "featured-text-with-icon",
+      "blocks": {
+        "aa9370f5-862d-4221-88f8-2df4783e5117": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "steer",
+            "title": "Randomised Cutting Pattern",
+            "text": "<p>For an even finish without leaving track marks.</p>"
+          }
+        },
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "spool",
+            "title": "Spot Cut Function",
+            "text": "<p>Use the spiral spot cut function on any uncut grass.</p>"
+          }
+        },
+        "a73107f1-d813-4f4a-9738-d04082969ce4": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "sqaure-circle-corners",
+            "title": "MX 24V Shared Battery System",
+            "text": "<p>Supplied with 2x 4.0Ah MX 24V interchangeable batteries.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "aa9370f5-862d-4221-88f8-2df4783e5117",
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796",
+        "a73107f1-d813-4f4a-9738-d04082969ce4"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_text_with_image_aLB9xW": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_pRxFRp": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/LawnMaster_VBRM16_robot_lawmower_Camera_Navigation.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Advanced Technology, Simplified.",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>The LawnMaster OcuMow® 16 robot mower combines a camera and sensors with Optical Grass Recognition (OGR) software to identify grass and navigate around your lawn without the need for a boundary wire, outdoor power socket or app. Supplied with two MX 24V 4.0Ah batteries and a fast charger, so it's ready to go out of the box.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_pRxFRp"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "featured_text_with_image_PmFD8q": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_hRYWwx": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_VBRM16_robot_lawmowe_simple_operation_keypad.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Drop & Mow",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>No need for an outdoor power socket. Simply charge the detachable lithium-ion batteries in the 1 hour fast charger provided and put the mower on the lawn once or twice a week during the daytime in dry weather.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_hRYWwx"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_cards_LbU947": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_XzYgYx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Robot_Lawn_Mower_VBRM16C2_OcuMow_LawnMaster.webp",
+            "image_loading": "lazy",
+            "title": "Double the Cutting Area",
+            "text": "<p>Supplied with two powerful and reliable MX 24V 4.0Ah lithium ion batteries for a continuous mowing time of up to 8 hours (one battery charging while the other is in use), cutting an area of up to 200m2. </p>",
+            "url": ""
+          }
+        },
+        "card_Cmwr7p": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Robot_Lawn_Mower_VBRM16_Random_Cutting_Pattern.webp",
+            "image_loading": "",
+            "title": "Random Cutting Pattern",
+            "text": "<p>Mows in a randomised pattern to prevent track marks forming in the lawn, and drops small clippings as it cuts, feeding the grass.</p>",
+            "url": ""
+          }
+        },
+        "card_p3THhR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_Robot_Mower_for_Small_Lawns.webp",
+            "image_loading": "",
+            "title": "For Small to Medium Lawns",
+            "text": "<p>Of up to 200m2. A clearly defined edge around the full perimeter of your lawn, such as paving or gravel, or a raised edge at least 6cm high, is required to prevent the mower leaving the grass. Adjustment of the lawn edges may be required. As with other robot mowers, a grass trimmer (not included) is needed to trim the lawn edges. Not suitable for gardens with overhanging plants, undefined flower borders or edges with a drop off.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_XzYgYx",
+        "card_Cmwr7p",
+        "card_p3THhR"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "",
+        "pretitle": "Explore",
+        "title": "Features & Benefits",
+        "text": ""
+      }
+    },
+    "featured_cards_Dm7eeg": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_kY8j8g": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_Robot_Lawn_Mower_Keypad.webp",
+            "image_loading": "lazy",
+            "title": "Simple to Operate",
+            "text": "<p>Simple keypad to operate the mower using the auto mow or spot cut modes, and to activate and deactivate the ultrasonic sensors. No app required. </p>",
+            "url": ""
+          }
+        },
+        "card_PKWdCV": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Robot_Lawn_Mower_Spot_Cut_Function.webp",
+            "image_loading": "",
+            "title": "Spot Cut Function",
+            "text": "<p>For a neat finish, use the additional spiral spot cut function on any patches of uncut grass.</p>",
+            "url": ""
+          }
+        },
+        "card_MhNJtL": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_Robot_VBRM16_Cutting_Height.webp",
+            "image_loading": "",
+            "title": "Adjustable Cutting Height",
+            "text": "<p>Choose from cutting heights of between 20mm and 60mm for a neat looking lawn. For best performance and to encourage healthy lawn growth use 60mm for longer grass and after regular mowing, gradually reduce the cutting height to your desired length.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_kY8j8g",
+        "card_PKWdCV",
+        "card_MhNJtL"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_quotes_YamDdc": {
+      "type": "featured-quotes",
+      "blocks": {
+        "quote_z6FiLd": {
+          "type": "quote",
+          "settings": {
+            "text": "\"This is revolutionary, with no boundary wire to lay, no charging station to pin to the lawn and no need to have an outdoor power supply to plug it in.\"",
+            "text_alignment": "text-center",
+            "name": "Expert Reviews",
+            "logo": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_z6FiLd"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_text_with_image_FXPR6E": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_67Kbzd": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_Robot_Mower_OcuMow_VBRM16C2_safety_key.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Safety Features",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Using the camera and ultrasonic sensors the mower detects and avoids obstacles such as garden furniture. A child safety key prevents unauthorised use, and sensors stop the blade when the mower is lifted.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_ppdheX": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_Robot_Mower_Wheel_OcuMow_VBRM16.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "Grips 35% (19º) Slopes",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>High specification deep tread wheels and powerful drive system grips slopes of up to 35% (19º).</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_BbhQC9": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_VBRM16_robot_mower_Compact_Storage.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "Compact Storage",
+            "subtitle_tag": "h1",
+            "subtitle": "Store the mower away between uses. Compact size for storing away in small spaces.",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_xKGbjB": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_MX_24V_Shared_Battery_System.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "MX 24V Shared Battery System",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Expand your cordless garden power tool collection in a cost effective and environmentally conscious way with LawnMaster. Every MX 24V 4.0 AH battery and charger is compatible with the LawnMaster MX 24V cordless range. Now you don’t need to buy a new battery and charger every time you buy a new garden power tool.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_67Kbzd",
+        "text_with_image_ppdheX",
+        "text_with_image_BbhQC9",
+        "text_with_image_xKGbjB"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c": {
+      "type": "featured-features",
+      "blocks": {
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_Robot_Lawn_Mower_Guarantee.webp",
+            "image_loading": "",
+            "icon": "guarantee",
+            "title": "2-Year Guarantee",
+            "text": "<p>Peace of mind with our 2-year manufacturer guarantee.</p>"
+          }
+        },
+        "501a6d11-0820-42d7-9455-af4a760a8e04": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/MX_24V_LawnMaster_OcuMow_Robot_Mower.webp",
+            "image_loading": "",
+            "icon": "battery-bolt",
+            "title": "1hr Fast Charge",
+            "text": "<p>The detachable MX 24V 4.0Ah lithium batteries can be charged in just 1hr with the LawnMaster fast charger provided.</p>"
+          }
+        },
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Robot_Mower_VBRM16C2_OcuMow_Folding_Handle.webp",
+            "image_loading": "",
+            "icon": "tools",
+            "title": "Carry Handle",
+            "text": "<p>Easily transport the mower around the garden and neatly store it away with the folding handle.</p>"
+          }
+        },
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_MX_24V_Shared_Battery_System.webp",
+            "image_loading": "",
+            "icon": "sqaure-circle-corners",
+            "title": "Shared Battery System",
+            "text": "<p>Our OcuMow® range of robot mowers are compatible with the LawnMaster MX 24V Shared Battery System. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a",
+        "501a6d11-0820-42d7-9455-af4a760a8e04",
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75",
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_hero_V6A8yr": {
+      "type": "featured-hero",
+      "blocks": {
+        "hero_VBULpa": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#fafafa",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/OcuMow_Robot_Mower_Advert.webp",
+            "image_mobile": "shopify://shop_images/Ocumow_Robot_Mower_Ad_Mobile.webp",
+            "image_loading": "",
+            "video": "shopify://files/videos/VBRM16 Promo Video No URL.mp4",
+            "video_autoplay": false,
+            "video_controls": true,
+            "video_hide_content_when_playing": true,
+            "video_play_button_inverted": true,
+            "logo": "lawnmaster",
+            "align_content": "",
+            "pretitle": "Explore",
+            "title_tag": "h2",
+            "title_size": "large",
+            "title": "Simply Drop And Mow",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "feature_1_title": "Drop & Mow",
+            "feature_1_text": "No Boundary Wire Needed",
+            "feature_2_title": "Navigation System",
+            "feature_2_text": "Camera Software & Ultra Sonic Sensors",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "hero_VBULpa"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": false
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Is OcuMow® 16 Right For My Garden?",
+            "text": "<p>Is the LawnMaster OcuMow® 16 the right robot mower for your garden? Watch this video to discover all you need to know about starting and running your robotic lawn mower:</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://youtu.be/np86kww49kc",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "In the Box",
+            "text": "<p>2x MX 24V 4.0Ah Batteries, MX 24V Fast Charger, 3x Robotic Mower Blades</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "lawnmaster-ocumow16-robot-lawnmower-2-batteries",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Product Support",
+            "text": "<p>Learn how to set up, use and update your robot mower with instruction manuals, user guides, videos and FAQs on our dedicated OcuMow VBRM16 Support Page.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Go to product support",
+            "button_1_url": "shopify://metaobjects/product_support/lawn-master-vbrm-16-ocu-mow-mx-24-v-drop-and-mow-robotic-lawnmower-with-battery",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_dmPTCT": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Instruction Manual",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "Download",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/robot_lawnmower_lawnmaster_VBRM16_manual_2022.pdf?v=1679587159",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628",
+        "entry_dmPTCT"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Information",
+        "title_size": "large",
+        "title": "Specification",
+        "text": ""
+      }
+    },
+    "88f30ef1-5d27-47e7-9655-32f0d8016675": {
+      "type": "featured-collection",
+      "blocks": {
+        "94592e8c-f8a7-4d05-95bd-1984549039b5": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Shop All",
+            "url": "shopify://collections/vbrm16-01-accessories"
+          }
+        },
+        "4a3319f2-a88e-4233-a4b4-72590768cea0": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "shopify://metaobjects/product_support/lawn-master-vbrm-16-ocu-mow-mx-24-v-drop-and-mow-robotic-lawnmower-with-battery"
+          }
+        }
+      },
+      "block_order": [
+        "94592e8c-f8a7-4d05-95bd-1984549039b5",
+        "4a3319f2-a88e-4233-a4b4-72590768cea0"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Discover",
+        "title": "Accessories & Spare Parts",
+        "text": "",
+        "collection": "vbrm16-01-accessories",
+        "products_per_page": 8
+      }
+    },
+    "featured_accordion_tDiBLC": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_q7pMtc": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "How does it work?",
+            "text": "<p>The OcuMow® 16 uses a camera combined with two ultrasonic sensors to navigate around your garden. The camera detects the difference between surface textures and colours, for example grass or paving, and the ultrasonic sensors detect obstacles higher than 6cm, such as plants, garden furniture, walls and fences meaning there is no need for a boundary wire.</p><p>To keep the mower within the lawn area, your lawn must be bordered on all sides by a hard, visually distinctive border. This can be a flat border of paving, gravel or wooden boards, or a raised edge such as border edging, walls or fences. The mower can detect some edges that are not distinctive however for best and correct operation making your borders clearly defined will improve edge detection and allow the robot to work correctly.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_frmLHx": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why are there such specific lawn border requirements?",
+            "text": "<p>If the mower cannot recognise a clearly defined lawn edge, it may not stay within the lawn area. Bare earth borders which can become weedy, or flower borders with low plants can be interpreted as grass by the Optical Grass Recognition (OGR) software. For this reason, we recommend that either raised edges, a hard border of paving or gravel, or walls and fences are the best options around the lawn.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_t6zVXL": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Can it stay on the lawn 24/7?",
+            "text": "<p>Unlike traditional robots the OcuMow® 16 is designed to Drop and Mow. The mower is designed to be placed on the lawn once or twice a week and will mow for up to 4 hours (8hrs with two batteries) on a single charge covering 100m2 per battery.  The mower should be stored away in a dry place between uses.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Xjrtck": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Will it cut up to edges?",
+            "text": "<p>The mower stops approximately 10 - 20cm away from the edge of the lawn, meaning some grass will remain uncut. This can easily be taken care of with a grass trimmer such as our battery compatible LawnMaster MX 24V Grass Trimmer. Lawn edges should be kept neatly trimmed so that the OcuMow® 16 can easily see the edge of the lawn.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_WjAng3": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Can the mower be used at night?",
+            "text": "<p>No. As the OcuMow® 16 requires good light in order for the camera to function, this mower can only be used in the daytime. The robot will not operate outside daylight hours.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_qp79D6": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "What happens to the grass clippings?",
+            "text": "<p>The grass is cut using three small sharp blades and the clippings are returned to the lawn surface where the nutrients contained in them fertilise the soil. This means stronger, healthier grass with less need for supplemental fertiliser and has the added bonus of helping the lawn retain water in dry periods. It also means no grass clippings to dispose of or compost. Provided that the OcuMow® 16 is used regularly (i.e., once or twice a week) the clippings are not visible to the eye.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_AybWKM": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Can this mower be used in a garden with a pond?",
+            "text": "<p>It is possible to use the OcuMow® 16 on lawns with a pond, however it is strongly recommended that the pond is surrounded by a raised barrier to safeguard against the mower falling in. We recommend either a raised edge or a paved/gravel border at least 75cm wide surrounding the pond. Water damaged mowers are not covered under guarantee.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_ytDRTC": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Is it safe to use around pets and children?",
+            "text": "<p>The OcuMow® 16 has a safety key which can be removed to prevent children starting the mower unsupervised. Safety sensors stop the blades if the mower is lifted or flips over. The mower is also equipped with ultrasonic sensors which will avoid obstacles higher than 6cm. We recommend that children and pets are not left unsupervised with the mower while it is operating.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_q7pMtc",
+        "entry_frmLHx",
+        "entry_t6zVXL",
+        "entry_Xjrtck",
+        "entry_WjAng3",
+        "entry_qp79D6",
+        "entry_AybWKM",
+        "entry_ytDRTC"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Most Popular FAQs",
+        "text": ""
+      }
+    },
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Reviews",
+        "title": "Don't just take our word for it"
+      }
+    },
+    "featured_articles_6pYXMw": {
+      "type": "featured-articles",
+      "blocks": {
+        "article_pU7fUE": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/robot-mowers-how-to-measure-the-gradient-or-slope-of-your-lawn",
+            "image_loading": ""
+          }
+        },
+        "article_UYtKY9": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/when-to-change-a-lawnmower-blade",
+            "image_loading": ""
+          }
+        },
+        "article_TkyhFC": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/do-these-three-things-to-get-a-lush-green-lawn-naturally",
+            "image_loading": ""
+          }
+        },
+        "article_Br7Rxg": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/when-to-change-a-lawnmower-blade",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_pU7fUE",
+        "article_UYtKY9",
+        "article_TkyhFC",
+        "article_Br7Rxg"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
+      "type": "product-recommendations",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Related",
+        "title": "You May Also Like"
+      }
+    },
+    "featured_accordion_YyyUxg": {
+      "type": "featured-accordion",
+      "blocks": {
+        "button_DYDnbx": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://metaobjects/product_support/lawn-master-vbrm-16-ocu-mow-mx-24-v-drop-and-mow-robotic-lawnmower-with-battery"
+          }
+        },
+        "entry_Kf4exw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>All LawnMaster machines, spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_mbP8Km": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Bb8WRF": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_DYDnbx",
+        "entry_Kf4exw",
+        "entry_mbP8Km",
+        "entry_Bb8WRF"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "featured_content_7E4itj": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "#",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "product-main",
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
+    "featured_text_with_image_aLB9xW",
+    "featured_text_with_image_PmFD8q",
+    "featured_cards_LbU947",
+    "featured_cards_Dm7eeg",
+    "featured_quotes_YamDdc",
+    "featured_text_with_image_FXPR6E",
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
+    "featured_hero_V6A8yr",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "88f30ef1-5d27-47e7-9655-32f0d8016675",
+    "featured_accordion_tDiBLC",
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
+    "featured_articles_6pYXMw",
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
+    "featured_accordion_YyyUxg",
+    "featured_content_7E4itj"
+  ]
+}

@@ -1,0 +1,27 @@
+{% liquid
+  assign class = class | append: ' w-full'
+
+  assign width = 200
+
+  assign widths = '200'
+%}
+
+{% capture sizes %}
+  200px
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+{% if is_mini_cart %}
+  <picture class="aspect-[--aspect-ratio]" style="--aspect-ratio: {{ image.aspect_ratio }};">
+    <source
+      srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAIBAAA="
+      media="(min-width: 1px)"
+      x-effect="isOpen && removeEl()"
+    >
+
+    {{ image | image_url: width: width | image_tag: class: class, sizes: sizes }}
+  </picture>
+{% else %}
+  {{ image | image_url: width: width | image_tag: class: class, sizes: sizes }}
+{% endif %}

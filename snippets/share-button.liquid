@@ -1,0 +1,78 @@
+<div class="relative" x-data="shareButton">
+  <details
+    class="group relative"
+    x-data="accordion"
+    @keyup.escape.window="isOpen && toggle()"
+    @click.outside="isOpen && toggle()"
+  >
+    <summary
+      class="flex items-center gap-x-3"
+      type="button"
+      role="button"
+      aria-controls="share-button"
+      :aria-expanded="isOpen"
+      @click.prevent="toggle()"
+    >
+      {{ 'share_button.share' | t }}
+
+      {% render 'svg', name: 'share', class: 'text-[20px] text-gold-50' %}
+    </summary>
+
+    <div
+      class="absolute top-full left-0 mt-3 !transition-[opacity,height] opacity-0 group-open:!opacity-100"
+      :class="{
+        'group-open:!opacity-100': false,
+        '!opacity-100': isOpen
+      }"
+      id="share-button"
+      x-show="isOpen"
+      x-collapse.duration.150ms
+    >
+      {% render 'svg',
+        name: 'triangle',
+        class: '
+          absolute bottom-full left-0 text-[20px] h-auto text-grey-50
+          opacity-0 group-open:opacity-100 transition-opacity
+        '
+      %}
+
+      <div class="w-max max-w-[215px] h-[51px] flex bg-grey-50 border-b border-grey-100">
+        <div class="p-2 flex-1 flex flex-col justify-center overflow-hidden">
+          <div x-show="!isCopied">
+            <div class="font-bold text-[12px]/none mb-2 opacity-50">
+              {{ 'share_button.link' | t }}
+            </div>
+
+            <div class="overflow-hidden whitespace-nowrap font-bold text-[14px]/none">
+              {{ canonical_url }}
+            </div>
+          </div>
+
+          <template x-if="isCopied">
+            <div class="overflow-hidden whitespace-nowrap font-bold text-[14px]/none">
+              Link copied to clipboard
+            </div>
+          </template>
+        </div>
+
+        <button class="relative py-2 px-3.5 border-l border-grey-100" type="button" @click="copy">
+          <span class="block" :class="{ 'invisible': isCopied }">
+            {% render 'svg', name: 'copy' %} 
+          </span>
+
+          <template x-if="isCopied">
+            <span class="block absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+              {% render 'svg', name: 'cross' %} 
+            </span>
+          </template>
+        </button>
+      </div>
+    </div>
+  </details>
+
+  <template x-if="isShareApi">
+    <button class="absolute inset-0 w-full h-full opacity-0" type="button" @click="copy">
+      {{ 'share_button.share' | t }}
+    </button>
+  </template>
+</div>

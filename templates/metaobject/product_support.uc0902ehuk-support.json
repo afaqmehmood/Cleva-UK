@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Respira_Lift_Off_UC0902EHUK_Accessories_92190fb2-a41e-4f85-8dc8-05cf1bd37c57.webp",
+            "image_loading": "",
+            "logo": "vacmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "Vacmaster Respira Lift Off Pet Upright Vacuum Cleaner",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>UC0902EHUK</p><p>Learn how to set up and use your upright vacuum cleaner with instruction manuals, user guides and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/bagless_lift-off_upright_vacuum-cleaner_vacmaster_Respira_lift-off_UC0902EHUK_manual.pdf?v=1702894298",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Setting Up",
+            "text": "<p>1. Insert the wand into the main body until you hear a ‘click’.<br/>2. Insert the handle into the wand until you hear a ‘click’.<br/>3. Insert one end of the flexible suction hose into the main body until you hear a ‘click’.<br/>4. Insert the other end of the hose into the handle until you hear a ‘click’.<br/>5. Insert the combination tool and the upholstery tool onto the accessory storage located on the back of the main body.<br/>6. Wrap the power cord around the upper and lower cord hooks.</p><p>NOTE: Make sure to wrap the power cord around the upper cord hook first, and then around the lower cord hook to avoid damaging the power cord.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Maintenance",
+            "text": "<p><strong>Cleaning the Pre-Filter</strong><br/><br/>1) Remove the dust bin.<br/>2) Press the dust bin lid release button, and open the lid.<br/>3) Clean pre-filter by gently tapping over a waste bin.<br/>4) Reinstall the dust bin into the main body.<br/><br/>NOTE: It is recommended to clean the pre-filter every three months to optimise performance.<br/><br/><strong>Cleaning the Pre-Motor Filters</strong><br/><br/>1) Remove the dust bin.<br/>2) Remove the foam and felt filters.<br/>3) Wash with cold water only. Do not use detergent or soap. Squeeze by hand and allow to air dry before reinstalling. Do not operate without foam and felt filters installed. Do not wash in the dishwasher. Do not install foam and felt filters if damp.<br/>4) Replace felt and foam filters into the vacuum cleaner.<br/>5) Reinstall the dust bin.<br/><br/>NOTE: We recommended cleaning the foam and felt filters with cold water every three months.<br/><br/><br/><strong>Cleaning the HEPA Exhaust Filter</strong><br/><br/>1) Remove the exhaust filter cover by pulling the tab outward at the bottom of the cover.<br/>2) Press the release tab and remove the exhaust filter from vacuum cleaner.<br/>3) Wash with cold water only. DO NOT use detergent or soap. Allow to air dry. Allow parts to dry 24 hours before putting back into vacuum cleaner. DO NOT wash in the dishwasher. DO NOT install the filter if damp.<br/>4) Reinstall the exhaust filter into the vacuum cleaner until a click is heard.<br/>5) Insert the exhaust filter cover tabs into the upper slots and lock the exhaust filter cover into place by pressing the lower part of the cover until a click is heard.<br/><br/><strong>Removing hair from the WrapFree™ Brushroll</strong><br/><br/>If you see any hair wrapped around the brushroll, continue cleaning, ensuring the On/Off switch is in 'II' position with the brushroll rotating on low pile carpets or tile floors. Hair will be removed from the WrapFree<strong>™</strong> brushroll and be sucked into the dust bin.<br/></p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "vacmaster-respira-lift-off-vacuum-cleaner",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_acTTMK": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories",
+            "text": "<p>Genuine Vacmaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Shop All",
+            "button_1_url": "shopify://collections/uc0902ehuk-accessories",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "uc0902ehuk-accessories",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_ihCaxz": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Spare Parts",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_acTTMK",
+        "entry_ihCaxz"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why is dust escaping from the vacuum?",
+            "text": "<p>This can be caused by </p><p>1. The dustbin being installed incorrectly.</p><p>2. The exhaust filter being installed incorrectly.</p><p>3. The foam filter, felt filter or exhaust filter in need of replacing. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why is the vacuum turning off?",
+            "text": "<p>This can happen if the power cord plug is loose from the outlet. </p><p>1. Reinsert the power cord plug fully into the socket. Avoid pulling or dragging the power cord when using the vacuum.<br/></p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why is the brushroll indicator light red?",
+            "text": "<p>This can be caused by a jam in the brushroll area. <br/><br/>1.Turn off and unplug the vacuum.<br/><br/>2.Remove any blockages in the brushroll.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/cleva-launches-its-vacmaster-allergenpro™-range-in-the-uk",
+            "image_loading": ""
+          }
+        },
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/common-allergens-around-the-home",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/cleaning-tips-for-allergen-sufferers",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>This Vacmaster appliance comes with a 3-year guarantee upon registration</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "Register extended guarantee",
+            "button_2_url": "https://www.cleva-uk.com/pages/guarantee-form",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

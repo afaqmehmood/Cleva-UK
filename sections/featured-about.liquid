@@ -1,0 +1,289 @@
+{% liquid
+  assign watermark_enable = section.settings.watermark_enable | default: null
+
+  assign scroll_animation_enable = section.settings.scroll_animation_enable | default: null
+
+  assign logo = section.settings.logo | default: null
+
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | default: null
+
+  assign title_tag = section.settings.title_tag | default: null
+
+  assign title_letters = title | split: '' | default: null
+
+  assign text_truncate_enable = section.settings.text_truncate_enable | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign button_style = section.settings.button_style | default: null
+
+  assign button_text = section.settings.button_text | default: null
+
+  assign button_url = section.settings.button_url | default: null
+
+  assign image = section.settings.image | default: null
+        
+  assign image_mobile = section.settings.image_mobile | default: image
+
+  assign image_loading = section.settings.image_loading | default: null
+%}
+
+<section
+  class="{% render 'section-class', section: section %} relative overflow-hidden"
+
+  {% if scroll_animation_enable %}
+    x-data="scrollingTitle"
+    x-intersect:enter="onIntersectEnter()"
+    x-intersect:leave="onIntersectLeave()"
+  {% endif %}
+>
+  {% if watermark_enable %}
+    {%
+      render 'svg',
+      name: 'watermark',
+      class: 'absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[452px] md:w-[660px] h-auto opacity-[.03]'
+    %}
+  {% endif %}
+
+  <div class="relative container main-grid mb-12 last:mb-0">
+    {% if logo %}
+      <div class="col-span-full md:col-start-2 md:col-span-6 mb-6">
+        {% render 'svg', name: logo, class: 'w-[115px] md:w-[200px] h-auto' %}
+      </div>
+    {% endif %}
+
+    <div class="col-span-full md:col-start-2 md:col-span-6 max-md:mb-6">
+      {% if pretitle %}
+        <p class="font-bold text-[15px]/[normal] md:-tracking-[0.02em] underline underline-offset-4 mb-4 md:mb-6 last:mb-0">
+          {{ pretitle }}
+        </p>
+      {% endif %}
+    
+      {% if title %}
+        {% capture title_content %}
+          {% if scroll_animation_enable %}
+            {%- for letter in title_letters -%}
+              <span class="text-grey-100 [&.active]:text-black transition-colors">
+                {{- letter -}}
+              </span>
+            {%- endfor -%}
+          {% else %}
+            {{ title }}
+          {% endif %}
+        {% endcapture %}
+
+        <div
+          class="font-display text-[44px]/[51px] md:text-[70px]/[76px]"
+         
+          {% if scroll_animation_enable %}
+            x-ref="title"
+          {% endif %}
+        >
+          {% case title_tag %}
+            {% when 'h1' %}
+              <h1>
+                {{ title_content }}
+              </h1>
+            {% when 'h2' %}
+              <h2>
+                {{ title_content }}
+              </h2>
+            {% when 'h3' %}
+              <h3>
+                {{ title_content }}
+              </h3>
+          {% endcase %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="col-span-full md:col-start-[9] md:col-span-4">
+      {% if text %}
+        {%
+          render 'text-truncate',
+          text: text,
+          truncate_enable: text_truncate_enable,
+          class: 'text-[20px]/[25px] -tracking-[.02em] text-grey-300 mb-10 md:mb-12 last:mb-0 lg:pr-[8%]'
+        %}
+      {% endif %}
+    
+      {% if button_text and button_url %}
+        {% render 'section-button', style: button_style, text: button_text, url: button_url %}
+      {% endif %}
+    </div>
+  </div>
+
+  {% if image %}
+    {% render 'featured-about-image', image: image, image_mobile: image_mobile, loading: image_loading %}
+  {% endif %}
+</section>
+
+{% schema %}
+  {
+    "name": "Intro Block",
+    "presets": [
+      {
+        "name": "Intro Block"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "checkbox",
+        "id": "watermark_enable",
+        "label": "Watermark enable?"
+      },
+      {
+        "type": "checkbox",
+        "id": "scroll_animation_enable",
+        "label": "Scroll animation enable?"
+      },
+      {
+        "type": "select",
+        "id": "logo",
+        "label": "Logo",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "vacmaster", "label": "Vacmaster" },
+          { "value": "lawnmaster", "label": "LawnMaster" }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pre-title"
+      },
+      {
+        "type": "select",
+        "id": "title_tag",
+        "label": "Title tag",
+        "options": [
+          { "value": "h1", "label": "H1" },
+          { "value": "h2", "label": "H2" },
+          { "value": "h3", "label": "H3" }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "checkbox",
+        "id": "text_truncate_enable",
+        "label": "Text truncate enable"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Style",
+        "options": [
+          { "value": "black", "label": "Black" },
+          { "value": "white", "label": "White" },
+          { "value": "transparent-black", "label": "Transparent (black)" },
+          { "value": "transparent-white", "label": "Transparent (white)" },
+          { "value": "link", "label": "Link" }
+        ],
+        "default": "white"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Text"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "URL"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image (mobile)"
+      },
+      {
+        "type": "select",
+        "id": "image_loading",
+        "label": "Image loading",
+        "options": [
+          { "value": "", "label": "Default" },
+          { "value": "lazy", "label": "Lazy" }
+        ]
+      }
+    ]
+  }
+{% endschema %}

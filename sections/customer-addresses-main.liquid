@@ -1,0 +1,160 @@
+<section class="customer addresses {% render 'section-class', section: section %}">
+  <div class="container">
+    <header class="mb-12">
+      <h1 class="font-bold text-[33px]/[50px] md:text-[40px]/[48px] mb-4">
+        {{ 'customer.account.title' | t }}
+      </h1>
+
+      <a class="group/button inline-flex items-center gap-x-4" href="{{ routes.account_url }}">
+        {% render 'svg', name: 'account', class: 'text-[14px]' %}
+
+        {{ 'customer.order.return' | t }}
+
+        {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+      </a>
+    </header>
+
+    {% paginate customer.addresses by 1000 %}
+      <div class="max-w-[440px] mx-auto text-center" data-customer-addresses>
+        <h2 class="font-bold text-[20px]/[25px] mb-6">
+          {{ 'customer.addresses.title' | t }}
+        </h2>
+    
+        <div class="mb-12" data-address>
+          <button
+            class="form-button form-button--black"
+            type="button"
+            aria-expanded="false"
+            aria-controls="AddAddress"
+          >
+            {{ 'customer.addresses.add_new' | t }}
+          </button>
+
+          <div class="mt-12" id="AddAddress">
+            {% render 'customer-address-form-new' %}
+          </div>
+        </div>
+    
+        <ul role="list">
+          {% for address in customer.addresses %}
+            <li class="mb-12 last:mb-0" data-address>
+              {% if address == customer.default_address %}
+                <h2 class="font-bold text-[20px]/[25px] mb-6">
+                  {{ 'customer.addresses.default' | t }}
+                </h2>
+              {% endif %}
+
+              <div class="text-grey-300 mb-6">
+                {{ address | format_address }}
+              </div>
+
+              <button
+                class="form-button form-button--transparent-black mr-4"
+                type="button"
+                id="EditFormButton_{{ address.id }}"
+                aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
+                aria-controls="EditAddress_{{ address.id }}"
+                aria-expanded="false"
+                data-address-id="{{ address.id }}"
+              >
+                {{ 'customer.addresses.edit' | t }}
+              </button>
+
+              <button
+                class="form-button form-button--transparent-black"
+                type="button"
+                aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
+                data-target="{{ address.url }}"
+                data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}"
+              >
+                {{ 'customer.addresses.delete' | t }}
+              </button>
+
+              <div class="mt-12" id="EditAddress_{{ address.id }}">
+                {% render 'customer-addresses-form', address: address %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endpaginate %}    
+  </div>
+</section>
+
+<script>
+  window.addEventListener('load', () => {
+    typeof CustomerAddresses !== 'undefined' && new CustomerAddresses();
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Customer addresses main",
+    "presets": [
+      {
+        "name": "Customer addresses main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["customers/addresses"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

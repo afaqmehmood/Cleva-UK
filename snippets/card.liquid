@@ -1,0 +1,47 @@
+<article class="group overflow-hidden relative">
+  {% if image %}
+    <div class="group overflow-hidden rounded-2xl">
+      {% render 'card-image', image: image, loading: image_loading, aspect_ratio: image_aspect_ratio %}
+    </div>
+  {% endif %}
+
+  {% if title %}
+    <h3
+      class="
+        mt-4 font-bold
+
+        {% if is_small %}
+          text-[25px]/[auto] -tracking-[0.016em]
+        {% else %}
+          text-[25px]/[auto] -tracking-[0.016em]
+        {% endif %}
+      "
+    >
+      {% if url %}
+        <a
+          class="flex gap-x-4 live-full-focus-ring"
+          href="{{ url }}"
+
+          {% if is_carousel %}
+            x-bind="bindSlideFocusable"
+          {% endif %}
+        >
+          {{ title }}
+
+          {% render 'svg',
+            name: 'arrow',
+            class: 'group-hover:translate-x-1 transition-transform translate-y-2.5 text-[22px]'
+          %}
+        </a>
+      {% else %}
+        {{ title }}
+      {% endif %}
+    </h3>
+  {% endif %}
+
+  {% if text %}
+    <div class="mt-4 text-grey-300">
+      {{ text }}
+    </div>
+  {% endif %}
+</article>

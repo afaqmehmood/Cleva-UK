@@ -1,0 +1,606 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured-hero-1": {
+      "type": "featured-hero",
+      "blocks": {
+        "ff434ae1-84c1-4ae2-8f22-ee27a68fe5e7": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "image": "shopify://shop_images/LawnMaster_Cordless_Lawnmower_range_Alt.webp",
+            "image_mobile": "shopify://shop_images/LawnMaster_Cordless_Lawnmower_range_mob.webp",
+            "image_loading": "",
+            "video_autoplay": false,
+            "video_controls": false,
+            "video_hide_content_when_playing": false,
+            "video_play_button_inverted": false,
+            "logo": "lawnmaster",
+            "align_content": "end",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title_size": "small",
+            "title": "Power Up \nYour Tidy Up",
+            "subtitle_tag": "h2",
+            "subtitle": "Inside and out",
+            "button_1_style": "transparent-white",
+            "button_1_text": "Shop LawnMaster",
+            "button_1_url": "shopify://collections/lawnmaster",
+            "button_2_style": "transparent-white",
+            "button_2_text": "Shop Vacmaster",
+            "button_2_url": "shopify://collections/vacmaster",
+            "feature_1_title": "",
+            "feature_1_text": "",
+            "feature_2_title": "",
+            "feature_2_text": "",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "ff434ae1-84c1-4ae2-8f22-ee27a68fe5e7"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": true
+      }
+    },
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34": {
+      "type": "featured-about",
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "",
+        "watermark_enable": true,
+        "scroll_animation_enable": true,
+        "logo": "",
+        "pretitle": "",
+        "title_tag": "h2",
+        "title": "Cut, clean or cool. Cleva appliances work hard, so you don’t have to.",
+        "text_truncate_enable": false,
+        "text": "<p>We're all about designing and manufacturing high-performance home and garden appliances that you can depend on to stand the test of time. Get the job done with Vacmaster® and LawnMaster®. By Cleva. </p>",
+        "button_style": "black",
+        "button_text": "About Us",
+        "button_url": "shopify://pages/about",
+        "image_loading": ""
+      }
+    },
+    "9bb42e06-0ce3-4b83-b5e5-2837f70282d7": {
+      "type": "featured-collections",
+      "blocks": {
+        "01d903e7-b54c-4b2b-b8f6-50f1183341c8": {
+          "type": "collection",
+          "settings": {
+            "collection": "vacuum-cleaners-floorcare",
+            "image_overwrite": "shopify://shop_images/Vacmaster_Vacuum_Cleaners_and_Floorcare_UK2.webp",
+            "image_loading": "lazy"
+          }
+        },
+        "7d57321f-f27a-477c-811d-01c7f3317ced": {
+          "type": "collection",
+          "settings": {
+            "collection": "lawnmaster-lawnmowers",
+            "image_overwrite": "shopify://shop_images/LawnMaster___Lawn_Mowers_Robots_UK.webp",
+            "image_loading": "lazy"
+          }
+        },
+        "5923cdc9-da99-4c96-96fb-1647d3b9baa6": {
+          "type": "collection",
+          "settings": {
+            "collection": "vacmaster-air-movers",
+            "image_overwrite": "shopify://shop_images/Vacmaster_Air_Movers_Floor_Fans.webp",
+            "image_loading": "lazy"
+          }
+        },
+        "collection_tjpxFa": {
+          "type": "collection",
+          "settings": {
+            "collection": "garden-power-tools",
+            "image_overwrite": "shopify://shop_images/LawnMaster_Garden_Power_Tools_Grass_Trimmer.webp",
+            "image_loading": "lazy"
+          }
+        }
+      },
+      "block_order": [
+        "01d903e7-b54c-4b2b-b8f6-50f1183341c8",
+        "7d57321f-f27a-477c-811d-01c7f3317ced",
+        "5923cdc9-da99-4c96-96fb-1647d3b9baa6",
+        "collection_tjpxFa"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Discover",
+        "title": "Featured Collections",
+        "text": "<p>Discover our top-selling Vacmaster® and LawnMaster® home and garden appliances. From high-performance wet & dry vacuum cleaners to cutting-edge robot mowers. Engineered by experts, without extravagant price tags.</p>"
+      }
+    },
+    "featured-hero-2": {
+      "type": "featured-hero",
+      "blocks": {
+        "ff434ae1-84c1-4ae2-8f22-ee27a68fe5e7": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000000",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/Vacmaster_Respira_Lift_Off_Video.webp",
+            "image_mobile": "shopify://shop_images/Vacmaster_Respira_Lift_Off_Pet_Advert_Mob.webp",
+            "image_loading": "lazy",
+            "video": "shopify://files/videos/Vacmaster AllergenPro Respira Ad (website).mp4",
+            "video_autoplay": false,
+            "video_controls": true,
+            "video_hide_content_when_playing": true,
+            "video_play_button_inverted": true,
+            "logo": "vacmaster",
+            "align_content": "start",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title_size": "large",
+            "title": "Vacmaster Respira Lift Off Pet",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "button_1_style": "black",
+            "button_1_text": "Shop Now",
+            "button_1_url": "shopify://products/vacmaster-respira-lift-off-vacuum-cleaner",
+            "button_2_style": "link",
+            "button_2_text": "AllergenPro Range",
+            "button_2_url": "shopify://collections/allergenpro",
+            "feature_1_title": "Clean Deeper",
+            "feature_1_text": "Seal in 99.9% of <br>Dirt & Allergens",
+            "feature_2_title": "Reach Further",
+            "feature_2_text": "Lift Off Technology",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "ff434ae1-84c1-4ae2-8f22-ee27a68fe5e7"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": false
+      }
+    },
+    "17a3b995-b420-4150-8d7a-9378987a0729": {
+      "type": "featured-promo",
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "md",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "mode": "reviews",
+        "background_image": "",
+        "pretitle": "<a href=\"https://www.reviews.co.uk/company-reviews/store/cleva-uk\" target=\"_blank\" rel=\"noopener noreferrer\">Read Reviews</a>",
+        "title": "Manufactured\nby Cleva.",
+        "text_size": "large",
+        "text": ""
+      }
+    },
+    "50b177a6-4eab-4ebb-9974-8f25130c1edc": {
+      "type": "featured-collection",
+      "blocks": {
+        "8a2111a0-56db-4f55-8317-8f345e25ef2a": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Shop All",
+            "url": "shopify://collections/best-sellers"
+          }
+        }
+      },
+      "block_order": [
+        "8a2111a0-56db-4f55-8317-8f345e25ef2a"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "md",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Explore",
+        "title": "Our Bestsellers",
+        "text": "",
+        "collection": "best-sellers",
+        "products_per_page": 8
+      }
+    },
+    "579cea7f-00fd-48b2-8169-e02b273238be": {
+      "type": "featured-press",
+      "blocks": {
+        "984add84-d2e1-4d01-bf6c-38a6c6a22b0f": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/B_Q.svg",
+            "image_loading": ""
+          }
+        },
+        "381fd0ba-ce0b-42c0-8b0a-ee9ac00cc7a0": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Wickes.svg",
+            "image_loading": ""
+          }
+        },
+        "logo_6HGGYM": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Amazon.svg",
+            "image_loading": ""
+          }
+        },
+        "e1c2dd88-1c43-44f5-a280-764f3d7655be": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Range.svg",
+            "image_loading": ""
+          }
+        },
+        "logo_xN7qpU": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Roberty_Dyas.svg",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "984add84-d2e1-4d01-bf6c-38a6c6a22b0f",
+        "381fd0ba-ce0b-42c0-8b0a-ee9ac00cc7a0",
+        "logo_6HGGYM",
+        "e1c2dd88-1c43-44f5-a280-764f3d7655be",
+        "logo_xN7qpU"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "md",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md",
+        "pretitle": "",
+        "title": "As Seen In",
+        "text": "<p>Our appliances are trusted by some of the UK’s leading online retailers.</p>"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "About us",
+            "url": "shopify://pages/about"
+          }
+        },
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Pioneering Design",
+            "text": "<p>We listen to our customers’ insights and continually reinvest in research and development to design innovative products that people want, at a streamlined price they can afford.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Shop now",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "High Performance Products",
+            "text": "<p>We apply the latest processes and highest standards of engineering to deliver high performance products that stand the test of time. <strong> </strong></p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc",
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": true,
+        "pretitle": "Our Values",
+        "title_size": "large",
+        "title": "Improving \nthe everyday.",
+        "text": "<p>Over the last 20 years our vison to develop high-performance appliances at affordable prices has remained at the heart of everything we do. Today, we are a leading manufacturer in our industry, and trusted by the thousands of doers out there who rely on our products to simplify their everyday tasks. </p>"
+      }
+    },
+    "7b04fcfc-f1b6-4536-8ff5-f010e00ea0c0": {
+      "type": "featured-cards",
+      "blocks": {
+        "875f138e-3e8f-4fd0-81ea-6b545bc91f2d": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_For_the_Home.webp",
+            "image_loading": "lazy",
+            "title": "For the Home",
+            "text": "",
+            "url": "shopify://collections/household-floorcare"
+          }
+        },
+        "776d78a7-ab24-4898-b921-dacf1959704a": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/For_the_Garden_LawnMaster_LawnMowers.webp",
+            "image_loading": "lazy",
+            "title": "For the Garden",
+            "text": "",
+            "url": "shopify://collections/lawnmaster"
+          }
+        },
+        "d9be3619-7e23-467c-8361-84ad7356a045": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_For_the_Professional.webp",
+            "image_loading": "lazy",
+            "title": "For the Professional",
+            "text": "",
+            "url": "shopify://collections/vacmaster-professional"
+          }
+        }
+      },
+      "block_order": [
+        "875f138e-3e8f-4fd0-81ea-6b545bc91f2d",
+        "776d78a7-ab24-4898-b921-dacf1959704a",
+        "d9be3619-7e23-467c-8361-84ad7356a045"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Discover",
+        "title": "Find your perfect solution",
+        "text": "<p>From high-specification industrial dust extractors to multi-purpose garage vacuums, from powerful cordless lawnmowers to training fans, we have the solution for you.</p>"
+      }
+    },
+    "7b04fcfc-f1b6-4536-8ff5-f010e00ea0c01": {
+      "type": "featured-cards",
+      "blocks": {
+        "875f138e-3e8f-4fd0-81ea-6b545bc91f2d": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_and_LawnMaster_Accessories_Alt.webp",
+            "image_loading": "",
+            "title": "Accessories & Spare Parts",
+            "text": "",
+            "url": "shopify://collections/accessories"
+          }
+        },
+        "776d78a7-ab24-4898-b921-dacf1959704a": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Support_Orson.webp",
+            "image_loading": "",
+            "title": "Vacmaster Support",
+            "text": "",
+            "url": "shopify://pages/product-support"
+          }
+        },
+        "d9be3619-7e23-467c-8361-84ad7356a045": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_Support_L10_Robot_Mower.webp",
+            "image_loading": "",
+            "title": "LawnMaster Support",
+            "text": "",
+            "url": "shopify://pages/product-support"
+          }
+        }
+      },
+      "block_order": [
+        "875f138e-3e8f-4fd0-81ea-6b545bc91f2d",
+        "776d78a7-ab24-4898-b921-dacf1959704a",
+        "d9be3619-7e23-467c-8361-84ad7356a045"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Product Support",
+        "title": "Accessories & Support",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/award-winning-vacuum-cleaners-lawn-mowers-and-garden-power-tools",
+            "image_loading": "lazy"
+          }
+        },
+        "article_e9ErQ7": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/when-to-change-a-lawnmower-blade",
+            "image_loading": "lazy"
+          }
+        },
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/cleva-to-raise-funds-for-leading-uk-charity-dogs-trust",
+            "image_loading": "lazy"
+          }
+        },
+        "3bb1b486-cb08-4ed1-91d7-a2ab49cb490b": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "View More Articles",
+            "url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "5197c988-4367-4157-b142-218fc4bcafd1",
+        "article_e9ErQ7",
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "3bb1b486-cb08-4ed1-91d7-a2ab49cb490b"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase. </p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "featured-hero-1",
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34",
+    "9bb42e06-0ce3-4b83-b5e5-2837f70282d7",
+    "featured-hero-2",
+    "17a3b995-b420-4150-8d7a-9378987a0729",
+    "50b177a6-4eab-4ebb-9974-8f25130c1edc",
+    "579cea7f-00fd-48b2-8169-e02b273238be",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "7b04fcfc-f1b6-4536-8ff5-f010e00ea0c0",
+    "7b04fcfc-f1b6-4536-8ff5-f010e00ea0c01",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

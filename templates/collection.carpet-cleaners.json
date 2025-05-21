@@ -1,0 +1,610 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34": {
+      "type": "featured-about",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "watermark_enable": false,
+        "scroll_animation_enable": false,
+        "logo": "vacmaster",
+        "pretitle": "",
+        "title_tag": "h1",
+        "title": "Carpet Cleaners",
+        "text_truncate_enable": true,
+        "text": "<p>Leave your home feeling clean and refreshed with the Vacmaster carpet cleaner range. <strong>Official Vacmaster® UK Store.</strong></p>",
+        "button_style": "black",
+        "button_text": "",
+        "button_url": "/",
+        "image": "shopify://shop_images/Carpet_Cleaners_Vacmaster.webp",
+        "image_mobile": "shopify://shop_images/Carpet_Cleaners_Vacmaster_-_Mobile.webp",
+        "image_loading": ""
+      }
+    },
+    "collection-main": {
+      "type": "collection-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "8c87b26b-f533-4c79-b866-25d981fb6652": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/Vacmaster_EasyClean_Spot_Cleaner_-_Vacmaster.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Built to Perform",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>We apply the latest processes and highest standards of engineering to our motor technology, product design and production. The result is a wide range of high-quality carpet and rug cleaners with exceptional performance and durability.<br/><br/><strong>Our carpet cleaners consistently receive 5 star reviews from customers and industry experts.</strong></p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_text_with_image_yVHDzQ": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_BcMLcc": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_CA0701UK_Target_the_whole_home.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Direct from the Makers",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Browse our latest products, access detailed specification information, and use the insights from the team that design and make the products to choose the best carpet cleaner for your needs, at a price you'll love. <br/><br/><strong>Vacmaster by Cleva. Manufacturer of over 65 million appliances sold worldwide.</strong></p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_BcMLcc"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a": {
+      "type": "featured-quotes",
+      "blocks": {
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121": {
+          "type": "quote",
+          "settings": {
+            "text": "Leave your home clean and refreshed with Vacmaster",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": "vacmaster"
+          }
+        }
+      },
+      "block_order": [
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_hero_yzfgad": {
+      "type": "featured-hero",
+      "blocks": {
+        "hero_AMhTwJ": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000000",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/EasyClean_Home_Upright_Carpet_Cleaner_Video.webp",
+            "image_mobile": "shopify://shop_images/EasyClean_Upright_Carpet_Cleaner_Mobile.webp",
+            "image_loading": "",
+            "video": "shopify://files/videos/Vacmaster_CA071UK_EasyCleanHome.mp4",
+            "video_autoplay": false,
+            "video_controls": true,
+            "video_hide_content_when_playing": true,
+            "video_play_button_inverted": true,
+            "logo": "vacmaster",
+            "align_content": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title_size": "large",
+            "title": "Refresh, Revive, Renew",
+            "subtitle_tag": "h2",
+            "subtitle": "Vacmaster EasyClean Home",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "feature_1_title": "Clean Deeper",
+            "feature_1_text": "Dual Motorised Brush Rolls",
+            "feature_2_title": "Clean More",
+            "feature_2_text": "Extra Large 3.2L Tank",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "hero_AMhTwJ"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": false
+      }
+    },
+    "00a3e0c4-2c63-49d6-8758-77e08f85e73c": {
+      "type": "featured-press",
+      "blocks": {
+        "logo_PW6Xnd": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Amazon.svg",
+            "image_loading": ""
+          }
+        },
+        "0732f5fa-0203-4f29-915e-70ca4901a3c4": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/B_Q.svg",
+            "image_loading": "lazy"
+          }
+        },
+        "logo_TxhRDX": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Roberty_Dyas.svg",
+            "image_loading": ""
+          }
+        },
+        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Range.svg",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_PW6Xnd",
+        "0732f5fa-0203-4f29-915e-70ca4901a3c4",
+        "logo_TxhRDX",
+        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "",
+        "title": "As Seen In",
+        "text": "<p>Our appliances are trusted<br/>by some of the UK’s leading online retailers.</p>"
+      }
+    },
+    "featured_accordion_3AqAUt": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_BCzwJp": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Why choose a carpet cleaner?",
+            "text": "<p>Carpet cleaners use water and shampoo to deep clean the fibres of carpets, rugs and upholstery. Removing stains, pet mess and odours that ordinary vacuum cleaners and steamers can't. They can even revive old carpets that you may otherwise have considered replacing.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_kkjypY": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What is a carpet spot cleaner?",
+            "text": "<p>For when accidents happen, handheld spot cleaners are a compact and light alternative to full size upright carpet washers. They're small enough to be stored in a kitchen cupboard or on a shelf, so they're conveniently within reach when you need them. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_dTMaxV": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What are carpet spot cleaners used for?",
+            "text": "<p>Designed for busy homes with children and pets, spot cleaners quickly remove spills and stains from deep within carpets, rugs and soft furnishings. They're ideal for tackling ground-in dirt and muddy paw prints.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_BCzwJp",
+        "entry_kkjypY",
+        "entry_dTMaxV"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927": {
+      "type": "featured-articles",
+      "blocks": {
+        "374dfa5e-c387-4bba-8481-7b5163c920fa": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-to-remove-spills-and-stains-from-carpet-rugs-and-upholstery",
+            "image_loading": "lazy"
+          }
+        },
+        "a50db38c-6712-4ee2-916a-0abefe6a1107": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/award-winning-vacuum-cleaners-lawn-mowers-and-garden-power-tools",
+            "image_loading": ""
+          }
+        },
+        "394a5b34-5f1e-4c38-b85b-d58b44bfd063": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/new-home-cleaning-essentials",
+            "image_loading": ""
+          }
+        },
+        "button_VxEfmz": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Read All",
+            "url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "374dfa5e-c387-4bba-8481-7b5163c920fa",
+        "a50db38c-6712-4ee2-916a-0abefe6a1107",
+        "394a5b34-5f1e-4c38-b85b-d58b44bfd063",
+        "button_VxEfmz"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "featured_cards_EWXgn7": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_iUDp9B": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster-Upright_vacuum_cleaners.webp",
+            "image_loading": "",
+            "title": "Upright Vacuum Cleaners",
+            "text": "",
+            "url": "shopify://collections/upright-vacuum-cleaners"
+          }
+        },
+        "card_kABcE3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_wet_and_dry_Vacuum_Cleaners_Explore.webp",
+            "image_loading": "",
+            "title": "Wet & Dry Vacuum Cleaners",
+            "text": "",
+            "url": "shopify://collections/wet-and-dry-vacuum-cleaners"
+          }
+        },
+        "card_6txFmD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image_loading": "",
+            "title": "Garden Power Tools",
+            "text": "",
+            "url": "shopify://collections/garden-power-tools"
+          }
+        }
+      },
+      "block_order": [
+        "card_iUDp9B",
+        "card_kABcE3",
+        "card_6txFmD"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Explore",
+        "title": "Also Discover",
+        "text": ""
+      }
+    },
+    "96321673-9ad1-4fe2-b4a0-e97c46c50acb": {
+      "type": "featured-accordion",
+      "blocks": {
+        "b1111e40-9939-4b59-a28a-0f3860c554d5": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Go to support",
+            "url": "shopify://pages/product-support"
+          }
+        },
+        "1d9243aa-1948-4d40-9c7d-f69d796691ca": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a manufacturer guarantee. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "ada9a5c7-b78b-448b-be7d-e4ed7410d133": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "b1111e40-9939-4b59-a28a-0f3860c554d5",
+        "1d9243aa-1948-4d40-9c7d-f69d796691ca",
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242",
+        "ada9a5c7-b78b-448b-be7d-e4ed7410d133"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "ba486b1a-9132-469d-a5bc-06bdea19a01c": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34",
+    "collection-main",
+    "8c87b26b-f533-4c79-b866-25d981fb6652",
+    "featured_text_with_image_yVHDzQ",
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a",
+    "featured_hero_yzfgad",
+    "00a3e0c4-2c63-49d6-8758-77e08f85e73c",
+    "featured_accordion_3AqAUt",
+    "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927",
+    "featured_cards_EWXgn7",
+    "96321673-9ad1-4fe2-b4a0-e97c46c50acb",
+    "ba486b1a-9132-469d-a5bc-06bdea19a01c"
+  ]
+}

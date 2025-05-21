@@ -1,0 +1,155 @@
+<form
+  class="md:hidden mb-12"
+  x-data="facetsForm({ sectionId: {{ section.id | json | escape }} })"
+  @change="onSubmit"
+  @submit.prevent="onSubmit"
+>
+  <input type="hidden" name="q" value="{{ search.terms | escape }}">
+  <input type="hidden" name="type" value="product">
+
+  <div x-data="mobileFacets">
+    <details
+      class="group"
+      x-data="mobileFacet({ id: 'mobile-facet', level: 0 })"
+      x-trap="isOpen"
+      @keyup.escape.window="isOpen && isOpenIds.length == 1 && toggle()"
+      @click.outside="isOpen && toggle()"
+    >
+      <summary
+        class="
+          flex items-center justify-center gap-x-4
+          py-6 px-[--container-padding-x] border-y border-grey-50 font-bold
+        "
+        role="button"
+        aria-controls="mobile-facet"
+        :aria-expanded="isOpen"
+        @click.prevent="toggle()"
+      >
+        {% render 'svg', name: 'filter' %}
+
+        {{ 'facets.filter_and_sort' | t }}
+
+        <span
+          class="hidden group-open:flex items-center gap-x-5 fixed top-5 right-[--container-padding-x] z-50"
+          :class="{ 'hidden': false }"
+          x-show="isOpen"
+          x-transition.opacity
+        >
+          {{ 'facets.close' | t }}
+
+          {% render 'svg', name: 'cross', class: 'text-[10px]' %}
+        </span>
+      </summary>
+
+      <div
+        class="
+          fixed inset-0 z-40
+          pt-16 bg-white transition-[transform,opacity]
+        "
+        id="mobile-facet"
+        x-show="isOpen"
+        x-transition:enter-start="opacity-0 -translate-x-full"
+        x-transition:enter-end="opacity-100 translate-x-0"
+        x-transition:leave-end="opacity-0 -translate-x-full"
+      >
+        <div class="h-full flex flex-col container" :class="{ 'opacity-50': isLoading }">
+          <div class="overflow-auto flex-1 pb-6 [&:has([open])]:invisible">
+            <ul>
+              {% for filter in object.filters %}
+                {% liquid
+                  assign parent_forloop = forloop
+
+                  assign link_class = 'flex items-center justify-between gap-x-6 py-6 font-bold text-[18px]/[22px]'
+                %}
+
+                <li class="border-b border-grey-50 last:border-b-0">
+                  <details
+                    x-data="mobileFacet({ id: 'mobile-facet-{{ forloop.index }}', level: 1 })"
+                    x-trap="isOpen"
+                    @keyup.escape.window="isOpen && isOpenIds.length == 2 && toggle()"
+                    @click.outside="isOpen && toggle()"
+                >
+                  <summary
+                    class="{{ link_class }}"
+                    role="button"
+                    aria-controls="mobile-facet-{{ forloop.index }}"
+                    :aria-expanded="isOpen"
+                    @click.prevent="toggle()"
+                  >
+                    {{ filter.label }}
+
+                    {% render 'svg', name: 'arrow', class: 'text-grey-200' %}
+                  </summary>
+
+                  <div
+                    class="overflow-auto mb-[81px] absolute inset-0 bg-white transition-[transform,opacity] visible"
+                    id="mobile-facet-{{ forloop.index }}"
+                    x-show="isOpen"
+                    x-transition:enter-start="opacity-0 translate-x-full"
+                    x-transition:enter-end="opacity-100 translate-x-0"
+                    x-transition:leave-end="opacity-0 translate-x-full"
+                  >
+                    <div class="py-6 container">
+                      <button class="flex items-center gap-x-4 mb-5" type="button" @click.prevent="toggle()">
+                        {% render 'svg', name: 'arrow', class: 'rotate-180 text-grey-200' %}
+
+                        <span class="text-[14px]">
+                          {{ filter.label }}
+                        </span>
+                      </button>
+
+                      <div>
+                        {% case filter.type %}
+                          {% when 'boolean', 'list' %}
+                            {% render 'facets-filter-list', filter: filter, id_suffix: '-mobile' %}
+                          {% when 'price_range' %}
+                            {% render 'facets-filter-price-range', filter: filter, id_suffix: '-mobile' %}
+                        {% endcase %}
+
+                        {% render 'facet-reset', filter: filter %}
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              {% endfor %}
+
+              <li class="border-b border-grey-50 last:border-b-0">
+                {% render 'facets-sort-by', object: object, is_mobile: true, id_suffix: '-mobile' %}
+              </li>
+
+            </ul>
+          </div>
+
+          {%- liquid
+            assign resetHandle = '/search?type=product&q=' | append: object.terms
+            if collection
+              assign resetHandle = '/collections/' | append: object.handle
+            endif
+          -%}
+          <div
+            class="
+              relative flex items-center flex-wrap justify-between gap-x-4
+              -mx-[--container-padding-x] pt-3 pb-5 px-[--container-padding-x] border-t border-grey-50
+            "
+          >
+            <a href="{{ resetHandle }}" class="font-bold underline" @click.prevent="onLinkClick">
+              {{ 'facets.reset_all' | t }}
+            </a>
+
+            
+            <button class="form-button form-button--black" type="button" @click="toggle">
+              {{ 'facets.apply_selected' | t }}
+              </button>
+            <a class="
+              form-button form-button--transparent-black text-current ring-current font-bold py-1 px-4
+              compare-btn-mobile
+                " href="/products/lawnmaster-drop-and-mow-robot-mower-vbrm16">
+                Compare
+            </a>
+          </div>
+        </div>
+      </div>
+    </details>
+  </div>
+  
+</form>

@@ -1,0 +1,16 @@
+{% liquid
+  assign class = class | append: ' w-full'
+
+  assign width = 2000
+
+  assign widths = '94, 146, 188, 282, 300'
+%}
+
+{% capture sizes %}
+  (min-width: 768px) calc(10vw),
+  calc((100vw - 32px) / 3)
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+{{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}

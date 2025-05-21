@@ -1,0 +1,32 @@
+{% assign vendor = collection.metafields.custom.vendor.value %}
+
+<article class="group overflow-hidden relative">
+  {% if collection_image %}
+    <div class="group overflow-hidden rounded-2xl">
+      {% render 'collection-card-image', image: collection_image, loading: image_loading %}
+    </div>
+  {% endif %}
+
+  <div class="mt-4">
+    {% if vendor %}
+      <p class="font-bold text-grey-200">
+        {{ vendor }}
+      </p>
+    {% endif %}
+
+    <h3 class="font-bold text-[25px]/[normal] -tracking-[0.016em]">
+      <a
+        class="flex items-center gap-x-4 live-full-focus-ring"
+        href="{{ collection.url }}"
+
+        {% if is_carousel %}
+          x-bind="bindSlideFocusable"
+        {% endif %}
+      >
+        {{ collection.title }}
+
+        {% render 'svg', name: 'arrow', class: 'group-hover:translate-x-1 transition-transform text-[22px]' %}
+      </a>
+    </h3>
+  </div>
+</article>

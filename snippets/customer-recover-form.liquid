@@ -1,0 +1,54 @@
+{% form 'recover_customer_password' %}
+  {% assign is_recover_success = form.posted_successfully? %}
+
+  <h2 class="font-bold text-[33px]/[50px] md:text-[40px]/[48px] text-center mb-6">
+    {{ 'customer.recover.title' | t }}
+  </h2>
+
+  <p class="text-grey-300 mb-6">
+    {% if is_recover_success %}
+      {{ 'customer.recover.success_text' | t }}
+    {% else %}
+      {{ 'customer.recover.text' | t }}
+    {% endif %}
+  </p>
+
+  {% if form.errors %}
+    {% render 'form-errors', form: form %}
+  {% endif %}
+
+  <label class="sr-only" for="RecoverEmail">
+    {{ 'customer.recover.email' | t }}
+  </label>
+
+  <input
+    class="form-input mb-6"
+    type="email"
+    value=""
+    name="email"
+    id="RecoverEmail"
+    autocorrect="off"
+    autocapitalize="off"
+    autocomplete="email"
+    placeholder="{{ 'customer.recover.email' | t }}"
+    required
+
+    {% if form.errors %}
+      aria-invalid="true"
+      aria-describedby="RecoverEmail-email-error"
+      autofocus
+    {% endif %}
+  >
+
+  <button class="form-button form-button--black w-full mb-6" type="submit">
+    {{ 'customer.recover.submit' | t }}
+  </button>
+
+  <div class="text-center">
+    <a class="group/button inline-flex items-center gap-x-4" href="#login">
+      {{ 'customer.recover.cancel' | t }}
+
+      {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+    </a>
+  </div>
+{% endform %}

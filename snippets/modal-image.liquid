@@ -1,0 +1,25 @@
+{% liquid
+  assign class = class | append: ' w-full h-full object-cover'
+
+  assign width = 600
+
+  assign sizes = '600px'
+%}
+
+<picture
+  class="max-md:hidden shrink-0 w-[43%] h-inherit aspect-[--aspect-ratio]"
+  style="--aspect-ratio: {{ image.aspect_ratio }};"
+>
+  <source
+    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAIBAAA="
+    media="(min-width: 1px)"
+    @modaltoggle.window="removeOnModalToggle()"
+  >
+
+  <source
+    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAIBAAA="
+    media="(max-width: 767px)"
+  >
+
+  {{ image | image_url: width: width | image_tag: class: class, sizes: sizes }}
+</picture>

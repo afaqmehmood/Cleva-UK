@@ -1,0 +1,44 @@
+<details
+  x-data="headerSearch"
+  @keyup.escape.window="isOpen && toggle()"
+  @click.outside="isOpen && toggle()"
+>
+  <summary
+    class="block max-lg:[html:has([open]_>_#mobile-menu)_&]:invisible"
+    role="button" 
+    aria-controls="header-search"
+    :aria-expanded="isOpen"
+    @click.prevent="toggle()"
+  >
+    {% render 'svg', name: 'search', class: 'text-[14px]' %}
+
+    <span class="sr-only">
+      {{ 'header.search' | t }}
+    </span>
+  </summary>
+
+  <div
+    class="
+      absolute flex items-center gap-x-2.5 lg:gap-x-4
+      max-lg:top-full max-lg:left-0 max-lg:right-0
+      max-lg:pt-2.5 max-lg:pb-5 max-lg:px-[--container-padding-x] max-lg:bg-white
+      lg:top-1/2 lg:-translate-y-1/2 lg:right-full lg:-mr-[30px] lg:w-[345px]
+      transition-[opacity,transform]
+    "
+    id="header-search"
+    role="dialog"
+    aria-modal="true"
+    x-transition:enter-start="opacity-0 max-lg:-translate-y-6 lg:translate-x-6"
+    x-transition:enter-end="opacity-100 max-lg:translate-y-0 lg:translate-x-0"
+    x-transition:leave-end="opacity-0 max-lg:-translate-y-6 lg:translate-x-6"
+    x-show="isOpen"
+  >
+    <button class="p-2.5 lg:p-4 -m-2.5 lg:-m-4" type="button" @click="toggle()">
+      {% render 'svg', name: 'cross', class: 'text-[10px]' %}
+    </button>
+
+    <div class="flex-1">
+      {% render 'header-search-form', input_id: 'header-search-q' %}
+    </div>
+  </div>
+</details>

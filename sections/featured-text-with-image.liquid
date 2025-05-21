@@ -1,0 +1,431 @@
+{% liquid
+  assign blocks = section.blocks | default: null
+
+  assign is_carousel = false
+
+  if blocks.size > 1
+    assign is_carousel = true
+  endif
+%}
+
+{% if blocks %}
+  <section
+    class="{% render 'section-class', section: section %} container"
+
+    {% if is_carousel %}
+      x-data="{ embla: null, next: true, prev: true, progress: 0, progressLeft: 0 }"
+      x-init="() => {
+        embla = EmblaCarousel($refs.viewport, {
+          active: true,
+          loop: false,
+          align: 'start'
+        })
+        embla.on('select', () => {
+          next = embla.canScrollNext()
+          prev = embla.canScrollPrev()
+
+          progressLeft = Math.round(((embla.selectedScrollSnap() + 1) / embla.scrollSnapList().length * 100))
+          progress = 100 - progressLeft
+        })
+        embla.on('init', () => {
+          next = embla.canScrollNext()
+          prev = embla.canScrollPrev()
+
+          progressLeft = Math.round(((embla.selectedScrollSnap() + 1) / embla.scrollSnapList().length * 100))
+          progress = 100 - progressLeft
+        })
+      }"
+      tabindex="0"
+      role="region"
+    {% endif %}
+  >
+    <div
+      class="
+        relative
+
+        {% if is_carousel %}
+          max-md:pt-14
+        {% endif %}
+      "
+    >
+      {% if is_carousel %}
+        {% render 'carousel-embla-arrows',
+          is_circle: true,
+          class: 'max-md:absolute max-md:top-0 max-md:right-0'
+          previous_class: 'md:!absolute md:top-1/2 md:left-4 md:z-10 md:-translate-y-1/2',
+          next_class: 'md:!absolute md:top-1/2 md:right-4 md:z-10 md:-translate-y-1/2'
+        %}
+
+        <div
+          class="
+            embla__viewport overflow-hidden
+            max-md:-mx-[--container-padding-x] max-md:px-[--container-padding-x]
+          "
+          x-ref="viewport"
+        >
+      {% endif %}
+
+        <div
+          class="flex md:items-center{% if is_carousel %} -ml-4 [&_>_*]:pl-4{% endif %}"
+          {% if is_carousel %}
+            tabindex="0"
+            role="listbox"
+          {% endif %}
+        >
+          {% for block in blocks %}
+            {% liquid
+              assign block_align_content = block.settings.align_content | default: null
+
+              assign block_image = block.settings.image | default: null
+
+              assign block_image_loading = block.settings.image_loading | default: null
+
+              assign block_logo = block.settings.logo | default: null
+
+              assign block_pretitle = block.settings.pretitle | default: null
+
+              assign block_title_tag = block.settings.title_tag | default: null
+
+              assign block_title = block.settings.title | default: null
+
+              assign block_subtitle_tag = block.settings.subtitle_tag | default: null
+
+              assign block_subtitle = block.settings.subtitle | default: null
+
+              assign block_text = block.settings.text | default: null
+            %}
+
+            {% capture image_html %}
+              {% if block_image %}
+                <div
+                  class="
+                    col-span-full
+
+                    {% if is_carousel %}
+                      md:col-span-5
+                    {% else %}
+                      md:col-span-6
+                    {% endif %}
+
+                    {% if block_align_content == 'reverse' %}
+                      {% if is_carousel %}
+                        md:col-start-2
+                      {% endif %}
+                    {% else %}
+                      md:col-start-7
+                    {% endif %}
+                  "
+                >
+                  <div class="relative">
+                    {% render 'featured-text-with-image-image', image: block_image, loading: block_image_loading %}
+
+                    {% liquid
+                      if block_logo
+                        render 'svg', name: block_logo, class: 'absolute bottom-4 right-4 w-[115px] md:w-[172px] h-auto'
+                      endif
+                    %}
+                  </div>
+                </div>
+              {% endif %}
+            {% endcapture %}
+
+            {% capture block_buttons_html %}
+              {% for i in (1..2) %}
+                {% liquid
+                  assign button_style = 'button_' | append: i | append: '_style'
+                  assign button_style = block.settings[button_style] | default: null
+
+                  assign button_text = 'button_' | append: i | append: '_text'
+                  assign button_text = block.settings[button_text] | default: null
+
+                  assign button_url = 'button_' | append: i | append: '_url'
+                  assign button_url = block.settings[button_url] | default: null
+                %}
+
+                {% if button_text and button_url %}
+                  {% render 'section-button',
+                    style: button_style,
+                    text: button_text,
+                    url: button_url,
+                    is_carousel: is_carousel
+                  %}
+                {% endif %}
+              {% endfor %}
+            {% endcapture %}
+
+            <div class="snap-start shrink-0 w-full">
+              <div class="main-grid md:items-center place-content-between md:place-content-center gap-y-12 h-full">
+                {% if block_align_content == 'reverse' %}
+                  {{ image_html }}
+                {% endif %}
+
+                <div
+                  class="
+                    col-span-full md:col-span-4
+
+                    {% if block_align_content == 'reverse' %}
+                      md:col-start-8
+                    {% else %}
+                      md:col-start-2
+                    {% endif %}
+                  "
+                >
+                  {% if block_pretitle %}
+                    <p class="font-bold underline mb-4 last:mb-0">
+                      {{ block_pretitle }}
+                    </p>
+                  {% endif %}
+
+                  {% if block_title %}
+                    <div class="mb-6 last:mb-0">
+                      {% if block_title %}
+                        <div class="font-display !font-bold text-[38px]/[48px] md:text-[44px]/[51px] mb-2 last:mb-0">
+                          {% render 'heading', tag: block_title_tag, text: block_title %}
+                        </div>
+                      {% endif %}
+
+                      {% if block_subtitle %}
+                        <div class="font-display !font-bold text-[25px]/[37px] md:text-[33px]/[40px] text-grey-300">
+                          {% render 'heading', tag: block_subtitle_tag, text: block_subtitle %}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+
+                  {% if block_text %}
+                    <div class="col-span-full md:col-span-6 xl:col-span-4 text-[20px]/[25px] text-grey-300 -tracking-[0.016em] space-y-4 mb-6 last:mb-0">
+                      {{ block_text }}
+                    </div>
+                  {% endif %}
+
+                  {% if block_buttons_html != blank %}
+                    <div class="flex flex-wrap items-center gap-y-6 gap-x-12">
+                      {{ block_buttons_html }}
+                    </div>
+                  {% endif %}
+                </div>
+
+                {% if block_align_content != 'reverse' %}
+                  {{ image_html }}
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+      {% if is_carousel %}
+        </div>
+      {% endif %}
+
+    </div>
+  </section>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Text with Image",
+    "presets": [
+      {
+        "name": "Text with Image"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text-with-image",
+        "name": "Text with image",
+        "settings": [
+          {
+            "type": "select",
+            "id": "align_content",
+            "label": "Align content",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "reverse", "label": "Reverse" }
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "logo",
+            "label": "Logo",
+            "options": [
+              { "value": "", "label": "None" },
+              { "value": "vacmaster", "label": "Vacmaster" },
+              { "value": "lawnmaster", "label": "LawnMaster" }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "pretitle",
+            "label": "Pretitle"
+          },
+          {
+            "type": "select",
+            "id": "title_tag",
+            "label": "Title tag",
+            "options": [
+              { "value": "h1", "label": "H1" },
+              { "value": "h2", "label": "H2" },
+              { "value": "h3", "label": "H3" }
+            ],
+            "default": "h1"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "select",
+            "id": "subtitle_tag",
+            "label": "Subtitle tag",
+            "options": [
+              { "value": "h1", "label": "H1" },
+              { "value": "h2", "label": "H2" },
+              { "value": "h3", "label": "H3" }
+            ],
+            "default": "h1"
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Button #1"
+          },
+          {
+            "type": "select",
+            "id": "button_1_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_1_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_1_url",
+            "label": "URL"
+          },
+          {
+            "type": "header",
+            "content": "Button #2"
+          },
+          {
+            "type": "select",
+            "id": "button_2_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_2_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_2_url",
+            "label": "URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

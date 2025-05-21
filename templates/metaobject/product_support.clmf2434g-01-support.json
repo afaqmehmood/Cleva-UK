@@ -1,0 +1,446 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_34cm_Cordless_Mower_Accessories.webp",
+            "image_loading": "",
+            "logo": "lawnmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "LawnMaster MX 24V 34cm Cordless Lawn Mower",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>CLMF2434G-01<br/>CLMF2434G-1-01</p><p>Learn how to set up, use and troubleshoot your LawnMaster mower with instruction manuals, user guides, videos and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Lawnmower_cordless_lawnmaster_CLMF2434G_instruction_manual_2025_lo.pdf?v=1740565787",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Setting Up",
+            "text": "<p><strong>Assembling the Lower Handle</strong><br/>1. Insert the left and right lower handles into the slots of the mower housing. Ensure the locking pin button is secured into place.<br/><br/><strong>Assembling the Upper Handle</strong><br/><br/>1. Fit the upper handle and lower handles together with the wing knobs on both sides of the handle assembly. <br/>2. Secure the cable against the handle frame with the supplied cable clips.<br/>3. When the two wing knobs are loosened, the handle can be folded for easy storage. </p><p>Ensure the power cable is not caught between the folding sections.<br/><br/><br/><strong>Assembling the Grass Collection Bag </strong><br/><br/>Your mower comes with a tool free grass collection bag.<br/>1. Insert the grass collection bag handle into the slots on the upper cover of grass collection bag. Ensure this securely 'clicks’ into place.<br/>2. Secure the metal support rods into the fixing position on either side of the grass collection base.<br/><br/>3. There is a hole in the bottom of the grass collection bag to hang it up if required.<br/><br/><br/><strong>Inserting the Battery Pack<br/></strong><br/>1. Make sure the battery is fully charged.<br/>2. Lift the battery compartment cover on the lawnmower deck.<br/>3. Align the support rails located within the battery compartment with the guides in the battery pack, and then insert the battery pack into the compartment.<br/>4. Push the battery pack until you hear a “click”.<br/>5. Insert the isolator key into the keyholes located within the battery compartment.<br/>6. Close the battery compartment cover.</p><p></p><p>NOTE: The LawnMaster MX 24V 34cm cordless lawn mower is also supplied with a mulching plug for when you want to deposit grass clippings back onto the lawn, rather than collect in the grass bag. <strong>The mulching plug must be removed if collection bag is used during mowing operation</strong>.<br/><br/><br/><strong>Installing the mulching plug</strong></p><p>1. Lift the deflector guard and detach the grass collection bag.<br/>2. Lift and hold the deflector guard up with one hand.<br/>3. With other hand grasp the mulching plug by its upright handle and insert the plug into the rear discharge chute. Ensure that the locking latch snaps into place.<br/>4. Release the deflector guard back into position during operation.<br/></p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Maintenance",
+            "text": "<p>Lawnmower blades need to be regularly checked, cleaned and sharpened to preserve the cutting performance of your mower and encourage healthy grass growth. If the blade becomes damaged, we always recommend changing it. It's quick and easy to do.</p><p>Follow this step by step video to see how:</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://youtu.be/AJSoCE_6woU",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "lawnmaster-24v-lawnmower",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_tA67bd": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories",
+            "text": "<p>Genuine LawnMaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "clmf2434g-01-accessories",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_FQJKWb": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Spare Parts",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_tA67bd",
+        "entry_FQJKWb"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How long can you cut for?",
+            "text": "<p>The batteries have a 30 minute run time each. As this mower is supplied with two batteries you can can expect to mow for up to 1 hour.</p><p>The LawnMaster MX 24V 34cm Cordless Lawn Mower has Intelligent Battery Management adjusting power delivery according to the grass conditions. Delivering extra power in tougher conditions and reserving battery life during lighter cutting. </p><p>You can easily check battery capacity at the touch of a button, whilst you're mowing too.</p><p>N.B. With the supplied 1hr fast charger, you can also charge one battery while using the other one for almost continuous runtime.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can you adjust the handle height?",
+            "text": "<p>Yes. There are two height positions to choose from when you fit the upper handle and lower handle together with the wing knobs on both sides of the handle assembly.  </p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/when-to-change-a-lawnmower-blade",
+            "image_loading": ""
+          }
+        },
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/lawnmowers-how-to-mow-long-grass",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-to-clean-and-maintain-a-cordless-lawnmower",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>This LawnMaster appliance, spare parts and accessories carry a 2-year guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/><br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

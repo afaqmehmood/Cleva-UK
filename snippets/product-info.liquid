@@ -1,0 +1,49 @@
+{% liquid
+  assign pretitle = null
+
+  assign title = product.title | split: '|' | first | strip
+
+  assign title_words_array = title | split: ' '
+
+  assign title_words_first = title_words_array[0]
+
+  assign title_words_first_handle = title_words_first | handle
+
+  assign subtitle = product.title | split: '|' | slice: 1 | first | strip
+
+  case title_words_first_handle
+    when 'vacmaster', 'lawnmaster'
+      assign pretitle = title_words_first
+
+      assign title = title  | split: ' ' | slice: 1, 50 | join: ' ' | strip
+  endcase
+%}
+
+<div>
+  {% if logo %}
+    <div x-show="isSticky" x-cloak>
+      {% render 'svg', name: logo, class: 'w-[90px] h-auto mb-2' %}
+    </div>
+  {% endif %}
+
+  <h1
+    :class="{
+      'flex flex-wrap gap-y-2 gap-x-6': isSticky,
+      '[&_[data-pretitle]]:hidden': isSticky,
+      '[&_[data-title]]:!text-[20px]/[25px] [&_[data-title]]:!font-normal': isSticky,
+      '[&_[data-subtitle]]:!mt-0 [&_[data-subtitle]]:text-grey-300': isSticky
+    }"
+  >
+    {% render 'product-title-content'
+      pretitle_class: 'block text-[20px]/[25px] font-bold mb-4',
+      title_class: 'block text-[24px]/[30px] md:text-[33px]/[35px] font-display !font-bold',
+      subtitle_class: 'block mt-2 text-[20px]/[25px]'
+    %}
+  </h1>
+
+  {% if product.selected_or_first_available_variant.sku != blank %}
+    <p class="mt-1 text-grey-100" x-show="!isSticky" data-ref="sku">
+      {{ product.selected_or_first_available_variant.sku }}
+    </p>
+  {% endif %}
+</div>

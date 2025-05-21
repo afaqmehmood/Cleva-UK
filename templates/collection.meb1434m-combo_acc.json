@@ -1,0 +1,406 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "8c87b26b-f533-4c79-b866-25d981fb6652": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_1400w_34cm_MEB1434M-01_Electric_lawnmower_trimmer_spares.webp",
+            "image_loading": "lazy",
+            "logo": "lawnmaster",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "LawnMaster 1400W 34cm Lawnmower & Trimmer",
+            "subtitle_tag": "h1",
+            "subtitle": "Accessories & Spare Parts",
+            "text": "<p>MEB1434M COMBO</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "collection-main": {
+      "type": "collection-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_text_with_image_Nyeejf": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_rQEpHt": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/MEB1434M-01_LawnMaster_Electric_LawnMower_spares.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Spare Parts",
+            "title_tag": "h2",
+            "title": "Can't find what you're looking for?",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for on our website, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p><p><strong>All LawnMaster products, accessories and parts are covered with a 2-year guarantee.</strong></p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_rQEpHt"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "17089469556ad7d337": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_nU76VW": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "otjOjpGJNTLkEoKsicfZrA",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_nU76VW"
+      ],
+      "settings": {
+        "background_color": "bg-grey-50",
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a": {
+      "type": "featured-quotes",
+      "blocks": {
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121": {
+          "type": "quote",
+          "settings": {
+            "text": "Master any Mess with Vacmaster",
+            "text_alignment": "text-center",
+            "name": "by Cleva",
+            "logo": ""
+          }
+        },
+        "5eff107c-4819-4aa2-be23-93ed5c26a735": {
+          "type": "quote",
+          "settings": {
+            "text": "Trap 99.9% of dust and allergens with the Allergen Pro™ Range.",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": ""
+          }
+        }
+      },
+      "block_order": [
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121",
+        "5eff107c-4819-4aa2-be23-93ed5c26a735"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927": {
+      "type": "featured-articles",
+      "blocks": {
+        "374dfa5e-c387-4bba-8481-7b5163c920fa": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/head-to-head-how-the-vacmaster-d8-vza0708p-compares-to-the-henry-hvr-160-11",
+            "image_loading": "lazy"
+          }
+        },
+        "a50db38c-6712-4ee2-916a-0abefe6a1107": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/indoor-training-keep-cool-and-get-results-with-a-cardio-fitness-fan",
+            "image_loading": ""
+          }
+        },
+        "394a5b34-5f1e-4c38-b85b-d58b44bfd063": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/can-i-vacuum-artificial-grass",
+            "image_loading": ""
+          }
+        },
+        "485f4a84-1c2c-41c8-818a-c9876e1aa5c8": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-to-remove-spills-and-stains-from-carpet-rugs-and-upholstery",
+            "image_loading": ""
+          }
+        },
+        "8dbf8d68-d089-499e-b109-bd98b09bd2d7": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/vacuum-cleaners-a-guide-to-buying-the-right-dust-bags",
+            "image_loading": ""
+          }
+        },
+        "button_VxEfmz": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Read All",
+            "url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "374dfa5e-c387-4bba-8481-7b5163c920fa",
+        "a50db38c-6712-4ee2-916a-0abefe6a1107",
+        "394a5b34-5f1e-4c38-b85b-d58b44bfd063",
+        "485f4a84-1c2c-41c8-818a-c9876e1aa5c8",
+        "8dbf8d68-d089-499e-b109-bd98b09bd2d7",
+        "button_VxEfmz"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "96321673-9ad1-4fe2-b4a0-e97c46c50acb": {
+      "type": "featured-accordion",
+      "blocks": {
+        "b1111e40-9939-4b59-a28a-0f3860c554d5": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://metaobjects/product_support/lawn-master-1400-w-34-cm-electric-lawnmower-and-25-cm-grass-trimmer-set"
+          }
+        },
+        "1d9243aa-1948-4d40-9c7d-f69d796691ca": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>This LawnMaster appliance, spare parts and accessories carry a 2-year guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "ada9a5c7-b78b-448b-be7d-e4ed7410d133": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "b1111e40-9939-4b59-a28a-0f3860c554d5",
+        "1d9243aa-1948-4d40-9c7d-f69d796691ca",
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242",
+        "ada9a5c7-b78b-448b-be7d-e4ed7410d133"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "ba486b1a-9132-469d-a5bc-06bdea19a01c": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "8c87b26b-f533-4c79-b866-25d981fb6652",
+    "collection-main",
+    "featured_text_with_image_Nyeejf",
+    "17089469556ad7d337",
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a",
+    "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927",
+    "96321673-9ad1-4fe2-b4a0-e97c46c50acb",
+    "ba486b1a-9132-469d-a5bc-06bdea19a01c"
+  ]
+}

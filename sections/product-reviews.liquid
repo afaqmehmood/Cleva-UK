@@ -1,0 +1,213 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | default: null
+%}
+
+<section
+  class="{% render 'section-class', section: section %} container"
+  id="product-reviews"
+  x-data="productReviews"
+  x-show="!isLoading"
+  x-cloak
+>
+  <div class="main-grid">
+    <div class="col-span-full lg:col-start-2 lg:col-span-10">
+      {% if pretitle or title %}
+        <div class="text-center mb-6">
+          {% if pretitle %}
+            <p class="font-bold underline mb-4 last:mb-0">
+              {{ pretitle }}
+            </p>
+          {% endif %}
+        
+          {% if title %}
+            <h2 class="font-display !font-bold text-[38px]/[48px] md:text-[44px]/[51px]">
+              {{ title }}
+            </h2>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      <div class="text-center">
+        {% render 'product-reviews-summary' %}
+      </div>
+
+      <div class="mt-[50px] mb-12 last:mb-0 flex justify-end">
+        {%
+          render 'svg',
+          name: 'reviews-io',
+          class: 'w-[155px] h-[25px]'
+        %}
+      </div>
+
+      <template x-if="apiData?.reviews?.data">
+        <ul>
+          <template x-for="review in apiData.reviews.data">
+            <li class="py-6 px-4 md:p-11 border rounded-2xl mb-8 md:mb-10 last:mb-0">
+              <div class="flex gap-x-8 mb-5">
+                <div class="shrink-0 relative rounded-full bg-grey-50 w-[64px] h-[64px]">
+                  <template x-if="review.reviewer.profile_picture">
+                    <img :src="review.reviewer.profile_picture" alt="" loading="lazy">
+                  </template>
+
+                  <template x-if="!review.reviewer.profile_picture">
+                    <div class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-bold uppercase">
+                      <template x-if="review.reviewer.first_name">
+                        <span x-text="review.reviewer.first_name[0]"></span>
+                      </template>
+
+                      <template x-if="review.reviewer.last_name">
+                        <span x-text="review.reviewer.last_name[0]"></span>
+                      </template>
+                    </div>
+                  </template>
+                </div> 
+
+                <div class="flex-1">
+                  <p class="flex flex-wrap gap-2 text-[20px]/[25px] mb-2">
+                    <span class="capitalize">
+                      <template x-if="review.reviewer.first_name">
+                        <span x-text="review.reviewer.first_name.toLowerCase()"></span>
+                      </template>
+
+                      <template x-if="review.reviewer.last_name">
+                        <span x-text="`${review.reviewer.last_name[0]}.`"></span>
+                      </template>
+                    </span>
+
+                    <template x-if="review.reviewer.verified_buyer == 'yes'">
+                      <span class="text-grey-100">
+                        {{ 'product.verified_reviewer' | t }}
+                      </span>
+                    </template>
+
+                    <template x-if="review.date_created">
+                      <span
+                        class="max-md:hidden ml-auto text-grey-100"
+                        x-text="new Date(review.date_created).toLocaleDateString()"
+                      ></span>
+                    </template>
+                  </p>
+
+                  <template x-if="review.rating">
+                    <div
+                      class="flex gap-x-1.5 text-[18px] [&_.is-active]:!text-gold-50"
+                      x-data="starRating({ rating: review.rating })"
+                    >
+                      {% render 'star-rating-items' %}
+                    </div>
+                  </template>
+                </div>
+              </div>
+
+              <div class="md:pl-[calc(64px_+_theme(spacing.8))] text-[20px]/[25px]">
+                <template x-if="review.review">
+                  <p x-text="review.review"></p>
+                </template>
+
+                <template x-if="review.images.length">
+                  <div class="mt-6 flex flex-wrap gap-4">
+                    <template x-for="image in review.images">
+                      <img class="rounded-2xl max-w-[100px] md:max-w-[200px]" :src="image.image" alt="" loading="lazy">
+                    </template>
+                  </div>
+                </template>
+              </div>
+            </li>
+          </template>
+        </ul>
+      </template>
+
+      <template x-if="apiData?.reviews?.next_page_url">
+        <div class="mt-12 text-center">
+          <button class="form-button form-button--black" type="button" @click="paginationNextClick">
+            {{ 'product.load_more' | t }}
+          </button>
+        </div>
+      </template>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Product reviews",
+    "presets": [
+      {
+        "name": "Product reviews"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["product"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ]
+  }
+{% endschema %}

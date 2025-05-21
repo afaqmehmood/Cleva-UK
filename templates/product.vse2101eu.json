@@ -1,0 +1,741 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35": {
+      "type": "featured-text-with-icon",
+      "blocks": {
+        "aa9370f5-862d-4221-88f8-2df4783e5117": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "feather",
+            "title": "Lightweight",
+            "text": "<p>Weighs only 2.15kg.</p>"
+          }
+        },
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "modes",
+            "title": "Turbo Mode",
+            "text": "<p>For capturing stubborn dirt and pet hair.</p>"
+          }
+        },
+        "a73107f1-d813-4f4a-9738-d04082969ce4": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "battery-horizontal",
+            "title": "Cordless",
+            "text": "<p>Powered by a 24V MAX Lithium Ion battery. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "aa9370f5-862d-4221-88f8-2df4783e5117",
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796",
+        "a73107f1-d813-4f4a-9738-d04082969ce4"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_cards_LbU947": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_XzYgYx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/3_in_1_Vacmaster_Orson_Lite_VSE2101EU_Handheld.webp",
+            "image_loading": "lazy",
+            "title": "3-in-1 Cordless Cleaning",
+            "text": "<p>Use as an upright, with its powered floor head, for vacuuming both hard floors and carpets. Or use in handheld mode for deep cleaning stairs. Switch to the 2-in-1 crevice tool and dusting brush for cleaning hard to reach surfaces.</p>",
+            "url": ""
+          }
+        },
+        "card_p3THhR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/3_in_1_Vacmaster_VSE2101EU_Portable_Handheld.webp",
+            "image_loading": "",
+            "title": "Portable Handheld",
+            "text": "<p>Use in handheld mode for vacuuming stairs, the car and more.</p>",
+            "url": ""
+          }
+        },
+        "card_Cmwr7p": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Surface_Vacuum_Cleaner_Vacmaster_VSE2101EU_9f0ce25e-2a75-4750-b241-3ce4b485fe59.webp",
+            "image_loading": "",
+            "title": "Multi Surface",
+            "text": "<p>A powered floorhead cleans both carpets and hard floors.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_XzYgYx",
+        "card_p3THhR",
+        "card_Cmwr7p"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "",
+        "pretitle": "Explore",
+        "title": "Features & Benefits",
+        "text": ""
+      }
+    },
+    "featured_cards_GRaWfQ": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_dBefjC": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/40_Minute_Runtime_Vacuum_Cleaner_Vacmaster_VSE2101EU.webp",
+            "image_loading": "",
+            "title": "40 Minute Runtime",
+            "text": "<p>A 24V MAX lithium battery delivers up to 40 minutes of run time. Turbo mode provides 17 minutes of boosted suction power for cleaning stubborn dirt and pet hair.</p>",
+            "url": ""
+          }
+        },
+        "card_jGpwHA": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Orson_Lite_Turbo_Mode_VSE2101EU.webp",
+            "image_loading": "",
+            "title": "Turbo Mode",
+            "text": "<p>17 minutes of boosted suction power for cleaning stubborn dirt and pet hair.</p>",
+            "url": ""
+          }
+        },
+        "card_fDPfT4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Task_Light_LED_Vacmaster_Orson_Lite_VSE2101EU_4e229de0-3744-4ed5-b2b9-e8b35e01dcc5.webp",
+            "image_loading": "",
+            "title": "LED Task Lights",
+            "text": "<p>Highlight dust and dirt while vacuuming, making it easier to clean around furniture.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_dBefjC",
+        "card_jGpwHA",
+        "card_fDPfT4"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_quotes_YamDdc": {
+      "type": "featured-quotes",
+      "blocks": {
+        "quote_z6FiLd": {
+          "type": "quote",
+          "settings": {
+            "text": "Take the strain out of cleaning with this lightweight cordless vacuum",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": "vacmaster"
+          }
+        }
+      },
+      "block_order": [
+        "quote_z6FiLd"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_text_with_image_FXPR6E": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_8PFppt": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Orson_Lite_VSE2101EU_Balanced_and_Lightweight.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "Balanced & Lightweight Design",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Weighing only 2.15kg, the Orson Lite is one of the lightest vacuum cleaners available making it ideal for prolonged use.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_67Kbzd": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Easy_to_Empty_Dustbin_Vacmaster_Cordless_Vacuum_VSE2101EU.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Easy to Empty Dust Bin",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Empty with the simple slide of a button for easy and hygienic disposal of dust and dirt.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_BnytEW": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Orson_Lite_VSE2101EU_Washable_Filters.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "2 Washable Filters",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>The washable filter captures 99.9% of dust and allergen particles down to 0.3 microns. 2 filters are included in the box.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_8PFppt",
+        "text_with_image_67Kbzd",
+        "text_with_image_BnytEW"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c": {
+      "type": "featured-features",
+      "blocks": {
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Cordless_Vacmaster_Orson_Lite_2_Year_Guarantee.webp",
+            "image_loading": "",
+            "icon": "guarantee",
+            "title": "2-Year Guarantee",
+            "text": "<p>Peace of mind with our 2-year domestic use manufacturer guarantee.</p>"
+          }
+        },
+        "501a6d11-0820-42d7-9455-af4a760a8e04": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/UK_Orson_Lite_Crevice_Tool_Cordless_Vacuum.webp",
+            "image_loading": "",
+            "icon": "tools",
+            "title": "Supplied Tools",
+            "text": "<p>Reach further with the Vacmaster 2-in-1 crevice and dusting brush tool.</p>"
+          }
+        },
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/UK_Hoover_Orson_Lite_Battery_Level_Status.webp",
+            "image_loading": "",
+            "icon": "battery",
+            "title": "Battery Status Display",
+            "text": "<p>Shows how much power is remaining while you are vacuuming, as well as the current charging status while it's being recharged.</p>"
+          }
+        },
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Cordless_Vacmaster_Orson_Lite_Wall_Mount.webp",
+            "image_loading": "",
+            "icon": "plus-square",
+            "title": "Discreet Wall Mount",
+            "text": "<p>A discreet wall mount stores the vacuum securely and ensures it always remains easy to access.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a",
+        "501a6d11-0820-42d7-9455-af4a760a8e04",
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75",
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "In the Box",
+            "text": "<p>2x washable filters, crevice and dust tool, wall mount and charging adapter.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Shop now",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image": "shopify://shop_images/Cordless_Vacuum_Cleaner_Orson_Lite_in_box.webp",
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "{{ product }}",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Product Support",
+            "text": "<p>Learn how to use, maintain and troubleshoot your Vacmaster vacuum cleaner with easy to follow videos, user guides and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "Go to product support",
+            "button_2_url": "shopify://metaobjects/product_support/vacmaster-orson-lite-24-v-cordless-vacuum-cleaner",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Instruction Manual",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "Download",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cordless_vacuum-cleaner_vacmaster_VSE2101EU_orson_lite_manual.pdf?v=1679586658",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Information",
+        "title_size": "large",
+        "title": "Specification",
+        "text": ""
+      }
+    },
+    "88f30ef1-5d27-47e7-9655-32f0d8016675": {
+      "type": "featured-collection",
+      "blocks": {
+        "94592e8c-f8a7-4d05-95bd-1984549039b5": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Shop All",
+            "url": "shopify://collections/vse2101eu-accessories"
+          }
+        },
+        "4a3319f2-a88e-4233-a4b4-72590768cea0": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "shopify://metaobjects/product_support/vacmaster-orson-lite-24-v-cordless-vacuum-cleaner"
+          }
+        }
+      },
+      "block_order": [
+        "94592e8c-f8a7-4d05-95bd-1984549039b5",
+        "4a3319f2-a88e-4233-a4b4-72590768cea0"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Discover",
+        "title": "Accessories & Spare Parts",
+        "text": "",
+        "collection": "vse2101eu-accessories",
+        "products_per_page": 8
+      }
+    },
+    "featured_accordion_tDiBLC": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_q7pMtc": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How easy is it to charge?",
+            "text": "<p>Simply plug the supplied charger into the battery. The current charge level will be displayed on the Battery Status Display.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_frmLHx": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What is the cleaning capacity?",
+            "text": "<p>The tank size of this vacuum cleaner is 0.6L.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_q7pMtc",
+        "entry_frmLHx"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Reviews",
+        "title": "Don't just take our word for it"
+      }
+    },
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
+      "type": "product-recommendations",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Related",
+        "title": "You May Also Like"
+      }
+    },
+    "featured_accordion_YyyUxg": {
+      "type": "featured-accordion",
+      "blocks": {
+        "button_DYDnbx": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://metaobjects/product_support/vacmaster-orson-lite-24-v-cordless-vacuum-cleaner"
+          }
+        },
+        "entry_Kf4exw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>This Vacmaster appliance, spare parts and accessories carry a 2-year domestic use guarantee. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_mbP8Km": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Bb8WRF": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_DYDnbx",
+        "entry_Kf4exw",
+        "entry_mbP8Km",
+        "entry_Bb8WRF"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "featured_content_7E4itj": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "product-main",
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
+    "featured_cards_LbU947",
+    "featured_cards_GRaWfQ",
+    "featured_quotes_YamDdc",
+    "featured_text_with_image_FXPR6E",
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "88f30ef1-5d27-47e7-9655-32f0d8016675",
+    "featured_accordion_tDiBLC",
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
+    "featured_accordion_YyyUxg",
+    "featured_content_7E4itj"
+  ]
+}

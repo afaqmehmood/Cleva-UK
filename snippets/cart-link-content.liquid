@@ -1,0 +1,11 @@
+<span class="block relative">
+  {% render 'svg', name: 'cart', class: 'text-[18px]' %}
+
+  {% if cart.items != empty %}
+    <div class="absolute inset-0 m-auto w-[5px] h-[5px] translate-x-[1px] rounded-full bg-gold-50"></div>
+  {% endif %}
+
+  <span class="sr-only">
+    {{ 'header.cart' | t }}
+  </span>
+</span>

@@ -1,0 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d2b4b51e-68b9-47bc-9ef5-43b322c35197": {
+      "type": "featured-intro",
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "md",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md",
+        "title_tag": "h1",
+        "title": "404",
+        "text": "<p>Page not found</p>"
+      }
+    }
+  },
+  "order": [
+    "d2b4b51e-68b9-47bc-9ef5-43b322c35197"
+  ]
+}

@@ -1,0 +1,669 @@
+{% liquid
+  assign background_color = section.settings.background_color | default: null
+
+  assign text_color = section.settings.text_color | default: null
+
+  assign image = section.settings.image | default: null
+
+  assign image_loading = section.settings.image_loading | default: null
+
+  assign watermark_enable = section.settings.watermark_enable | default: null
+
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title_size = section.settings.title_size | default: null
+
+  assign title = section.settings.title | newline_to_br | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign blocks = section.blocks | default: null
+
+  assign blocks_button = blocks | where: 'type', 'button' | default: null
+
+  assign blocks_entry = blocks | where: 'type', 'entry' | default: null
+%}
+
+<section class="{% render 'section-class', section: section %}">
+  <div
+    class="
+      overflow-hidden
+
+      {% case background_color %}
+        {% when 'rgba(0,0,0,0)', '#FFFFFF', '#FFF' %}
+        {% else %}
+          py-16 md:py-24
+      {% endcase %}
+    "
+    style="
+      {% if background_color %}
+        background-color: {{ background_color }};
+      {% endif %}
+
+      {% if text_color %}
+        --color: {{ text_color }};
+        color: {{ text_color }};
+      {% endif %}
+    "
+  >
+    <div class="container">
+      <div class="max-md:relative">
+        {% if pretitle or title or text or blocks_button or watermark_enable or image %}
+          <div class="md:relative main-grid gap-y-12 mb-12 md:mb-20 last:mb-0">
+            {% if watermark_enable %}
+              {%
+                render 'svg',
+                name: 'watermark',
+                class: '
+                  absolute max-md:bottom-4 max-md:-right-36 md:top-0 md:bottom-0 md:right-3 my-auto
+                  w-[304px] md:w-[540px] h-auto opacity-[.15]
+                '
+              %}
+            {% endif %}
+          
+            <div class="relative col-span-full md:col-span-6">
+              {% if pretitle %}
+                <p class="font-bold text-[15px]/[normal] md:-tracking-[0.02em] underline underline-offset-4 mb-4 last:mb-0">
+                  {{ pretitle }}
+                </p>
+              {% endif %}
+            
+              {% if title %}
+                <h2
+                  class="
+                    font-display mb-6 md:mb-12 last:mb-0
+
+                    {% case title_size %}
+                      {% when 'small' %}
+                        text-[25px]/[normal] md:text-[43px]/[51px]
+                      {% when 'large' %}
+                        text-[43px]/[51px] md:text-[70px]/[76px]
+                    {% endcase %}
+                  "
+                >
+                  {{ title }}
+                </h2>
+              {% endif %}
+            
+              {% if text %}
+                <div class="mb-6 md:mb-12 last:mb-0 main-grid !grid-cols-6">
+                  <div class="col-span-full xl:col-span-4 text-[20px]/[25px] -tracking-[0.02em]">
+                    {{ text }}
+                  </div>
+                </div>
+              {% endif %}
+
+              {% if blocks_button %}
+                <div id="about-accordion-button" class="flex flex-wrap items-center gap-y-6 gap-x-6 md:gap-x-12">
+                  {% for block in blocks_button %}
+                    {% liquid
+                      assign block_style = block.settings.style | default: null
+
+                      assign block_text = block.settings.text | default: null
+
+                      assign block_url = block.settings.url | default: null
+                    %}
+
+                    {% if block_text and block_url %}
+                      {% render 'section-button', style: block_style, text: block_text, url: block_url %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+
+            {% if image %}
+              <div class="md:col-start-7 col-span-full md:col-span-6">
+                {% render 'featured-accordion-image', image: image, loading: image_loading %}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if blocks_entry %}
+          <ul class="relative group">
+            {% assign counter = 0 %}
+
+            {% for block in blocks_entry %}
+              {% liquid
+                assign block_full_width_enable = block.settings.full_width_enable | default: null
+              
+                assign block_title = block.settings.title | default: null
+
+                assign block_text = block.settings.text | default: null
+
+                assign block_product_specifications = block.settings.product_specifications | default: null
+
+                assign block_html = block.settings.html | default: null
+
+                assign block_collection = block.settings.collection | default: null
+
+                assign block_collection_products_per_page = block.settings.collection_products_per_page | default: null
+
+                assign block_products = block.settings.products | default: null
+
+                assign block_products_per_page  = null
+
+                assign block_image = block.settings.image | default: null
+
+                assign block_image_loading = block.settings.image_loading | default: null
+
+                assign counter = counter | plus: 1
+
+                if block_products == null and block_collection
+                  assign block_products = block_collection.products
+
+                  assign block_products_per_page = block_collection_products_per_page
+                endif
+                
+              %}
+
+              {% capture block_buttons_html %}
+                {% for i in (1..2) %}
+                  {% liquid
+                    assign button_style = 'button_' | append: i | append: '_style'
+                    assign button_style = block.settings[button_style] | default: null
+
+                    assign button_text = 'button_' | append: i | append: '_text'
+                    assign button_text = block.settings[button_text] | default: null
+
+                    assign button_url = 'button_' | append: i | append: '_url'
+                    assign button_url = block.settings[button_url] | default: null
+                  %}
+
+                  {% if button_text and button_url %}
+                    <div class="accordion-buttons" class="max-md:w-full">
+                      {% render 'section-button', style: button_style, text: button_text, url: button_url %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endcapture %}
+
+              {% capture block_videos_html %}
+                {% for i in (1..2) %}
+                  {% liquid
+                    assign video = 'video_' | append: i
+                    assign video = block.settings[video] | default: null
+                  %}
+
+                  {% if video %}
+                    <div class="shrink-0 w-full md:w-1/2">
+                      {% render 'external-video', video: video %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endcapture %}
+
+              {% capture block_product_specifications_html %}
+                {% for specification in block_product_specifications.metafields.custom.specifications.value %}
+                  {% liquid
+                    assign specification_key = specification | split: '|' | first | strip
+
+                    assign specification_value = specification | split: '|' | last | strip
+                  %}
+
+                  <div class="inline-block align-top w-full pb-6">
+                    {% if specification_key %}
+                      <h4 class="font-bold">
+                        {{ specification_key }}
+                      </h4>
+                    {% endif %}
+
+                    {% if specification_value %}
+                      {{ specification_value }}
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              {% endcapture %}
+
+              <li class="first:border-t border-b [.group:has([open])_&]:text-grey-100">
+                <details
+                  class="group open:text-[--color]"
+                  x-data="accordion"
+                  @keyup.escape.window="isOpen && toggle()"
+                  @click.outside="isOpen && toggle()"
+                >
+                  <summary
+                    role="button"
+                    aria-controls="featured-accordion-{{ section.id }}-{{ forloop.index }}"
+                    :aria-expanded="isOpen"
+                    @click.prevent="toggle()"
+                  >
+                    <span
+                      class="
+                        flex items-center justify-between gap-x-6 py-3.5 md:py-6
+                        font-bold -tracking-[0.01em] md:-tracking-[0.04em] text-[21px]/[23px] md:text-[33px]/[35px] hover:text-gold-50
+                      "
+                    >
+                      <span class="flex gap-x-4">
+                        {% if counter < 10 %}
+                          <span>{{ counter | prepend: '0' }}</span>
+                        {% else %}
+                          <span>{{ counter }}</span>
+                        {% endif %}
+                        {{ block_title }}
+                      </span>
+                      
+                      <span class="group-open:hidden p-1 md:p-3 border-2 rounded-full">
+                        {% render 'svg', name: 'plus', class: 'text-[8px] md:text-[22px]' %}
+                      </span>
+                      
+                      <span class="hidden group-open:block p-1 md:p-3 border-2 rounded-full">
+                        {% render 'svg', name: 'minus', class: 'text-[8px] md:text-[22px]' %}
+                      </span>
+                    </span>
+                  </summary>
+
+                  <div
+                    class="!transition-[opacity,height] opacity-0 group-open:!opacity-100"
+                    :class="{
+                      'group-open:!opacity-100': false,
+                      '!opacity-100': isOpen
+                    }"
+                    id="featured-accordion-{{ section.id }}-{{ forloop.index }}"
+                    x-show="isOpen"
+                    x-collapse.duration.150ms
+                  >
+                    <div class="main-grid gap-y-12 pb-6 md:pb-12">
+                      {% if block_text or block_buttons_html != blank %}
+                        <div
+                          class="
+                            col-span-full
+
+                            {% unless block_full_width_enable %}
+                              md:col-span-6 xl:col-span-4
+                            {% endunless %}
+                          "
+                        >
+                          {% if block_text %}
+                            <div class="md:text-[20px]/[25px] [&_a]:underline mb-6 md:mb-12 last:mb-0 space-y-6">
+                              {{ block_text }}
+                            </div>
+                          {% endif %}
+
+                          {% if block_buttons_html != blank %}
+                            <div class="flex flex-wrap items-center gap-y-6 gap-x-12">
+                              {{ block_buttons_html }}
+                            </div>
+                          {% endif %}
+                        </div>
+                      {% endif %}
+
+                      {% if block_product_specifications_html != blank %}
+                        <div
+                          class="
+                            col-span-full md:col-span-9 -mb-6
+                            md:columns-3 gap-x-[--main-grid-gap-x] md:gap-x-[--md-main-grid-gap-x]
+                          "
+                        >
+                          {{ block_product_specifications_html }}
+                        </div>
+                      {% endif %}
+
+                      {% if block_html %}
+                        <div class="col-span-full py-12 px-6 bg-grey-50 rounded-2xl">
+                          {{ block_html }}
+                        </div>
+                      {% endif %}
+
+                      {% if block_products %}
+                        <div class="col-span-full">
+                          {% capture slides_content %}
+                            {% for product in block_products, limit: block_products_per_page %}
+                              {% capture slide_content %}
+                                {% render 'product-card', product: product, is_carousel: true %}
+                              {% endcapture %}
+                    
+                              {% render 'cards-carousel-slide', slide_content: slide_content %}
+                            {% endfor %}
+                          {% endcapture %}
+                    
+                          {% render 'cards-carousel',
+                            slides_content: slides_content,
+                            slides_columns: 3.77,
+                            slides_gap: 5
+                          %}
+                        </div>
+                      {% endif %}
+
+                      {% if block_image %}
+                        <div class="col-span-full main-grid">
+                          {%- assign max_width_image = block_image.width | append: 'px' -%}
+                          <div class="col-span-full md:col-span-6" style="max-width: {{ max_width_image }};">
+                            {% render 'featured-accordion-image',
+                              image: block_image,
+                              loading: block_image_loading
+                            %}
+                          </div>
+                        </div>
+                      {% endif %}
+
+                      {% if block_videos_html != blank %}
+                        <div class="col-span-full flex gap-6">
+                          {{ block_videos_html }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
+                </details>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Accordion",
+    "presets": [
+      {
+        "name": "Accordion"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#FFF"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "image_loading",
+        "label": "Image loading",
+        "options": [
+          { "value": "", "label": "Default" },
+          { "value": "lazy", "label": "Lazy" }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "watermark_enable",
+        "label": "Watermark enable?"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title size",
+        "options": [
+          { "value": "small", "label": "Small" },
+          { "value": "large", "label": "Large" }
+        ],
+        "default": "large"
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "button",
+        "name": "Button",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "select",
+            "id": "style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      },
+      {
+        "type": "entry",
+        "name": "Entry",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "full_width_enable",
+            "label": "Full width enable?"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Button #1"
+          },
+          {
+            "type": "select",
+            "id": "button_1_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_1_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_1_url",
+            "label": "URL"
+          },
+          {
+            "type": "header",
+            "content": "Button #2"
+          },
+          {
+            "type": "select",
+            "id": "button_2_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_2_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_2_url",
+            "label": "URL"
+          },
+          {
+            "type": "header",
+            "content": "Product specifications"
+          },
+          {
+            "type": "product",
+            "id": "product_specifications",
+            "label": "Product specifications",
+            "info": "Pull the 'Specifications' data from the defined product."
+          },
+          {
+            "type": "header",
+            "content": "HTML"
+          },
+          {
+            "type": "liquid",
+            "id": "html",
+            "label": "HTML"
+          },
+          {
+            "type": "header",
+            "content": "Collection"
+          },
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          },
+          {
+            "type": "number",
+            "id": "collection_products_per_page",
+            "label": "Products per page",
+            "default": 8
+          },
+          {
+            "type": "header",
+            "content": "Products",
+            "info": "Override the above and use a specific list of products."
+          },
+          {
+            "type": "product_list",
+            "id": "products",
+            "label": "Products"
+          },
+          {
+            "type": "header",
+            "content": "Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Video"
+          },
+          {
+            "type": "video_url",
+            "id": "video_1",
+            "label": "#1",
+            "accept": [ "youtube", "vimeo" ]
+          },
+          {
+            "type": "video_url",
+            "id": "video_2",
+            "label": "#2",
+            "accept": [ "youtube", "vimeo" ]
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Orson_Lite_Accessories_alt.webp",
+            "image_loading": "",
+            "logo": "vacmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "Vacmaster Orson Lite 24V Cordless Vacuum Cleaner",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>VSE2101EU</p><p>Learn how to set up and use your vacuum cleaner with instruction manuals, user guides and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cordless_vacuum-cleaner_vacmaster_VSE2101EU_orson_lite_manual.pdf?v=1679586658",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Setting Up",
+            "text": "<p>1) Charge the battery pack for at least 4 hours before using for the first time. Never charge the batteries in temperatures above 40°C or below 4°C. It is normal for the charging adapter to become warm when charging.<br/>2) Attach the battery pack to the vacuum cleaner.<br/>3) Insert the handheld vacuum into the top of the suction wand and lock into place until you hear a click.<br/>4) Insert the wand into the neck of the motorised floor head ensuring that there is nothing trapped between the unit connections. Make sure the wand is locked into place until you hear a click.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Maintenance",
+            "text": "<p><strong>Emptying the Dust Bin</strong><br/><br/>NOTE: For best performance, empty dust bin after every use or once dust reaches MAX fill line. Before emptying the dust bin, ensure the vacuum cleaner is turned off.<br/><br/>1) Position dust bin area of vacuum over a waste receptacle. Press down on the dust bin door release button to open dust bin lid and allow bin contents to drop into waste receptacle.<br/>2) Close the dust bin door until you hear a click. <br/><br/><strong>Cleaning the Filters</strong><br/><br/>NOTE: The key to maximum performance is having a clean filter. Cleaning the filter frequently will help your vacuum cleaner operate at peak efficiency. A spare filter is provided with your vacuum cleaner to allow you to dry one filter properly while using the other. Additional filters can be purchased from www.cleva-europe.com.<br/><br/>1) With one hand grasped around the handle, press the motor head release button to separate the dust bin from the handheld vacuum.<br/><br/>NOTE: Grasp the dust bin when pressing the release button.<br/><br/>2) Remove the filter and filter cage from the dust bin.<br/>3) Use a soft brush to clean loose debris from the filter and then rinse with warm water. Rinse and gently squeeze dry the filters. Set all filters aside and allow to air dry for 24 hours.<br/><br/>IMPORTANT: The filters and the filter cage must be completely dry before reuse.<br/><br/>4) Place the filter cage back into the dust bin, then place the filter back in.<br/>5) To reassemble the dust bin to the handheld vacuum, align the tabs on the dust bin with slots in the handheld vacuum. Once aligned, attach the dust bin to the handheld vacuum until you hear a click.<br/><br/><strong>Cleaning the Motorised Floor Head & Blockage</strong><br/><br/><strong>Remove the Brush Roll</strong><br/><br/>1) Make sure the vacuum cleaner is turned OFF, then remove the wand and set aside.<br/>2) Turn the floor head over to access the brush roll. Press and push the tab on the left hand side of the head to the left and hold it. This will unlock the brush roll.<br/>3) With the tab pushed to the left, simply lift the brush roll out of the head housing. Clean off debris and anything wrapped around the brush roll. Use a pair of scissors to remove threads, etc.<br/>4) Place the brush roll back into the housing by aligning the hexagonal end of the brush roll into the right end of the head. Then push the unlock tab to the left and hold it. Align the square end of the brush roll with the left end of the head and insert it into place. Release the tab to lock the brush roll.<br/><strong><br/>Remove the Wand Blockage</strong><br/><br/>1) To clean out the wand, press the wand release button, and pull the wand away from motorized floor head.<br/>2) Carefully remove any debris or blockage from the inside of the motorised floor head.<br/>3) Reattach the motorised floor head onto the vacuum body.<br/>4) Once the blockage is removed, start the vacuum to ensure air flow through the hose.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "vacmaster-orson-lite-cordless-vacuum-cleaner",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_tRNEcD": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories",
+            "text": "<p>Genuine Vacmaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Shop All",
+            "button_1_url": "shopify://collections/vse2101eu-accessories",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "vse2101eu-accessories",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_xw3BKN": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Spare Parts",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_tRNEcD",
+        "entry_xw3BKN"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why is the vacuum cleaner not powering on?",
+            "text": "<p>This can be caused by:<br/><br/>1) Battery may be depleted. Charge the battery.<br/>2) Wrong charger being used. Be sure to use only the charger supplied with your product. <br/>3) The motorised brush roll is jammed. Remove any obstruction.<br/>4) Handheld vacuum or battery is damaged. Contact the customer support team.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why does the battery indicator not illuminate when using the vacuum?",
+            "text": "<p>This can be caused by:<br/><br/>1) Battery may be depleted. Charge the battery.<br/>2) The battery indicator is damaged. Contact the customer support team.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_yCYDDP": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Why is dust escaping from the vacuum cleaner?",
+            "text": "<p>This can be caused by:<br/><br/>1) Filter is missing or installed incorrectly. Check filter for correct installation.<br/>2) Filter is damaged and needs to be replaced. Replace the filter. To purchase online at www.cleva-europe.com.<br/>3) Filter cage is missing or is installed incorrectly. Reinstall correctly.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "entry_yCYDDP"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/new-home-cleaning-essentials-1",
+            "image_loading": ""
+          }
+        },
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/choosing-the-best-vacuum-cleaner-for-your-floor-type",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/10-tips-to-motivate-yourself-to-clean",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>This Vacmaster appliance comes with a 2-year guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

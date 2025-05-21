@@ -1,0 +1,116 @@
+{% liquid
+  assign articles_per_page = settings.blog_articles_per_page | default: 9
+
+  assign menu = section.settings.menu | default: null
+%}
+
+<section class="{% render 'section-class', section: section %}" id="blog-main">
+  {% paginate blog.articles by articles_per_page %}
+    {% if menu %}
+      {% render 'blog-menu', menu: menu %}
+    {% endif %}
+
+    <div class="container">
+      {% if paginate.previous %}
+        {% render 'pagination', part: paginate.previous, part_handle: 'previous', url_suffix: '#blog-main' %}
+      {% endif %}
+
+      <ul class="main-grid gap-y-6 md:gap-y-12">
+        {% for article in blog.articles %}
+          {% liquid
+            assign image_loading = null
+
+            if forloop.index > 3
+              assign image_loading = 'lazy'
+            endif
+          %}
+
+          <li class="col-span-full md:col-span-4">
+            {% render 'article-card', article: article, image_loading: image_loading %}
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% if paginate.next %}
+        {% render 'pagination', part: paginate.next, part_handle: 'next', url_suffix: '#blog-main' %}
+      {% endif %}
+    </div>
+  {% endpaginate %}
+</section>
+
+{% schema %}
+  {
+    "name": "Blog main",
+    "presets": [
+      {
+        "name": "Blog main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["blog"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "link_list",
+        "id": "menu",
+        "label": "Menu"
+      }
+    ]
+  }
+{% endschema %}

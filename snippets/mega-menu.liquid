@@ -1,0 +1,153 @@
+{% liquid
+  assign link_links = null | sort
+
+  assign link_utility_links = null | sort
+
+  for link in link.links
+    assign link_as_array = link | sort
+
+    if link.links == empty
+      assign link_utility_links = link_utility_links | concat: link_as_array
+    else
+      assign link_links = link_links | concat: link_as_array
+    endif
+  endfor
+
+  assign link_block_settings_mega_menu = blocks_mega_menu | map: 'settings' | where: 'title', link.title | first
+
+  assign link_mega_menu_logo = link_block_settings_mega_menu.logo | default: null
+
+  assign link_mega_menu_sale_links_titles = link_block_settings_mega_menu.sale_links_titles | replace: newline_double, newline | split: newline | default: null
+
+  assign link_mega_menu_feature_enable = link_block_settings_mega_menu.feature_enable | default: null
+
+  assign link_mega_menu_feature_image = link_block_settings_mega_menu.feature_image | default: null
+
+  assign link_mega_menu_feature_title = link_block_settings_mega_menu.feature_title | default: null
+
+  assign link_mega_menu_feature_button_text = link_block_settings_mega_menu.feature_button_text | default: null
+
+  assign link_mega_menu_feature_button_url = link_block_settings_mega_menu.feature_button_url | default: null
+%}
+
+<details
+  class="group"
+  x-data="megaMenu"
+  @keyup.escape.window="isOpen && toggle()"
+  @click.outside="isOpen && toggle()"
+>
+  <summary
+    class="{{ link_class }}"
+    role="button"
+    aria-controls="header-mega-menu-{{ forloop.index }}"
+    :aria-expanded="isOpen"
+    @click.prevent="$nextTick(() => toggle())"
+  >
+    {{ link.title }}
+  </summary>
+
+  <div
+    class="absolute top-full left-0 right-0 !transition-[opacity,height] opacity-0 group-open:!opacity-100"
+    :class="{
+      'group-open:!opacity-100': false,
+      '!opacity-100': isOpen
+    }"
+    id="header-mega-menu-{{ forloop.index }}"
+    tabindex="-1"
+    x-ref="panel"
+    x-show="isOpen"
+    x-collapse.duration.150ms
+  >
+    <div class="py-14 border-t border-grey-50 bg-white">
+      <div class="container main-grid gap-y-6">
+        {% if link_mega_menu_logo %}
+          <div class="col-span-full">
+            {% render 'svg', name: link_mega_menu_logo, class: 'w-[115px] h-auto mb-1 md:mb-2' %}
+          </div>
+        {% endif %}
+
+        {% for link in link_links %}
+          <div class="col-span-2">
+            <h3 class="pb-2 mb-6 border-b border-black font-bold">
+              {{ link.title }}
+            </h3>
+
+            <ul>
+              {% for link in link.links %}
+                <li class="mb-2 last:mb-0">
+                  <a
+                    class="
+                      font-bold text-grey-300 hover:underline
+
+                      {% if link_mega_menu_sale_links_titles contains link.title %}
+                        !text-red
+                      {% endif %}
+                    "
+                    href="{{ link.url }}"
+                  >
+                    {{ link.title }}
+                  </a>
+                </li>
+              {% endfor %}
+
+              {% if forloop.last and link_utility_links != empty %}
+                {% for link in link_utility_links %}
+                  <li
+                    class="
+                      mb-2 last:mb-0
+
+                      {% if forloop.first %}
+                        w-fit mt-4 before:block before:border-t before:border-black before:mb-4
+                      {% endif %}
+                    "
+                  >
+                    <a
+                      class="
+                        text-grey-300 hover:underline
+
+                        {% if link_mega_menu_sale_links_titles contains link.title %}
+                          text-red
+                        {% endif %}
+                      "
+                      href="{{ link.url }}"
+                    >
+                      {{ link.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              {% endif %}
+            </ul>
+          </div>
+        {% endfor %}
+
+        {% if link_mega_menu_feature_enable %}
+          <div class="col-start-10 col-span-3">
+            {% if link_mega_menu_feature_image %}
+              {% render 'mega-menu-feature-image', image: link_mega_menu_feature_image %}
+            {% endif %}
+
+            {% if link_mega_menu_feature_title %}
+              <h3 class="font-bold text-[20px]/[24px] mb-4 last:mb-0">
+                {{ link_mega_menu_feature_title }}
+              </h3>
+            {% endif %}
+
+            {% if link_mega_menu_feature_button_url and link_mega_menu_feature_button_text %}
+              <a class="font-bold text-grey-100 underline" href="{{ link_mega_menu_feature_button_url }}">
+                {{ link_mega_menu_feature_button_text }}
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="col-span-full">
+          <a class="flex items-center gap-x-4 hover:underline font-bold" href="{{ link.url }}">
+            {{ 'header.view_all' | t }} {{ link.title }}
+
+            {% render 'svg', name: 'arrow', class: 'text-[14px]' %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>

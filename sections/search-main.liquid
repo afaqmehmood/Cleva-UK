@@ -1,0 +1,112 @@
+{% assign products_per_page = settings.collection_products_per_page | default: 12 %}
+
+<section
+  class="{% render 'section-class', section: section %} md:overflow-hidden transition-opacity"
+  id="search-main"
+  x-data="collectionMain({ sectionId: {{ section.id | json | escape }} })"
+>
+  {% paginate search.results by products_per_page %}
+    {% if search.filters != empty %}
+      <div data-ref="facets">
+        {% liquid
+          render 'mobile-facets', object: search
+          render 'facets', object: search
+        %}
+      </div>
+    {% endif %}
+
+    <div class="container" :class="{ 'opacity-50': isLoading }" data-ref="productGridContainer">
+      {% render 'pagination', part: paginate.previous, part_handle: 'previous', url_suffix: '#search-main' %}
+
+      <ul class="main-grid gap-y-6 min-h-[200px]" data-ref="productGrid">
+        {% for product in search.results %}
+          {% liquid
+            assign image_loading = null
+
+            if forloop.index > 3
+              assign image_loading = 'lazy'
+            endif
+          %}
+
+          <li class="col-span-full md:col-span-4">
+            {% render 'product-card', product: product, image_loading: image_loading, form_enable: true %}
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% render 'pagination', part: paginate.next, part_handle: 'next', url_suffix: '#search-main' %}
+    </div>
+  {% endpaginate %}
+</section>
+
+{% schema %}
+  {
+    "name": "Search main",
+    "presets": [
+      {
+        "name": "Search main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["search"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

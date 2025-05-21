@@ -1,0 +1,196 @@
+{% liquid
+  assign is_sold_out = false
+
+  assign is_bis_notify = false
+
+  if bis_notify_enable and product.selected_or_first_available_variant.available == false
+    assign is_bis_notify = true
+  elsif product.selected_or_first_available_variant.available == false
+    assign is_sold_out = true
+  endif
+%}
+
+{% capture attribute %}
+  productForm({
+    product: {{ product | json | escape }},
+    variantId: {{ product.selected_or_first_available_variant.id | json | escape }}
+  })
+{% endcapture %}
+
+{% form 'product', product, x-data: attribute, class: 'contents' %}
+  <label class="sr-only" for="id">
+    {{ 'product.variants' | t }}
+  </label>
+
+  <select
+    class="flex-1 form-select p-6 pr-16 text-[20px]/[25px] rounded-2xl mb-6 hidden"
+    :class="{
+      'order-1 !mb-0': isSticky,
+      '!block': isSticky && !{{ product.has_only_default_variant | json }}
+    }"
+    id="id"
+    name="id"
+    x-model.number="variantId"
+  >
+    {% for variant in product.variants %}
+      {% assign cart_quantity = cart | item_count_for_variant: variant.id %}
+
+      <option
+        value="{{ variant.id }}"
+
+        {% if variant == product.selected_or_first_available_variant %}
+          selected
+        {% endif %}
+
+        {% if variant.available == false %}
+          disabled
+        {% endif %}
+      >
+        {% liquid
+          echo variant.title
+
+          echo variant.price | money | strip_html | prepend: ' - '
+
+          if variant.available == false
+            echo 'product.sold_out' | t | prepend: ' - '
+          endif
+
+          if cart_quantity > 0
+            echo 'product.quantity_in_cart_html' | t: quantity: cart_quantity | prepend: ' - '
+          endif
+        %}
+      </option>
+    {% endfor %}
+  </select>
+
+  {% if product.has_only_default_variant == false %}
+    <div class="mb-6" x-show="!isSticky" data-ref="formOptions">
+      {% for option in product.options_with_values %}
+        {% liquid
+          assign option_type = 'dropdown'
+
+          if forloop.index > 1
+            assign option_type = 'radio'
+          endif
+        %}
+
+        <div class="group mb-6 last:mb-0{% unless option_type == 'radio' %} overflow-hidden p-[1px]{% endunless %}">
+          {% if option_type == 'radio' %}
+            <fieldset class="flex flex-wrap gap-6">
+              <legend class="group-first:sr-only w-full font-bold mb-3">
+                {{ option.name }}
+              </legend>
+
+              {% render 'product-variant-options', option: option, type: option_type %}
+            </fieldset>
+          {% else %}
+            <label class="group-first:sr-only font-bold mb-3" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+              {{ option.name }}
+            </label>
+
+            <select
+              class="form-select p-6 pr-16 text-[20px]/[25px] rounded-2xl"
+              id="Option-{{ section.id }}-{{ forloop.index0 }}"
+              name="options[{{ option.name | escape }}]"
+              x-model="option{{ option.position }}"
+            >
+              {% render 'product-variant-options', option: option, type: option_type %}
+            </select>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if link_group %}
+    <div
+      class="mb-6 overflow-hidden p-[1px]"
+      :class="{
+        'order-1 !mb-0': isSticky
+      }"
+    >
+      <label class="sr-only" for="product-linked-group-products">
+        {{ 'product.linked_group_products' | t }}
+      </label>
+
+      <select
+        class="form-select p-6 pr-16 text-[20px]/[25px] rounded-2xl"
+        id="product-linked-group-products"
+        x-data="selectLink"
+      >
+        {% for linked_group_product in link_group.products.value %}
+          {% liquid
+            assign linked_group_product_title = linked_group_product.metafields.custom.linked_group_title.value | default: linked_group_product.title
+
+            assign linked_group_product_price = linked_group_product.price | money
+          %}
+
+          <option
+            value="{{ linked_group_product.url }}"
+
+            {% if linked_group_product == product %}
+              selected
+            {% endif %}
+          >
+            {{ linked_group_product_title }} - {{ linked_group_product_price }}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+  {% endif %}
+
+  {% comment %}
+    @NOTE:
+
+    - This button should be commented out until the compare section has been finished
+
+    -----
+
+    <button class="flex items-center gap-x-1.5 underline ml-auto mb-6" type="button" x-show="!isSticky">
+      {{ 'product.compare' | t }}
+
+      {% render 'svg', name: 'arrows', class: 'text-[14px]' %}
+    </button>
+  {% endcomment %}
+
+  <div :class="{ 'order-3 min-w-[200px]': isSticky }">
+    <div data-ref="formSubmit">
+      <button id="buy-button"
+        class="
+          form-button form-button--black py-3.5 w-full disabled:pointer-events-none
+
+          {% if is_bis_notify %}
+            klaviyo-bis-trigger
+          {% endif %}
+        "
+        :disabled="isVariantInvalid"
+
+        {% if is_bis_notify %}
+          type="button"
+        {% else %}
+          type="submit"
+        {% endif %}
+
+        {% if is_sold_out %}
+          disabled
+        {% endif %}
+      >
+        <span x-show="!isVariantInvalid">
+          {% if is_bis_notify %}
+            {{ 'product.bis_notify' | t }}
+          {% elsif is_sold_out %}
+            {{ 'product.sold_out' | t }}
+          {% else %}
+          {{ 'product.add_to_cart' | t }}
+          {% endif %}
+        </span>
+
+        <template x-if="isVariantInvalid">
+          <span>
+            {{ 'product.unavailable' | t }}
+          </span>
+        </template>
+      </button>
+    </div>
+  </div>
+{% endform %}

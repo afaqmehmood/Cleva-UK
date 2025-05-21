@@ -1,0 +1,233 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign blocks = section.blocks | default: null
+
+  assign blocks_article = blocks | where: 'type', 'article'
+
+  assign blocks_button = blocks | where: 'type', 'button'
+%}
+
+<section class="{% render 'section-class', section: section %}">
+  <div class="container main-grid">
+    <div class="col-span-full">
+      {% if pretitle %}
+        <p class="font-bold underline mb-4 last:mb-0">
+          {{ pretitle }}
+        </p>
+      {% endif %}
+    
+      {% if title %}
+        <h2 class="font-display !font-bold text-[38px]/[48px] md:text-[44px]/[51px]">
+          {{ title }}
+        </h2>
+      {% endif %}
+    </div>
+
+    {% if text %}
+      <div class="col-span-full md:col-span-6 xl:col-span-4 text-[20px] text-black/60 mt-4">
+        {{ text }}
+      </div>
+    {% endif %}
+
+    {% if blocks_article %}
+      {% capture slides_content %}
+        {% for block in blocks_article %}
+          {% liquid
+            assign block_blog = block.settings.blog | default: null
+
+            assign block_article = block.settings.article | default: null
+          
+            assign block_image_loading = block.settings.image_loading | default: null
+
+            if forloop.index > 3
+              assign block_image_loading = 'lazy'
+            endif
+
+            if block_blog and block_article == null
+              assign block_article = block_blog.articles[forloop.index0]
+            endif
+          %}
+
+          {% capture slide_content %}
+            {% render 'article-card', article: block_article, image_loading: block_image_loading, is_carousel: true %}
+          {% endcapture %}
+
+          {% render 'cards-carousel-slide', slide_content: slide_content %}
+        {% endfor %}
+      {% endcapture %}
+
+      {% render 'cards-carousel', slides_content: slides_content, slides_columns: 2.4, slides_gap: 5 %}
+    {% endif %}
+
+    {% if blocks_button %}
+      <div class="col-span-full mt-12 flex flex-wrap items-center gap-y-6 gap-x-12">
+        {% for block in blocks_button %}
+          {% liquid
+            assign block_style = block.settings.style | default: null
+
+            assign block_text = block.settings.text | default: null
+
+            assign block_url = block.settings.url | default: null
+          %}
+
+          {% if block_text and block_url %}
+            <div class="max-md:w-full">
+              {% render 'section-button', style: block_style, text: block_text, url: block_url %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Articles",
+    "presets": [
+      {
+        "name": "Articles"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "article",
+        "name": "Article",
+        "settings": [
+          {
+            "type": "blog",
+            "id": "blog",
+            "label": "Blog",
+            "info": "Automatically use a latest article from a particular blog."
+          },
+          {
+            "type": "article",
+            "id": "article",
+            "label": "Article",
+            "info": "Override the above and use a specific article."
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "name": "Button",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "select",
+            "id": "style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,838 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35": {
+      "type": "featured-text-with-icon",
+      "blocks": {
+        "aa9370f5-862d-4221-88f8-2df4783e5117": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "cyclonic",
+            "title": "Cyclonic",
+            "text": "<p>A high speed cyclone separates dust particles and funnels them into the large 2L dustbin.</p>"
+          }
+        },
+        "a73107f1-d813-4f4a-9738-d04082969ce4": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "shield-virus",
+            "title": "HEPA 13 Filtration",
+            "text": "<p>Traps 99.9% of dust and allergens including pollen, mould and bacteria*</p>"
+          }
+        },
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "ruler",
+            "title": "Long Cable",
+            "text": "<p>A 9m long power cable makes this vacuum great for homes of all sizes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "aa9370f5-862d-4221-88f8-2df4783e5117",
+        "a73107f1-d813-4f4a-9738-d04082969ce4",
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_text_with_image_aLB9xW": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_pRxFRp": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Allergen-Pro_Sealed_Dust2.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "AllergenPro™ Sealed Dust System",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>The AllergenPro™ Dust Management System and high-performance HEPA 13 filters capture microscopic dust from around your home and seal in 99.9% of dirt and allergens including pollen, mould, and bacteria.* Helping to keep them out of the air you breathe. More filtration than an unsealed vacuum cleaner. *According to EN 60312-1 at 0.3 to 10 microns.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_pRxFRp"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "featured_text_with_image_PmFD8q": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_hRYWwx": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/Vacmaster_Wrap_Free_Brush_Roll2.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "WrapFree™ Brush Roll",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>With the WrapFree™ brush roll, trapped hair is continually cut and removed from the brush roll as you vacuum. The hair is then captured inside the dust bin, ready for disposal next time you empty. Removing hair from the brush roll keeps your vacuum performing at its best and reduces contact and maintenance.</p>",
+            "button_1_style": "black",
+            "button_1_text": "View guarantee",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_hRYWwx"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_cards_LbU947": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_XzYgYx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Respira_Pet-UC0413EUK_Vacmaster_Dual_Motor.webp",
+            "image_loading": "lazy",
+            "title": "Vacmaster Dual Motor",
+            "text": "<p>Powers the vacuum and the WrapFree™ brush roll independently, so there’s no drop in suction when you turn the brush roll on.</p>",
+            "url": ""
+          }
+        },
+        "card_Cmwr7p": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Respira_Pet_UC0413EUK_Vacmaster_Pet_Mate.webp",
+            "image_loading": "",
+            "title": "Pet Mate Tool",
+            "text": "<p>Our specially designed Pet Mate tool agitates and removes embedded pet hair from upholstery, carpets and cars.</p>",
+            "url": ""
+          }
+        },
+        "card_p3THhR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Respira_Pet-UC0413EUK_All_Floor_Cleaning.webp",
+            "image_loading": "",
+            "title": "All Floor Cleaning",
+            "text": "<p>An all-floor head cleans all floor surfaces. Power the brush bar to drive nylon bristles deep into carpets. Switch off the brush bar to vacuum delicate, hard floors.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_XzYgYx",
+        "card_Cmwr7p",
+        "card_p3THhR"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "",
+        "pretitle": "Explore",
+        "title": "Features & Benefits",
+        "text": ""
+      }
+    },
+    "featured_cards_EaTwDx": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_xNa8q3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Above_Floor_Cleaning_Respira_Pet.webp",
+            "image_loading": "",
+            "title": "Above Floor Cleaning",
+            "text": "<p>Simply detach the cleaning wand and attach the supplied 3-in-1 tool for an extended reach. Clean hard-to-reach places with the 3m extendable hose. Ideal for floor to ceiling cleaning.</p>",
+            "url": ""
+          }
+        },
+        "card_X6xwgf": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Upright_Vacuum_Cleaner_LED_Task_Lights.webp",
+            "image_loading": "",
+            "title": "LED Task Lights",
+            "text": "<p>Ensure a thorough clean by highlighting dust and dirt during cleaning. Ideal for cleaning under and around furniture.</p>",
+            "url": ""
+          }
+        },
+        "card_b9bekX": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_AllergenPro_Dogs_Trust_2024.webp",
+            "image_loading": "",
+            "title": "Supporting Dogs Trust",
+            "text": "<p>Cleva Europe Limited will donate 2% of the sale price to Dogs Trust (Registered Charity Numbers 1167663 & SC053144) for every UK sale of Vacmaster Respira, Vacmaster Respira Pet, Vacmaster Captura and Vacmaster Captura Pet sold through cleva-uk.com.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_xNa8q3",
+        "card_X6xwgf",
+        "card_b9bekX"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_quotes_YamDdc": {
+      "type": "featured-quotes",
+      "blocks": {
+        "quote_z6FiLd": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "text": "Deep clean the unseen with this powerful cyclonic vacuum cleaner",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": "vacmaster"
+          }
+        },
+        "quote_TMEiLw": {
+          "type": "quote",
+          "settings": {
+            "text": "\"A powerful and hardworking vacuum cleaner that makes light work of tough jobs.\"",
+            "text_alignment": "text-center",
+            "name": "Trusted Reviews",
+            "logo": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_z6FiLd",
+        "quote_TMEiLw"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_text_with_image_FXPR6E": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_EqpgRz": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Eco_Friendly_Packaging.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "Recyclable Product Packaging",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Embrace cleaner and greener packaging with Vacmaster. Our sustainable 100% recyclable packaging reduces our environmental impact through the use of plant-based soybean inks and by removing single-use plastics.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_BJRzj8": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Allergen-Lightweight_and_easy_to_use.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "Lightweight and Robust",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Weighing only 6.4kg, this vacuum cleaner is light and easy to use on floors, the stairs and up high.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_EqpgRz",
+        "text_with_image_BJRzj8"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c": {
+      "type": "featured-features",
+      "blocks": {
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/UC0413EUK_Vacmaser_Respira_Pet_2_Year_Guarantee.webp",
+            "image_loading": "",
+            "icon": "guarantee",
+            "title": "3-Year Guarantee",
+            "text": "<p>Buy with the confidence of knowing that your new Vacmaster vacuum cleaner comes with a 2 year guarantee. Simply register the product on receipt to extend this to a 3 year guarantee. Instructions supplied with the product. T&Cs apply.</p>"
+          }
+        },
+        "501a6d11-0820-42d7-9455-af4a760a8e04": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/UC0413EUK_Vacmaser_Respira_Crevice_Tool.webp",
+            "image_loading": "",
+            "icon": "tools",
+            "title": "3-in-1 Combination Tool",
+            "text": "<p>Reach further with the supplied 3-in-1 crevice tool, dusting brush and upholstery brush.</p>"
+          }
+        },
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/UC0413EUK_Vacmaser_Respira_Easy_Steering.webp",
+            "image_loading": "",
+            "icon": "steer",
+            "title": "Easy Steer",
+            "text": "<p>The 180-degree steering makes it easy to clean around furniture.</p>"
+          }
+        },
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/UC0413EUK_Vacmaser_Respira_UK_On_Board_Storage.webp",
+            "image_loading": "",
+            "icon": "plus-square",
+            "title": "On Board Storage",
+            "text": "<p>Keep accessories within easy reach with handy onboard accessory storage.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a",
+        "501a6d11-0820-42d7-9455-af4a760a8e04",
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750",
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_hero_V6A8yr": {
+      "type": "featured-hero",
+      "blocks": {
+        "hero_VBULpa": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000000",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/Vacmaster_AllergenPro_Respira_Pet_Videoalt.webp",
+            "image_mobile": "shopify://shop_images/Vacmaster_AllergenPro_Respira_Video_Mob2_f3102613-a57e-47fe-8115-9f2aa6ecab6a.webp",
+            "image_loading": "lazy",
+            "video": "shopify://files/videos/Vacmaster AllergenPro Respira Ad (website).mp4",
+            "video_autoplay": false,
+            "video_controls": true,
+            "video_hide_content_when_playing": true,
+            "video_play_button_inverted": true,
+            "logo": "vacmaster",
+            "align_content": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title_size": "large",
+            "title": "Deep Clean\nThe Unseen",
+            "subtitle_tag": "h2",
+            "subtitle": "Vacmaster AllergenPro™",
+            "button_1_style": "link",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "feature_1_title": "Designed for Pets",
+            "feature_1_text": "With Pet Mate Tool & HEPA 13",
+            "feature_2_title": "Clean Deeper",
+            "feature_2_text": "Seal in 99.9% of Dust & Allergens",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "hero_VBULpa"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": false
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_RDkHcc": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "In the Box",
+            "text": "<p>3-in-1 combination tool, Pet Mate tool, upholstery tool.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image": "shopify://shop_images/Vacmaster_Respira_Pet_in_box.webp",
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "vacmaster-respira-pet-upright-vacuum-cleaner-1",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Product Support",
+            "text": "<p>Learn how to use, maintain and troubleshoot your Vacmaster vacuum cleaner with easy to follow videos, user guides and FAQs.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Go to product support",
+            "button_1_url": "shopify://metaobjects/product_support/vacmaster-respira-pet-upright-vacuum-cleaner",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Instruction Manual",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "Download",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/bagless_upright_vacuum-cleaner_vacmaster_Respira_UC0412EUK-UC0413EUK_manual.pdf?v=1679587109",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_RDkHcc",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Information",
+        "title_size": "large",
+        "title": "Specification",
+        "text": ""
+      }
+    },
+    "88f30ef1-5d27-47e7-9655-32f0d8016675": {
+      "type": "featured-collection",
+      "blocks": {
+        "94592e8c-f8a7-4d05-95bd-1984549039b5": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Shop All",
+            "url": "shopify://collections/uc0413euk-accessories"
+          }
+        },
+        "4a3319f2-a88e-4233-a4b4-72590768cea0": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "shopify://metaobjects/product_support/vacmaster-respira-pet-upright-vacuum-cleaner"
+          }
+        }
+      },
+      "block_order": [
+        "94592e8c-f8a7-4d05-95bd-1984549039b5",
+        "4a3319f2-a88e-4233-a4b4-72590768cea0"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Discover",
+        "title": "Accessories & Spare Parts",
+        "text": "",
+        "collection": "uc0413euk-accessories",
+        "products_per_page": 9
+      }
+    },
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Reviews",
+        "title": "Don't just take our word for it"
+      }
+    },
+    "featured_articles_6pYXMw": {
+      "type": "featured-articles",
+      "blocks": {
+        "article_pU7fUE": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/common-allergens-around-the-home",
+            "image_loading": ""
+          }
+        },
+        "article_UYtKY9": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/vacuum-cleaners-the-benefits-of-using-a-hepa-filter",
+            "image_loading": ""
+          }
+        },
+        "article_Br7Rxg": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/cleaning-tips-for-allergen-sufferers",
+            "image_loading": ""
+          }
+        },
+        "article_TkyhFC": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/cleva-to-raise-funds-for-leading-uk-charity-dogs-trust",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_pU7fUE",
+        "article_UYtKY9",
+        "article_Br7Rxg",
+        "article_TkyhFC"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
+      "type": "product-recommendations",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Related",
+        "title": "You May Also Like"
+      }
+    },
+    "featured_accordion_YyyUxg": {
+      "type": "featured-accordion",
+      "blocks": {
+        "button_DYDnbx": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://metaobjects/product_support/vacmaster-respira-pet-upright-vacuum-cleaner"
+          }
+        },
+        "entry_Kf4exw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>This Vacmaster appliance, spare parts and accessories carry a 2-year guarantee. Simply register to increase this to 3-years.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Register",
+            "button_1_url": "shopify://pages/guarantee-form",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_mbP8Km": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Bb8WRF": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_DYDnbx",
+        "entry_Kf4exw",
+        "entry_mbP8Km",
+        "entry_Bb8WRF"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "featured_content_7E4itj": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "product-main",
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
+    "featured_text_with_image_aLB9xW",
+    "featured_text_with_image_PmFD8q",
+    "featured_cards_LbU947",
+    "featured_cards_EaTwDx",
+    "featured_quotes_YamDdc",
+    "featured_text_with_image_FXPR6E",
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
+    "featured_hero_V6A8yr",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "88f30ef1-5d27-47e7-9655-32f0d8016675",
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
+    "featured_articles_6pYXMw",
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
+    "featured_accordion_YyyUxg",
+    "featured_content_7E4itj"
+  ]
+}

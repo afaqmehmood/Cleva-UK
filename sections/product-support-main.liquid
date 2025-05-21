@@ -1,0 +1,218 @@
+{% liquid
+  assign metaobject_handle = section.settings.metaobject_handle | default: null
+
+  assign collection = metaobject.collection.value
+%}
+
+{% capture newline %}
+{% endcapture %}
+{% assign newline_double = newline | append: newline %}
+
+<section class="{% render 'section-class', section: section %} container">
+  {% if collection %}
+    <h2 class="font-display !font-bold text-[38px]/[48px] md:text-[44px]/[51px] mb-12">
+      {{ 'product_support.select_your_model' | t }}
+    </h2>
+
+    <ul class="main-grid gap-y-9">
+      {% paginate collection.products by 1000 %}
+        {% assign forloop_index = 0 %}
+
+        {% for product in collection.products %}
+          {% liquid
+            if metaobject_handle == 'product_accessories'
+              assign product_accessories_collection = product.metafields.custom.accessories_collection.value
+
+              assign product_url = product_accessories_collection.url
+
+              unless product_accessories_collection
+                continue
+              endunless
+
+              if product.tags contains 'Battery Not Included'
+                continue
+              endif
+            else
+              paginate shop.metaobjects[metaobject_handle].values by 1000
+                assign product_support_metaobject = shop.metaobjects[metaobject_handle].values | where: 'title', product.title | first
+              endpaginate
+
+              assign product_url = product_support_metaobject.system.url
+
+              unless product_support_metaobject
+                continue
+              endunless
+            endif
+
+            assign forloop_index = forloop_index | plus: 1
+
+            assign image_loading = null
+
+            if forloop_index > 4
+              assign image_loading = 'lazy'
+            endif
+          %}
+
+          <li class="col-span-full md:col-span-3">
+            {% render 'product-card',
+              product: product,
+              image_loading: image_loading,
+              url: product_url,
+              is_border: false,
+              is_price_enabled: false
+            %}
+          </li>
+        {% endfor %}
+      {% endpaginate %}
+
+      {%- if section.blocks.size > 0 -%}
+        {%- for block in section.blocks -%}
+
+          {%- liquid
+            assign image = block.settings.image
+            assign pretitle = block.settings.pretitle
+            assign title = block.settings.title
+            assign subtitle = block.settings.subtitle
+            assign features = block.settings.features | replace: newline_double, newline | split: newline
+            assign tags = block.settings.tags | replace: newline_double, newline | split: newline
+            assign product_url = block.settings.product_url
+          -%}
+
+          <li class="col-span-full md:col-span-3">
+            {% render 'product-card-manual',
+              image: image,
+              image_loading: 'lazy',
+              tags: tags,
+              pretitle: pretitle,
+              title: title,
+              subtitle: subtitle,
+              features: features,
+              url: product_url,
+              is_border: false
+            %}
+          </li>
+        {%- endfor -%}
+      {%- endif -%}
+    </ul>
+  {% endif %}
+</section>
+
+{% schema %}
+  {
+    "name": "Choose Your Model",
+    "presets": [
+      {
+        "name": "Choose Your Model"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "metaobject_handle",
+        "label": "Metaobject handle"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "archived_product",
+        "name": "Archived product",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "tags",
+            "label": "Badge tags"
+          },
+          {
+            "type": "text",
+            "id": "pretitle",
+            "label": "Pre-Title"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Sub-Title"
+          },
+          {
+            "type": "textarea",
+            "id": "features",
+            "label": "Features"
+          },
+          {
+            "type": "url",
+            "id": "product_url",
+            "label": "URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

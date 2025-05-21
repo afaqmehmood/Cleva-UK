@@ -1,0 +1,75 @@
+{% assign cart_product_ids = cart.items | map: 'product' | map: 'id' %}
+
+<div class="h-full flex flex-col">
+  <div class="flex-1 overflow-auto mt-4 pb-4 md:pb-8">
+    <div class="flex gap-x-5 md:gap-x-14 border-b border-grey-50 pb-[21px] mb-[21px] text-[20px] font-bold">
+      <h2>
+        {{ 'cart.title' | t }}
+      </h2>
+
+      <div class="text-grey-100" data-ref="itemCount">
+        {{ 'cart.item_count' | t: item_count: cart.item_count }}
+      </div>
+    </div>
+    
+    <ul data-ref="items">
+      {% liquid
+        for item in cart.items
+          render 'cart-item', item: item, is_mini_cart: is_mini_cart
+        endfor
+      %}
+    </ul>
+
+    {% if is_mini_cart %}
+      <div
+        class="
+          max-md:mt-8
+          md:absolute md:top-0 md:bottom-0 md:right-full md:border-l md:border-r
+          md:w-[230px] md:pt-8 md:px-6 md:flex md:flex-col md:bg-white
+        "
+        x-data='cartRecommendations({ productIds: {{ cart_product_ids | json }} })'
+        x-show="isEnabled && !isLoading"
+        x-transition.opacity
+      >
+        <h2 class="mb-4 md:mb-6 text-grey-300 text-center">
+          {{ 'cart.recommendations_title' | t }}
+        </h2>
+        
+        
+        <ul class="flex flex-wrap gap-y-6 -ml-4 md:flex-1 md:overflow-auto md:pb-8" x-html="productsHtml"></ul>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="flex flex-col gap-y-6 text-center">
+    <p class="-mx-4 md:-mx-8 px-4 md:px-8 py-2 bg-grey-50 text-grey-300">
+      {{ 'cart.discount_code' | t }}
+    </p>
+
+    <p class="flex justify-between gap-x-6 text-grey-300" data-ref="total">
+      {{ 'cart.subtotal' | t }}
+
+      <span>
+        {{ cart.total_price | money }}
+      </span>
+    </p>
+
+    <form action="{{ routes.cart_url }}" method="post">
+      <button id="checkout-button" class="form-button form-button--black w-full" name="checkout" type="submit">
+        {{ 'cart.checkout' | t }}
+      </button>
+    </form>
+
+    {% if is_mini_cart %}
+      <button
+        class="group/button inline-flex items-center justify-center gap-x-4 font-bold"
+        type="button"
+        @click="isOpen && toggle()"
+      >
+        {{ 'cart.continue_shopping' | t }}
+
+        {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition-transform' %}
+      </button>
+    {% endif %}
+  </div>
+</div>

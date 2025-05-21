@@ -1,0 +1,34 @@
+{% liquid
+  assign class = class | append: ' w-full transition-transform group-hover/card:scale-110 group-focus-within/card:scale-110'
+
+  assign width = 2000
+
+  assign widths = '294, 398, 588, 796, 882'
+%}
+
+{% capture sizes %}
+  (min-width: 768px) calc(33vw - 77px),
+  calc(100vw - 66px)
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+<div
+  style="
+    {% if settings.product_image_background_enable and settings.product_image_background_color %}
+      background-color: {{ settings.product_image_background_color }};
+    {% endif %}
+  "
+>
+  <div
+    class="
+      {% unless is_cart_recommendation %}
+        {% if settings.product_card_image_size == 'small' %}
+          w-3/4 mx-auto
+        {% endif %}
+      {% endunless %}
+    "
+  > 
+    {{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}
+  </div>
+</div>

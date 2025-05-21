@@ -1,0 +1,75 @@
+{% capture svg_select %}
+  {% render 'svg', name: 'select' %}
+{% endcapture %}
+
+{% assign svg_select = svg_select
+  | strip_newlines
+  | strip
+  | url_param_escape
+  | prepend: 'data:image/svg+xml;charset=utf8,'
+%}
+
+<style>
+  @font-face {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-display: swap;
+    src: url('{{ "font-manrope-500.woff2" | asset_url }}') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-display: swap;
+    src: url('{{ "font-manrope-700.woff2" | asset_url }}') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-display: swap;
+    src: url('{{ "font-manrope-800.woff2" | asset_url }}') format('woff2');
+  }
+
+  :root {
+    --font-base-family: 'Manrope', sans-serif;
+    --font-base-style: normal;
+    --font-base-weight: 500;
+
+    --font-display-family: 'Manrope', sans-serif;
+    --font-display-style: normal;
+    --font-display-weight: 800;
+    --font-display-letter-spacing: -0.043em;
+
+    --svg-select: url('{{ svg_select }}');
+
+    --container-width: {{ settings.spacing_container_width }};
+    --container-padding-x: {{ settings.spacing_container_padding_x }};
+    --md-container-padding-x: {{ settings.spacing_md_container_padding_x }};
+
+    --main-grid-cols: {{ settings.spacing_main_grid_cols }};
+    --md-main-grid-cols: {{ settings.spacing_md_main_grid_cols }};
+    --main-grid-gap-x: {{ settings.spacing_main_grid_gap_x }};
+    --md-main-grid-gap-x: {{ settings.spacing_md_main_grid_gap_x }};
+
+    --announcement-bar-height-live: 0px;
+    --announcement-bar-height: 26px;
+    --announcement-bar-height-visible-live: 0px;
+    --announcement-bar-height-visible: var(--announcement-bar-height);
+
+    --header-height-live: 0px;
+    --header-height: 68px;
+  }
+
+@media (min-width: 768px) {
+  :root {
+    --announcement-bar-height: 42px;
+  }
+}
+
+  @media (min-width: 1024px) {
+    :root {
+      --header-height: 80px;
+    }
+  }
+</style>

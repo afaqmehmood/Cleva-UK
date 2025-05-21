@@ -1,0 +1,13 @@
+{% if product.content != blank %}
+  <div x-show="!isSticky">
+    <div class="main-grid !grid-cols-5">
+      {%
+        render 'text-truncate',
+        text: product.content,
+        truncate_enable: true,
+        class: 'col-span-full md:col-span-4 pb-6 border-b border-grey-50 text-grey-300',
+        text_class: 'space-y-6'
+      %}
+    </div>
+  </div>
+{% endif %}

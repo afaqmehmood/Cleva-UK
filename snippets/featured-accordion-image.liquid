@@ -1,0 +1,16 @@
+{% liquid
+  assign class = class | append: ' w-full rounded-2xl'
+
+  assign width = 2000
+
+  assign widths = '328, 656, 984, 1320'
+%}
+
+{% capture sizes %}
+  (min-width: 768px) calc(46vw),
+  calc(100vw - 32px)
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+{{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}

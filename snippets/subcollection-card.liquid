@@ -1,0 +1,20 @@
+<article class="group overflow-hidden relative">
+  {% if subcollection.image %}
+    <div class="group overflow-hidden rounded-2xl">
+      {% render 'subcollection-card-image', image: subcollection.image, loading: image_loading %}
+    </div>
+  {% endif %}
+
+  <h3 class="mt-6 text-center">
+    <a
+      class="live-full-focus-ring"
+      href="{{ subcollection.url }}"
+
+      {% if is_carousel %}
+        x-bind="bindSlideFocusable"
+      {% endif %}
+    >
+      {{ subcollection.title }}
+    </a>
+  </h3>
+</article>

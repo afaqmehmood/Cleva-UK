@@ -1,0 +1,40 @@
+{% liquid
+  if template.name != 'blog'
+    assign blog_handle = article.handle | split: '/' | first
+    
+    assign blog = blogs[blog_handle]
+  endif
+
+  assign badge_tags = blog.metafields.custom.badge_tags.value
+%}
+
+<article class="group overflow-hidden relative">
+  {% if article.image %}
+    <div class="group overflow-hidden rounded-2xl mb-4 last:mb-0">
+      {% render 'article-card-image', image: article.image, loading: image_loading %}
+    </div>
+  {% endif %}
+
+  {% if article.tags != empty %}
+    {% render 'tags', tags: article.tags, whitelist_tags: badge_tags, class: 'mb-4 last:mb-0' %}
+  {% endif %}
+
+  <h3 class="mb-4 last:mb-0 font-bold text-[21px]/[23px] -tracking-[0.01em]">
+    <a
+      class="live-full-focus-ring"
+      href="{{ article.url }}"
+      
+      {% if is_carousel %}
+        x-bind="bindSlideFocusable"
+      {% endif %}
+    >
+      {{ article.title }}
+    </a>
+  </h3>
+
+  {% if article.metafields.custom.reading_time.value %}
+    <p class="text-grey-100">
+      {{ article.metafields.custom.reading_time.value }}
+    </p>
+  {% endif %}
+</article>

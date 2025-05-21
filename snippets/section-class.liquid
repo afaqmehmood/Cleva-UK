@@ -1,0 +1,75 @@
+{% liquid
+  assign padding_top = section.settings.padding_top | default: null
+
+  assign padding_top_mobile = section.settings.padding_top_mobile | default: null
+
+  assign padding_bottom = section.settings.padding_bottom | default: null
+
+  assign padding_bottom_mobile = section.settings.padding_bottom_mobile | default: null
+
+  case padding_top
+    when blank
+      echo 'pt-0'
+    when '2xs'
+      echo 'pt-6'
+    when 'xs'
+      echo 'pt-12'
+    when 'sm'
+      echo 'pt-20'
+    when 'md'
+      echo 'pt-28'
+    when 'lg'
+      echo 'pt-44'
+  endcase
+
+  echo ' '
+
+  case padding_top_mobile
+    when blank
+      echo 'max-md:pt-0'
+    when '2xs'
+      echo 'max-md:pt-6'
+    when 'xs'
+      echo 'max-md:pt-12'
+    when 'sm'
+      echo 'max-md:pt-20'
+    when 'md'
+      echo 'max-md:pt-28'
+    when 'lg'
+      echo 'max-md:pt-44'
+  endcase
+
+  echo ' '
+
+  case padding_bottom
+    when blank
+      echo 'pb-0'
+    when '2xs'
+      echo 'pb-6'
+    when 'xs'
+      echo 'pb-12'
+    when 'sm'
+      echo 'pb-20'
+    when 'md'
+      echo 'pb-28'
+    when 'lg'
+      echo 'pb-44'
+  endcase
+
+  echo ' '
+
+  case padding_bottom_mobile
+    when blank
+      echo 'max-md:pb-0'
+    when '2xs'
+      echo 'max-md:pb-6'
+    when 'xs'
+      echo 'max-md:pb-12'
+    when 'sm'
+      echo 'max-md:pb-20'
+    when 'md'
+      echo 'max-md:pb-28'
+    when 'lg'
+      echo 'max-md:pb-44'
+  endcase
+%}

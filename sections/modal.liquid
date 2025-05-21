@@ -1,0 +1,137 @@
+{% comment %}
+  @TODO:
+
+  - Is Klaviyo in new tab ok?
+{% endcomment %}
+
+{% liquid
+  assign enable = section.settings.enable | default: null
+
+  assign image = section.settings.image | default: null
+
+  assign title = section.settings.title | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign klaviyo_list_id = section.settings.klaviyo_list_id | default: null
+%}
+
+{% if enable %}
+  <div
+    class="fixed inset-0 z-40 overflow-y-auto"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+    x-data="modal"
+    x-show="isOpen"
+    x-cloak
+    @keyup.escape.window="isOpen && toggle()"
+  >
+    <div class="fixed inset-0 bg-black/50" x-show="isOpen" x-transition.opacity></div>
+
+    <div
+      class="relative flex min-h-screen items-center justify-center py-6 px-[--container-padding-x]"
+      x-show="isOpen"
+      @click="toggle()"
+      x-transition
+    >
+      <div
+        class="relative w-full flex max-w-[842px] overflow-y-auto bg-white"
+        x-trap.noscroll.inert="isOpen"
+        @click.stop
+      >
+        {% if image %}
+          {% render 'modal-image', image: image %}
+        {% endif %}
+
+        <div class="flex-1 py-6 px-[--container-padding-x] md:p-12">
+          <button class="absolute top-[18px] right-[30px]" type="button" @click="toggle">
+            {% render 'svg', name: 'cross', class: 'text-[18px]' %}
+          </button>
+
+          {% if title %}
+            <h2 class="font-display !font-bold text-[21px]/[23px] md:text-[33px]/[35px] mb-6 last:mb-0" id="modal-title">
+              {{ title }}
+            </h2>
+          {% endif %}
+
+          {% if text %}
+            <div class="space-y-6 text-[16px]/[20px] [&_ul]:list-disc [&_ul]:pl-[1em] [&_ul]:text-grey-300 mb-8 last:mb-0">
+              {{ text }}
+            </div>
+          {% endif %}
+
+          {% if klaviyo_list_id %}
+            <form id="newsletter-form" action="https://manage.kmail-lists.com/subscriptions/subscribe" method="post" target="_blank">
+              <input type="hidden" name="g" value="{{ klaviyo_list_id }}">
+
+              <label class="sr-only" for="modal-email">
+                {{ 'newsletter_form.email' | t }}
+              </label>
+
+              <input
+                class="form-input mb-2 px-2 py-4"
+                type="email"
+                id="modal-email"
+                name="email"
+                placeholder="{{ 'newsletter_form.email' | t }}"
+                required
+              >
+
+              <div class="flex gap-x-[10px] mb-8">
+                <input class="form-checkbox mt-[4px]" type="checkbox" id="modal-checkbox" required>
+
+                <label class="font-bold text-[13px]/[normal] text-grey-100" for="modal-checkbox">
+                  {{ 'newsletter_form.checkbox' | t }}
+                </label>
+              </div>
+
+              <div class="flex items-center gap-x-6">
+                <button id="newsletter-form-submit" class="form-button form-button--black" type="submit">
+                  {{ 'newsletter_form.submit' | t }}
+                </button>
+
+                <button class="font-bold underline text-grey-300" type="button" @click="toggle">
+                  {{ 'newsletter_form.cancel' | t }}
+                </button>
+              </div>
+            </form>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Modal",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable",
+        "label": "Enable?"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "klaviyo_list_id",
+        "label": "Klaviyo list ID"
+      }
+    ]
+  }
+{% endschema %}

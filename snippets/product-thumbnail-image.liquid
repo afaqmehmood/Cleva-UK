@@ -1,0 +1,25 @@
+{% liquid
+  assign class = class | append: ' w-full'
+
+  assign width = 2000
+
+  assign widths = '42, 84, 126, 260'
+%}
+
+{% capture sizes %}
+  (min-width: 768px) 100px,
+  42px
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+<div
+  class="rounded-lg overflow-hidden"
+  style="
+    {% if settings.product_image_background_enable and settings.product_image_background_color %}
+      background-color: {{ settings.product_image_background_color }};
+    {% endif %}
+  "
+>
+  {{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}
+</div>

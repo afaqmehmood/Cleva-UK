@@ -1,0 +1,54 @@
+{% liquid
+  if truncate_enable
+    assign ellipsis_symbol = '…'
+
+    assign text_truncated = text | strip_html | truncatewords: 32, ellipsis_symbol
+
+    unless text_truncated contains ellipsis_symbol
+      assign truncate_enable = false
+    endunless
+  endif
+%}
+
+<div
+  class="{{ class }}"
+
+  {% if truncate_enable %}
+    x-data="textTruncate"
+  {% endif %}
+>
+  {% if truncate_enable %}
+    <div x-show="!isOpen">
+      {{ text_truncated }}
+
+      <button
+        class="inline-flex items-center gap-x-2 border-b hover:text-black"
+        x-show="!isOpen"
+        type="button"
+        @click="isOpen = true"
+      >
+        {{ 'text_truncate.read_more' | t }}
+
+        {% render 'svg', name: 'arrow', class: 'rotate-90 text-[16px]' %}
+      </button>
+    </div>
+
+    <template x-if="isOpen">
+      <div class="{{ text_class }}">
+        {{ text }}
+
+        <button
+          class="inline-flex items-center gap-x-2 border-b hover:text-black"
+          type="button"
+          @click="isOpen = false"
+        >
+          {{ 'text_truncate.read_less' | t }}
+  
+          {% render 'svg', name: 'arrow', class: '-rotate-90 text-[16px]' %}
+        </button>
+      </div>
+    </template>
+  {% else %}
+    {{ text }}
+  {% endif %}
+</div>

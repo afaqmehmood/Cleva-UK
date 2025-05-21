@@ -1,0 +1,23 @@
+{% liquid
+  assign class = class | append: ' w-full h-full object-cover'
+
+  assign preload = null
+
+  unless autoplay
+    assign preload = 'none'
+  endunless
+%}
+
+{{
+  video
+  | video_tag:
+    class: class,
+    image_size: '2000x',
+    autoplay: autoplay,
+    loop: autoplay,
+    controls: controls,
+    muted: autoplay,
+    preload: preload,
+    image_size: '1x'
+  | replace: '<video', '<video x-ref="video"'
+}}

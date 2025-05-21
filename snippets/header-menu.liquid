@@ -1,0 +1,53 @@
+<nav id="header-menu">
+  <ul class="flex flex-wrap items-center gap-x-4 xl:gap-x-8">
+    {% for link in menu.links %}
+      {% liquid
+        assign link_class = 'block font-bold hover:underline [[open]_>_&]:underline decoration-1 underline-offset-[theme(spacing.3)]'
+
+        if link.active
+          assign link_class = link_class | append: ' font-bold'
+        endif
+      %}
+
+      <li class="max-lg:hidden">
+        {% if link.links == empty %}
+          <a class="{{ link_class }}" href="{{ link.url }}">
+            {{ link.title }}
+          </a>
+        {% else %}
+          {% render 'mega-menu',
+            newline: newline,
+            newline_double: newline_double,
+            forloop: forloop,
+            link: link,
+            link_class: link_class,
+            blocks_mega_menu: blocks_mega_menu
+          %}
+        {% endif %}
+      </li>
+    {% endfor %}
+
+    {% if button_text %}
+      <li
+        id="header-promotion-button"
+        class="
+          ml-auto
+
+          {% if position_overlay %}
+            max-lg:absolute max-lg:top-full max-lg:right-[--container-padding-x] xl:ml-auto
+          {% else %}
+            max-lg:hidden
+          {% endif %}
+        "
+        x-show="$store.screens.active.includes('lg') || (!$store.screens.active.includes('lg') && !isHidden)"
+        x-transition.opacity
+      >
+        {% render 'header-button',
+          text: button_text,
+          url: button_url,
+          is_modal: button_modal
+        %}
+      </li>
+    {% endif %}
+  </ul>
+</nav>

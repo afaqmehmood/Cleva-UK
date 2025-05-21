@@ -1,0 +1,128 @@
+{% liquid
+  assign metaobject_handle = section.settings.metaobject_handle | default: null
+
+  assign image_aspect_ratio = section.settings.image_aspect_ratio | default: null
+
+  assign metaobjects = shop.metaobjects[metaobject_handle].values
+%}
+
+<section class="{% render 'section-class', section: section %} container">
+  {% for metaobject in metaobjects %}
+    <div class="main-grid mb-28 last:mb-0">
+      {% if metaobject.title.value %}
+        <div class="col-span-full md:mb-4 last:mb-0">
+          <h2 class="font-display !font-bold text-[38px]/[48px] md:text-[44px]/[51px]">
+            {{ metaobject.title.value }}
+          </h2>
+        </div>
+      {% endif %}
+
+      {% if metaobject.entries.value %}
+        {% capture slides_content %}
+          {% for entry_metaobject in metaobject.entries.value %}
+            {% capture slide_content %}
+              {% render 'card',
+                image: entry_metaobject.collection.value.image,
+                image_aspect_ratio: image_aspect_ratio,
+                title: entry_metaobject.title.value,
+                url: entry_metaobject.system.url
+                is_small: true,
+                is_carousel: true
+              %}
+            {% endcapture %}
+  
+            {% render 'cards-carousel-slide', slide_content: slide_content %}
+          {% endfor %}
+        {% endcapture %}
+  
+        {% render 'cards-carousel', slides_content: slides_content, slides_columns: 4, slides_gap: 5 %}
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+  {
+    "name": "Product supp. categ. main",
+    "presets": [
+      {
+        "name": "Product support categories main"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "metaobject_handle",
+        "label": "Metaobject handle"
+      },
+      {
+        "type": "select",
+        "id": "image_aspect_ratio",
+        "label": "Image aspect ratio",
+        "options": [
+          { "value": "", "label": "Auto" },
+          { "value": "square", "label": "Sqaure" }
+        ]
+      }
+    ]
+  }
+{% endschema %}

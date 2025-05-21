@@ -1,0 +1,147 @@
+{% liquid
+  assign order_date = order.created_at | time_tag: format: 'date_at_time'
+
+  assign cancelled_at = order.cancelled_at | time_tag: format: 'date_at_time'
+%}
+
+<section class="customer order {% render 'section-class', section: section %}">
+  <div class="container">
+    <header class="mb-12">
+      <h1 class="font-bold text-[33px]/[50px] md:text-[40px]/[48px] mb-4">
+        {{ 'customer.account.title' | t }}
+      </h1>
+
+      <a class="group/button inline-flex items-center gap-x-4 mb-4" href="{{ routes.account_url }}">
+        {% render 'svg', name: 'account', class: 'text-[14px]' %}
+
+        {{ 'customer.order.return' | t }}
+
+        {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+      </a>
+
+      <p class="mb-4">
+        {{ 'customer.order.date_html' | t: date: order_date }}
+      </p>
+  
+      {% if order.cancelled %}
+        <p class="mb-4">
+          {{ 'customer.order.cancelled_html' | t: date: cancelled_at }}
+        </p>
+  
+        <p class="mb-4">
+          {{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason_label }}
+        </p>
+      {% endif %}
+    </header>
+
+    <div class="main-grid gap-y-12">
+      <div class="col-span-full lg:col-span-8">
+        <h2 class="font-bold text-[20px]/[25px] mb-6">
+          {{ 'customer.order.title' | t: name: order.name }}
+        </h2>
+
+        {% render 'customer-order-table' %}
+      </div>
+
+      <div class="col-span-full lg:col-start-10 lg:col-span-3">
+        <div class="mb-12">
+          <h2 class="font-bold text-[20px]/[25px] mb-6">
+            {{ 'customer.order.billing_address' | t }}
+          </h2>
+
+          <p class="text-grey-300 mb-4">
+            {{ 'customer.order.payment_status' | t }}: {{ order.financial_status_label }}
+          </p>
+
+          <div class="text-grey-300 mb-6">
+            {{ order.billing_address | format_address }}
+          </div>
+        </div>
+
+        <h2 class="font-bold text-[20px]/[25px] mb-6">
+          {{ 'customer.order.shipping_address' | t }}
+        </h2>
+
+        <p class="text-grey-300 mb-4">
+          {{ 'customer.order.fulfillment_status' | t }}: {{ order.fulfillment_status_label }}
+        </p>
+
+        <div class="text-grey-300 mb-6">
+          {{ order.shipping_address | format_address }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Customer order main",
+    "presets": [
+      {
+        "name": "Customer order main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["customers/order"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

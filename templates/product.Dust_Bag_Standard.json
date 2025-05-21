@@ -1,0 +1,582 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "featured_features_Y3Fx6q": {
+      "type": "featured-features",
+      "blocks": {
+        "feature_n7346f": {
+          "type": "feature",
+          "settings": {
+            "image_loading": "",
+            "icon": "brushroll",
+            "title": "Brushroll Text",
+            "text": "<p>Brushroll Text Brushroll Text Brushroll Text</p>"
+          }
+        },
+        "feature_FnPCCE": {
+          "type": "feature",
+          "settings": {
+            "image_loading": "",
+            "icon": "brushroll-single",
+            "title": "Brushroll - Single Text",
+            "text": "<p>Brushroll - Single Text Brushroll - Single Text Brushroll - Single Text</p>"
+          }
+        },
+        "feature_dU6tfp": {
+          "type": "feature",
+          "settings": {
+            "image_loading": "",
+            "icon": "brushroll-double",
+            "title": "Brushroll - Double Text",
+            "text": "<p>Brushroll - Double Text Brushroll - Double Text Brushroll - Double Text</p>"
+          }
+        },
+        "feature_PY9dCz": {
+          "type": "feature",
+          "settings": {
+            "image_loading": "",
+            "icon": "brushroll-double-overlap",
+            "title": "Brushroll - Double Overlay Text",
+            "text": "<p>Brushroll - Double Overlay Text Brushroll - Double Overlay Text Brushroll - Double Overlay Text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_n7346f",
+        "feature_FnPCCE",
+        "feature_dU6tfp",
+        "feature_PY9dCz"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_text_with_icon_EGyVxG": {
+      "type": "featured-text-with-icon",
+      "blocks": {
+        "text_with_icon_q4x6ti": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "brushroll",
+            "title": "Brushroll - Text",
+            "text": "<p>Brushroll - Text Brushroll - Text</p>"
+          }
+        },
+        "text_with_icon_3phHwX": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "brushroll-single",
+            "title": "Brushroll - Single Text",
+            "text": "<p>Brushroll - Single Text Brushroll - Single Text</p>"
+          }
+        },
+        "text_with_icon_NEitXP": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "brushroll-double",
+            "title": "Brushroll - Double Text",
+            "text": "<p>Brushroll - Double Text Brushroll - Double Text</p>"
+          }
+        },
+        "text_with_icon_WtbFCd": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "brushroll-double-overlap",
+            "title": "Brushroll - Double overlay Text",
+            "text": "<p>Brushroll - Double overlay Text Brushroll - Double overlay Text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_with_icon_q4x6ti",
+        "text_with_icon_3phHwX",
+        "text_with_icon_NEitXP",
+        "text_with_icon_WtbFCd"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "featured_cards_iAmDwi": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_mxdEhL": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Original_Accessory.webp",
+            "image_loading": "lazy",
+            "title": "Original Accessory",
+            "text": "<p>High-quality official Vacmaster wet & dry vacuum cleaner replacement dust bags, direct from the manufacturer. </p>",
+            "url": ""
+          }
+        },
+        "card_e8RAUE": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Standard_Filtration_Dust_Bag_Vacmaster.webp",
+            "image_loading": "",
+            "title": "Standard Filtration",
+            "text": "<p>For every day, general cleaning tasks. Ideal for bulky rubble and dust. Dry use only. </p>",
+            "url": ""
+          }
+        },
+        "card_DRcWmA": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Standard_Dust_Bag_Protect_Guarantee.webp",
+            "image_loading": "",
+            "title": "Protect the Guarantee",
+            "text": "<p>Extend the life of your Vacmaster vacuum cleaner by using genuine Vacmaster accessories. </p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_mxdEhL",
+        "card_e8RAUE",
+        "card_DRcWmA"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "",
+        "pretitle": "Explore",
+        "title": "Features & Benefits",
+        "text": ""
+      }
+    },
+    "featured_cards_BWX6XH": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_QMUTJj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Perfect_fit.webp",
+            "image_loading": "",
+            "title": "Perfect Fit",
+            "text": "<p>Designed to fit your Vacmaster vacuum cleaner. Ensuring a tight and secure seal every time. </p>",
+            "url": ""
+          }
+        },
+        "card_dwDtMb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Capture_dust_in_bag.webp",
+            "image_loading": "",
+            "title": "Capture Dust in a Bag",
+            "text": "<p>Capture dirt and dust particles directly in a dust bag for mess free disposal. </p>",
+            "url": ""
+          }
+        },
+        "card_4FzTjG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Optimum_Performance_Vacmaster.webp",
+            "image_loading": "",
+            "title": "Optimum Performance",
+            "text": "<p>Genuine Vacmaster dust bags are designed to provide optimal collection capacity.</p>",
+            "url": ""
+          }
+        },
+        "card_xMmdW7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Standard_Dust_Bag_30_Pack.webp",
+            "image_loading": "",
+            "title": "Save Money",
+            "text": "<p>Purchase our great value 30 packs to save money. </p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_QMUTJj",
+        "card_dwDtMb",
+        "card_4FzTjG",
+        "card_xMmdW7"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "{{ product }}",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Information",
+        "title_size": "large",
+        "title": "Specification",
+        "text": ""
+      }
+    },
+    "featured_accordion_4cLd4r": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_tEMxGH": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Where is my order?",
+            "text": "<p>Orders placed before 12pm, Monday to Friday, are usually dispatched the same day. Orders placed after 12pm will be dispatched the following working day. <br/><br/>Fast 24 hour Delivery - Appliances<br/><br/>As standard, delivery for purchases that include appliances will usually be made 24 hours after dispatch on weekdays. If you place an order for an appliance after 12pm on a Friday, delivery will be made on the following Tuesday.<br/><br/>Standard 48 hour Delivery - Accessories<br/><br/>Delivery for orders of accessories only will usually be made 48 hours after dispatch on weekdays.<br/><br/>Please expect delays around public and bank holidays. See the delivery page for specific information.<br/><br/>To check the delivery status of your order, log into the My Account section of our website and click on the tracking link provided. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_AVLkVD": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "My order hasn’t arrived",
+            "text": "<p>If your delivery date has passed and you haven't received your order, log into the My Account section of our website, open your orders and click on the tracking link provided to trace where your parcel is up to with our courier partner. Please note that all of our Vacuum Cleaners, Air Movers, Fans and Lawnmaster products require a signature upon delivery. If this can’t be obtained by the courier then your order will be returned to the delivery depot, and you will need to contact them to arrange a collection or a new delivery.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_tEMxGH",
+        "entry_AVLkVD"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Reviews",
+        "title": "Don't Just take our word for it"
+      }
+    },
+    "featured_articles_zetajt": {
+      "type": "featured-articles",
+      "blocks": {
+        "article_RLwqdx": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/why-are-bagged-vacuum-cleaners-best-for-allergen-sufferers",
+            "image_loading": ""
+          }
+        },
+        "article_dMFj8H": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/vacuum-cleaners-a-guide-to-buying-the-right-dust-bags",
+            "image_loading": ""
+          }
+        },
+        "article_EKVmAz": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/cleaning-tips-for-allergen-sufferers",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_RLwqdx",
+        "article_dMFj8H",
+        "article_EKVmAz"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
+      "type": "product-recommendations",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Related",
+        "title": "You May Also Like"
+      }
+    },
+    "featured_accordion_aGietx": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_egRCnw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Vacmaster Guarantee",
+            "text": "<p>All Vacmaster spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "shopify://pages/vacmaster-guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_krUnEd": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong></p><p>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. </p><p>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.</p><p>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.</p><p><strong>Returns:</strong></p><p>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_eWgiNi": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_egRCnw",
+        "entry_krUnEd",
+        "entry_eWgiNi"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "featured_content_jaj74w": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "product-main",
+    "featured_features_Y3Fx6q",
+    "featured_text_with_icon_EGyVxG",
+    "featured_cards_iAmDwi",
+    "featured_cards_BWX6XH",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "featured_accordion_4cLd4r",
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
+    "featured_articles_zetajt",
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
+    "featured_accordion_aGietx",
+    "featured_content_jaj74w"
+  ]
+}

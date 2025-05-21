@@ -1,0 +1,17 @@
+{% liquid
+  case video.type
+    when 'youtube'
+      assign url = 'https://www.youtube.com/embed/'
+    when 'vimeo'
+      assign url = 'https://player.vimeo.com/video/'
+  endcase
+
+  assign url = url | append: video.id
+%}
+
+<iframe
+  class="w-full aspect-video"
+  src="{{ url }}"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+></iframe>

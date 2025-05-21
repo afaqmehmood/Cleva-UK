@@ -1,0 +1,9 @@
+<template x-for="star in stars">
+  <div class="relative text-grey-100" :class="{ 'is-active': star == 'full' }">
+    {% render 'svg', name: 'star' %}
+
+    <template x-if="star == 'half'">
+      {% render 'svg', name: 'star-half', class: 'absolute top-0 left-0 is-active' %}
+    </template>
+  </div>
+</template>

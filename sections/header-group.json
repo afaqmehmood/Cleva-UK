@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "Header",
+  "type": "header",
+  "sections": {
+    "b0c5c41c-5180-4009-8cd9-54e5359b522e": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_EHghEJ": {
+          "type": "announcement",
+          "settings": {
+            "title": "Sign Up For 10% Off",
+            "url": "https://manage.kmail-lists.com/subscriptions/subscribe?a=QeGLdD&g=PayVgm"
+          }
+        },
+        "609d76db-955e-4e45-9208-275ebb562bb7": {
+          "type": "announcement",
+          "settings": {
+            "title": "Free Next Day Delivery",
+            "url": "shopify://pages/delivery"
+          }
+        },
+        "7f9ccfa5-674a-4136-a7a8-c4f28db67356": {
+          "type": "announcement",
+          "settings": {
+            "title": "UK Customer Support",
+            "url": "shopify://pages/contact-us"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_EHghEJ",
+        "609d76db-955e-4e45-9208-275ebb562bb7",
+        "7f9ccfa5-674a-4136-a7a8-c4f28db67356"
+      ],
+      "settings": {}
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "fde585a4-c711-495a-9556-62e96b633b32": {
+          "type": "mega_menu",
+          "settings": {
+            "title": "Vacmaster",
+            "logo": "vacmaster",
+            "sale_links_titles": "Sale",
+            "feature_enable": true,
+            "feature_image": "shopify://shop_images/Carpet_Cleaner_SCB0501-01_EasyClean_Up_powerful.webp",
+            "feature_title": "New: Put Stains on the Spot with Vacmaster®",
+            "feature_button_text": "Shop Now",
+            "feature_button_url": "https://www.cleva-uk.com/products/vacmaster-easyclean-up-carpet-spot-cleaner"
+          }
+        },
+        "fde585a4-c711-495a-9556-62e96b633b33": {
+          "type": "mega_menu",
+          "settings": {
+            "title": "LawnMaster",
+            "logo": "lawnmaster",
+            "sale_links_titles": "Sale",
+            "feature_enable": true,
+            "feature_image": "shopify://shop_images/MX_24V_Shared_Battery_System_Product_Card.webp",
+            "feature_title": "Explore: MX 24V Shared Battery System",
+            "feature_button_text": "Learn More",
+            "feature_button_url": "https://www.cleva-uk.com/collections/mx-24v-battery-system"
+          }
+        }
+      },
+      "block_order": [
+        "fde585a4-c711-495a-9556-62e96b633b32",
+        "fde585a4-c711-495a-9556-62e96b633b33"
+      ],
+      "settings": {
+        "position_overlay_templates": "index",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "menu": "2-0-main-menu",
+        "button_text": "Get 10% off",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "b0c5c41c-5180-4009-8cd9-54e5359b522e",
+    "header"
+  ]
+}

@@ -1,0 +1,44 @@
+<a
+  class="
+    {{ class }}
+
+    {% case style %}
+      {% when 'link' %}
+        group/button inline-flex items-center gap-x-4 font-bold
+      {% when 'black', 'white', 'gold', 'transparent-black', 'transparent-white', 'transparent-gold' %}
+        form-button
+      {% when 'black' %}
+        form-button--black
+      {% when 'gold' %}
+        form-button--gold
+      {% when 'white' %}
+        form-button--white
+      {% when 'transparent-black' %}
+        form-button--transparent-black
+      {% when 'transparent-white' %}
+        form-button--transparent-white
+      {% when 'transparent-gold' %}
+        form-button--transparent-gold
+    {% endcase %}
+  "
+  href="{{ url }}"
+
+  {% if is_carousel %}
+    x-bind="bindSlideFocusable"
+  {% endif %}
+
+  {% if is_modal %}
+    x-data="modalTrigger"
+    @click.prevent="trigger"
+  {% endif %}
+
+  {% if url contains '.pdf' %}
+    target="_blank"
+  {% endif %}
+>
+  {{ text }}
+
+  {% if style == 'link' %}
+    {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+  {% endif %}
+</a>

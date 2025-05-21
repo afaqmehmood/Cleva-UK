@@ -1,0 +1,88 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "f8ce2f1b-6f98-4b01-bd55-47379ab14358": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "8230e6a5-2632-438f-9f4d-1ed570971c11": {
+      "type": "featured-breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "c65a742a-367e-47df-9b09-949cfb1e8e35": {
+      "type": "featured-intro",
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "title_tag": "h1",
+        "title": "Cordless Vacuum Cleaners",
+        "text": "<p>Select your model to view all available matching accessories and spare parts.</p>"
+      }
+    },
+    "13c4de91-4fee-462f-bb16-ad38c30f26f6": {
+      "type": "product-support-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "metaobject_handle": "product_accessories"
+      }
+    }
+  },
+  "order": [
+    "f8ce2f1b-6f98-4b01-bd55-47379ab14358",
+    "8230e6a5-2632-438f-9f4d-1ed570971c11",
+    "c65a742a-367e-47df-9b09-949cfb1e8e35",
+    "13c4de91-4fee-462f-bb16-ad38c30f26f6"
+  ]
+}

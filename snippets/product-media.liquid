@@ -1,0 +1,121 @@
+<div data-ref="media">
+  <div class="relative overflow-hidden" x-data="productMedia">
+    <div
+      class="relative group"
+
+      {% if product.media.size > 1 %}
+        x-data="carousel({ id: 'productMedia' })"
+        tabindex="0"
+        role="region"
+        @keydown.right="next"
+        @keydown.left="prev"
+      {% endif %}
+    >
+      {% if product.media.size > 1 %}
+        {% render 'carousel-arrows',
+          is_circle: true,
+          class: 'max-md:hidden transition-opacity opacity-0 group-hover:opacity-100',
+          previous_class: '!absolute top-1/2 left-4 z-10 -translate-y-1/2',
+          next_class: '!absolute top-1/2 right-4 z-10 -translate-y-1/2'
+        %}
+      {% endif %}
+
+      <ul
+        class="flex overflow-y-hidden overflow-x-scroll snap-x snap-mandatory scrollbar-none -ml-2"
+
+        {% if product.media.size > 1 %}
+          style="-webkit-overflow-scrolling: touch;"
+          x-ref="slider"
+        {% endif %}
+      >
+        {% for media in product.media %}
+          {% liquid
+            assign image_loading = null
+
+            if forloop.index > 1
+              assign image_loading = 'lazy'
+            endif
+          %}
+
+          <li class="snap-start shrink-0 w-full pl-2">
+            {% case media.media_type %}
+              {% when 'image' %}
+                {% render 'product-image', image: media, loading: image_loading %}
+              {% when 'video' %}
+                {% render 'product-video', video: media, loading: image_loading %}
+            {% endcase %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% if product.media.size > 1 %}
+      <div
+        class="mt-4"
+        x-data="carousel({ skip: 5 })"
+        tabindex="0"
+        role="region"
+        @keydown.right="next"
+        @keydown.left="prev"
+      >
+        <div class="relative px-11 md:px-24">
+          {% render 'carousel-arrows',
+            previous_class: 'absolute top-1/2 left-0 -translate-y-1/2 p-2 md:p-8 !text-[10px] md:!text-[18px]',
+            next_class: 'absolute top-1/2 right-0 -translate-y-1/2 p-2 md:p-8 !text-[10px] md:!text-[18px]'
+          %}
+
+          <ul class="overflow-x-scroll snap-x snap-mandatory scrollbar-none flex -ml-2" x-ref="slider">
+            {% for media in product.media %}
+              {% liquid
+                assign thumbnail_image_loading = null
+
+                if forloop.index > 5
+                  assign thumbnail_image_loading = 'lazy'
+                endif
+              %}
+
+              <li
+                class="
+                  flex flex-col justify-center
+                  [&:nth-child(5n+1)]:snap-start shrink-0 w-1/5 pl-2 first:ml-auto last:mr-auto
+                "
+              >
+                <a
+                  class="block relative group"
+                  href="{{ media | image_url: width: 2000 }}"
+                  x-bind="bindSlideFocusable"
+                  @click.prevent="thumbnailClick({{ forloop.index0 | json }})"
+                >
+                  {% render 'product-thumbnail-image', image: media, loading: thumbnail_image_loading %}
+
+                  {% if media.media_type == 'video' %}
+                    <div
+                      class="
+                        absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 max-md:scale-50
+                        p-2 bg-black group-hover:bg-gold-50 rounded-full
+                      "
+                    >
+                      {% render 'svg', name: 'play', class: 'text-[10px] text-white' %}
+                    </div>
+                  {% endif %}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        {% render 'carousel-dots', slidesSize: product.media.size, skip: 5, class: 'max-md:hidden' %}
+      </div>
+    {% endif %}
+
+    {% if logo %}
+      {% render 'svg', name: logo, class: 'absolute top-4 left-4 w-[115px] md:w-[172px] h-auto' %}
+    {% endif %}
+
+    {% liquid
+      if product.tags != empty
+        render 'tags', tags: product.tags, whitelist_tags: badge_tags, class: 'absolute top-4 right-4 justify-end'
+      endif
+    %}
+  </div>
+</div>

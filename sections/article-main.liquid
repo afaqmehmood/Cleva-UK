@@ -1,0 +1,113 @@
+{% assign badge_tags = blog.metafields.custom.badge_tags.value %}
+
+<section class="{% render 'section-class', section: section %} container main-grid">
+  <div class="col-span-full mb-6 md:mb-12">
+    <a class="group/button flex items-center gap-x-3 text-[14px]" href="{{ blog.url }}">
+      {% render 'svg', name: 'arrow', class: 'rotate-180 group-hover/button:-translate-x-1 transition' %}
+
+      {{ 'blog.back' | t }}
+    </a>
+  </div>
+
+  <div class="col-span-full md:col-start-3 md:col-span-7 mb-6 md:mb-12">
+    <h1 class="font-display text-[33px]/[50px] md:text-[44px]/[51px]">
+      {{ article.title }}
+    </h1>
+  </div>
+
+  <div class="col-span-full md:col-span-3 md:row-span-2 mb-12">
+    <div class="md:pl-4 md:border-l md:border-grey-100">
+      {% if article.metafields.custom.reading_time.value %}
+        <p class="mb-6 md:mb-8">
+          {{ article.metafields.custom.reading_time.value }}
+        </p>
+      {% endif %}
+
+      <div class="mb-6 md:mb-8">
+        {{ article.published_at | time_tag: format: 'date' }}
+      </div>
+
+      {% if article.tags != empty %}
+        {% render 'tags', tags: article.tags, whitelist_tags: badge_tags, class: 'mb-6 md:mb-8' %}
+      {% endif %}
+
+      {% render 'share-button' %}
+    </div>
+  </div>
+
+  <div class="col-span-full md:col-start-3 md:col-span-7 rte text-[20px]/[30px]">
+    {{ article.content }}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Article main",
+    "presets": [
+      {
+        "name": "Article main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["article"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

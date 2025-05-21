@@ -1,0 +1,559 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34": {
+      "type": "featured-about",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "watermark_enable": false,
+        "scroll_animation_enable": false,
+        "logo": "lawnmaster",
+        "pretitle": "",
+        "title_tag": "h1",
+        "title": "Hover Mowers",
+        "text_truncate_enable": true,
+        "text": "<p>Fly through curved lawns, sloping gardens and tight spaces with the LawnMaster hover mower range. <strong>Official LawnMaster® UK Site.</strong></p>",
+        "button_style": "black",
+        "button_text": "",
+        "button_url": "/",
+        "image": "shopify://shop_images/Hover_Lawn_Mowers_LawnMaster.webp",
+        "image_mobile": "shopify://shop_images/Hover_Lawn_Mowers_LawnMaster_-_Mobile.webp",
+        "image_loading": ""
+      }
+    },
+    "collection-main": {
+      "type": "collection-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "8c87b26b-f533-4c79-b866-25d981fb6652": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/33cm_Hover_Mower_with_Guarantee.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Built to Perform",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>We apply the latest processes and highest standards of engineering to our motor technology, product design and production. The result is a wide range of high-quality hover lawn mowers with exceptional performance and durability.<br/><br/><strong>Our mowers consistently receive 5 star reviews from customers and industry experts.</strong></p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_text_with_image_Kn4mHk": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_Xn4qaK": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_Hover_Mowers.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Direct from the Makers",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Browse our latest products, access detailed specification information, and use the insights from the team that design and make the products to choose the best hover mower for your needs, at a price you'll love. <br/><br/><strong>LawnMaster by Cleva. Manufacturer of over 65 million appliances sold worldwide.</strong></p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_Xn4qaK"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a": {
+      "type": "featured-quotes",
+      "blocks": {
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121": {
+          "type": "quote",
+          "settings": {
+            "text": "Fly through curved lawns, sloping gardens and tight spaces with LawnMaster",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": "lawnmaster"
+          }
+        }
+      },
+      "block_order": [
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "00a3e0c4-2c63-49d6-8758-77e08f85e73c": {
+      "type": "featured-press",
+      "blocks": {
+        "0732f5fa-0203-4f29-915e-70ca4901a3c4": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/B_Q.svg",
+            "image_loading": "lazy"
+          }
+        },
+        "a7f194b5-7e01-47eb-a03e-18f184b459bf": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Amazon.svg",
+            "image_loading": "lazy"
+          }
+        },
+        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Range.svg",
+            "image_loading": ""
+          }
+        },
+        "b0c3d483-43a7-45ec-86cf-912a1d4615c0": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Roberty_Dyas.svg",
+            "image_loading": "lazy"
+          }
+        }
+      },
+      "block_order": [
+        "0732f5fa-0203-4f29-915e-70ca4901a3c4",
+        "a7f194b5-7e01-47eb-a03e-18f184b459bf",
+        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b",
+        "b0c3d483-43a7-45ec-86cf-912a1d4615c0"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "",
+        "title": "As Seen In",
+        "text": "<p>Our appliances are trusted<br/>by some of the UK’s leading online retailers.</p>"
+      }
+    },
+    "featured_accordion_AL7V7m": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_rhxmwH": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Why choose a hover mower?",
+            "text": "<p>Hover Mowers are light, portable and very easy to use. Floating on a cushion of air, electric hover lawn mowers are highly manoeuvrable, making them ideal for mowing slight slopes and around intricately shaped lawns, paths and flower beds.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_R93XqH": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Do hover lawn mowers collect the clippings?",
+            "text": "<p>Hover lawn mowers are available both with and without collection. <a href=\"/products/lawnmaster-hover-mower-collect-36cm-1800w\" title=\"LawnMaster 1800W 36cm | Hover Mower Collect\">Hover Collect mowers</a> include a grass box. <a href=\"/products/lawnmaster-hover-mower-33cm\" title=\"LawnMaster 1500W 33cm | Hover Mower Non Collect\">Non collect hover mowers</a> are mulching mowers, returning finely cut grass clippings to the lawn’s surface acting as a nutrient.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_qHbqQT": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Which hover mower is best for my garden?",
+            "text": "<p>This depends on the size and complexity of your lawn. Typically, 33cm deck sizes are best suited to smaller lawns, and deck sizes of 36cm and above to larger, more complex lawns.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_rhxmwH",
+        "entry_R93XqH",
+        "entry_qHbqQT"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927": {
+      "type": "featured-articles",
+      "blocks": {
+        "374dfa5e-c387-4bba-8481-7b5163c920fa": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/lawnmowers-choosing-the-optimal-cutting-width-for-your-lawn",
+            "image_loading": "lazy"
+          }
+        },
+        "a50db38c-6712-4ee2-916a-0abefe6a1107": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/lawnmowers-how-to-mow-long-grass",
+            "image_loading": ""
+          }
+        },
+        "394a5b34-5f1e-4c38-b85b-d58b44bfd063": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-mulching-benefits-your-lawn",
+            "image_loading": ""
+          }
+        },
+        "button_VxEfmz": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Read All",
+            "url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "374dfa5e-c387-4bba-8481-7b5163c920fa",
+        "a50db38c-6712-4ee2-916a-0abefe6a1107",
+        "394a5b34-5f1e-4c38-b85b-d58b44bfd063",
+        "button_VxEfmz"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "b5e892ef-f729-4f8c-986d-a902e0e4938d": {
+      "type": "featured-cards",
+      "blocks": {
+        "f21ca91d-dbeb-46fe-ae65-89ea0821861b": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster-_Electric_Lawn_Mowers_Explore.webp",
+            "image_loading": "lazy",
+            "title": "Electric Lawn Mowers",
+            "text": "",
+            "url": "shopify://collections/electric-lawn-mower"
+          }
+        },
+        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster-Explore_Cordless_Lawn_Mowers.webp",
+            "image_loading": "",
+            "title": "Cordless Lawn Mowers",
+            "text": "",
+            "url": "shopify://collections/cordless-lawn-mowers"
+          }
+        },
+        "228a23e6-3af5-433c-90ab-21d5710c0149": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image_loading": "",
+            "title": "Vacuum Cleaners & Floorcare",
+            "text": "",
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
+          }
+        }
+      },
+      "block_order": [
+        "f21ca91d-dbeb-46fe-ae65-89ea0821861b",
+        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3",
+        "228a23e6-3af5-433c-90ab-21d5710c0149"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Explore",
+        "title": "Also Discover",
+        "text": ""
+      }
+    },
+    "96321673-9ad1-4fe2-b4a0-e97c46c50acb": {
+      "type": "featured-accordion",
+      "blocks": {
+        "b1111e40-9939-4b59-a28a-0f3860c554d5": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Go to Product Support",
+            "url": "shopify://pages/product-support"
+          }
+        },
+        "1d9243aa-1948-4d40-9c7d-f69d796691ca": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>All LawnMaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "ada9a5c7-b78b-448b-be7d-e4ed7410d133": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "b1111e40-9939-4b59-a28a-0f3860c554d5",
+        "1d9243aa-1948-4d40-9c7d-f69d796691ca",
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242",
+        "ada9a5c7-b78b-448b-be7d-e4ed7410d133"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "ba486b1a-9132-469d-a5bc-06bdea19a01c": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34",
+    "collection-main",
+    "8c87b26b-f533-4c79-b866-25d981fb6652",
+    "featured_text_with_image_Kn4mHk",
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a",
+    "00a3e0c4-2c63-49d6-8758-77e08f85e73c",
+    "featured_accordion_AL7V7m",
+    "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927",
+    "b5e892ef-f729-4f8c-986d-a902e0e4938d",
+    "96321673-9ad1-4fe2-b4a0-e97c46c50acb",
+    "ba486b1a-9132-469d-a5bc-06bdea19a01c"
+  ]
+}

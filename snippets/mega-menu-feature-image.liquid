@@ -1,0 +1,17 @@
+{% liquid
+  assign class = class | append: ' w-full rounded-2xl'
+
+  assign width = 600
+
+  assign sizes = '600px'
+%}
+
+<picture class="mb-8 last:mb-0 aspect-[--aspect-ratio]" style="--aspect-ratio: {{ image.aspect_ratio }};">
+  <source
+    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAIBAAA="
+    media="(min-width: 1px)"
+    @megamenutoggle.window="removeOnMegaMenuToggle()"
+  >
+
+  {{ image | image_url: width: width | image_tag: class: class, sizes: sizes }}
+</picture>

@@ -1,0 +1,173 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | newline_to_br | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign button_style = section.settings.button_style | default: null
+
+  assign button_text = section.settings.button_text | default: null
+
+  assign button_url = section.settings.button_url | default: null
+
+  assign button_modal = section.settings.button_modal | default: null
+%}
+
+<section class="{% render 'section-class', section: section %}">
+  <div class="py-20 md:py-24 bg-grey-50 text-center">
+    <div id="newsletter-container" class="container main-grid">
+      <div class="col-span-full md:col-start-4 md:col-span-6">
+        {% if pretitle %}
+          <p class="font-bold text-[15px] underline underline-offset-4 mb-4 md:mb-6 last:mb-0">
+            {{ pretitle }}
+          </p>
+        {% endif %}
+      
+        {% if title %}
+          <h2 class="font-display !font-bold text-[33px]/[45px] mb-4 md:mb-6 last:mb-0">
+            {{ title }}
+          </h2>
+        {% endif %}
+      
+        {% if text %}
+          <div class="text-[16px]/[20px] md:text-[20px]/[25px] md:-tracking-[0.02em] text-grey-300 mb-4 md:mb-6 last:mb-0">
+            {{ text }}
+          </div>
+        {% endif %}
+      
+        {% if button_text and button_url %}
+          {% render 'section-button',
+            style: button_style,
+            text: button_text,
+            url: button_url,
+            is_modal: button_modal,
+            class: 'px-11'
+          %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Sign Up Block",
+    "presets": [
+      {
+        "name": "Sign Up Block"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Style",
+        "options": [
+          { "value": "black", "label": "Black" },
+          { "value": "white", "label": "White" },
+          { "value": "gold", "label": "Gold" },
+          { "value": "transparent-black", "label": "Transparent (black)" },
+          { "value": "transparent-white", "label": "Transparent (white)" },
+          { "value": "transparent-gold", "label": "Transparent (gold)" },
+          { "value": "link", "label": "Link" }
+        ],
+        "default": "white"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Text"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "button_modal",
+        "label": "Button modal",
+        "info": "This will override the 'URL' setting and open the modal when the button is clicked."
+      }
+    ]
+  }
+{% endschema %}

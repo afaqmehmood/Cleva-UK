@@ -1,0 +1,365 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": {
+    "skip_to_main": "Skip to content"
+  },
+  "announcement_bar": {
+    "close": "Close"
+  },
+  "header": {
+    "logo": "Cleva",
+    "search": "Search",
+    "account": "Account",
+    "cart": "Cart",
+    "cart_close": "Close cart",
+    "menu": "Menu",
+    "menu_close": "Close",
+    "view_all": "View All",
+    "back": "Back"
+  },
+  "footer": {
+    "logo": "Cleva",
+    "socials": "Socials"
+  },
+  "featured_hero": {
+    "video_play": "Play video"
+  },
+  "featured_promo": {
+    "reviews_io_html": "{{ average_rating }} out of 5 based on {{ total_reviews }} reviews"
+  },
+  "carousel": {
+    "previous": "Skip to previous slide page",
+    "next": "Skip to next slide page"
+  },
+  "product": {
+    "from_price": "{{ price }}",
+    "regular_price": "Regular price",
+    "sale_price": "Sale price",
+    "add_to_cart": "Buy Now",
+    "sold_out": "Sold Out",
+    "unavailable": "Unavailable",
+    "bis_notify": "Notify Me When Available",
+    "reviews_io_summary_html": "{{ total_reviews }} Reviews",
+    "verified_reviewer": "Verified Reviewer",
+    "variants": "Variants",
+    "compare": "Compare",
+    "delivery": "Get Free UK Delivery. Order before 12pm for same day dispatch",
+    "variant_value_unavailable": "{{ option_value }} - Unavailable",
+    "variant_sold_out_or_unavailable": "Variant sold out or unavailable",
+    "quantity_in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in cart",
+    "load_more": "Load more",
+    "linked_group_products": "Linked group products"
+  },
+  "newsletter_form": {
+    "email": "Your Email",
+    "checkbox": "Your privacy is important to us. Personal data is stored securely and used in accordance with our privacy policy.  You can unsubscribe from our mailing list at any point. Please tick to confirm you are happy to continue.",
+    "submit": "Sign Up",
+    "cancel": "No Thanks"
+  },
+  "pagination": {
+    "previous": "Load Previous",
+    "next": "Load More"
+  },
+  "text_truncate": {
+    "read_more": "Read More",
+    "read_less": "Read Less"
+  },
+  "breadcrumbs": {
+    "collection": "Category",
+    "product": "Product"
+  },
+  "cart": {
+    "title": "Your Basket",
+    "item_count": "{{ item_count }} Items",
+    "checkout": "Checkout",
+    "continue_shopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "discount_code": "Got a discount code? Add it in the next step",
+    "item_remove": "Remove item",
+    "item_quantity": "Quantity:",
+    "item_quantity_decrease": "Decrease quantity by 1",
+    "item_quantity_increase": "Increase quantity by 1",
+    "recommendations_title": "You May Also Like"
+  },
+  "customer": {
+    "login": {
+      "title": "Login",
+      "guest_title": "Guest login",
+      "guest_continue": "Continue as guest",
+      "email": "Email",
+      "password": "Password",
+      "forgot_password": "Forgot your password?",
+      "login": "Sign in",
+      "register": "Create account"
+    },
+    "recover": {
+      "title": "Reset your password",
+      "email": "Email",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "text": "We will send you an email to reset your password.",
+      "success_text": "We've sent you an email with a link to update your password."
+    },
+    "reset_password": {
+      "title": "Reset account password",
+      "text": "Enter a new password",
+      "password": "Password",
+      "password_confirm": "Confirm password",
+      "submit": "Reset password"
+    },
+    "activate": {
+      "title": "Activate account",
+      "text": "Create your password to activate your account.",
+      "password": "Password",
+      "password_confirm": "Confirm password",
+      "submit": "Activate account",
+      "cancel": "Decline invitation"
+    },
+    "register": {
+      "title": "Create account",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create"
+    },
+    "account": {
+      "title": "Account",
+      "logout": "Logout",
+      "orders_title": "Order history",
+      "details_title": "Account details",
+      "view_addresses": "View addresses",
+      "orders_none": "You haven't placed any orders yet.",
+      "order_number": "Order",
+      "order_number_link": "Order number {{ number }}",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
+      "total": "Total"
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "date_html": "Placed on {{ date }}",
+      "cancelled_html": "Order Cancelled on {{ date }}",
+      "cancelled_reason": "Reason: {{ reason }}",
+      "billing_address": "Billing Address",
+      "payment_status": "Payment Status",
+      "shipping_address": "Delivery address",
+      "fulfillment_status": "Fulfillment Status",
+      "discount": "Discount",
+      "shipping": "Delivery",
+      "tax": "Tax",
+      "product": "Product",
+      "sku": "SKU",
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "total_refunded": "Refunded",
+      "fulfilled_at_html": "Fulfilled {{ date }}",
+      "track_shipment": "Track Delivery",
+      "tracking_url": "Tracking link",
+      "tracking_company": "Carrier",
+      "tracking_number": "Tracking number",
+      "subtotal": "Subtotal",
+      "total_duties": "Duties",
+      "return": "Return to Account details"
+    },
+    "addresses": {
+      "title": "Addresses",
+      "default": "Default",
+      "add_new": "Add a new address",
+      "edit_address": "Edit address",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "company": "Company",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "country": "Country/region",
+      "province": "County",
+      "zip": "Postal code",
+      "phone": "Phone",
+      "set_default": "Set as default address",
+      "add": "Add address",
+      "update": "Update address",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "delete_confirm": "Are you sure you wish to delete this address?",
+      "return": "Return to Account details"
+    }
+  },
+  "form": {
+    "error": "Error",
+    "error_heading": "Please check the following:"
+  },
+  "blog": {
+    "back": "Back to All"
+  },
+  "share_button": {
+    "share": "Share",
+    "link": "Link"
+  },
+  "product_support": {
+    "select_your_model": "Select Your Model"
+  },
+  "facets": {
+    "reset": "Reset",
+    "max_price": "Highest Price - {{ price }}",
+    "min_price": "Lowest Price - {{ price }}",
+    "from": "From",
+    "to": "To",
+    "sort_by": "Sort By",
+    "filter_and_sort": "Filter & Sort",
+    "reset_all": "Reset All",
+    "apply_selected": "Apply Selected",
+    "close": "Close"
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "continue_to_shipping_method": "Continue to delivery",
+        "back_to_shipping_method": "Return to delivery",
+        "choose_shipping_method": "Choose a delivery method"
+      },
+      "contact": {
+        "different_shipping_address_label": "Deliver to a different address",
+        "optional_address2_label": "Apartment, flat, etc. (optional)"
+      },
+      "delivery_options": {
+        "shipping_address": "Delivery address",
+        "retail_method_definition": "Retail delivery",
+        "none_method_definition": "No delivery"
+      },
+      "customer_account": {
+        "invalid_shipping_method_summary": "Select a valid delivery address to view available delivery methods"
+      },
+      "order_summary": {
+        "enter_shipping_address": "Enter delivery address",
+        "return_shipping_fee_label": "Return delivery",
+        "free_shipping_discount_label": "Free delivery",
+        "shipping_label": "Delivery",
+        "shipping_default_value": "Enter delivery address",
+        "shipping_discount_title": "Delivery discount",
+        "shipping_policy_link": "Delivery costs",
+        "multiple_shipping_lines_label": "Delivery total",
+        "discount_requires_customer_notice": "Enter your delivery information to apply the <strong style=\"text-transform:uppercase\">{{ code }}</strong> discount code",
+        "updated_shipping_method": "Updated delivery method: {{ shipping_method }}"
+      },
+      "shipping": {
+        "shipping_method_title": "Delivery method",
+        "waiting_on_rate_notice": "Getting available delivery rates",
+        "no_rates_for_cart_or_destination_notice": "There are no available delivery rates for your address or destination",
+        "no_rates_for_country_notice": "No delivery rates found for this address",
+        "please_enter_your_shipping_information_notice": "Please enter your delivery information",
+        "split_cart_ships_now": "Delivers now",
+        "split_cart_ships_later": "Delivers later",
+        "split_cart_ships_date": "Delivers {{ date }}",
+        "address2_add_label": "Add flat, apartment etc. (optional)",
+        "shipping_address_title": "Deliver to",
+        "invalid_shipping_method_summary": "Enter a valid delivery address to view available delivery methods",
+        "missing_shipping_address": "Delivery address is missing",
+        "different_shipping_method_summary": "Enter a different delivery address to view available delivery methods",
+        "shipping_information_required_notice": "Delivery information is required. {{link}}.",
+        "method_summary": {
+          "incomplete_address_entered": "Enter a complete delivery address to view available delivery methods",
+          "incomplete_address_selected": "Select a complete delivery address to view available delivery methods"
+        }
+      },
+      "payment": {
+        "same_billing_address_label": "Same as delivery address",
+        "billing_must_match_shipping_notice": "Your payment method's billing address must match the delivery address",
+        "same_billing_address_checkbox_label": "Use delivery address as billing address",
+        "payment_method_not_available_for_shipping_address_error": "Payment not available for selected delivery address. Choose another payment method.",
+        "location_shipping_address_label": "Location delivery address",
+        "use_location_shipping_address_label": "Use location delivery address",
+        "shipping_rate_updated": "Available delivery methods have been updated. Confirm your choice before checking out."
+      },
+      "billing": {
+        "same_as_shipping": "Same as delivery address"
+      },
+      "thank_you": {
+        "shipping_information_title": "Delivery information",
+        "shipping_address_title": "Delivery address",
+        "shipping_method_title": "Delivery method",
+        "order_status_updates_with_missing": "Choose how you want to get delivery updates",
+        "unfulfilled_items_title": "Preparing for delivery",
+        "marker": {
+          "shipping": "Delivery address"
+        },
+        "fulfillment": {
+          "unfulfilled_table_title": "Items preparing for delivery"
+        },
+        "order_updates_subscribe_to_email_notifications": "Get delivery updates by email",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Get delivery updates by email or text",
+        "order_updates_subscribe_to_phone_notifications": "Get delivery updates by text"
+      },
+      "review": {
+        "blocks": {
+          "shipping_address_title": "Deliver to",
+          "shipping_method_title": "Delivery method",
+          "change_shipping_address_link_label": "Change delivery address",
+          "change_shipping_method_link_label": "Change delivery method"
+        }
+      },
+      "shop_policies": {
+        "shipping_policy": "Delivery policy"
+      },
+      "no_address_location": {
+        "header": "You don't have a delivery address for this location",
+        "alt_header": "Missing delivery address"
+      },
+      "notice_banner": {
+        "individual_violations_title": {
+          "DeliveryViolations": "Delivery address"
+        },
+        "shipping_address_incomplete_title": "Delivery address is incomplete"
+      },
+      "wallets": {
+        "shipping_line_label": "Delivery"
+      },
+      "field_errors": {
+        "address_country_not_supported": "We don't deliver to this country or region. Enter a new delivery address and try again."
+      },
+      "payment_errors": {
+        "missing_shipping_address": "Your payment couldn't be processed because your delivery address is missing. Add a delivery address and try again."
+      },
+      "shipping_errors": {
+        "empty_state": "Enter your delivery address to view available delivery methods",
+        "title": "Delivery not available"
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "addresses_section_title": "Billing and delivery",
+      "shipping": {
+        "address": "Delivery address",
+        "address_map_marker": "Delivery address",
+        "method": "Delivery method",
+        "summary": "Delivery",
+        "free_shipping_discount": "Free Delivery"
+      },
+      "fees": {
+        "return_shipping_fee": "Return delivery"
+      }
+    },
+    "addresses": {
+      "edit_modal_title": {
+        "shipping": "Edit delivery address"
+      },
+      "loading_shipping_accessibility_message": "Loading delivery address"
+    },
+    "shop_policies": {
+      "shipping_policy": "Delivery policy"
+    }
+  }
+}

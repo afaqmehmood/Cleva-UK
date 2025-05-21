@@ -1,0 +1,52 @@
+<details
+  class="group"
+  x-data="miniCart"
+  x-trap.noscroll="isOpen"
+  @keyup.escape.window="isOpen && toggle()"
+  @click.outside="isOpen && toggle()"
+>
+  <summary
+    class="relative"
+    role="button"
+    aria-controls="mini-cart"
+    :aria-expanded="isOpen"
+    @click.prevent="toggle()"
+    data-ref="button"
+  >
+    {% render 'cart-link-content' %}
+
+    <span
+      class="hidden group-open:block fixed z-10 top-4 right-4 md:top-8 md:right-8"
+      x-show="isOpen"
+    >
+      {% render 'svg', name: 'cross', class: 'text-[18px]' %}
+
+      <span class="sr-only">
+        {{ 'header.cart_close' | t }}
+      </span>
+    </span>
+  </summary>
+
+  <div
+    class="fixed inset-0 bg-black/50 transition-opacity text-black"
+    id="mini-cart"
+    x-show="isOpen"
+    x-transition:enter-start="opacity-0"
+    x-transition:enter-end="opacity-100"
+    x-transition:leave-end="opacity-0"
+    @click.self="isOpen && toggle()"
+  >
+    <div
+      class="
+        absolute top-0 bottom-0 right-0 w-full md:max-w-[480px]
+        p-4 md:p-8 bg-white transition-transform
+      "
+      x-show="isOpen"
+      x-transition:enter-start="translate-x-full"
+      x-transition:enter-end="translate-x-0"
+      x-transition:leave-end="translate-x-full"
+    >
+      {% render 'cart', is_mini_cart: true %}
+    </div>
+  </div>
+</details>

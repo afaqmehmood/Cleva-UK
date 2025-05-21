@@ -1,0 +1,460 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_MX_24V_Cordless_Hedge_Trimmer_CLHT2452-01_Spares.webp",
+            "image_loading": "",
+            "logo": "lawnmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "LawnMaster MX 24V Cordless Hedge Trimmer",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>CLHT2452-01</p><p>Learn how to set up and use your hedge trimmer with instruction manuals, user guides and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/hedge_trimmer_cordless_lawnmaster_CLHT2552D_leaf_blower_CLBL2406-1_instructions_manual_2023-min.pdf?v=1679575857",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_HFcpeE": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Setting Up",
+            "text": "<p>The LawnMaster 24V Hedge Trimmer is supplied fully assembled. </p><p>To operate all you need to do is fully charge and install the battery, and remove the protective sleeve from the blade.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Ef6WAz": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Maintenance",
+            "text": "<p>Ensure that the air vents are always unobstructed and clear. Clean them if necessary with a soft brush. Blocked air vents may lead to overheating and damage the product.</p><p><strong>Cleaning the Blade</strong></p><p>1.Remove the battery pack.</p><p>2. Keep the cutting blades clean and free of debris.</p><p>3. Use a brush or high pressure air (max. 3 bar) to remove debris from the blades.<br/>4. With gloves on, clean the blades with a dry cloth to remove loose material.</p><p>5. Apply a small amount of light machine oil to the edge of the top blade to retain good cutting performance. See Lubricating the Blade below.</p><p>6. Keep the cutting blades sharp. <br/><br/><strong>Lubricating the Blade</strong></p><p>1. Stop the hedge trimmer and remove the battery.</p><p>2. Lie the hedge trimmer on a flat surface. Apply light machine oil along the edge of the top blade.</p><p>NOTE: If you will be using the hedge trimmer for an extended time, it is advisable to oil the blade periodically.</p><p></p><p><strong>Sharpening the Blade:</strong></p><p>1. Stop the hedge trimmer and remove the battery.</p><p>2. Lie the hedge trimmer on a flat surface. </p><p>3. Using a flat file, file towards the cutting edge of the blades, steering clear of the blade protector. </p><p><em>N.B. Only file in one direction. Never use a back and forth motion. </em></p><p>4. Apply the same number of strokes to each side of the blade to keep the trimmer balanced.</p><p>5. After filing, remove any burs you may have created using a whetstone.</p><p>6. Apply light machine oil to your newly sharpened blades.</p><p><strong>Battery and Charger Maintenance</strong></p><p>1. Keep the battery and charger clean and clear of debris. Do not allow foreign material into the recessed cavity or on the contacts. Wipe with a dry cloth. Do not use solvents, water, or place in wet conditions.</p><p>2. Always unplug the charger when there is no battery in it.</p><p>3. Check that the charger and battery contacts have not been shorted by debris.</p><p>4. Always store away from metal objects which could create a connection with the terminals.</p><p>5. Always remove the battery when storing the blower and keep in a cool dry place out of direct sunlight.</p><p>6. Store the battery only within a temperature range between 0°C and 25°C.</p><p>7. We recommended storing the lithium-ion battery in a 30%-50% charged condition.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_bH3Y3B": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "lawnmaster-24v-cordless-hedge-trimmer",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_ifnhgi": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories",
+            "text": "<p>Genuine LawnMaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "clht2452-01-accessories",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_nWYwUC": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Spare Parts",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Pigqy9": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Troubleshooting",
+            "text": "<p>Whilst we don't anticipate you having any issues with your hedge trimmer, here's some troubleshooting guidance if its not performing at its best.</p><p><strong> </strong></p><p><strong>01. Why isn't my hedge trimmer cutting as well as it did when it was new?</strong></p><p>This could be due to:</p><p>1. Too much friction due to the lack of lubrication. Lubricate the hedge trimmer blade with light machine oil.</p><p>2. The hedge trimmer blade is dirty. Clean the hedge trimmer blade.</p><p>3. The hedge trimmer blade is blunt. Sharpen following the guide in the maintenance section above or have the<br/>hedge trimmer blade replaced by a professional.</p><p>4. Your cutting technique is poor. Please refer to trimming section in the instruction manual.</p><p>5. The battery is not fully charged. Recharge the battery or it may be time to replace it.</p><p><strong> </strong></p><p><strong>02. My hedge trimmer blade feels warm after I've used it, why is that?</strong></p><p>This could be caused by one of three reasons:</p><p>1. The blades are blunt. Have the blades sharpened or sharpen the blades at home following the steps in the<br/>maintenance section above.</p><p>2. The blades are notched. Have the blades checked or replaced at a tool sharpening centre.</p><p>3. There is too much friction due to the lack of lubrication. Oil the blades with light machine oil.</p><p> </p><p><strong>03. My hedge trimmer has begun to switch off during use, what do I do?</strong></p><p>An internal contact may have knocked and become loose or the On/Off switch may have developed a fault. Please contact us to resolve using the contact form.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_HFcpeE",
+        "entry_Ef6WAz",
+        "entry_bH3Y3B",
+        "entry_ifnhgi",
+        "entry_nWYwUC",
+        "entry_Pigqy9"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_bdBJwp": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can I use the battery I got with my LawnMaster 24V cordless lawnmower with the hedge trimmer?",
+            "text": "<p>Yes. You can share the MX 24V 4.0AH battery supplied with your LawnMaster lawn mower with all our cordless garden power tools. Remember to charge the larger capacity battery with the fast charger supplied with your mower.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Rrkn8G": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can I buy spare batteries for this hedge trimmer?",
+            "text": "<p>Yes, they are available to purchase directly from the accessories section above.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_bdBJwp",
+        "entry_Rrkn8G"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/5-ways-to-make-your-garden-more-insect-friendly",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/5-tips-to-make-your-lawn-thrive",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>This LawnMaster appliance, spare parts and accessories carry a 2-year guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

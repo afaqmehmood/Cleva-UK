@@ -1,0 +1,39 @@
+<nav>
+  <ul class="flex items-center gap-x-4">
+    <li id="search-button" class="lg:relative">
+      {% render 'header-search' %}
+    </li>
+
+    <li id="account-button" class="max-lg:hidden">
+      <a class="block" href="{{ routes.account_url }}">
+        {% render 'svg', name: 'account' %}  
+
+        <span class="sr-only">
+          {{ 'header.account' | t }}
+        </span>
+      </a>
+    </li>
+
+    <li id="cart-button">
+      {% if template.name == 'cart' %}
+        <a class="block" href="{{ routes.cart_url }}">
+          {% render 'cart-link-content' %}
+        </a>
+      {% else %}
+        {% render 'mini-cart' %}
+      {% endif %}
+    </li>
+
+    <li class="pl-2 lg:hidden">
+      {% render 'mobile-menu',
+        newline: newline,
+        newline_double: newline_double,
+        menu: menu,
+        button_text: button_text,
+        button_url: button_url,
+        button_modal: button_modal,
+        blocks_mega_menu: blocks_mega_menu
+      %}
+    </li>
+  </ul>
+</nav>

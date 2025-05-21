@@ -1,0 +1,37 @@
+{% liquid
+  assign class = class | append: ' w-full'
+
+  assign width = 2000
+
+  if index0 > 0
+    assign widths = '140, 280'
+  else
+    assign widths = '296, 416, 592, 888'
+  endif
+%}
+
+{% if index0 > 0 %}
+  {% capture sizes %}
+    200px
+  {% endcapture %}
+{% else %}
+  {% capture sizes %}
+    (min-width: 768px) calc(29vw),
+    calc(100vw - 64px)
+  {% endcapture %}
+{% endif %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+{% if index0 > 0 %}
+  <picture>
+    <source
+      srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAIBAAA="
+      media="(max-width: 767px)"
+    >
+  
+    {{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}
+  </picture>
+{% else %}
+  {{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}
+{% endif %}

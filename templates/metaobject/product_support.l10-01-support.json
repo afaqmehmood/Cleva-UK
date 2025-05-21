@@ -1,0 +1,1124 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_L10_Robot_Accessories.webp",
+            "image_loading": "",
+            "logo": "lawnmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "LawnMaster L10 Robot Mower",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>L10-01</p><p>Learn how to set up, use and update your L10 Robotic Lawn Mower with instruction manuals, user guides, videos and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/robot_lawnmower_lawnmaster_L10_manual_2022.pdf?v=1679587124",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Setting Up",
+            "text": "<p>Learn how to set up the  LawnMaster L10 Robot Mower with our quick start guide and video. Expect set up to take just over an hour and remember that you only have to do this once before you can sit back and watch it go!</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Quick Start Guide PDF",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Robotic_Mower_L_Series_Quick_Start_Installation_V1_2023-min.pdf?v=1679907255",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://youtu.be/7DuQ_DeX9Ik",
+            "video_2": ""
+          }
+        },
+        "entry_V4HzAX": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Set Up Check List",
+            "text": "<p>Here are some quick checks to make sure your mower is set up correctly. Check that:<br/><br/>1. The boundary wire ends are not stripped too thin - leave plenty of wire core to connect to the terminals<br/><br/>2. The boundary wire ends are in the right terminals - wire running under the charging station plate to BLACK and wire running away from the charging station to RED<br/><br/>3. The charging station is oriented so that the terminals are on the left and open end on right (as viewed from the centre of the lawn)<br/><br/>4. There are no kinks, doubling back, loops or irregular angles along the boundary wire - remember that the robot will follow the exact path of the wire to return home to charge<br/><br/>5. The wire is straight for 1 metre in front of and behind the charging station and that it is in line with the charging station, or the mower may fail to dock or crash into the charging station<br/><br/>6. All connectors used in repairing or connecting extra lengths of boundary wire must be of the type supplied in the box (no chocbox connectors) and they should be fully clamped shut with pliers</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Operating & Maintaining",
+            "text": "<p>Follow our step-by-step videos below to learn how to unlock, start, stop, adjust runtime and daily start time, and change the blades on your LawnMaster L10 Robot Mower.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://youtu.be/6HWqtTIR07c",
+            "video_2": "https://youtu.be/Y3--Wf37uOA"
+          }
+        },
+        "entry_Pq9rCw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Quick How To's",
+            "text": "<p><strong>How to change the working time:</strong></p><p>1. Press the STOP button. </p><p>2. Unlock the control panel. </p><p>3. Press the time setting button to set the desired working time</p><p>4. Press the OK button, you will hear two beeps.</p><p></p><p><strong>How to change the start time:</strong></p><p>1. At the time you wish the mower to begin mowing every day, press the On/Off switch to the “O”<br/>OFF position to turn off the mower. </p><p>2. Then turn on the mower and restart it. The new start time is now set.<br/><br/></p><p><strong>How to mow the lawn's edge: </strong></p><p>1. After finishing two days’ random working, the robotic mower will follow the boundary wire to cut the grass at beginning of the third day.</p><p></p><p><strong>How to set the cutting height:</strong></p><p>The cutting height of the mower can be adjusted from MIN (20 mm) to MAX (60 mm).</p><p>During the first weeks after installation, always select the cutting height (40 mm) to avoid damaging the boundary wire. After this, the cutting height can be lowered step by step every week until the desired cutting height has been reached.</p><p><br/>1. Press the STOP button to stop the robotic lawnmower.</p><p>2. Open the hatch.</p><p>3. Turn the cutting height adjustment knob to set the cutting height.</p><p><br/>- Turn clockwise to raise the cutting height.<br/>- Turn counter-clockwise to lower the cutting height.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Firmware",
+            "text": "<p>For the best performance and latest features, keep your L10 robot mower firmware up to date.</p><p><strong>How to Install Firmware:</strong></p><p>1. Download both firmware files below and save them to a blank USB flash drive/memory stick.   <br/><br/>2. Ensure the files are not saved inside a folder and that there are no other files or folders on the memory stick. Do not change either of the filenames. If the files have downloaded with extra characters in the filename, please delete them when you save. </p><p>Firmware Part 1 file name is called <strong>L10_1.0.0.2</strong></p><p>Firmware Part 2 file name is called <strong>randomMower</strong><br/><br/>3. Make sure that the battery indicator is green and has sufficient charge to perform the software update.  <br/><br/>4. Turn off the robot mower at the switch underneath and place it upside down on a clean, soft surface. Now is also a good time to perform any routine maintenance such as checking and replacing blades.  <br/><br/>5. Using a cross-head screwdriver, remove the screws from the battery compartment in the deck of the mower.  <br/><br/>6. Turn the mower back on at the switch and wait for two beeps.  <br/><br/>7. Insert the USB flash drive and listen for 4 beeps. All time setting lights on the control panel will flash green. The program is installing. Do not remove the USB stick while the program is installing. This may result in damage to your mower. <br/><br/>8. When the update is finished (this may take several minutes), the mower will beep continuously. The flash drive can now be removed. The mower will beep twice indicating that the software update is complete.  <br/><br/>9. Replace the battery cover and screws.   </p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Firmware Part 1",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/L10_1.0.0.2.bin?v=1718617105",
+            "button_2_style": "black",
+            "button_2_text": "Download Firmware Part 2",
+            "button_2_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/randomMower.bin?v=1709050221",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_jCCPhz": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Details",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "lawnmaster-l10-robotic-lawnmower",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_BAigfB": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories",
+            "text": "<p>Genuine LawnMaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "l10-01-accessories",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_AwifdK": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Spare Parts",
+            "text": "<p><strong>Spare Parts</strong></p><p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_RRNrJg": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Troubleshooting",
+            "text": "<p>Whilst we don't anticipate you having any issues with your L Series Robot Mower, this guide is designed to help if you do.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Open Troubleshooting Guide",
+            "button_1_url": "https://forms.office.com/Pages/ResponsePage.aspx?id=NME_F2S-TECdea0CdObPS99xSIVccBxLutng6zNlVdVUOFRNWUdMWDAzVEo5UjNIRUhMUE5PNVk3NC4u",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "entry_V4HzAX",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "entry_Pq9rCw",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_jCCPhz",
+        "entry_BAigfB",
+        "entry_AwifdK",
+        "entry_RRNrJg"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How does it work?",
+            "text": "<p>The LawnMaster L10 is a robotic lawnmower that will mow your lawn independently, freeing you up to either relax or get stuff done while the lawn is taken care of.</p><p><br/>The L10 will alternately mow and charge, returning automatically to the charging dock when the battery is low.</p><p><br/>The mower is contained within the lawn by a boundary wire which is connected to the charging station. The charging station sends a safe, low voltage signal along the boundary wire which the mower senses and won’t go past.</p><p><br/>The boundary wire should be laid around the area that is to be mowed and can be used to exclude the mower from certain areas and obstacles, such as trees, shrubs, raised beds and ponds.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Is it difficult to install?",
+            "text": "<p>Installation requires a boundary wire to be laid around the perimeter of the cutting area and connected to a charging station. This is simple but may take some time. However, the time spent setting up is one-time only, and is repaid by many hours of effort-free lawn maintenance!</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What happens to the grass clippings?",
+            "text": "<p>The LawnMaster L10 mows little and often, shaving just the very tips off the grass with 3 sharp metal blades. These tiny clippings are not collected but are instead returned to the lawn surface where the nutrients contained in them fertilise the soil. This means stronger, healthier grass with less need for supplemental fertiliser. It also means no grass clippings to dispose of or compost.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_QN8CYH": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Do I need to charge it?",
+            "text": "<p>No, the LawnMaster L10 will automatically return to the charging station by navigating anti-clockwise along the boundary wire when the battery is low. If the mower is charging within the mowing duration, it will resume mowing when the battery is fully charged again. If the mower is still charging when the mowing duration has ended, it will remain on stand-by in the dock until the next day.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_jc4LfV": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How long does it mow for?",
+            "text": "<p>The L10 can mow for durations of 4, 6, 8 and 10 hours. The mowing duration selected should depend on the time of year and the size of the lawn. For example, in spring it is advised to select a higher cutting height and longer duration, gradually reducing the height of cut until the grass is uniformly short. This will cause less stress to the lawn and give the best battery performance.<br/><br/>Once the grass has reached the desired length, the duration can be shortened to 4-6 hours for “maintenance cutting”, depending on the size of the lawn. For larger lawns, a longer duration may still be needed to maintain a desirable result.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_TVrybJ": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can it be programmed for specific times?",
+            "text": "<p>The L10 can be programmed to start at a specific time each day. The start time can be changed by turning the mower off, then on again via the switch underneath the mower. </p><p>The L10 will mow every day, for the duration selected using the keypad. Please note that turning the L10 off via the switch underneath the mower for any reason will alter the start time. The new start time will be the time at which the mower is turned on again and the start operation is performed.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_9CJG36": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Is it noisy?",
+            "text": "<p>The L10 is extremely quiet at only 62dB. Enjoy a snooze while the L10 takes care of the lawn!</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_HnBXMQ": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Do I need to bury the wire?",
+            "text": "<p>Although the boundary wire can be buried if desired, it’s not necessarily recommended. Cutting the grass very short where the boundary wire is to be laid is usually enough, and after a few weeks the grass will have grown over the boundary wire, making it practically invisible. Laying the boundary without burying it also makes it easier to make changes and repairs later.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_RDzEgB": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Where can I buy extra blades and other spare parts?",
+            "text": "<p>Replacement blades and other spares such as boundary wire, boundary wire repair kits and our patented labour-saving device, the LawnMaster Peg Driver, can be purchased from Accessories section above this FAQ block.</p><p>We recommend that blades are replaced  whenever the lawn cut looks uneven, or blades appear to be damaged or worn during routine inspection. </p><p>Always replace in sets to preserve normal function of the machine.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Td7KaC": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What do I do if my boundary wire is damaged?",
+            "text": "<p>If the boundary wire becomes damaged for any reason, it is quite simple to repair using connectors supplied with the mower. Extra wire can be spliced into the boundary to extend or repair it. Insert the ends to be connected into any two of the holes in the connector and clamp it shut with grips or pliers. The connector is filled with water-repellent grease and is waterproof.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_xtCyet": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "I can’t remember my pin code, what do I do?",
+            "text": "<p>Please call the help line on 0191 654 0036 and we can talk you through how to re-set your PIN. For security reasons, we may ask you about details relating to your order to verify ownership of the mower.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Jp86fc": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What security features does the mower have? Will it be stolen?",
+            "text": "<p>The L10 requires PIN code entry after each time the stop button is pressed, or the machine is turned off and on again via the switch underneath the mower. This removes the possibility for children and unauthorised persons to operate the machine.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_ybNRGC": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Is it safe for children and pets?",
+            "text": "<p>The L10 has passed rigorous tests to ensure that it is compliant with the latest safety standards set by European regulators. The blades will stop if the product is lifted, tilted or bumps into an object. However, for added safety, we recommend not to leave children and pets unattended while the L10 is operating nearby.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_fKqKJ8": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can I leave it out all year round?",
+            "text": "<p>It is recommended to bring the L10 indoors to a dry garage or shed when the main growing season is finished (usually around the end of October). The product should be charged before storing to keep the battery in optimum condition. It is also recommended to give the mower a thorough clean and take the opportunity to replace blades and check for software updates before the new season. The charging station can be left outside year round.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_aFVM87": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What happens if there are obstacles on the lawn?",
+            "text": "<p>The L10 is equipped with a bump sensor, meaning that if the mower bumps into a large, unmoving object, it will stop, reverse and continue in a different direction. However, it is recommended to remove or cordon off (using the boundary wire) sloping stones, trees with fragile bark, angled tree supports, exposed tree roots, shrubs and ponds<br/>to prevent damage to both the mower and the object.<br/><br/>Smaller objects such as children’s toys, pet toys, tools, sticks and small stones should be removed from the lawn as they pose a risk of damaging the mower.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_zWfmUp": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What about flower bulbs in the lawn?",
+            "text": "<p>Temporary physical boundaries can be placed on the lawn to deflect the L10 during the growing season for daffodils and other bulbs. To protect them, we recommend sinking lengths of bamboo cane (approx. 40cm tall) into the lawn at 15cm intervals from each other to form a temporary barrier around the patches which require protection. Ensure at least 20cm remains above ground level. This method can also be used around areas that may need reseeding throughout the season. <br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_wgQrAL": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Will it mow in the rain?",
+            "text": "<p>The L10 has a built-in rain sensor which is designed to detect wet conditions. When the rain sensor is triggered, the mower will return to the charging station until the sensor dries out naturally. This prevents damage to the lawn from the wheels operating in wet conditions and avoids extra load on the motor and battery caused by cutting in wet conditions.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_QRLdDg": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can it mow on slopes?",
+            "text": "<p>Measure the length of each string between each cane. Add them together. This is the run of the slope. Measure the vertical distance from the bottom of each cane to where the string meets. Add them together. This is the rise.<br/><br/>The formula for calculating the gradient is (Rise/Run) *100</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Y94pff": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "I have multiple lawns; do I need two mowers?",
+            "text": "<p>If you have two lawns which are connected by a corridor or path which wider than 1m and all on the same level, the L10 can navigate this as part of normal operation. We would not recommend that you attempt to allow the L10 to navigate a corridor of gravel, as this may damage the cutting mechanism.<br/><br/>If you have multiple lawns separated on different levels or separated by obstacles which would prevent the L10 from gaining access (such as a fence), the L10 will need to be moved manually to the secondary lawn. In order to do this, the boundary wire is set up as normal around the main lawn, and the secondary lawn is wired up as an island.<br/>For more details on how to set up the L10 to mow secondary lawns, please refer to the instruction manual.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_aXWPQL": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Will I still need a traditional lawnmower?",
+            "text": "<p>You may still require a traditional mower if your garden has tricky areas that the L10 cannot navigate, such as steep slopes, extremely bumpy areas, or areas exposed to the general public, such as front lawns. </p><p>Although the L10 has an edge cutting function, it will still leave a small border (around 20cm) of lawn un-cut where the boundary wire is laid 30cm away from the edge of the lawn. We recommend using a grass trimmer to tidy the edges.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_EeWidN": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What is the warranty period?",
+            "text": "<p>The L10 comes with a 2-year warranty against manufacturing defects. This does not cover wear and tear, consumables such as blades, accidental damage or use not in accordance with the recommendations. If you suspect your L10 has a defect, please contact us using the form below. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_qTF3Qw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What is the maximum cutting area?",
+            "text": "<p>The L10 can cut a maximum area of 400m2. In order to achieve the best finish, we recommend cutting the lawn to 30mm with a traditional mower before starting the L10 for the first time. This will result in a neat finish from the start. </p><p>Alternatively, the L10 can be started at a relatively high height of cut (40mm) and allowed to cut the grass down gradually. It may take several days to achieve a uniform finish this way, depending on the size of garden.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_7A3kNk": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How often do I need to clean it?",
+            "text": "<p>We recommend inspecting your L10 every 8 weeks to check for damage and wear to the blades. During this time, it can be useful to give the mower a clean with a cloth or brush to remove any built up grass and mud, particularly in the wheel treads. </p><p>The L10 is IPX5 rated, meaning that it can be cleaned using a standard garden hose if necessary. Do not use high powered jet wash equipment for this task.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_DyxCYy": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How long does it need to be charged for?",
+            "text": "<p>The L10 automatically senses when the battery is low and will return to the base station along the boundary wire. </p><p>During a mowing period of 8 hours, the mower will return to the base to be charged multiple times. The amount of times will depend on the length of grass being mown.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_APxqP6": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can I control it from my phone?",
+            "text": "<p>We designed our L10 to be as simple to use as possible, meaning no apps needed to use it. The mower is controlled completely from the keypad on the machine.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_bFytNH": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How long will the blades last before they need to be replaced?",
+            "text": "<p>We recommend changing the blades at the start of a new season. However, we recommend checking the blades for wear every 8 weeks. Replacement blades can be purchased in the accessories section above.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_fTdDrk": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "It’s stopped working, what do I do?",
+            "text": "<p>Please check the troubleshooting guide above.</p><p>Solutions to many common problems can be found there. The mowing schedule can be affected by turning the mower off at the switch on the deck. </p><p>If the mower has been switched off in this way, please return the mower to the lawn, turn it on and start it again at the time of day that mowing is desired to take place.</p><p>If the mower is fully charged, unresponsive (i.e. does not beep when the on/off switched is pressed) and there are no lights on the control pad, please contact us using the form below.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "entry_QN8CYH",
+        "entry_jc4LfV",
+        "entry_TVrybJ",
+        "entry_9CJG36",
+        "entry_HnBXMQ",
+        "entry_RDzEgB",
+        "entry_Td7KaC",
+        "entry_xtCyet",
+        "entry_Jp86fc",
+        "entry_ybNRGC",
+        "entry_fKqKJ8",
+        "entry_aFVM87",
+        "entry_zWfmUp",
+        "entry_wgQrAL",
+        "entry_QRLdDg",
+        "entry_Y94pff",
+        "entry_aXWPQL",
+        "entry_EeWidN",
+        "entry_qTF3Qw",
+        "entry_7A3kNk",
+        "entry_DyxCYy",
+        "entry_APxqP6",
+        "entry_bFytNH",
+        "entry_fTdDrk"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/3-step-winter-maintenance-for-your-lawnmaster-l10-robot-mower",
+            "image_loading": ""
+          }
+        },
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/robot-mowers-how-to-measure-the-gradient-or-slope-of-your-lawn",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/do-these-three-things-to-get-a-lush-green-lawn-naturally",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>This LawnMaster appliance, spare parts and accessories carry a 2-year guarantee.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

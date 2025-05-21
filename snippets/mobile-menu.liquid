@@ -1,0 +1,258 @@
+<div x-data="mobileMenus">
+  <details
+    x-data="mobileMenu({ id: 'mobile-menu', level: 0 })"
+    x-trap="isOpen"
+    @keyup.escape.window="isOpen && isOpenIds.length == 1 && toggle()"
+    @click.outside="isOpen && toggle()"
+  >
+    <summary
+      class="block w-[28px] h-[28px]"
+      role="button"
+      aria-controls="mobile-menu"
+      :aria-expanded="isOpen"
+      @click.prevent="toggle()"
+    >
+      <span class="h-full flex items-center justify-center">
+        <span class="[[open]_&]:hidden">
+          {% render 'svg', name: 'menu', class: 'text-[28px]' %}
+
+          <span class="sr-only">
+            {{ 'header.menu' | t }}
+          </span>
+        </span>
+
+        <span class="hidden [[open]_&]:block">
+          {% render 'svg', name: 'cross', class: 'text-[15px]' %}
+
+          <span class="sr-only">
+            {{ 'header.menu_close' | t }}
+          </span>
+        </span>
+      </span>
+    </summary>
+
+    <div
+      class="
+        fixed top-[calc(var(--header-height-live)_+_var(--announcement-bar-height-visible-live))] bottom-0 left-0 right-0
+        overflow-auto pt-6 bg-white transition-[transform,opacity]
+      "
+      id="mobile-menu"
+      x-show="isOpen"
+      x-transition:enter-start="opacity-0 -translate-x-full"
+      x-transition:enter-end="opacity-100 translate-x-0"
+      x-transition:leave-end="opacity-0 -translate-x-full"
+    >
+      <div class="h-full flex flex-col container [&:has([open])]:invisible">
+        {% if menu %}
+          <nav class="flex-1 pb-6">
+            <ul>
+              {% for link in menu.links %}
+                {% liquid
+                  assign parent_forloop = forloop
+
+                  assign link_class = 'flex items-center justify-between gap-x-6 py-6 font-bold text-[18px]/[22px]'
+                %}
+
+                <li class="border-b border-grey-50 last:border-b-0">
+                  {% if link.links == empty %}
+                    <a class="{{ link_class }}" href="{{ link.url }}">
+                      {{ link.title }}
+
+                      {% render 'svg', name: 'arrow', class: 'text-grey-200' %}
+                    </a>
+                  {% else %}
+                    {% liquid
+                      assign link_links = null | sort
+
+                      assign link_utility_links = null | sort
+
+                      for link in link.links
+                        assign link_as_array = link | sort
+
+                        if link.links == empty
+                          assign link_utility_links = link_utility_links | concat: link_as_array
+                        else
+                          assign link_links = link_links | concat: link_as_array
+                        endif
+                      endfor
+
+                      assign link_block_settings_mega_menu = blocks_mega_menu | map: 'settings' | where: 'title', link.title | first
+
+                      assign link_mega_menu_sale_links_titles = link_block_settings_mega_menu.sale_links_titles | replace: newline_double, newline | split: newline | default: null
+                    %}
+
+                    <details
+                      x-data="mobileMenu({ id: 'mobile-menu-{{ forloop.index }}', level: 1 })"
+                      x-trap="isOpen"
+                      @keyup.escape.window="isOpen && isOpenIds.length == 2 && toggle()"
+                      @click.outside="isOpen && toggle()"
+                    >
+                      <summary
+                        class="{{ link_class }}"
+                        role="button"
+                        aria-controls="mobile-menu-{{ forloop.index }}"
+                        :aria-expanded="isOpen"
+                        @click.prevent="toggle()"
+                      >
+                        {{ link.title }}
+
+                        {% render 'svg', name: 'arrow', class: 'text-grey-200' %}
+                      </summary>
+
+                      <div
+                        class="absolute inset-0 bg-white transition-[transform,opacity] visible"
+                        id="mobile-menu-{{ forloop.index }}"
+                        x-show="isOpen"
+                        x-transition:enter-start="opacity-0 translate-x-full"
+                        x-transition:enter-end="opacity-100 translate-x-0"
+                        x-transition:leave-end="opacity-0 translate-x-full"
+                      >
+                        <div class="py-6 container">
+                          <button class="flex items-center gap-x-4 mb-10" type="button" @click.prevent="toggle()">
+                            {% render 'svg', name: 'arrow', class: 'rotate-180 text-grey-200' %}
+
+                            <span class="font-bold text-[14px]">
+                              {{ 'header.back' | t }}
+                            </span>
+                          </button>
+
+                          <div class="relative flex items-center justify-between gap-x-4 mb-3">
+                            {% case link.handle %}
+                              {% when 'vacmaster', 'lawnmaster' %}
+                                {% render 'svg', name: link.handle, class: 'w-[115px] h-auto' %}
+                            {% endcase %}
+
+                            <a class="flex items-center gap-x-4 live-full-focus-ring ml-auto" href="{{ link.url }}">
+                              <span class="font-bold">
+                                {{ 'header.view_all' | t }}
+                              </span>
+
+                              {% render 'svg', name: 'arrow', class: 'text-grey-200' %}
+                            </a>
+                          </div>
+
+                          <ul>
+                            {% for link in link_links %}
+                              {% assign link_class = 'flex items-center justify-between gap-x-6 py-4 font-bold' %}
+
+                              <li class="border-b border-black">
+                                {% if link.links == empty %}
+                                  <a class="{{ link_class }}" href="{{ link.url }}">
+                                    {{ link.title }}
+
+                                    {% render 'svg', name: 'caret', class: 'text-grey-200' %}
+                                  </a>
+                                {% else %}
+                                  <details
+                                    class="group"
+                                    x-data="mobileMenu({ id: 'mobile-menu-{{ parent_forloop.index }}-{{ forloop.index }}', level: 2 })"
+                                    @keyup.escape.window="isOpen && toggle()"
+                                    @click.outside="isOpen && toggle()"
+                                  >
+                                    <summary
+                                      class="{{ link_class }}"
+                                      role="button"
+                                      aria-controls="mobile-menu-{{ parent_forloop.index }}-{{ forloop.index }}"
+                                      :aria-expanded="isOpen"
+                                      @click.prevent="toggle()"
+                                    >
+                                      {{ link.title }}
+
+                                      <span class="block group-open:hidden">
+                                        {% render 'svg', name: 'caret', class: 'text-grey-200' %}
+                                      </span>
+
+                                      <span class="hidden group-open:block">
+                                        {% render 'svg', name: 'caret', class: 'rotate-180 text-grey-200' %}
+                                      </span>
+                                    </summary>
+
+                                    <div
+                                      class="!transition-[opacity,height] opacity-0 group-open:!opacity-100"
+                                      :class="{
+                                        'group-open:!opacity-100': false,
+                                        '!opacity-100': isOpen
+                                      }"
+                                      id="mobile-menu-{{ parent_forloop.index }}-{{ forloop.index }}"
+                                      x-show="isOpen"
+                                      x-collapse.duration.150ms
+                                    >
+                                      <ul class="pt-2 pb-7">
+                                        {% for link in link.links %}
+                                          <li class="mb-4 last:mb-0">
+                                            <a class="text-black/60" href="{{ link.url }}">
+                                              {{ link.title }}
+                                            </a>
+                                          </li>
+                                        {% endfor %}
+                                      </ul>
+                                    </div>
+                                  </details>
+                                {% endif %}
+                              </li>
+
+                              {% if forloop.last and link_utility_links != empty %}
+                                {% for link in link_utility_links %}
+                                  <li
+                                    class="
+                                      mb-2 last:mb-0
+  
+                                      {% if forloop.first %}
+                                        mt-6
+                                      {% endif %}
+                                    "
+                                  >
+                                    <a
+                                      class="
+                                        text-black/60 hover:underline
+  
+                                        {% if link_mega_menu_sale_links_titles contains link.title %}
+                                          text-red
+                                        {% endif %}
+                                      "
+                                      href="{{ link.url }}"
+                                    >
+                                      {{ link.title }}
+                                    </a>
+                                  </li>
+                                {% endfor %}
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
+                      </div>
+                    </details>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        {% endif %}
+
+        <nav class="pb-12">
+          <ul class="main-grid items-center gap-y-10">
+            <li class="col-span-full">
+              {% render 'header-search-form', input_id: 'mobile-menu-search-q' %}
+            </li>
+
+            <li class="col-span-2">
+              <a class="flex items-center gap-x-3" href="{{ routes.account_url }}">
+                {% render 'svg', name: 'account', class: 'text-grey-200' %}  
+              
+                <span class="font-bold text-[18px]/[22px]">
+                  {{ 'header.account' | t }}
+                </span>
+              </a>
+            </li>
+
+            {% if button_text %}
+              <li class="col-span-2 text-grey-200">
+                {% render 'header-button',  text: button_text, url: button_url, is_modal: button_modal, class: '!w-full' %}
+              </li>
+            {% endif %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </details>
+</div>

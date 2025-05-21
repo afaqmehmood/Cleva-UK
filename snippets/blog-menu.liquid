@@ -1,0 +1,26 @@
+<nav id="blog-menu" class="overflow-hidden border-y border-grey-50 mb-12">
+  <ul
+    class="
+      max-md:overflow-x-scroll max-md:snap-x max-md:snap-mandatory max-md:scrollbar-none
+      max-md:-mx-[--container-padding-x] max-md:px-[--container-padding-x]
+      flex
+    "
+  >
+    {% for link in menu.links %}
+      <li class="max-md:shrink-0 md:flex-1 md:first:flex-initial md:first:min-w-[176px] border-r border-grey-50 last:border-r-0">
+        <a
+          class="
+            block max-md:px-12 p-6 font-bold text-[14px] text-center hover:bg-grey-50
+
+            {% if link.current %}
+              bg-grey-50
+            {% endif %}
+          "
+          href="{{ link.url }}"
+        >
+          {{ link.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

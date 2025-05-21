@@ -1,0 +1,41 @@
+{% liquid
+  assign slidesSize = slidesSize | append: '.0'
+
+  assign skip = skip | append: '.0'
+
+  assign dots = slidesSize | divided_by: skip | ceil
+
+  assign dot_progress_single = 100 | divided_by: dots
+%}
+
+{% if dots > 1 %}
+  <div class="{{ class }} mt-6 flex flex-wrap justify-center gap-1 -scale-100">
+    {% for dot_index in (1..dots) reversed %}
+      {% liquid
+        assign dot_index0 = dot_index | minus: 1
+        
+        assign dot_progress = dot_progress_single | times: dot_index0
+      %}
+
+      <div
+        class="
+          w-[10px] h-[10px] bg-black/20 rounded-full [.\!bg-grey-300_~_&]:!bg-black/20
+
+          {% if forloop.last %}
+            !bg-grey-300
+          {% endif %}
+        "
+        :class="{
+          '!bg-grey-300': (
+            {% if forloop.first %}
+              scrollProgress >= 100
+            {% else %}
+              scrollProgress >= {{ dot_progress }}
+            {% endif %}
+          )
+        }"
+      >
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

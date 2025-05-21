@@ -1,0 +1,35 @@
+{% liquid
+  assign class = class | append: ' absolute top-0 left-0 w-full h-full object-cover'
+
+  assign width = 2000
+
+  assign widths = '360, 720, 1080, 1500, 2000'
+
+  assign width_mobile = image_mobile.width
+
+  assign widths_mobile = '360, 540, 720, 900, 1080'
+%}
+
+{% capture sizes %}
+  100vw
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+<picture class="md:hidden">
+  <source
+    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAIBAAA="
+    media="(min-width: 768px)"
+  >
+
+  {{ image_mobile | image_url: width: width_mobile | image_tag: preload: preload, class: class, loading: loading, widths: widths_mobile, sizes: sizes }}
+</picture>
+
+<picture class="max-md:hidden">
+  <source
+    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAIBAAA="
+    media="(max-width: 767px)"
+  >
+
+  {{ image | image_url: width: width | image_tag: preload: preload, class: class, loading: loading, widths: widths, sizes: sizes }}
+</picture>

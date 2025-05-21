@@ -1,0 +1,618 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "usp_BUHLfU": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "usp_BUHLfU",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34": {
+      "type": "featured-about",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "watermark_enable": false,
+        "scroll_animation_enable": false,
+        "logo": "lawnmaster",
+        "pretitle": "",
+        "title_tag": "h1",
+        "title": "Robot Lawn Mowers",
+        "text_truncate_enable": true,
+        "text": "<p>Get a freshly manicured lawn all day, every day with the LawnMaster robot lawn mower range. <strong>Official LawnMaster® UK Site. </strong></p>",
+        "button_style": "black",
+        "button_text": "",
+        "button_url": "/",
+        "image": "shopify://shop_images/Robot_Lawn_Mowers_from_LawnMaster_by_Cleva.webp",
+        "image_mobile": "shopify://shop_images/Robot_Lawn_Mowers_from_LawnMaster_by_Cleva_-_Mobile.webp",
+        "image_loading": ""
+      }
+    },
+    "b85e586a-2b07-45d6-9de8-08088ba28d2d": {
+      "type": "featured-subcollections",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "subcollections": [
+          "ocumow",
+          "l-series"
+        ]
+      }
+    },
+    "collection-main": {
+      "type": "collection-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "0ed2bba0-8414-4ee3-a6f8-765eacff47e2": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "cce108e2-7fe1-43b7-9cb8-1386e58da70b": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/LawnMaster_Robot_Lawn_Mowers_7ce09def-5e2c-4665-8879-1733280abd8c.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Advanced Technology, Simplified",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Our robotic lawn mowers seamlessly blend cutting edge technology with simple-to-use features, redefining the landscape of lawn care. </p><p><strong>LawnMaster robot mowers navigate independently around your lawn without the need for complicated apps.</strong></p>",
+            "button_1_style": "link",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "cce108e2-7fe1-43b7-9cb8-1386e58da70b"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_text_with_image_xiGxTq": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_RnPK4j": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_Robot_Lawn_Mowers.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Direct from the Makers",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Browse our latest products, access detailed specification information, and use the insights from the team that design and make the products to choose the best robot lawn mower for your needs, at a price you'll love.</p><p><strong>LawnMaster by Cleva. Manufacturer of over 65 million appliances sold worldwide.</strong></p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_Q3Epmw": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_Robot_Lawn_Mowers_L10.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Built to Perform",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>We apply the latest processes and highest standards of engineering to our motor technology, product design and production. The result is a wide range of high-quality robot lawn mowers with exceptional performance and durability.</p><p><strong>Our robotic lawn mowers consistently receive 5 star reviews from customers and industry experts.</strong></p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_RnPK4j",
+        "text_with_image_Q3Epmw"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a": {
+      "type": "featured-quotes",
+      "blocks": {
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121": {
+          "type": "quote",
+          "settings": {
+            "text": "Embrace the robotic revolution with LawnMaster",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": "lawnmaster"
+          }
+        }
+      },
+      "block_order": [
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_press_mn3dmk": {
+      "type": "featured-press",
+      "blocks": {
+        "logo_cKNthM": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/B_Q.svg",
+            "image_loading": ""
+          }
+        },
+        "logo_gkmEUV": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Amazon.svg",
+            "image_loading": ""
+          }
+        },
+        "logo_ftRGHU": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Range.svg",
+            "image_loading": ""
+          }
+        },
+        "logo_DfqCdH": {
+          "type": "logo",
+          "settings": {
+            "text": "",
+            "image": "shopify://shop_images/Roberty_Dyas.svg",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_cKNthM",
+        "logo_gkmEUV",
+        "logo_ftRGHU",
+        "logo_DfqCdH"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "",
+        "title": "As Seen In",
+        "text": "<p>Our appliances are trusted by some of the UK’s leading online retailers.</p>"
+      }
+    },
+    "featured_accordion_drf3ag": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_Uqz8HB": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "What is the main benefit of a robot lawn mower?",
+            "text": "<p>Robot lawn mowers, like the popular <a href=\"/products/lawnmaster-l10-robotic-lawnmower\" title=\"LawnMaster L10 | Robot Lawn Mower - Up to 400m2\">LawnMaster L10</a>, utilise the latest technology to independently mow your lawn, freeing up your time to spend elsewhere.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_dUXKiw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How do robot lawn mowers work?",
+            "text": "<p>Requiring minimal human intervention, robot mowers cut the lawn in a sequential or random pattern and drop the clippings back onto the lawn's surface, acting as a natural fertiliser. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_UFpFKF": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Who would use a robot grass cutter?",
+            "text": "<p>Robot grass cutters are ideal for busy households, or those looking to outsource heavy gardening work, as well as technology enthusiasts looking for the latest must-have gardening appliance. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_9WQ9rH": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Which LawnMaster robot mower is best for me?",
+            "text": "<p>LawnMaster <a href=\"/collections/ocumow\" title=\"OcuMow Robot Mowers\">OcuMow® robot mowers</a> utilise a camera, sensors and Optical Grass Recognition (OGR) software to navigate around the lawn. These mowers are best suited for smaller lawns that have a defined border all around the edge of the lawn.</p><p>LawnMaster <a href=\"/collections/l-series\" title=\"L Series Robot Mowers\">L Series robot mowers</a> use a fixed boundary wire and sensors to navigate around the lawn. These mowers are best suited to medium and large lawns that feature more complex layouts, boundaries or have full borders.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_Uqz8HB",
+        "entry_dUXKiw",
+        "entry_UFpFKF",
+        "entry_9WQ9rH"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "7e19b5fc-8697-4d83-b7d1-ce74b9ff1718": {
+      "type": "featured-articles",
+      "blocks": {
+        "20f5382f-c283-4fe9-a1bb-47f26fe60401": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/robot-mowers-how-to-measure-the-gradient-or-slope-of-your-lawn",
+            "image_loading": ""
+          }
+        },
+        "a8089af5-3b6e-4354-a94f-a252a935cd68": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-mulching-benefits-your-lawn",
+            "image_loading": ""
+          }
+        },
+        "e1dc2c1f-1d21-4268-8558-9ab7e2583e9d": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/3-step-winter-maintenance-for-your-lawnmaster-l10-robot-mower",
+            "image_loading": ""
+          }
+        },
+        "button_44ppda": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Read All",
+            "url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "20f5382f-c283-4fe9-a1bb-47f26fe60401",
+        "a8089af5-3b6e-4354-a94f-a252a935cd68",
+        "e1dc2c1f-1d21-4268-8558-9ab7e2583e9d",
+        "button_44ppda"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "featured_cards_JwtbDM": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_8CXrCD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster-Explore_Cordless_Lawn_Mowers.webp",
+            "image_loading": "",
+            "title": "Cordless Lawn Mowers",
+            "text": "",
+            "url": "shopify://collections/cordless-lawn-mowers"
+          }
+        },
+        "card_3pMXhB": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster-_Electric_Lawn_Mowers_Explore.webp",
+            "image_loading": "",
+            "title": "Electric Lawn Mowers",
+            "text": "",
+            "url": "shopify://collections/electric-lawn-mower"
+          }
+        },
+        "card_RYPc7G": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image_loading": "",
+            "title": "Vacuum Cleaners & Floorcare",
+            "text": "",
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
+          }
+        }
+      },
+      "block_order": [
+        "card_8CXrCD",
+        "card_3pMXhB",
+        "card_RYPc7G"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Explore",
+        "title": "Also Discover",
+        "text": ""
+      }
+    },
+    "355df750-9c77-46f5-9902-2521e6eabd60": {
+      "type": "featured-accordion",
+      "blocks": {
+        "b0f98870-3ac4-4ef6-8402-2f15a153ed14": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Go to Product Support",
+            "url": "shopify://pages/product-support"
+          }
+        },
+        "5df770a5-cdc7-4265-b748-7273dac5589f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>All LawnMaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "link",
+            "button_1_text": "View Guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "d499a91a-5b93-4b6b-a5d3-f746a7044118": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p>Free and Fast Delivery:</p><p>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. </p><p>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.</p><p>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.</p><p>Returns:</p><p>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "21de727d-a7df-42c5-82f5-4b5a0ff9ce9b": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "b0f98870-3ac4-4ef6-8402-2f15a153ed14",
+        "5df770a5-cdc7-4265-b748-7273dac5589f",
+        "d499a91a-5b93-4b6b-a5d3-f746a7044118",
+        "21de727d-a7df-42c5-82f5-4b5a0ff9ce9b"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "9fdd4d6a-b0fd-46f5-9ab9-6bd129633d4c": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase. </p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34",
+    "b85e586a-2b07-45d6-9de8-08088ba28d2d",
+    "collection-main",
+    "0ed2bba0-8414-4ee3-a6f8-765eacff47e2",
+    "featured_text_with_image_xiGxTq",
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a",
+    "featured_press_mn3dmk",
+    "featured_accordion_drf3ag",
+    "7e19b5fc-8697-4d83-b7d1-ce74b9ff1718",
+    "featured_cards_JwtbDM",
+    "355df750-9c77-46f5-9902-2521e6eabd60",
+    "9fdd4d6a-b0fd-46f5-9ab9-6bd129633d4c"
+  ]
+}

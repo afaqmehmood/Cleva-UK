@@ -1,0 +1,32 @@
+{% liquid
+  assign is_enabled = true
+
+  if whitelist_tags
+    assign is_enabled = false
+
+    for whitelist_tag in whitelist_tags
+      if tags contains whitelist_tag
+        assign is_enabled = true
+        break
+      endif
+    endfor
+  endif
+%}
+
+{% if is_enabled %}
+  <ul class="flex flex-wrap gap-2 md:gap-4 {{ class }}">
+    {% for tag in tags %}
+      {% liquid
+        if whitelist_tags
+          unless whitelist_tags contains tag
+            continue
+          endunless
+        endif
+      %}
+
+      <li class="py-1.5 px-3 bg-gold-50 rounded-full font-bold text-[10px] md:text-[14px]">
+        {{ tag }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

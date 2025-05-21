@@ -1,0 +1,61 @@
+{% form 'activate_customer_password' %}
+  <h1 class="font-bold text-[33px]/[50px] md:text-[40px]/[48px] text-center mb-6">
+    {{ 'customer.activate.title' | t }}
+  </h1>
+
+  <p class="text-grey-300 mb-6">
+    {{ 'customer.activate.text' | t }}
+  </p>
+
+  {% if form.errors %}
+    {% render 'form-errors', form: form %}
+  {% endif %}
+
+  <label class="sr-only" for="password">
+    {{ 'customer.activate.password' | t }}
+  </label>
+
+  <input
+    class="form-input mb-6"
+    type="password"
+    name="customer[password]"
+    id="password"
+    autocomplete="new-password"
+    placeholder="{{ 'customer.activate.password' | t }}"
+    required
+
+    {% if form.errors contains 'password' %}
+      aria-invalid="true"
+    {% endif %}
+  >
+
+  <label class="sr-only" for="password_confirmation">
+    {{ 'customer.activate.password_confirm' | t }}
+  </label>
+
+  <input
+    class="form-input mb-6"
+    type="password"
+    name="customer[password_confirmation]"
+    id="password_confirmation"
+    autocomplete="new-password"
+    placeholder="{{ 'customer.activate.password_confirm' | t }}"
+    required
+
+    {% if form.errors contains 'password' %}
+      aria-invalid="true"
+    {% endif %}
+  >
+
+  <button class="form-button form-button--black w-full mb-6" type="submit">
+    {{ 'customer.activate.submit' | t }}
+  </button>
+
+  <div class="text-center">
+    <button class="group/button inline-flex items-center gap-x-4" type="submit" name="decline">
+      {{ 'customer.activate.cancel' | t }}
+
+      {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+    </button>
+  </div>
+{% endform %}

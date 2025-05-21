@@ -1,0 +1,169 @@
+{% capture newline %}
+{% endcapture %}
+
+{% liquid
+  assign newline_double = newline | append: newline
+
+  assign vendor_handle = product.vendor | handle
+
+  assign badge_tags = settings.product_badge_tags | replace: newline_double, newline | split: newline
+
+  assign bis_notify_enable = product.metafields.custom.bis_notify_enable.value
+
+  assign link_group = product.metafields.custom.link_group.value
+
+  assign logo = null
+
+  case vendor_handle
+    when 'vacmaster', 'lawnmaster'
+      assign logo = vendor_handle
+  endcase
+%}
+
+<section
+  class="{% render 'section-class', section: section %}"
+  x-data="productMain({ sectionId: {{ section.id | json | escape }} })"
+>
+  <div class="container main-grid gap-y-6">
+    <div class="col-span-full md:col-span-6">
+      {% render 'product-media', badge_tags: badge_tags, logo: logo %}
+    </div>
+
+    <div class="col-span-full md:col-start-8 md:col-span-5">
+      <div x-show="isSticky" x-cloak>
+        <div :style="`height: ${stickyElHeight}px`"></div>
+      </div>
+
+      <div
+        :class="{
+          'overflow-hidden fixed bottom-0 left-0 right-0 z-30 py-4 border-t border-grey-100 bg-white': isSticky
+        }"
+        x-ref="stickyEl"
+      >
+        <div class="flex flex-col gap-y-6" :class="{ 'container main-grid items-center': isSticky }">
+          <div class="flex flex-col gap-y-6" :class="{ 'col-span-6': isSticky }">
+            {% liquid
+              render 'product-reviews-summary', is_main: true
+              render 'product-info', logo: logo
+            %}
+          </div>
+
+          <div
+            class="flex flex-col gap-y-6"
+            :class="{
+              'col-span-6 !flex-row items-center justify-end gap-x-6': isSticky
+            }"
+          >
+            <div
+              class="relative text-[24px]/[30px] md:text-[33px]/[35px] font-display !font-bold text-grey-100"
+              :class="{
+                'order-2 !font-normal !text-[20px]/[25px] !text-grey-300 [&_*]:block pr-6': isSticky,
+                'after:absolute after:-top-full after:right-0 after:h-[300%] after:border-r after:border-grey-100': isSticky
+              }"
+              data-ref="price"
+            >
+              {% render 'price', use_variant: true %}
+            </div>
+
+            {% render 'product-text' %}
+
+            {% if product.metafields.custom.features.value %}
+              <div x-show="!isSticky">
+                {% render 'product-features',
+                  class: 'flex flex-wrap gap-y-4 -ml-4 [&>*]:w-1/2 [&>*]:pl-4',
+                  icon_class: 'mr-4'
+                %}
+              </div>
+            {% endif %}
+
+            <div :class="{ 'contents': isSticky }" data-ref="form">
+              {% render 'product-form', bis_notify_enable: bis_notify_enable, link_group: link_group %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div x-ref="postStickyEl"></div>
+
+      <div class="flex flex-col gap-y-6 mt-6">
+        {% liquid
+          render 'product-klarna'
+          render 'product-delivery'
+          render 'product-discounts'
+        %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Product main",
+    "presets": [
+      {
+        "name": "Product main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["product"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

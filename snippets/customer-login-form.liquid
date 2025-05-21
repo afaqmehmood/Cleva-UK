@@ -1,0 +1,66 @@
+{% form 'customer_login' %}
+  <h1 class="font-bold text-[33px]/[50px] md:text-[40px]/[48px] text-center mb-6">
+    {{ 'customer.login.title' | t }}
+  </h1>
+
+  {% if form.errors %}
+    {% render 'form-errors', form: form %}
+  {% endif %}
+
+  <label class="sr-only" for="CustomerEmail">
+    {{ 'customer.login.email' | t }}
+  </label>
+
+  <input
+    class="form-input mb-6"
+    type="email"
+    name="customer[email]"
+    id="CustomerEmail"
+    autocomplete="email"
+    autocorrect="off"
+    autocapitalize="off"
+    placeholder="{{ 'customer.login.email' | t }}"
+    required
+
+    {% if form.errors contains 'form' %}
+      aria-invalid="true"
+    {% endif %}
+  >
+
+  {% if form.password_needed %}
+    <label class="sr-only" for="CustomerPassword">
+      {{ 'customer.login.password' | t }}
+    </label>
+
+    <input
+      class="form-input mb-6"
+      type="password"
+      value=""
+      name="customer[password]"
+      id="CustomerPassword"
+      autocomplete="current-password"
+      placeholder="{{ 'customer.login.password' | t }}"
+      required
+
+      {% if form.errors contains 'form' %}
+        aria-invalid="true"
+      {% endif %}
+    >
+
+    <a class="block w-fit text-grey-300 underline mb-6" href="#recover">
+      {{ 'customer.login.forgot_password' | t }}
+    </a>
+  {% endif %}
+
+  <button id="login-form-submit" class="form-button form-button--black w-full mb-6" type="submit">
+    {{ 'customer.login.login' | t }}
+  </button>
+
+  <div class="text-center">
+    <a class="group/button inline-flex items-center gap-x-4" href="{{ routes.account_register_url }}">
+      {{ 'customer.login.register' | t }}
+
+      {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+    </a>
+  </div>
+{% endform %}

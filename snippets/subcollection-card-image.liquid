@@ -1,0 +1,16 @@
+{% liquid
+  assign class = class | append: ' w-full aspect-[1.5] object-cover transition-transform group-hover:scale-110 group-focus-within:scale-110'
+
+  assign width = 2000
+
+  assign widths = '280, 300, 560, 600, 840'
+%}
+
+{% capture sizes %}
+  (min-width: 768px) calc(25vw - 60px),
+  calc(87vw - 32px)
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+{{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}

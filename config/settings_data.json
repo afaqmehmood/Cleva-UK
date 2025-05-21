@@ -1,0 +1,245 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "mode": "production",
+    "favicon_image": "shopify://shop_images/03_-_CLEVA_-_Icon.png",
+    "social_facebook": "https://www.facebook.com/ClevaEurope",
+    "social_twitter": "",
+    "social_pinterest": "",
+    "social_instagram": "https://www.instagram.com/cleva_europe/",
+    "social_tiktok": "https://www.tiktok.com/@clevaeurope",
+    "social_youtube": "https://www.youtube.com/channel/UCjJVyhv5WF5nSldddJDYBnw",
+    "social_linkedin": "https://www.linkedin.com/company/cleva-europe-ltd",
+    "spacing_container_width": "1920px",
+    "spacing_container_padding_x": "16px",
+    "spacing_md_container_padding_x": "48px",
+    "spacing_main_grid_cols": "repeat(4, minmax(0, 1fr))",
+    "spacing_md_main_grid_cols": "repeat(12, minmax(0, 1fr))",
+    "spacing_main_grid_gap_x": "20px",
+    "spacing_md_main_grid_gap_x": "24px",
+    "product_image_background_enable": true,
+    "product_image_background_color": "#fafafa",
+    "product_badge_tags": "Battery Not Included\nRemote Control\nSpare Battery\nSpare Batteries\nx2 Batteries\nWith 6 Bags\nWith 12 Bags\nNew\nSpare Blade\nFree Peg Driver\nFree USB Power Bank Adapter\nFree USB Adapter\nFree Dust Bags\nOffers Available\nx5 Free Dust Bags\n110V",
+    "product_card_image_size": "small",
+    "sections": {
+      "app-optimization": {
+        "type": "app-optimization",
+        "blocks": {
+          "e4006370-abc4-4286-8c64-734d37012e14": {
+            "type": "app",
+            "settings": {
+              "title": "Hulk Form Builder",
+              "url": "formbuilder.hulkapps.com/skeletopapp.js",
+              "block_index": true,
+              "block_product": true,
+              "block_collection": true,
+              "block_page": false,
+              "block_blog": true,
+              "block_article": true,
+              "block_cart": true,
+              "block_search": true,
+              "block_customers": true,
+              "block_gift_card": true,
+              "block_metaobject": true,
+              "scroll_index": false,
+              "scroll_product": false,
+              "scroll_collection": false,
+              "scroll_page": false,
+              "scroll_blog": false,
+              "scroll_article": false,
+              "scroll_cart": false,
+              "scroll_search": false,
+              "scroll_customers": false,
+              "scroll_gift_card": false,
+              "scroll_metaobject": false,
+              "interaction_index": false,
+              "interaction_product": false,
+              "interaction_collection": false,
+              "interaction_page": false,
+              "interaction_blog": false,
+              "interaction_article": false,
+              "interaction_cart": false,
+              "interaction_search": false,
+              "interaction_customers": false,
+              "interaction_gift_card": false,
+              "interaction_metaobject": false,
+              "interaction_selectors_1": "",
+              "interaction_event_1": "click",
+              "interaction_selectors_2": "",
+              "interaction_event_2": "click"
+            }
+          },
+          "8aea0045-ec63-4556-a975-a2a008c399f9": {
+            "type": "app",
+            "settings": {
+              "title": "Booster EU Cookie",
+              "url": "cdn.shopify.com/s/files/1/0050/9811/1010/t/123/assets/booster_eu_cookie_5098111010.js",
+              "block_index": true,
+              "block_product": true,
+              "block_collection": true,
+              "block_page": true,
+              "block_blog": true,
+              "block_article": true,
+              "block_cart": true,
+              "block_search": true,
+              "block_customers": true,
+              "block_gift_card": true,
+              "block_metaobject": true,
+              "scroll_index": false,
+              "scroll_product": false,
+              "scroll_collection": false,
+              "scroll_page": false,
+              "scroll_blog": false,
+              "scroll_article": false,
+              "scroll_cart": false,
+              "scroll_search": false,
+              "scroll_customers": false,
+              "scroll_gift_card": false,
+              "scroll_metaobject": false,
+              "interaction_index": false,
+              "interaction_product": false,
+              "interaction_collection": false,
+              "interaction_page": false,
+              "interaction_blog": false,
+              "interaction_article": false,
+              "interaction_cart": false,
+              "interaction_search": false,
+              "interaction_customers": false,
+              "interaction_gift_card": false,
+              "interaction_metaobject": false,
+              "interaction_selectors_1": "",
+              "interaction_event_1": "click",
+              "interaction_selectors_2": "",
+              "interaction_event_2": "click"
+            }
+          },
+          "6907ac5f-a45b-4d77-a530-bee13929ba79": {
+            "type": "app",
+            "settings": {
+              "title": "Klarna",
+              "url": "s3.eu-west-1.amazonaws.com/production-klarna-il-shopify-osm/0cf42b376feeb11d247d11c5c05f6df0995db72f/cleva-uk.myshopify.com-1696323472795.js",
+              "block_index": true,
+              "block_product": false,
+              "block_collection": true,
+              "block_page": true,
+              "block_blog": true,
+              "block_article": true,
+              "block_cart": true,
+              "block_search": true,
+              "block_customers": true,
+              "block_gift_card": true,
+              "block_metaobject": true,
+              "scroll_index": false,
+              "scroll_product": true,
+              "scroll_collection": false,
+              "scroll_page": false,
+              "scroll_blog": false,
+              "scroll_article": false,
+              "scroll_cart": false,
+              "scroll_search": false,
+              "scroll_customers": false,
+              "scroll_gift_card": false,
+              "scroll_metaobject": false,
+              "interaction_index": false,
+              "interaction_product": false,
+              "interaction_collection": false,
+              "interaction_page": false,
+              "interaction_blog": false,
+              "interaction_article": false,
+              "interaction_cart": false,
+              "interaction_search": false,
+              "interaction_customers": false,
+              "interaction_gift_card": false,
+              "interaction_metaobject": false,
+              "interaction_selectors_1": "",
+              "interaction_event_1": "click",
+              "interaction_selectors_2": "",
+              "interaction_event_2": "click"
+            }
+          }
+        },
+        "block_order": [
+          "e4006370-abc4-4286-8c64-734d37012e14",
+          "8aea0045-ec63-4556-a975-a2a008c399f9",
+          "6907ac5f-a45b-4d77-a530-bee13929ba79"
+        ],
+        "settings": {
+          "enable": true,
+          "debug_enable": false,
+          "url_force": "googletagmanager.com/gtm.js\n\ngoogletagmanager.com/gtag/js\n\ngoogle-analytics.com\n\nfacebook.net/en_US/fbevents.js\n\n/cdn/shopifycloud/shopify/assets/storefront"
+        }
+      },
+      "modal": {
+        "type": "modal",
+        "settings": {
+          "enable": true,
+          "image": "shopify://shop_images/Vacmaster_LawnMaster_Home_Garden_Appliances.jpg",
+          "title": "Sign up for 10% off",
+          "text": "<p>Sign up to our mailing list and get 10% off your next purchase, plus access to exclusive benefits including:</p><ul><li>Special Offers</li><li>New Products</li><li>Events</li><li>Product Updates</li><li>News and Advice</li></ul>",
+          "klaviyo_list_id": "PayVgm"
+        }
+      },
+      "policy-main": {
+        "type": "policy-main",
+        "settings": {
+          "padding_top": "sm",
+          "padding_top_mobile": "sm",
+          "padding_bottom": "sm",
+          "padding_bottom_mobile": "sm"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "2153490007123654574": {
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {}
+      },
+      "319724205969189013": {
+        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {}
+      },
+      "15316669992541710076": {
+        "type": "shopify://apps/reviews-io/blocks/reviewsio-rating-snippet/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "star": "#000",
+          "text_color": "#333",
+          "snippet_mode": "default",
+          "text": "Reviews",
+          "line_break": false,
+          "listen_for_changes": false,
+          "rating_without_brackets": false,
+          "format_review_count": false,
+          "show_popup": true,
+          "anchor_to_reviews_widget": false,
+          "show_empty_stars": false
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "10830403595879607806": {
+        "type": "shopify://apps/reviews-io/blocks/reviewsio-core/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "url_key": "cleva-uk",
+          "lang": "auto",
+          "enable_syndication": false
+        }
+      }
+    }
+  }
+}

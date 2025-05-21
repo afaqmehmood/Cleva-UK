@@ -1,0 +1,25 @@
+{% liquid
+  assign class = class | append: ' w-full'
+
+  assign width = 2000
+
+  assign widths = '328, 656, 984, 1320'
+%}
+
+{% capture sizes %}
+  (min-width: 768px) calc(45vw),
+  calc(100vw - 32px)
+{% endcapture %}
+
+{% assign sizes = sizes | strip_newlines | strip %}
+
+<div
+  class="rounded-2xl overflow-hidden"
+  style="
+    {% if settings.product_image_background_enable and settings.product_image_background_color %}
+      background-color: {{ settings.product_image_background_color }};
+    {% endif %}
+  "
+>
+  {{ image | image_url: width: width | image_tag: class: class, loading: loading, widths: widths, sizes: sizes }}
+</div>

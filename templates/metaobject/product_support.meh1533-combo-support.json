@@ -1,0 +1,607 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy direct from the makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/1500W_33cm_Electric_Hover_Collect_Trimmer_LawnMaster_MEH1533_COMBO_Spares.webp",
+            "image_loading": "",
+            "logo": "lawnmaster",
+            "pretitle": "Support",
+            "title_tag": "h2",
+            "title": "LawnMaster 1500W 33cm Electric Hover Mower Collect & Grass Trimmer",
+            "subtitle_tag": "h1",
+            "subtitle": "Guides, Manuals, Parts & Support",
+            "text": "<p>MEH1533 COMBO</p><p>Learn how to set up and use your garden set with instruction manuals, user guides and FAQs.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/lawnmower_electric_lawnmaster_MEH1533_COMBO_manual_2023.pdf?v=1679587223",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fad54914-86b1-4ac9-9adf-4f288b3fd0891"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_xH97bX": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "Setting Up - Hover Mower",
+            "text": "<p><strong>Assembling the Lower Handle</strong><br/>1. Insert the lower handles into the slots on the deck. Push down the lower handles until the screw holes are aligned.<br/>2. Secure the lower handles with the screws provided.<br/><br/><strong>Assembling the Upper Handle</strong><br/>1. Align the screw holes on the upper and lower handles. Press the upper handle to snap it into the groove.<br/>2. Secure the upper handle and lower handle with the wing knobs, washers and bolts.<br/>3. Secure the control cable against the handle frame with the supplied cable clips.<br/><br/>The adjustment spanner can be easily stored on the lower handle cross bar.</p><p><strong>Setting Up Your Preferred Cutting Height</strong></p><p>The mower comes with one spacer pre-fitted and can be set to 4 cutting heights between 12mm and 33mm. Spacers provide the following approximate cutting heights. 0 spacer = 33mm, 1 spacer = 26mm, 2 spacers = 19mm, 3 spacers = 12mm.</p><p>Choose the appropriate cutting height according to the condition of your grass.</p><p>Watch the video below to see how to change the cutting height of your LawnMaster hover mower:</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://youtu.be/Z-vYb6ZpOkU",
+            "video_2": ""
+          }
+        },
+        "entry_Wn7LEm": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Setting Up - Grass Trimmer",
+            "text": "<p><strong>Assembling the Handle Shafts</strong></p><p>1. Insert the upper and lower handle shafts securely into the middle handle shaft and ensure they are fully engaged and locked into position.<br/><strong><br/>Fitting the Safety Guard</strong></p><p>1. Place the safety guard over the trimmer head and onto rear of the motor housing. Make sure the markings on the guard and the trimmer head are aligned.<br/><br/>2. Rotate the guard along the support grooves following the directional arrow into the correct location. Make sure the screw holes on the guard and the trimmer head are aligned.<br/><br/>3. Secure the guard with 1 screw provided using a Phillips screwdriver.</p><p><strong>Edging and Trimming</strong></p><p>Learn how to switch your grass trimmer from edging to trimming mode with this quick video guide:</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://www.youtube.com/watch?v=yqoUiAqJ-ig",
+            "video_2": ""
+          }
+        },
+        "entry_piTU4J": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Maintenance",
+            "text": "<p><strong>Hover Mower Maintenance:</strong></p><p>Your LawnMaster 33cm hover mower collect blade needs to be regularly checked, cleaned and sharpened to preserve the cutting performance of your mower and encourage healthy grass growth. If the blade becomes damaged, we always recommend changing it. It's quick and easy to do.<br/><br/>Follow the step by step video below to see how to change your LawnMaster hover mower blade.</p><p><strong>Grass Trimmer Maintenance:</strong></p><p>Watch the video below to learn how to replace the spool and line on your LawnMaster grass trimmer.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://youtu.be/ajfbRnTaoNY",
+            "video_2": "https://youtu.be/fw4eIVTwWpc"
+          }
+        },
+        "entry_KdVXM8": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "lawnmaster-1500w-33cm-electric-hover-mower-collect-and-25cm-grass-trimmer-set",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_FXcfTP": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Accessories",
+            "text": "<p>Genuine LawnMaster accessories and spare parts for your machine.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "meh1533-combo-accessories",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_9HWhVV": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Spare Parts",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"otjOjpGJNTLkEoKsicfZrA\"></div>",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_xH97bX",
+        "entry_Wn7LEm",
+        "entry_piTU4J",
+        "entry_KdVXM8",
+        "entry_FXcfTP",
+        "entry_9HWhVV"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "",
+        "title_size": "large",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd21": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_mrUdUc": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "When should I use the mulching function on my lawn mower?",
+            "text": "<p><strong>Using the Mulch Mode</strong></p><p>Switching your mower to mulch mode stops the mower from collecting the cut grass and instead deposits the clippings onto the lawn surface. The clippings drop to the soil level and degrade, returning nutrients back to the lawn and the grass roots. Keeping your lawn healthy.</p><p>Mulch mode is especially good at tackling long grass.</p><p>When tackling longer grass, cut the grass once in mulch mode then cut the lawn again in collect mode. This is easier and faster than trying to cut and collect very long grass in one go.</p><p>Mulching works best when grass is cut frequently because this will produce smaller grass clippings that more easily drop to the soil level and degrade returning nutrients back to the lawn and the grass roots.<br/><br/>N.B. In dense grass growth, mow the grass using half the available width of your lawn mower, this will reduce load on the lawn mower.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_p4TCdJ": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How do change the hover mower from collecting grass to mulching?",
+            "text": "<p>1. Rotate the Mulch Mode Selector switch anti-clockwise to select mulch mode and clockwise to return to collect mode.<br/></p><p>2. In collect mode, airflow will be drawn into the collection chute at ground level, this collects the grass clippings as you mow.<br/></p><p>3. In mulch mode this collection chute is closed off by the mulch flap and airflow enters through the now open mulch flap opening. This maintains the airflow for hover lift and prevents grass collection.<br/></p><p>4. Grass clippings remain on the lawn when the mulch mode is selected and these clippings can be repeatedly cut by the blade.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_BKwXcP": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How do I change the cutting height of my hover mower?",
+            "text": "<p>The mower comes with one spacer pre-fitted and can be set to 4 cutting heights between 12mm and 33mm. Choose the appropriate cutting height according to the condition of your grass.</p><p>Watch the video below to see how to change the cutting height of your LawnMaster hover mower:</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "https://youtu.be/Z-vYb6ZpOkU",
+            "video_2": ""
+          }
+        },
+        "entry_kGy7iJ": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Why is my hover mower vibrating excessively?",
+            "text": "<p>An unbalanced blade will cause excessive vibration when the mower is running. Left unresolved, this vibration could eventually damage the mower's motor.<br/><br/>To check the blade balance:</p><p>1. Clamp a screwdriver horizontally in a vice. If you don't have a vice, use a straight nail instead.</p><p>2. Place the centre hole of blade over the screwdriver (or nail).</p><p>3. If blade is balanced, it will remain in a horizontal position. If either end of the blade drops downward, sharpen the heavy side until the blade is balanced. Or replace the blade.</p><p>4. Always check that the blade bolt is tight and re -tighten if it is loose.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_pEApKY": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "My hover mower motor is labouring, why?",
+            "text": "<p>This can be caused by a build up of grass clipping on the underside of the hover mover deck, causing it to clog.</p><p>Check underneath the mower and scrape off the dried mulch with the plastic scraper supplied with the mower.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_R4Qr34": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Why is my grass trimmer not working at full power?",
+            "text": "<p>The air vents may be blocked with grass trimmings. Clean the air vents to restore performance.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_aLbBGM": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Why is my trimmer making a loud noise?",
+            "text": "<p>This could be one of three reasons:</p><p>1. The line spool is dirty. Check and clean if it is.</p><p>2. The spool is defective. Replace the spool if it is defective. Watch the video in the maintenance section above to see how.</p><p>3. There is a problem with the motor. Please contact us.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_AJUAXj": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "The trimmer isn't cutting very well. Why?",
+            "text": "<p>1. Check to see if the trimmer line is worn or damaged, and replace if it is.</p><p>2. There is insufficient line. Release more line.</p><p>3. The trimming lines are not guided out of the spool correctly. Remove the line spool and rethread the trimming lines through the eyelets. Check the line ends are not held in the parking slots on spool.</p><p>Replace the spool if necessary.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_mrUdUc",
+        "entry_p4TCdJ",
+        "entry_BKwXcP",
+        "entry_kGy7iJ",
+        "entry_pEApKY",
+        "entry_R4Qr34",
+        "entry_aLbBGM",
+        "entry_AJUAXj"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQ",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
+      }
+    },
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
+      "type": "featured-articles",
+      "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/5-tips-to-make-your-lawn-thrive",
+            "image_loading": ""
+          }
+        },
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/lawnmowers-choosing-the-optimal-cutting-width-for-your-lawn",
+            "image_loading": ""
+          }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/5-ways-to-make-your-garden-more-insect-friendly",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd3": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>This LawnMaster appliance, spare parts and accessories carry a 2-year guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "337e6560-6338-43d1-bb33-32461bb7b5cb": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "df696699-42a8-4b2a-8976-674c3e309cd21",
+    "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
+    "df696699-42a8-4b2a-8976-674c3e309cd3",
+    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+  ]
+}

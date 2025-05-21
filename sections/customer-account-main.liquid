@@ -1,0 +1,123 @@
+<section class="customer account {% render 'section-class', section: section %}">
+  <div class="container">
+    <header class="mb-12">
+      <h1 class="font-bold text-[33px]/[50px] md:text-[40px]/[48px] mb-4">
+        {{ 'customer.account.title' | t }}
+      </h1>
+
+      <a class="group/button inline-flex items-center gap-x-4" href="{{ routes.account_logout_url }}">
+        {% render 'svg', name: 'account', class: 'text-[14px]' %}
+
+        {{ 'customer.account.logout' | t }}
+
+        {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+      </a>
+    </header>
+
+    <div class="main-grid gap-y-12">
+      <div class="col-span-full lg:col-span-8">
+        <h2 class="font-bold text-[20px]/[25px] mb-6">
+          {{ 'customer.account.orders_title' | t }}
+        </h2>
+
+        {% paginate customer.orders by 1000 %}
+          {% if customer.orders != empty %}
+            {% render 'customer-orders-table' %}
+          {% else %}
+            <p class="text-grey-300">
+              {{ 'customer.account.orders_none' | t }}
+            </p>
+          {% endif %}
+        {% endpaginate %}
+      </div>
+
+      <div class="col-span-full lg:col-start-10 lg:col-span-3">
+        <h2 class="font-bold text-[20px]/[25px] mb-6">
+          {{ 'customer.account.details_title' | t }}
+        </h2>
+
+        <div class="text-grey-300 mb-6">
+          {{ customer.default_address | format_address }}
+        </div>
+
+        <a class="group/button inline-flex items-center gap-x-4" href="{{ routes.account_addresses_url }}">
+          {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
+
+          {% render 'svg', name: 'arrow', class: 'group-hover/button:translate-x-1 transition text-[14px]' %}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Customer account main",
+    "presets": [
+      {
+        "name": "Customer account main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["customers/account"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

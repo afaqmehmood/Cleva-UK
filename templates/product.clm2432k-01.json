@@ -1,0 +1,724 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35": {
+      "type": "featured-text-with-icon",
+      "blocks": {
+        "aa9370f5-862d-4221-88f8-2df4783e5117": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "cutting-width",
+            "title": "Cut to the Edge",
+            "text": "<p>Side combs guide grass from the lawn's border towards the blade, for edge-to-edge cutting. </p>"
+          }
+        },
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "capacity",
+            "title": "5 Cutting Heights",
+            "text": "<p>Quickly change the height of cut from 25mm - 65mm with a single lever.</p>"
+          }
+        },
+        "a73107f1-d813-4f4a-9738-d04082969ce4": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "sqaure-circle-corners",
+            "title": "MX 24V Shared Battery System",
+            "text": "<p>Compatible with the LawnMaster MX 24V Shared Battery System.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "aa9370f5-862d-4221-88f8-2df4783e5117",
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796",
+        "a73107f1-d813-4f4a-9738-d04082969ce4"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_cards_LbU947": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_XzYgYx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/CLM2432K-01_32cm_Cordless_Freedom.webp",
+            "image_loading": "lazy",
+            "title": "24V Cordless Freedom",
+            "text": "<p>Supplied with a reliable MX 24V 4.0Ah battery and a 1 hour fast charger. Every MX 24V 4.0Ah battery and charger is fully compatible with the LawnMaster MX 24V cordless range, including lawnmowers, hedge trimmers, grass trimmers, chainsaws and leaf blowers.</p>",
+            "url": ""
+          }
+        },
+        "card_Cmwr7p": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Cordless_Lawn_Mowers_iPower_Battery.webp",
+            "image_loading": "",
+            "title": "iPower Intelligent Power Management",
+            "text": "<p>Power delivery is automatically adjusted according to the grass conditions, delivering extra power in tougher conditions and reserving battery life during lighter cutting.</p>",
+            "url": ""
+          }
+        },
+        "card_p3THhR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_32cm_Cordless_RediBag.webp",
+            "image_loading": "",
+            "title": "Ready to Go",
+            "text": "<p>Use with the 30L Redi-bag grass collector to collect the grass clippings for a neat finish. The Redi-bag requires minimal assembly out of the box, simply unfold it and clip in the handle. The indicator flap lets you know when the grass collector is full.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_XzYgYx",
+        "card_Cmwr7p",
+        "card_p3THhR"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "",
+        "pretitle": "Explore",
+        "title": "Features & Benefits",
+        "text": ""
+      }
+    },
+    "featured_cards_YDtMY4": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_imjALJ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/CLM2432K-01_Rear_Roller.webp",
+            "image_loading": "",
+            "title": "Rear Roller",
+            "text": "<p>Fitted with a rear roller for a precise, striped finish.</p>",
+            "url": ""
+          }
+        },
+        "card_6hhHHm": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Cordless_Lawn_Mowers_Battery.webp",
+            "image_loading": "",
+            "title": "Battery Indicator",
+            "text": "<p>Check how much charge remains in the battery before mowing, for the confidence to mow the lawn without interruption.</p>",
+            "url": ""
+          }
+        },
+        "card_6L7wkN": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Cut_to_Edge_32cm_Cordless_Mower.webp",
+            "image_loading": "",
+            "title": "Cut to the Edge",
+            "text": "<p>The comb on the side of the mower brushes grass into the blades to ensure you can cut close to the edge of your lawn, reducing the amount of trimming required.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_imjALJ",
+        "card_6hhHHm",
+        "card_6L7wkN"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_cards_CWNitA": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_JrF8AM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Cordless_Lawn_Mowers_32cm_Carry_Handle.webp",
+            "image_loading": "",
+            "title": "Carry Handle",
+            "text": "<p>Convenient central carry handle for moving the mower in and out of tight storage spaces, and transporting the mower over uneven surfaces and up and down steps.</p>",
+            "url": ""
+          }
+        },
+        "card_iTAaYJ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/CLM2432K-01_Grass_Box_Full_Indicator.webp",
+            "image_loading": "",
+            "title": "Grass Box Full Indicator",
+            "text": "<p>The indicator flap closes when the grass box is full. Allows you to empty at the right time to maximise battery run time and minimise blockages.</p>",
+            "url": ""
+          }
+        },
+        "card_y6Hncf": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/32cm_Cordless_Mower_Child_Safety_Lock.webp",
+            "image_loading": "",
+            "title": "Safety Key Child Lock",
+            "text": "<p>Ensure the mower cannot be accidentally started by removing the safety key in between use.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_JrF8AM",
+        "card_iTAaYJ",
+        "card_y6Hncf"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "featured_quotes_YamDdc": {
+      "type": "featured-quotes",
+      "blocks": {
+        "quote_z6FiLd": {
+          "type": "quote",
+          "settings": {
+            "text": "Compact cordless freedom. Big power that cuts-through",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": "lawnmaster"
+          }
+        }
+      },
+      "block_order": [
+        "quote_z6FiLd"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_text_with_image_FXPR6E": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_67Kbzd": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_MX_24V_Shared_Battery_System.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "MX 24V Shared Battery System",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>The supplied MX 24V 4.0Ah battery and charger is fully compatible with the LawnMaster MX 24V cordless range, including lawnmowers, hedge trimmers, grass trimmers, chainsaws and leaf blowers.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_8krqyC": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_32cm_Cordless_Mower_Spare_Blade.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Spare Blade Included",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>A spare 32cm carbon steel blade is included in the box.</p>",
+            "button_1_style": "black",
+            "button_1_text": "View guarantee",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_nTrpaU": {
+          "type": "text-with-image",
+          "disabled": true,
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/USB_Power_Adapter_Free_with_Cordless_Mower.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Free USB Power Bank Adapter",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Adapter to convert LawnMaster 24V and MX 24V batteries to a handy USB power bank. Perfect for charging USB devices while camping or doing DIY. Can charge up to 2 devices simultaneously with a total output current of 2.1A.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_67Kbzd",
+        "text_with_image_8krqyC",
+        "text_with_image_nTrpaU"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c": {
+      "type": "featured-features",
+      "blocks": {
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/MX_24v_32cm_Cordless_Mower_Guarantee.webp",
+            "image_loading": "",
+            "icon": "guarantee",
+            "title": "2-Year Guarantee",
+            "text": "<p>Peace of mind with our 2-year manufacturer guarantee.</p>"
+          }
+        },
+        "501a6d11-0820-42d7-9455-af4a760a8e04": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/24V_32cm_Mower_Charger.webp",
+            "image_loading": "",
+            "icon": "battery-bolt",
+            "title": "1hr Fast Charge",
+            "text": "<p>The detachable MX 24V 4.0Ah lithium battery can be charged in just 1hr with the LawnMaster fast charger provided.</p>"
+          }
+        },
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/MX_24v_32cm_Cordless_Mower_Height.webp",
+            "image_loading": "",
+            "icon": "capacity",
+            "title": "Single Lever Height Adjust",
+            "text": "<p>Quickly change the height of cut from 25mm to 65mm with a single lever.</p>"
+          }
+        },
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/MX_24V_32cm_Mower_Grass_Box.webp",
+            "image_loading": "",
+            "icon": "compact",
+            "title": "Collapsible Grass Bag",
+            "text": "<p>30L Redi-bag grass collector is collapsible for compact storage on top of the mower.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a",
+        "501a6d11-0820-42d7-9455-af4a760a8e04",
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75",
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "In the Box",
+            "text": "<p>1x MX 24V 4.0Ah Battery, 1x MX 24V Fast Charger, 1x 32cm Spare Blade and 30L Collapsible Grass Bag</p>",
+            "button_1_style": "white",
+            "button_1_text": "Shop now",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image": "shopify://shop_images/MX_24v_32cm_Cordless_Mower_in_the_box.webp",
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Technical Specifications",
+            "text": "",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "lawnmaster-mx-24v-32cm-cordless-lawn-mower",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Product Support",
+            "text": "<p>Learn how to use, maintain and troubleshoot your LawnMaster cordless lawn mower with easy to follow videos, user guides and FAQs.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Go to product support",
+            "button_1_url": "shopify://metaobjects/product_support/lawn-master-mx-24-v-32-cm-cordless-lawn-mower",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Instruction Manual",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "Download",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Lawnmower_cordless_lawnmaster_CLM2432K_instruction_manual_2024_lo.pdf?v=1707210881",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Information",
+        "title_size": "large",
+        "title": "Specification",
+        "text": ""
+      }
+    },
+    "88f30ef1-5d27-47e7-9655-32f0d8016675": {
+      "type": "featured-collection",
+      "blocks": {
+        "94592e8c-f8a7-4d05-95bd-1984549039b5": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Shop All",
+            "url": "shopify://collections/clm2432k-01-accessories"
+          }
+        },
+        "4a3319f2-a88e-4233-a4b4-72590768cea0": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "shopify://metaobjects/product_support/lawn-master-mx-24-v-32-cm-cordless-lawn-mower"
+          }
+        }
+      },
+      "block_order": [
+        "94592e8c-f8a7-4d05-95bd-1984549039b5",
+        "4a3319f2-a88e-4233-a4b4-72590768cea0"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Discover",
+        "title": "Accessories & Spare Parts",
+        "text": "",
+        "collection": "clm2432k-01-accessories",
+        "products_per_page": 8
+      }
+    },
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Reviews",
+        "title": "Don't just take our word for it"
+      }
+    },
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
+      "type": "product-recommendations",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Related",
+        "title": "You May Also Like"
+      }
+    },
+    "featured_accordion_YyyUxg": {
+      "type": "featured-accordion",
+      "blocks": {
+        "button_DYDnbx": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://metaobjects/product_support/lawn-master-mx-24-v-32-cm-cordless-lawn-mower"
+          }
+        },
+        "entry_Kf4exw": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "LawnMaster Guarantee",
+            "text": "<p>All LawnMaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_mbP8Km": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Bb8WRF": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact-us",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_DYDnbx",
+        "entry_Kf4exw",
+        "entry_mbP8Km",
+        "entry_Bb8WRF"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "lazy",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
+      }
+    },
+    "featured_content_7E4itj": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "product-main",
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
+    "featured_cards_LbU947",
+    "featured_cards_YDtMY4",
+    "featured_cards_CWNitA",
+    "featured_quotes_YamDdc",
+    "featured_text_with_image_FXPR6E",
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "88f30ef1-5d27-47e7-9655-32f0d8016675",
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
+    "featured_accordion_YyyUxg",
+    "featured_content_7E4itj"
+  ]
+}

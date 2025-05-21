@@ -1,0 +1,9 @@
+<a
+  class="flex items-center gap-x-2 mt-10 font-bold"
+  href="{{ filter.url_to_remove }}"
+  @click.prevent="onLinkClick"
+>
+  {% render 'svg', name: 'cross', class: 'text-[10px]' %}
+
+  {{ 'facets.reset' | t }}
+</a>

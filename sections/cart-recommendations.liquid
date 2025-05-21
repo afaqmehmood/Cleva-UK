@@ -1,0 +1,19 @@
+{% assign cart_product_handles = cart.items | map: 'product' | map: 'handle' %}
+
+{% for product in recommendations.products %}
+  {% liquid
+    if cart_product_handles contains product.handle
+      continue
+    endif
+  %}
+
+  <li class="shrink-0 w-1/2 md:w-full pl-4" data-product-handle="{{ product.handle }}">
+    {% render 'product-card',
+      product: product,
+      is_border: false,
+      is_small_title: true,
+      form_enable: true,
+      is_cart_recommendation: true
+    %}
+  </li>
+{% endfor %}

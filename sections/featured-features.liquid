@@ -1,0 +1,243 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign blocks = section.blocks | default: null
+%}
+
+<section class="{% render 'section-class', section: section %}">
+  <div class="container">
+    <div class="main-grid mb-12 md:mb-16 last:mb-0">
+      <div class="col-span-full md:mb-4 last:mb-0">
+        {% if pretitle %}
+          <p class="font-bold underline mb-4 last:mb-0">
+            {{ pretitle }}
+          </p>
+        {% endif %}
+      
+        {% if title %}
+          <h2 class="font-display !font-bold text-[38px]/[48px] md:text-[44px]/[51px]">
+            {{ title }}
+          </h2>
+        {% endif %}
+      </div>
+
+      {% if text %}
+        <div class="col-span-full md:col-span-6 xl:col-span-4 text-[20px] text-black/60">
+          {{ text }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if blocks %}
+      <div
+        class="
+          max-md:pt-6 max-md:pb-12 max-md:px-[--container-padding-x] max-md:bg-grey-50 max-md:rounded-2xl
+          main-grid overflow-hidden
+        "
+      >
+        <div class="col-span-full md:col-span-6 max-md:mb-12 last:mb-0 md:mr-6">
+          {% render 'featured-features-item', block: blocks[0], index0: 0 %}
+        </div>
+
+        {% if blocks.size > 1 %}
+          <div
+            class="
+              max-md:overflow-x-scroll max-md:snap-x max-md:snap-mandatory max-md:scrollbar-none
+              max-md:-mx-[--container-padding-x] max-md:px-[--container-padding-x]
+              max-md:flex max-md:-ml-6 max-md:[&_>_*]:pl-6
+              col-span-full md:col-span-6 md:flex md:flex-col md:justify-evenly md:gap-y-6 md:ml-6
+            "
+          >
+            {% for block in blocks offset: 1 %}
+              {% render 'featured-features-item', block: block, index0: 1 %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Features & Benefits",
+    "presets": [
+      {
+        "name": "Features & Benefits"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "feature",
+        "name": "Feature",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "icon",
+            "label": "Icon",
+            "options": [
+              { "value": "arrows", "label": "Arrows" },
+              { "value": "sqaure-circle-corners", "label": "Sqaure circle corners" },
+              { "value": "battery", "label": "Battery" },
+              { "value": "touch", "label": "Touch" },
+              { "value": "plus", "label": "Plus" },
+              { "value": "temperature", "label": "Temperature" },
+              { "value": "award", "label": "Award" },
+              { "value": "bagged", "label": "Bagged" },
+              { "value": "baggless", "label": "Baggless" },
+              { "value": "battery-bolt", "label": "Battery Bolt" },
+              { "value": "battery-horizontal", "label": "Battery Horizontal" },
+              { "value": "blade", "label": "Blade" },
+              { "value": "bolt", "label": "Bolt" },
+              { "value": "brushroll", "label": "Brushroll" },
+              { "value": "brushroll-single", "label": "Brushroll - Single" },
+              { "value": "brushroll-double", "label": "Brushroll - Double" },
+              { "value": "brushroll-double-overlap", "label": "Brushroll - Double Overlap" },
+              { "value": "capacity", "label": "Capacity" },
+              { "value": "clock", "label": "Clock" },
+              { "value": "compact", "label": "Compact" },
+              { "value": "compass", "label": "Compass" },
+              { "value": "cutting-height", "label": "Cutting Height" },
+              { "value": "cutting-width", "label": "Cutting Width" },
+              { "value": "cyclonic", "label": "Cyclonic" },
+              { "value": "ear", "label": "Ear" },
+              { "value": "feather", "label": "Feather" },
+              { "value": "gauge", "label": "Gauge" },
+              { "value": "guarantee", "label": "Guarantee" },
+              { "value": "leaf", "label": "Leaf" },
+              { "value": "modes", "label": "Modes" },
+              { "value": "motor", "label": "Motor" },
+              { "value": "mx24", "label": "MX24" },
+              { "value": "no-battery", "label": "No Battery" },
+              { "value": "paw", "label": "Paw" },
+              { "value": "plunger", "label": "Plunger" },
+              { "value": "plus-square", "label": "Plus with Square" },
+              { "value": "pto", "label": "PTO" },
+              { "value": "reach", "label": "Reach" },
+              { "value": "remote", "label": "Remote" },
+              { "value": "ruler", "label": "Ruler" },
+              { "value": "shield-virus", "label": "Shield Virus" },
+              { "value": "size", "label": "Size" },
+              { "value": "slopes", "label": "Slopes" },
+              { "value": "spool", "label": "Spool" },
+              { "value": "star-empty", "label": "Star" },
+              { "value": "steer", "label": "Steer" },
+              { "value": "stripe", "label": "Stripe" },
+              { "value": "tilt", "label": "Tilt" },
+              { "value": "tire", "label": "Tire" },
+              { "value": "tools", "label": "Tools" },
+              { "value": "torque", "label": "Torque" },
+              { "value": "touch-screen", "label": "Touch Screen" },
+              { "value": "wand", "label": "Wand" },
+              { "value": "wind", "label": "Wind" }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

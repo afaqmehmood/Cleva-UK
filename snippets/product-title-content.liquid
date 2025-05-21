@@ -1,0 +1,42 @@
+{% liquid
+  assign product_title = product.title
+
+  assign pretitle = null
+
+  assign title = product_title | split: '|' | first | strip
+
+  assign title_words_array = title | split: ' '
+
+  assign title_words_first = title_words_array[0]
+
+  assign title_words_first_handle = title_words_first | handle
+
+  assign subtitle = null
+
+  if product_title contains '|'
+    assign subtitle = product_title | split: '|' | last | strip
+  endif
+
+  case title_words_first_handle
+    when 'vacmaster', 'lawnmaster'
+      assign pretitle = title_words_first
+
+      assign title = title | split: ' ' | slice: 1, 50 | join: ' ' | strip
+  endcase
+%}
+
+{% if pretitle %}
+  <span class="{{ pretitle_class }}" data-pretitle>
+    {{ pretitle }}
+  </span>
+{% endif %}
+
+<span class="{{ title_class }}" data-title>
+  {{ title }}
+</span>
+
+{% if subtitle %}
+  <span class="{{ subtitle_class }}" data-subtitle>
+    {{ subtitle }}
+  </span>
+{% endif %}

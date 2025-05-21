@@ -1,0 +1,109 @@
+<form
+  class="group/facets max-md:hidden border-b border-grey-50 mb-6"
+  x-data="facetsForm({ sectionId: {{ section.id | json | escape }} })"
+  @change="onSubmit"
+  @submit.prevent="onSubmit"
+>
+  <input type="hidden" name="q" value="{{ search.terms | escape }}">
+  <input type="hidden" name="type" value="product">
+
+  <div class="container">
+    <div class="grid grid-cols-6 max-lg:grid-cols-5 [&:has([open])]:text-grey-100 transition-colors">
+      {% for filter in object.filters %}
+        <details
+          class="group relative open:text-black"
+          x-data="accordion"
+          @keyup.escape.window="isOpen && toggle()"
+          @click.outside="isOpen && toggle()"
+        >
+          <summary
+            class="
+              flex gap-x-3 py-6 font-bold text-[14px]
+              before:absolute before:w-[200vw] before:-translate-x-1/2 before:-translate-y-6
+              before:border-b before:border-grey-50 before:mb-6
+            "
+            role="button"
+            aria-controls="facets-{{ section.id }}-{{ forloop.index }}"
+            :aria-expanded="isOpen"
+            @click.prevent="toggle()"
+          >
+            {{ filter.label }}
+
+            <span class="self-center">
+              <span class="group-open:hidden">
+                {% render 'svg', name: 'caret' %}
+              </span>
+              
+              <span class="hidden group-open:block">
+                {% render 'svg', name: 'caret', class: 'rotate-180' %}
+              </span>
+            </span>
+          </summary>
+
+          <div
+            class="
+              absolute top-full left-0 z-30 w-[320px]
+              !transition-[opacity,height] opacity-0 group-open:!opacity-100
+            "
+            :class="{
+              'group-open:!opacity-100': false,
+              '!opacity-100': isOpen
+            }"
+            id="facets-{{ section.id }}-{{ forloop.index }}"
+            x-show="isOpen"
+            x-collapse.duration.150ms
+          >
+            <div class="py-8 px-6 bg-white border border-grey-50 text-black">
+              {% case filter.type %}
+                {% when 'boolean', 'list' %}
+                  {% render 'facets-filter-list', filter: filter %}
+                {% when 'price_range' %}
+                  {% render 'facets-filter-price-range', filter: filter %}
+              {% endcase %}
+
+              {% render 'facet-reset', filter: filter %}
+            </div>
+          </div>
+        </details>
+      {% endfor %}
+
+      <div class="row-start-1 col-start-6 max-lg:col-start-5 relative lg:border-l lg:border-grey-50 lg:pl-8">
+        <div
+          class="
+            before:absolute before:w-[200vw] before:-translate-x-1/2 before:-translate-y-6
+            before:border-b before:border-grey-50 before:mb-6
+          "
+        >  
+          {% render 'facets-sort-by', object: object %}
+        </div>
+      </div>
+    </div>
+    <a class="
+    form-button form-button--transparent-black text-current ring-current font-bold py-1 px-4
+    compare-btn
+      " href="/products/lawnmaster-drop-and-mow-robot-mower-vbrm16">
+      Compare
+    </a>
+  </div>
+</form>
+<style>
+  .container {
+    position: relative;
+  }
+  .compare-btn {
+    display: none;
+  }
+  .compare-btn-mobile {
+    flex: 1;
+    width: 100%;
+    margin-top: 20px;
+  }
+  @media (min-width: 768px) {
+    .compare-btn {
+      display: flex;
+      position: absolute;
+      bottom: 20px;
+      right: 48px;
+    }
+  }
+</style>

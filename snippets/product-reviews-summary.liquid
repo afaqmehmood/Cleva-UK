@@ -1,0 +1,35 @@
+{% capture sku %}
+  {{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}
+{% endcapture %}
+
+<div
+  class="group relative h-[24px] {{ class }}"
+
+  {% if is_main %}
+    x-data='reivewsIo({ sku: {{ sku | json }} })'
+    x-intersect.once="getApiData"
+    x-show="!isSticky"
+  {% endif %}
+>
+  <div class="inline-flex items-center gap-x-2.5" x-show="!isLoading && apiData?.reviews?.total" x-cloak>
+    <div
+      class="flex gap-x-1.5 text-[18px] [&_.is-active]:!text-black"
+      x-data="starRating"
+      @reviewsiogetapidatasuccess.window.once="rating = $event.detail.apiData.stats.average"
+    >
+      {% render 'star-rating-items' %}
+    </div>
+
+    <template x-if="apiData">
+      <div class="underline text-grey-100">
+        {% if is_main %}
+          <a class="live-full-focus-ring group-hover:text-black" href="#product-reviews">
+            {{ 'product.reviews_io_summary_html' | t: total_reviews: '<span x-text="apiData.reviews?.total"></span>' }}
+          </a>
+        {% else %}
+          {{ 'product.reviews_io_summary_html' | t: total_reviews: '<span x-text="apiData.reviews?.total"></span>' }}
+        {% endif %}
+      </div>
+    </template>
+  </div>
+</div>

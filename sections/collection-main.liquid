@@ -1,0 +1,174 @@
+{% liquid 
+  assign vendor = collection.metafields.custom.vendor.value
+
+  assign vendor_handle = vendor | handle
+
+  assign products_per_page = settings.collection_products_per_page | minus: 1 | default: 12
+
+  assign facets_enable = collection.metafields.custom.filters_enable.value | default: true, allow_false: true
+
+  if collection.filters == empty
+    assign facets_enable = false
+  endif
+
+  case vendor_handle
+    when 'vacmaster', 'lawnmaster'
+      assign logo = vendor_handle
+  endcase
+%}
+
+<section
+  class="{% render 'section-class', section: section %} md:overflow-hidden transition-opacity"
+  id="collection-main"
+  x-data="collectionMain({ sectionId: {{ section.id | json | escape }} })"
+>
+  {% paginate collection.products by products_per_page %}
+    {% if logo %}
+      <div class="relative z-10 pb-12 bg-white">
+        <div class="container">
+          {% render 'svg', name: logo, class: 'w-[164px] md:w-[200px] h-auto' %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if facets_enable %}
+      <div data-ref="facets">
+        {% liquid
+          render 'mobile-facets', object: collection
+          render 'facets', object: collection
+        %}
+      </div>
+    {% endif %}
+
+    <div class="container" :class="{ 'opacity-50': isLoading }" data-ref="productGridContainer">
+      {% render 'pagination', part: paginate.previous, part_handle: 'previous', url_suffix: '#collection-main' %}
+
+      <ul class="main-grid gap-y-6 min-h-[200px]" data-ref="productGrid">
+        {% for product in collection.products %}
+          {% liquid
+            assign image_loading = null
+
+            if forloop.index > 3
+              assign image_loading = 'lazy'
+            endif
+          %}
+
+          <li class="col-span-full md:col-span-4">
+            {% render 'product-card', product: product, image_loading: image_loading, form_enable: true %}
+          </li>
+        {% endfor %}
+        <li class="col-span-full md:col-span-4" {% unless paginate.next %}style="display: none"{% endunless %}>
+          <article style="background-color: #fafafa; " class="justify-center comparison-card align-center text-center group overflow-hidden relative h-full flex flex-col text-black p-4 bg-white border background-grey-50 border-grey-100 rounded-2xl">
+            <span class="block icon-compare">
+              {% render 'svg', name: 'compare', class: 'w-10 h-10' %}
+            </span>
+              <h3 class="block mb-1 last:mb-0 group-hover:underline font-bold text-[20px]/[25px]">Not sure which model is right for you?</h3>
+              <p>Launch our comparison tool to compare models</p>
+              <a href="/products/lawnmaster-drop-and-mow-robot-mower-vbrm16#comparison-section" class="compare-link live-full-focus-ring">Start comparing <span class="icon-arrow">{% render 'svg', name: 'arrow', class: 'w-10 h-10' %}</span></a>
+            </article>
+          </li>
+      </ul>
+
+      {% render 'pagination', part: paginate.next, part_handle: 'next', url_suffix: '#collection-main' %}
+    </div>
+  {% endpaginate %}
+</section>
+
+<style>
+  .comparison-card {
+    min-height: 300px;
+    row-gap: 10px;
+  }
+  .icon-compare {
+    display: inline-flex;
+    margin: 0 auto;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-compare svg {
+    width: 100%;
+    height: 100%;
+  }
+  .compare-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-inline: auto;
+    font-weight: 600
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Collection main",
+    "presets": [
+      {
+        "name": "Collection main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["collection"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,222 @@
+{% liquid
+  assign scroll_animation_enable = section.settings.scroll_animation_enable | default: null
+
+  assign blocks = section.blocks | default: null
+
+  assign is_carousel = false
+
+  if blocks.size > 1
+    assign is_carousel = true
+  endif
+%}
+
+{% if blocks %}
+  <section
+    class="{% render 'section-class', section: section %} container"
+
+    {% if scroll_animation_enable %}
+      x-data="scrollingTitle"
+      x-intersect:enter="onIntersectEnter()"
+      x-intersect:leave="onIntersectLeave()"
+    {% endif %}
+  >
+    <div
+      class="
+        relative
+
+        {% if is_carousel %}
+          max-md:pt-14
+        {% endif %}
+      "
+
+      {% if is_carousel %}
+        x-data="carousel"
+        tabindex="0"
+        role="region"
+        @keydown.right="next"
+        @keydown.left="prev"
+      {% endif %}
+    >
+      {% if is_carousel %}
+        {% render 'carousel-arrows',
+          is_circle: true,
+          class: 'max-md:absolute max-md:top-0 max-md:right-0'
+          previous_class: 'md:!absolute md:top-1/2 md:left-4 md:z-10 md:-translate-y-1/2',
+          next_class: 'md:!absolute md:top-1/2 md:right-4 md:z-10 md:-translate-y-1/2'
+        %}
+      {% endif %}
+
+      <div
+        class="flex items-center overflow-y-hidden overflow-x-scroll snap-x snap-mandatory scrollbar-none"
+
+        {% if is_carousel %}
+          style="-webkit-overflow-scrolling: touch;"
+          x-ref="slider"
+        {% endif %}
+      >
+        {% for block in blocks %}
+          {% liquid
+            assign block_text = block.settings.text | default: null
+
+            assign block_text_letters = block_text | split: '' | default: null
+
+            assign block_name = block.settings.name | default: null
+
+            assign block_logo = block.settings.logo | default: null
+          %}
+
+          <div class="snap-start shrink-0 w-full main-grid">
+            <div class="col-span-full md:col-start-2 md:col-span-10 text-center">
+              {% if block_text %}
+                <blockquote class="mb-6 md:mb-8 lat:mb-0">
+                  <p
+                    class="font-display text-[44px]/[51px] md:text-[70px]/[76px] {{ block.settings.text_alignment }}"
+                    {% if scroll_animation_enable %}
+                      x-ref="title"
+                    {% endif %}
+                  >
+                    {% if scroll_animation_enable %}
+                      {%- for letter in block_text_letters -%}
+                        <span class="text-grey-100 [&.active]:text-black transition-colors">
+                          {{- letter -}}
+                        </span>
+                      {%- endfor -%}
+                    {% else %}
+                      {{ block_text }}
+                    {% endif %}
+                  </p>
+                </blockquote>
+              {% endif %}
+
+              {% if block_name %}
+                <p class="font-bold underline mb-6 md:mb-8 lat:mb-0">
+                  {{ block_name }}
+                </p>
+              {% endif %}
+
+              {% if block_logo %}
+                {% render 'svg', name: block_logo, class: 'w-[115px] md:w-[200px] h-auto mx-auto' %}
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Quote / Testimonial",
+    "presets": [
+      {
+        "name": "Quote / Testimonial"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "checkbox",
+        "id": "scroll_animation_enable",
+        "label": "Scroll animation enable?"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "quote",
+        "name": "Quote",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "select",
+            "id": "text_alignment",
+            "label": "Text alignment",
+            "options": [
+              { "value": "text-left", "label": "Left" },
+              { "value": "text-center", "label": "Center" },
+              { "value": "text-right", "label": "Right" }
+            ],
+            "default": "text-center"
+          },
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name"
+          },
+          {
+            "type": "select",
+            "id": "logo",
+            "label": "Logo",
+            "options": [
+              { "value": "", "label": "None" },
+              { "value": "vacmaster", "label": "Vacmaster" },
+              { "value": "lawnmaster", "label": "LawnMaster" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,106 @@
+{% assign subcollections = section.settings.subcollections | default: null %}
+
+{% if subcollections %}
+  <section class="{% render 'section-class', section: section %} container">
+    {% capture slides_content %}
+      {% for subcollection in subcollections %}
+        {% capture slide_content %}
+          {% liquid
+            assign subcollection_image_loading = null
+
+            if forloop.index > 4
+              assign subcollection_image_loading = 'lazy'
+            endif
+          %} 
+
+          {% render 'subcollection-card',
+            subcollection: subcollection,
+            image_loading: subcollection_image_loading,
+            is_carousel: true
+          %}
+        {% endcapture %}
+
+        {% render 'cards-carousel-slide', slide_content: slide_content %}
+      {% endfor %}
+    {% endcapture %}
+
+    {% render 'cards-carousel', slides_content: slides_content, slides_columns: 4, slides_gap: 12, class: 'md:pt-3.5 max-md:-mt-20' %}
+  </section>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Subcollections Carousel",
+    "presets": [
+      {
+        "name": "Subcollections Carousel"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "collection_list",
+        "id": "subcollections",
+        "label": "Subcollections"
+      }
+    ]
+  }
+{% endschema %}

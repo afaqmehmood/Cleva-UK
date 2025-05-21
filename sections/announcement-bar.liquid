@@ -1,0 +1,96 @@
+{% assign blocks = section.blocks | default: null %}
+
+<div id="announcement-bar"
+  class="py-1 md:py-3 bg-black text-white"
+  x-show="!isClosed"
+  x-data="announcementBar()"
+> 
+  <template x-if="!isClosed"> 
+    <style>
+      :root {
+        --announcement-bar-height-live: var(--announcement-bar-height);
+        --announcement-bar-height-visible-live: var(--announcement-bar-height-visible);
+      }
+    </style>
+  </template>
+
+  <div class="container">
+    <div class="relative">
+      <ul x-data="marquee({ totalLength: {{ blocks.size | json }} })">
+        {% for block in blocks %}
+          {% liquid
+            assign block_title = block.settings.title | default: null
+
+            assign block_url = block.settings.url | default: null
+          %}
+
+          <li
+            class="
+              {% unless forloop.first %}
+                hidden
+              {% endunless %}
+            "
+            :class="{
+              'hidden': !getIsActive({{ forloop.index0 }})
+            }"
+          >
+            {% if block_title %}
+              <p class="font-bold text-[12px] text-center">
+                {% if block_url %}
+                  <a class="group inline-flex items-center gap-x-3 hover:underline" href="{{ block_url }}">
+                    {{ block_title }}
+
+                    {% render 'svg', name: 'arrow', class: 'group-hover:translate-x-1 transition-transform text-[10px]' %}
+                  </a>
+                {% else %}
+                  {{ block_title }}
+                {% endif %}
+              </p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+
+      <button class="absolute top-1/2 right-0 -translate-y-1/2" type="button" @click="isClosed = true">
+        {% render 'svg', name: 'cross', class: 'text-[10px]' %}
+
+        <span class="sr-only">
+          {{ 'announcement_bar.close' | t }}
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Announcement bar",
+    "presets": [
+      {
+        "name": "Announcement bar"
+      }
+    ],
+    "limit": 1,
+    "enabled_on": {
+      "groups": ["header"]
+    },
+    "blocks": [
+      {
+        "type": "announcement",
+        "name": "Announcement",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

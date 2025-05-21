@@ -1,0 +1,210 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | newline_to_br | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign blocks = section.blocks | default: null
+%}
+
+<section class="{% render 'section-class', section: section %} container main-grid">
+  <div
+    class="
+      overflow-hidden
+      col-span-full xl:col-start-2 xl:col-span-10
+      main-grid md:!grid-cols-10 gap-y-8
+      max-md:px-[--container-padding-x] py-12 md:py-14 rounded-2xl bg-grey-50
+    "
+  >
+    <div class="col-span-full md:col-span-4 md:pl-12">
+      {% if pretitle %}
+        <p class="font-bold text-[15px]/[normal] md:-tracking-[0.02em] underline underline-offset-4 mb-4 last:mb-0">
+          {{ pretitle }}
+        </p>
+      {% endif %}
+    
+      {% if title %}
+        <h2 class="font-display !font-bold text-[33px]/[35px] md:text-[43px]/[51px] mb-6 last:mb-0">
+          {{ title }}
+        </h2>
+      {% endif %}
+
+      {% if text %}
+        <div class="text-[20px]/[25px] -tracking-[0.02em] text-grey-300">
+          {{ text }}
+        </div> 
+      {% endif %}
+    </div>
+
+    <div class="col-span-full md:col-span-6 md:pr-12">
+      {% if blocks %}
+        <div
+          class="h-full flex flex-col justify-between gap-y-6"
+          x-data="carousel"
+          tabindex="0"
+          role="region"
+          @keydown.right="next"
+          @keydown.left="prev"
+        >
+          {% render 'carousel-arrows', is_circle: true %}
+
+          <ul
+            class="flex items-center overflow-y-hidden overflow-x-scroll snap-x snap-mandatory scrollbar-none -ml-6"
+            style="
+              --columns: 2.7;
+              --md-columns: 3;
+              -webkit-overflow-scrolling: touch;
+            "
+            tabindex="0"
+            role="listbox"
+            x-ref="slider"
+          >
+            {% for block in blocks %}
+              {% liquid
+                assign block_text = block.settings.text | default: null
+
+                assign block_image = block.settings.image | default: null
+            
+                assign block_image_loading = block.settings.image_loading | default: null
+
+                if forloop.index > 3
+                  assign block_image_loading = 'lazy'
+                endif
+              %}
+
+              <li class="snap-start shrink-0 pl-6 w-[calc(100%_/_var(--columns))] md:w-[calc(100%_/_var(--md-columns))]">
+                {% if block_image %}
+                  {% render 'featured-press-image',
+                    image: block_image,
+                    loading: block_image_loading,
+                    class: 'max-w-[145px] mx-auto'
+                  %}
+                {% elsif block_text %}
+                  <div class="font-display text-[20px]/[25px] text-center text-grey-300">
+                    {{ block_text }}
+                  </div>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Text & Logos",
+    "presets": [
+      {
+        "name": "Text & Logos"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "logo",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "This will override the 'Text' setting."
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

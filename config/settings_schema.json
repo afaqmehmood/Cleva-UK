@@ -1,0 +1,185 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Cleva",
+    "theme_version": "1.0.0",
+    "theme_author": "Propeller",
+    "theme_documentation_url": "https:\/\/github.com\/propcom\/cleva",
+    "theme_support_url": "https:\/\/github.com\/propcom\/cleva\/issues"
+  },
+  {
+    "name": "Mode",
+    "settings": [
+      {
+        "type": "select",
+        "id": "mode",
+        "label": "Mode",
+        "options": [
+          {
+            "value": "production",
+            "label": "Production"
+          },
+          {
+            "value": "development",
+            "label": "Development"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon_image",
+        "label": "Image"
+      }
+    ]
+  },
+  {
+    "name": "Social",
+    "settings": [
+      {
+        "type": "text",
+        "id": "social_facebook",
+        "label": "Facebook"
+      },
+      {
+        "type": "text",
+        "id": "social_twitter",
+        "label": "Twitter"
+      },
+      {
+        "type": "text",
+        "id": "social_pinterest",
+        "label": "Pinterest"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram",
+        "label": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "social_tiktok",
+        "label": "TikTok"
+      },
+      {
+        "type": "text",
+        "id": "social_youtube",
+        "label": "YouTube"
+      },
+      {
+        "type": "text",
+        "id": "social_linkedin",
+        "label": "LinkedIn"
+      }
+    ]
+  },
+  {
+    "name": "Spacing",
+    "settings": [
+      {
+        "type": "text",
+        "id": "spacing_container_width",
+        "label": "Container width"
+      },
+      {
+        "type": "text",
+        "id": "spacing_container_padding_x",
+        "label": "Container padding X"
+      },
+      {
+        "type": "text",
+        "id": "spacing_md_container_padding_x",
+        "label": "(MD) Container padding X"
+      },
+      {
+        "type": "text",
+        "id": "spacing_main_grid_cols",
+        "label": "Main grid cols"
+      },
+      {
+        "type": "text",
+        "id": "spacing_md_main_grid_cols",
+        "label": "(MD) Main grid cols"
+      },
+      {
+        "type": "text",
+        "id": "spacing_main_grid_gap_x",
+        "label": "Main grid gap X"
+      },
+      {
+        "type": "text",
+        "id": "spacing_md_main_grid_gap_x",
+        "label": "(MD) Main grid gap X"
+      }
+    ]
+  },
+  {
+    "name": "Collection",
+    "settings": [
+      {
+        "type": "number",
+        "id": "collection_products_per_page",
+        "label": "Products per page",
+        "default": 12
+      }
+    ]
+  },
+  {
+    "name": "Product",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "product_image_background_enable",
+        "label": "Image background enable?",
+        "info": "This will enable the proper grey background color for product images."
+      },
+      {
+        "type": "color",
+        "id": "product_image_background_color",
+        "label": "Image background color",
+        "info": "Only applied if 'Image background enable?' setting is checked."
+      },
+      {
+        "type": "textarea",
+        "id": "product_badge_tags",
+        "label": "Badge tags",
+        "info": "Tags defined here will display as badges if they exist. Separate each with a new line."
+      }
+    ]
+  },
+  {
+    "name": "Product card",
+    "settings": [
+      {
+        "type": "select",
+        "id": "product_card_image_size",
+        "label": "Product card image size",
+        "options": [
+          {
+            "value": "",
+            "label": "Default"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blog",
+    "settings": [
+      {
+        "type": "number",
+        "id": "blog_articles_per_page",
+        "label": "Articles per page",
+        "default": 9
+      }
+    ]
+  }
+]

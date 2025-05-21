@@ -1,0 +1,1057 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4357080a-a2a5-4163-9ba8-1273f2709095": {
+      "type": "featured-usp",
+      "blocks": {
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy direct from the makers"
+          }
+        },
+        "b71fd280-d110-4e31-afbb-2a2740db996a": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
+        "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
+        "b71fd280-d110-4e31-afbb-2a2740db996a"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md"
+      }
+    },
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35": {
+      "type": "featured-text-with-icon",
+      "blocks": {
+        "aa9370f5-862d-4221-88f8-2df4783e5117": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "battery",
+            "title": "MX Shared Battery System",
+            "text": "<p>Compatible with the LawnMaster MX 24V Shared Battery System<strong>. </strong></p>"
+          }
+        },
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "battery",
+            "title": "Spot Cut Function",
+            "text": "<p>Use the spiral spot cut function on any uncut grass.</p>"
+          }
+        },
+        "a73107f1-d813-4f4a-9738-d04082969ce4": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "temperature",
+            "title": "Cutting Height Adjustment",
+            "text": "<p>Choose from cutting heights of between 20mm and 60mm.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "aa9370f5-862d-4221-88f8-2df4783e5117",
+        "e69b6b41-6535-4b89-b55d-84d5a7f26796",
+        "a73107f1-d813-4f4a-9738-d04082969ce4"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md"
+      }
+    },
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c": {
+      "type": "featured-features",
+      "blocks": {
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "",
+            "icon": "sqaure-circle-corners",
+            "title": "Camera and Sensor Navigation System",
+            "text": "<p>The LawnMaster VBRM16 OcuMow™ robot mower combines a camera and sensors with Optical Grass Recognition (OGR) software to identify grass and navigate around your lawn without the need for a boundary wire, outdoor power socket or app. Supplied with an MX 24V 4.0Ah battery and fast charger, it's ready to go out of the box.</p>"
+          }
+        },
+        "501a6d11-0820-42d7-9455-af4a760a8e04": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "",
+            "icon": "touch",
+            "title": "Drop and Mow",
+            "text": "<p>No need for an outdoor power socket. Simply charge the detachable lithium-ion battery in the 1 hour fast charger provided and put the mower on the lawn once or twice a week during the daytime in dry weather.</p>"
+          }
+        },
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "",
+            "icon": "battery",
+            "title": "Random Cutting Pattern",
+            "text": "<p>Mows in a random pattern for up to 4 hours* which will cover 100m2 and drop small clippings on the lawn to feed the grass. For a larger lawn, extra batteries can be purchased separately.</p>"
+          }
+        },
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "",
+            "icon": "temperature",
+            "title": "For Small Lawns",
+            "text": "<p>Of up to 100m2. A clearly defined edge around the full perimeter of your lawn, such as paving or gravel, or a raised edge at least 6cm high, is required to prevent the mower leaving the grass. Adjustment of the lawn edges may be required. As with other robot mowers, a grass trimmer (not included) is needed to trim the lawn edges. Not suitable for gardens with overhanging plants, undefined flower borders or edges with a drop off.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b22a8e44-4e4e-4888-846d-9b612e1f9b4a",
+        "501a6d11-0820-42d7-9455-af4a760a8e04",
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75",
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "md",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md",
+        "pretitle": "Features",
+        "title": "Features & Benefits",
+        "text": ""
+      }
+    },
+    "977c22bf-5dd3-46fd-826d-2683d57f2e57": {
+      "type": "featured-quotes",
+      "blocks": {
+        "c7b7d53e-422a-4b6d-9133-9f699fb3cbee": {
+          "type": "quote",
+          "settings": {
+            "text": "This is revolutionary, with no boundary wire to lay, no charging station to pin to the lawn and no need to have an outdoor power supply to plug it in.",
+            "name": "Expert Reviews",
+            "logo": ""
+          }
+        },
+        "50dd2a4d-9f4a-4c2e-9411-65eb42d06dcb": {
+          "type": "quote",
+          "settings": {
+            "text": "",
+            "name": "",
+            "logo": ""
+          }
+        }
+      },
+      "block_order": [
+        "c7b7d53e-422a-4b6d-9133-9f699fb3cbee",
+        "50dd2a4d-9f4a-4c2e-9411-65eb42d06dcb"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "scroll_animation_enable": false
+      }
+    },
+    "b96a3c52-17d3-4cae-bc4b-727e3bf003e1": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "d35fd0c3-cbc2-4a69-a223-7dd5fa02442b": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Pet_Mate_Alternative.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h1",
+            "title": "Advanced Technology, Simplified",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Simple keypad to operate the mower using the auto mow or spot cut modes and to activate and deactivate the ultrasonic sensors. No app required.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "fbbadd2f-bbd4-42ee-83a3-6d7e8577c416": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Pet_Mate_Alternative.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h1",
+            "title": "Spot Cut Function",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>For a neat finish, use the additional spiral spot cut function on any patches of uncut grass.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "edf10eb5-775b-4ff6-9f83-f75173e43f59": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Pet_Mate_Alternative.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Adjustable Cutting Height",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "text": "<p>Choose from cutting heights of between 20mm and 60mm for a neat looking lawn. For best performance and to encourage healthy lawn growth use 60mm for longer grass and after regular mowing, gradually reduce the cutting height to your desired length.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "f6315bcc-9f21-4c4f-b510-fe18412a1f52": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Pet_Mate_Alternative.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Safety Features",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "text": "<p>Using the camera and ultrasonic sensors the mower detects and avoids obstacles such as garden furniture. A child safety key prevents unauthorised use, and sensors stop the blade when the mower is lifted.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "9debc949-e3b3-431f-ba9d-bd8f64746a7a": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Pet_Mate_Alternative.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Compact Storage",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "text": "<p>Store the mower away between uses. Compact size for storing away in small spaces.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "21aa3f3e-6f6c-4206-824c-f0334d5755dd": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Carry Handle",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "text": "<p>Folding handle to easily transport the mower around the garden without touching the underside of the mower.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "19143756-eef9-4b86-8f5b-2d455a3968e2": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Pet_Mate_Alternative.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "35% (19º) Slope",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "text": "<p>High specification deep tread wheels and powerful drive system grips slopes of up to 35% (19º).</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "c5b86eb3-667b-4cc5-a015-58afc2cba326": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Part Of The MX 24V Shared Battery System",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "text": "<p>Expand your cordless garden power tool collection in a cost effective and environmentally conscious way with LawnMaster. Every MX 24V 4.0 AH battery and charger is fully compatible with the LawnMaster MX 24V cordless range, including lawnmowers, hedge trimmers, grass trimmers, chainsaws and leaf blowers. This means that you don’t need to buy a new battery and charger every time you buy a new LawnMaster garden power tool.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "d35fd0c3-cbc2-4a69-a223-7dd5fa02442b",
+        "fbbadd2f-bbd4-42ee-83a3-6d7e8577c416",
+        "edf10eb5-775b-4ff6-9f83-f75173e43f59",
+        "f6315bcc-9f21-4c4f-b510-fe18412a1f52",
+        "9debc949-e3b3-431f-ba9d-bd8f64746a7a",
+        "21aa3f3e-6f6c-4206-824c-f0334d5755dd",
+        "19143756-eef9-4b86-8f5b-2d455a3968e2",
+        "c5b86eb3-667b-4cc5-a015-58afc2cba326"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "49d9ee82-0691-4e1a-bdca-5d69cdd32dac": {
+      "type": "featured-press",
+      "blocks": {
+        "5e471236-665f-43ff-b69d-5e344b015d0d": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/GQ.svg",
+            "image_loading": ""
+          }
+        },
+        "3ecfb5ad-ef8a-4e2e-a9b6-0842036e4b3e": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Easy-lawn.png",
+            "image_loading": ""
+          }
+        },
+        "a5e9a50c-6a95-4b72-bea8-fc87e2be3c21": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/expert-reviews.svg",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "5e471236-665f-43ff-b69d-5e344b015d0d",
+        "3ecfb5ad-ef8a-4e2e-a9b6-0842036e4b3e",
+        "a5e9a50c-6a95-4b72-bea8-fc87e2be3c21"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "",
+        "title": "As Seen In",
+        "text": "<p>Our appliances are stocked in B&Q, Argos, Wickes & The Range. Trusted by some of the UK’s leading online retailers.</p>"
+      }
+    },
+    "1dcc172a-b87e-46ca-852f-34db8d636dea": {
+      "type": "featured-hero",
+      "blocks": {
+        "1eafd369-e802-4515-bc62-5688dbcaa911": {
+          "type": "hero",
+          "settings": {
+            "image": "shopify://shop_images/hero.jpg",
+            "image_loading": "",
+            "video": "shopify://files/videos/CLEVA_Promo_16-9_MASTER_1_2.mp4",
+            "video_autoplay": false,
+            "logo": "lawnmaster",
+            "align_content": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title_size": "large",
+            "title": "Simply Drop And Mow",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "feature_1_title": "Drop & Mow",
+            "feature_1_text": "No Boundary Wire Needed",
+            "feature_2_title": "Navigation System",
+            "feature_2_text": "Camera Software & Ultra Sonic Sensors",
+            "feature_3_title": "Detachable Battery",
+            "feature_3_text": "Charge anywhere in 1 hour "
+          }
+        }
+      },
+      "block_order": [
+        "1eafd369-e802-4515-bc62-5688dbcaa911"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Learn More",
+            "url": "/"
+          }
+        },
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "/"
+          }
+        },
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "title": "01 In the Box",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Shop now",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "title": "02 Technical Specifications",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "title": "03 Product Support",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "title": "04 Guarantee",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "{{ product }}",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "e5aa8c78-bb44-4819-bd49-28361412a5fa": {
+          "type": "entry",
+          "settings": {
+            "title": "05 Delivery and Returns",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "98eefe16-4a82-4d62-9cad-1abc541b2614": {
+          "type": "entry",
+          "settings": {
+            "title": "06 Instruction Manuals",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc",
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5",
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628",
+        "e5aa8c78-bb44-4819-bd49-28361412a5fa",
+        "98eefe16-4a82-4d62-9cad-1abc541b2614"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image": "shopify://shop_images/pdp-accordion.png",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Info",
+        "title_size": "large",
+        "title": "Specification",
+        "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
+      }
+    },
+    "c5d2eef1-6fa9-4781-afed-16ab49e123d1": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "f964aa7f-35b3-41e5-a9ca-bd84cf63c236": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "f964aa7f-35b3-41e5-a9ca-bd84cf63c236"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "88f30ef1-5d27-47e7-9655-32f0d8016675": {
+      "type": "featured-collection",
+      "blocks": {
+        "94592e8c-f8a7-4d05-95bd-1984549039b5": {
+          "type": "button",
+          "settings": {
+            "style": "black",
+            "text": "Shop All",
+            "url": "/"
+          }
+        },
+        "4a3319f2-a88e-4233-a4b4-72590768cea0": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "/"
+          }
+        }
+      },
+      "block_order": [
+        "94592e8c-f8a7-4d05-95bd-1984549039b5",
+        "4a3319f2-a88e-4233-a4b4-72590768cea0"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md",
+        "pretitle": "Discover",
+        "title": "Accessories & Spare Parts",
+        "text": "",
+        "collection": "vacmaster-accessories",
+        "products_per_page": 8
+      }
+    },
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
+      "type": "product-recommendations",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Related",
+        "title": "You May Also Like"
+      }
+    },
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md",
+        "pretitle": "Reviews",
+        "title": "Don't Just take our word for it"
+      }
+    },
+    "e094b7d7-62c1-4a89-9667-d2e84667f1e2": {
+      "type": "featured-accordion",
+      "blocks": {
+        "8612c06e-26f7-43bd-9c85-b23150480743": {
+          "type": "entry",
+          "settings": {
+            "title": "01 How does it work?",
+            "text": "<p>The VBRM16 OcuMow™ uses a camera combined with two ultrasonic sensors to navigate around your garden. The camera detects the difference between surface textures and colours, for example grass or paving, and the ultrasonic sensors detect obstacles higher than 6cm, such as plants, garden furniture, walls and fences meaning there is no need for a boundary wire.</p><p>To keep the mower within the lawn area, your lawn must be bordered on all sides by a hard, visually distinctive border. This can be a flat border of paving, gravel or wooden boards, or a raised edge such as border edging, walls or fences. The mower can detect some edges that are not distinctive however for best and correct operation making your borders clearly defined will improve edge detection and allow the robot to work correctly.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "63a59879-fcd9-43fd-be49-962cea0bbc4a": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "",
+            "url": ""
+          }
+        },
+        "08075082-30cf-4e58-b239-668dd5d08bdf": {
+          "type": "entry",
+          "settings": {
+            "title": "02 Why are there such specific lawn border requirements?",
+            "text": "<p>If the mower cannot recognise a clearly defined lawn edge, it may not stay within the lawn area. Bare earth borders which can become weedy, or flower borders with low plants can be interpreted as grass by the Optical Grass Recognition (OGR) software. For this reason, we recommend that either raised edges, a hard border of paving or gravel, or walls and fences are the best options around the lawn.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "b31ee862-e04c-41c1-b6df-1b81387257b3": {
+          "type": "entry",
+          "settings": {
+            "title": "03 Can it stay on the lawn 24/7?",
+            "text": "<p>Unlike traditional robots the VBRM16 OcuMow™ is designed to Drop and Mow. The mower is designed to be placed on the lawn once or twice a week and will mow for up to 4 hours on a single charge covering 100m2. The mower should be stored away in a dry place between uses.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "1aa89dbd-9c7d-4a57-8d9f-4ea2cd5d1309": {
+          "type": "entry",
+          "settings": {
+            "title": "04 Will it cut up to edges?",
+            "text": "<p>The mower stops approximately 10 - 20cm away from the edge of the lawn, meaning some grass will remain uncut. This can easily be taken care of with a grass trimmer such as our battery compatible LawnMaster MX 24V Grass Trimmer. Lawn edges should be kept neatly trimmed so that the VBRM16 OcuMow™ can easily see the edge of the lawn.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "ab84675c-966a-4d70-969a-f700e3cbd841": {
+          "type": "entry",
+          "settings": {
+            "title": "05 My lawn has hard borders/raised edges but is bigger than 100m2, can I still use this mower?",
+            "text": "<p>The VBRM16 OcuMow™ works with our MX 24V 4.0Ah battery. The mower will cover 100m2 on a single charge. Lawn coverage can be increased with additional batteries (sold separately).</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "57014fb3-aa53-4b87-900b-e121ba207b93": {
+          "type": "entry",
+          "settings": {
+            "title": "06 Can the mower be used at night?",
+            "text": "<p>No. As the VBRM16 OcuMow™ requires good light in order for the camera to function, this mower can only be used in the daytime. The robot will not operate outside daylight hours.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "ff46babd-ca75-4940-b272-b5729c3d93d8": {
+          "type": "entry",
+          "settings": {
+            "title": "07  What happens to the grass clippings?",
+            "text": "<p>The grass is cut using three small sharp blades and the clippings are returned to the lawn surface where the nutrients contained in them fertilise the soil. This means stronger, healthier grass with less need for supplemental fertiliser and has the added bonus of helping the lawn retain water in dry periods. It also means no grass clippings to dispose of or compost. Provided that the VBRM16 OcuMow™ is used regularly (i.e., once or twice a week) the clippings are not visible to the eye.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "9dfe8da6-23bb-4e63-a961-3a0b283987d6": {
+          "type": "entry",
+          "settings": {
+            "title": "08  Can this mower be used in a garden with a pond?",
+            "text": "<p>It is possible to use the VBRM16 OcuMow™ on lawns with a pond, however it is strongly recommended that the pond is surrounded by a raised barrier to safeguard against the mower falling in. We recommend either a raised edge or a paved/gravel border at least 75cm wide surrounding the pond. Water damaged mowers are not covered under guarantee.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "c0197e1c-14fd-4d4c-9b30-09cb28171157": {
+          "type": "entry",
+          "settings": {
+            "title": "09 Is it safe to use around pets and children?",
+            "text": "<p>The VBRM16 OcuMow™ has a safety key which can be removed to prevent children starting the mower unsupervised. Safety sensors stop the blades if the mower is lifted or flips over. The mower is also equipped with ultrasonic sensors which will avoid obstacles higher than 6cm. We recommend that children and pets are not left unsupervised with the mower while it is operating.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "8612c06e-26f7-43bd-9c85-b23150480743",
+        "63a59879-fcd9-43fd-be49-962cea0bbc4a",
+        "08075082-30cf-4e58-b239-668dd5d08bdf",
+        "b31ee862-e04c-41c1-b6df-1b81387257b3",
+        "1aa89dbd-9c7d-4a57-8d9f-4ea2cd5d1309",
+        "ab84675c-966a-4d70-969a-f700e3cbd841",
+        "57014fb3-aa53-4b87-900b-e121ba207b93",
+        "ff46babd-ca75-4940-b272-b5729c3d93d8",
+        "9dfe8da6-23bb-4e63-a961-3a0b283987d6",
+        "c0197e1c-14fd-4d4c-9b30-09cb28171157"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": true,
+        "pretitle": "FAQ’s",
+        "title_size": "large",
+        "title": "Most Popular FAQs",
+        "text": ""
+      }
+    },
+    "62625fef-8f9d-441b-a118-965f5fb3e641": {
+      "type": "featured-accordion",
+      "blocks": {
+        "c6d4cbd2-bb63-4861-96e9-882bd1a3054d": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to Support",
+            "url": "shopify://metaobjects/product_support/cordless-vacuum-cleaners"
+          }
+        },
+        "2f74ba8c-6b69-44fb-9632-e094e8def291": {
+          "type": "entry",
+          "settings": {
+            "title": "01 LawnMaster Guarantee",
+            "text": "<p>All LawnMaster machines, spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "white",
+            "button_1_text": "View Guarantee ->",
+            "button_1_url": "/",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "3ec14c56-a678-45c0-9033-5a128cec188c": {
+          "type": "entry",
+          "settings": {
+            "title": "02 Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong></p><p>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. </p><p>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.</p><p>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.</p><p><strong>Returns:</strong></p><p>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Read more ->",
+            "button_1_url": "/",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "5666fc98-5739-4dc1-aaad-5420a11d58ca": {
+          "type": "entry",
+          "settings": {
+            "title": "03 UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Ask a question ->",
+            "button_1_url": "/",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "c6d4cbd2-bb63-4861-96e9-882bd1a3054d",
+        "2f74ba8c-6b69-44fb-9632-e094e8def291",
+        "3ec14c56-a678-45c0-9033-5a128cec188c",
+        "5666fc98-5739-4dc1-aaad-5420a11d58ca"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": true,
+        "pretitle": "Support",
+        "title_size": "large",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "429ed167-89a6-49e5-b639-252bd0fa5704": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Keep Updated",
+        "title": "10% off when you sign up to hear from us",
+        "text": "<p>Join our community to access exclusive offers, news and advice. Plus, get 10% off your next purchase. </p>",
+        "button_style": "black",
+        "button_text": "Sign Up",
+        "button_url": "/",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "product-main",
+    "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
+    "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
+    "977c22bf-5dd3-46fd-826d-2683d57f2e57",
+    "b96a3c52-17d3-4cae-bc4b-727e3bf003e1",
+    "49d9ee82-0691-4e1a-bdca-5d69cdd32dac",
+    "1dcc172a-b87e-46ca-852f-34db8d636dea",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "c5d2eef1-6fa9-4781-afed-16ab49e123d1",
+    "88f30ef1-5d27-47e7-9655-32f0d8016675",
+    "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
+    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
+    "e094b7d7-62c1-4a89-9667-d2e84667f1e2",
+    "62625fef-8f9d-441b-a118-965f5fb3e641",
+    "429ed167-89a6-49e5-b639-252bd0fa5704"
+  ]
+}

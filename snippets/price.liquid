@@ -1,0 +1,43 @@
+{% liquid
+  assign target = product
+
+  if use_variant
+    assign target = product.selected_or_first_available_variant
+  endif
+
+  assign compare_at_price = target.compare_at_price
+  assign price = target.price
+  assign price_money = price | money
+
+  if target == product and product.price_varies
+    assign price_money = 'product.from_price' | t: price: price_money
+  endif
+%}
+
+<p class="{{ class }}">
+  {% if compare_at_price > price %}
+    {% unless product.price_varies == false and product.compare_at_price_varies %}
+      <span class="sr-only">
+        {{ 'product.regular_price' | t }}
+      </span>
+
+      <s class="price-item price-item--regular">
+        {{- compare_at_price | money -}}
+      </s>
+    {% endunless %}
+
+    <span class="sr-only">
+      {{ 'product.sale_price' | t }}
+    </span>
+
+    {{ price_money }}
+  {% else %}
+    <span class="sr-only">
+      {{ 'product.regular_price' | t }}
+    </span>
+
+    <span>
+      {{ price_money }}
+    </span>
+  {% endif %}
+</p>

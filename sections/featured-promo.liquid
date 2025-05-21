@@ -1,0 +1,233 @@
+{% liquid
+  assign mode = section.settings.mode | default: null
+
+  assign background_image = section.settings.background_image | default: null
+
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | newline_to_br | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign text_size = section.settings.text_size | default: null
+%}
+
+{% capture title_class %}
+  {% case text_size %}
+    {% when 'small' %}
+      text-[20px]/[25px]
+    {% when 'large' %}
+      font-display !font-bold text-[24px]/[30px] md:text-[33px]/[35px]
+  {% endcase %}
+{% endcapture %}
+
+<section class="{% render 'section-class', section: section %} container main-grid">
+  <div
+    class="
+      overflow-hidden relative
+      col-span-full xl:col-start-2 xl:col-span-10
+      main-grid md:!grid-cols-10 max-md:auto-rows-min md:items-center gap-y-12
+      min-h-[384px] md:min-h-[280px] max-md:px-[--container-padding-x] py-12 rounded-2xl bg-black text-white
+    "
+  >
+    {% case background_image %}
+      {% when 'watermark' %}
+        {%
+          render 'svg',
+          name: 'watermark',
+          class: 'absolute top-0 -right-64 md:-right-24 w-[540px] h-auto opacity-[.15]'
+        %}
+      {% when 'exclamation' %}
+        {%
+          render 'svg',
+          name: 'exclamation',
+          class: '
+            absolute top-7 md:top-0 md:bottom-0 right-3 md:right-32
+            w-[64px] h-auto md:my-auto opacity-[.45]
+          '
+        %}
+    {% endcase %}
+
+    <div class="relative col-span-full md:col-span-4 md:pl-12">
+      {% if pretitle %}
+        <p class="font-bold underline mb-4 last:mb-0">
+          {{ pretitle }}
+        </p>
+      {% endif %}
+    
+      {% if title %}
+        <h2 class="font-display !font-bold text-[38px]/[48px]">
+          {{ title }}
+        </h2>
+      {% endif %}
+    </div>
+
+    <div
+      class="
+        relative col-span-full 
+
+        {% case text_size %}
+          {% when 'small' %}
+            md:col-span-4
+          {% when 'large' %}
+            md:col-span-6 md:pr-12
+        {% endcase %}
+      "
+    >
+      {% if mode == 'reviews' %}
+        <div x-data="reivewsIo" x-intersect.once="getApiData">
+          <div x-show="!isLoading" x-cloak>
+            <div
+              class="flex gap-x-3 mb-4 text-[28px] [&_.is-active]:!text-gold-50"
+              x-data="starRating"
+              @reviewsiogetapidatasuccess.window.once="rating = $event.detail.apiData.stats.average_rating"
+            >
+              {% render 'star-rating-items' %}
+            </div>
+
+            <p class="{{ title_class }}">
+              {{
+                'featured_promo.reviews_io_html'
+                | t:
+                  average_rating: '<span x-text="apiData.stats?.average_rating"></span>',
+                  total_reviews: '<span x-text="apiData.stats?.total_reviews"></span>'
+              }}
+            </p>
+          </div>
+        </div>
+      {% elsif text %}
+        <div class="{{ title_class }}">
+          {{ text }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if mode == 'reviews' %}
+      {%
+        render 'svg',
+        name: 'reviews-io',
+        class: '
+          absolute bottom-4 md:bottom-[30px] right-4 md:right-[30px]
+          w-[155px] h-[25px]
+        '
+      %}
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Promo Block",
+    "presets": [
+      {
+        "name": "Promo Block"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "mode",
+        "label": "Mode",
+        "options": [
+          { "value": "", "label": "Default" },
+          { "value": "reviews", "label": "Reviews" }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "background_image",
+        "label": "Background image",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "watermark", "label": "Watermark" },
+          { "value": "exclamation", "label": "Exclamation" }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "select",
+        "id": "text_size",
+        "label": "Text size",
+        "options": [
+          { "value": "small", "label": "Small" },
+          { "value": "large", "label": "Large" }
+        ],
+        "default": "large"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "info": "This will only display if 'Mode' is set to 'Default'."
+      }
+    ]
+  }
+{% endschema %}

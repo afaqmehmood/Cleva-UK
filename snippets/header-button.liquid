@@ -1,0 +1,14 @@
+<a
+  class="
+    form-button form-button--transparent-black text-current ring-current font-bold py-1 px-4
+    {{ class }}
+  "
+  href="{{ url }}"
+
+  {% if is_modal %}
+    x-data="modalTrigger"
+    @click.prevent="trigger"
+  {% endif %}
+>
+  {{ text }}
+</a>

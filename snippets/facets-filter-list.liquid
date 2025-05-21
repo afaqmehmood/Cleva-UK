@@ -1,0 +1,30 @@
+<ul>
+  {% for value in filter.values %}
+    <li class="mb-4 last:mb-0">
+      <div class="flex items-center gap-x-3">
+        <input
+          class="form-checkbox checked:bg-gold-50 text-[14px] disabled:opacity-50"
+          type="checkbox"
+          id="filters-value-{{ section.id }}-{{ filter.param_name | escape }}-{{ forloop.index }}{{ id_suffix }}"
+          name="{{ value.param_name }}"
+          value="{{ value.value }}"
+
+          {% if value.active %}
+            checked
+          {% endif %}
+
+          {% if value.count == 0 and value.active == false %}
+            disabled
+          {% endif %}
+        >
+
+        <label
+          class="font-bold text-grey-300 [[disabled]+&]:opacity-50" 
+          for="filters-value-{{ section.id }}-{{ filter.param_name | escape }}-{{ forloop.index }}{{ id_suffix }}"
+        >
+          {{ value.label }}
+        </label>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

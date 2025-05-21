@@ -1,0 +1,97 @@
+{% assign bg_color = section.settings.background_color %}
+
+<section class="{% render 'section-class', section: section %} {{ bg_color }}">
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Apps",
+  "presets": [
+    {
+      "name": "Apps"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["*"]
+  },
+  "class": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "background_color",
+      "label": "Background color",
+      "options": [
+        { "value": "bg-black", "label": "Black" },
+        { "value": "bg-white", "label": "White" },
+        { "value": "bg-grey-50", "label": "Grey" },
+        { "value": "bg-gold-50", "label": "Gold" }
+      ],
+      "default": "bg-white"
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "", "label": "None" },
+        { "value": "2xs", "label": "2XS" },
+        { "value": "xs", "label": "XS" },
+        { "value": "sm", "label": "SM" },
+        { "value": "md", "label": "MD" },
+        { "value": "lg", "label": "LG" }
+      ],
+      "default": "md"
+    },
+    {
+      "type": "select",
+      "id": "padding_top_mobile",
+      "label": "Padding top (mobile)",
+      "options": [
+        { "value": "", "label": "None" },
+        { "value": "2xs", "label": "2XS" },
+        { "value": "xs", "label": "XS" },
+        { "value": "sm", "label": "SM" },
+        { "value": "md", "label": "MD" },
+        { "value": "lg", "label": "LG" }
+      ],
+      "default": "sm"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "", "label": "None" },
+        { "value": "2xs", "label": "2XS" },
+        { "value": "xs", "label": "XS" },
+        { "value": "sm", "label": "SM" },
+        { "value": "md", "label": "MD" },
+        { "value": "lg", "label": "LG" }
+      ],
+      "default": "md"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom_mobile",
+      "label": "Padding bottom (mobile)",
+      "options": [
+        { "value": "", "label": "None" },
+        { "value": "2xs", "label": "2XS" },
+        { "value": "xs", "label": "XS" },
+        { "value": "sm", "label": "SM" },
+        { "value": "md", "label": "MD" },
+        { "value": "lg", "label": "LG" }
+      ],
+      "default": "sm"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ]
+}
+{% endschema %}

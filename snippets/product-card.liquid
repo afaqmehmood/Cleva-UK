@@ -1,0 +1,113 @@
+{% liquid
+  assign url = url | default: product.url
+
+  if is_price_enabled == false
+    assign is_price_enabled = false
+  else
+    assign is_price_enabled = true
+  endif
+
+  if is_border == false
+    assign is_border = false
+  else
+    assign is_border = true
+  endif
+%}
+
+{% capture newline %}
+{% endcapture %}
+
+{% liquid
+  assign newline_double = newline | append: newline
+
+  assign badge_tags = settings.product_badge_tags | replace: newline_double, newline | split: newline
+%}
+
+<article
+  class="
+    group overflow-hidden relative h-full flex flex-col text-black
+
+    {% if is_border %}
+      p-4 bg-white border border-grey-100 rounded-2xl
+    {% endif %}
+  "
+>
+  {% if product.featured_media %}
+    <div class="overflow-hidden relative rounded-2xl mb-2.5">
+      {% render 'product-card-image',
+        image: product.featured_media,
+        loading: image_loading,
+        is_cart_recommendation: is_cart_recommendation
+      %}
+
+      {% liquid
+        unless is_cart_recommendation
+          if product.tags != empty
+            render 'tags', tags: product.tags, whitelist_tags: badge_tags, class: 'absolute top-2 right-2 justify-end'
+          endif
+        endunless
+
+        if form_enable and product.available
+          render 'product-card-form', product: product
+        endif
+      %}
+    </div>
+  {% endif %}
+
+  <div class="mb-4 last:mb-0">
+    <h3>
+      <a
+        class="live-full-focus-ring"
+        href="{{ url }}"
+          
+        {% if is_carousel %}
+          x-bind="bindSlideFocusable"
+        {% endif %}
+      >
+        {% liquid
+          assign title_class = 'block mb-1 last:mb-0 group-hover:underline'
+
+          unless is_small_title
+            assign title_class = title_class | append: ' font-bold text-[20px]/[25px]'
+          endunless
+        %}
+
+        {% render 'product-title-content'
+          product: product,
+          pretitle_class: 'block text-grey-200 mb-2.5',
+          title_class: title_class,
+          subtitle_class: 'block text-grey-200 group-hover:underline'
+        %}
+      </a>
+    </h3>
+  </div>
+
+  {% if  product.metafields.custom.short_product_summary and collection %}
+    <p class="text-[16px]/[20px] text-grey-200 -mt-[5px] mb-4">{{ product.metafields.custom.short_product_summary }}</p>
+  {% endif %}
+
+  {% if product.metafields.custom.card_features.value or is_price_enabled %}
+    <div class="mt-auto">
+      {% if product.metafields.custom.card_features.value %}
+        {% render 'product-features',
+          product: product,
+          is_card: true,
+          class: 'flex flex-col gap-y-1.5 text-[13px] text-grey-200 mb-4',
+          icon_class: 'mr-1.5 p-[3px] bg-black rounded-full text-[8px] text-white'
+        %}
+      {% endif %}
+ 
+      {% if is_price_enabled %}
+        <div
+          class="group-hover:underline
+            {% if is_small_title %}
+              text-grey-300
+            {% endif %}
+          "
+        >
+          {% render 'price', product: product %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</article>

@@ -1,0 +1,610 @@
+{% liquid
+  assign top_fade_enable = section.settings.top_fade_enable | default: null
+
+  assign blocks = section.blocks | default: null
+
+  assign is_carousel = false
+
+  if blocks.size > 1
+    assign is_carousel = true
+  endif
+%}
+
+{% if blocks %}
+  <section
+    class="relative {% render 'section-class', section: section %}"
+
+    {% if is_carousel %}
+      x-data="carousel"
+      tabindex="0"
+      role="region"
+      @keydown.right="next"
+      @keydown.left="prev"
+    {% endif %}
+  >
+    <div
+      class="flex overflow-y-hidden overflow-x-scroll snap-x snap-mandatory scrollbar-none group/has-video"
+
+      {% if is_carousel %}
+        style="-webkit-overflow-scrolling: touch;"
+        x-ref="slider"
+      {% endif %}
+    >
+      {% for block in blocks %}
+        {% liquid
+          assign block_background_color = block.settings.background_color | default: null
+
+          assign block_text_color = block.settings.text_color | default: null
+
+          assign block_image = block.settings.image | default: null
+
+          assign block_image_mobile = block.settings.image_mobile | default: block_image
+
+          assign block_image_loading = block.settings.image_loading | default: null
+
+          assign block_video = block.settings.video | default: null
+
+          assign block_video_autoplay = block.settings.video_autoplay | default: null
+
+          assign block_video_controls = block.settings.video_controls | default: null
+
+          assign block_video_hide_content_when_playing = block.settings.video_hide_content_when_playing | default: null
+
+          assign block_video_play_button_inverted = block.settings.video_play_button_inverted | default: null
+
+          assign block_logo = block.settings.logo | default: null
+
+          assign block_align_content = block.settings.align_content | default: null
+
+          assign block_pretitle = block.settings.pretitle | default: null
+
+          assign block_title_tag = block.settings.title_tag | default: null
+
+          assign block_title_size = block.settings.title_size | default: null
+
+          assign block_title = block.settings.title | newline_to_br | default: null
+
+          assign block_subtitle_tag = block.settings.subtitle_tag | default: null
+
+          assign block_subtitle = block.settings.subtitle | newline_to_br | default: null
+
+          assign block_image_preload = false
+
+          if section.index == 1 and forloop.index == 1
+            assign block_image_preload = true
+          endif
+        %}
+
+        {% capture block_buttons_html %}
+          {% for i in (1..2) %}
+            {% liquid
+              assign button_style = 'button_' | append: i | append: '_style'
+              assign button_style = block.settings[button_style] | default: null
+
+              assign button_text = 'button_' | append: i | append: '_text'
+              assign button_text = block.settings[button_text] | default: null
+
+              assign button_url = 'button_' | append: i | append: '_url'
+              assign button_url = block.settings[button_url] | default: null
+            %}
+
+            {% if button_text and button_url %}
+              {% render 'section-button',
+                class: 'pointer-events-auto max-sm:px-0 max-sm:w-full',
+                style: button_style,
+                text: button_text,
+                url: button_url,
+                is_carousel: is_carousel
+              %}
+            {% endif %}
+          {% endfor %}
+        {% endcapture %}
+
+        {% capture block_features_html %}
+          {% for i in (1..3) %}
+            {% liquid
+              assign feature_title = 'feature_' | append: i | append: '_title'
+              assign feature_title = block.settings[feature_title] | default: null
+
+              assign feature_text = 'feature_' | append: i | append: '_text'
+              assign feature_text = block.settings[feature_text] | default: null
+            %}
+
+            {% if feature_title or feature_text %}
+              <li
+                class="
+                  max-md:w-full flex max-md:flex-wrap gap-y-4 gap-x-14
+                  max-md:after:w-[50px] max-md:after:border-b md:after:border-r after:border-white/70 last:after:hidden
+                "
+              >
+                <div class="w-full">
+                  {% if feature_title %}
+                    <p class="font-bold opacity-70 mb-1 last:mb-0">
+                      {{ feature_title }}
+                    </p>
+                  {% endif %}
+
+                  {% if feature_text %}
+                    <p class="font-bold md:text-[20px]">
+                      {{ feature_text }}
+                    </p>
+                  {% endif %}
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endcapture %}
+
+        <div
+          class="
+            snap-start shrink-0
+            w-full  pt-12 pb-6 relative
+            min-h-[612px] md:min-h-[750px] md:pt-28 md:pb-12
+            {% if block_video %}aspect-video max-h-[750px]{% endif %}
+          "
+          style="
+            {% if block_background_color %}
+              background-color: {{ block_background_color }};
+            {% endif %}
+
+            {% if block_text_color %}
+              color: {{ block_text_color }};
+            {% endif %}
+          "
+        >
+          {% if block_video and block_video_autoplay %}
+            <div class="absolute inset-0 z-10 bg-black">
+              {% render 'featured-hero-video',
+                video: block_video,
+                autoplay: block_video_autoplay,
+                controls: block_video_controls
+              %}
+            </div>
+          {% elsif block_video %}
+            <details class="group" x-data="video">
+              <summary
+                class="
+                  group container
+                  absolute bottom-12 md:bottom-28 left-0 right-0 z-20
+                  not-focus-ring pointer-events-none
+                "
+                role="button"
+                aria-controls="featured-hero-video-{{ block.id }}"
+                :aria-expanded="isOpen"
+                @click.prevent="toggle()"
+
+                {% if is_carousel %}
+                  x-bind="bindSlideFocusable"
+                {% endif %}
+              >
+                <span
+                  class="
+                    block w-fit ml-auto p-6 md:p-8 bg-white hover:bg-gold-50 rounded-full
+                    pointer-events-auto group-focus-visible:focus-ring text-black hover:text-white
+                    pointer-events-auto
+
+                    {% if block_video_play_button_inverted %}
+                      invert hover:invert-0
+                    {% endif %}
+                  "
+                >
+                  {% render 'svg', name: 'play', class: 'group-open:hidden text-[18px] md:text-[26px]' %}
+                  {% render 'svg', name: 'pause', class: 'hidden group-open:block text-[18px] md:text-[26px]' %}
+
+                  <span class="sr-only">
+                    {{ 'featured_hero.video_play' | t }}
+                  </span>
+                </span>
+              </summary>
+
+              <div
+                class="absolute inset-0 z-10 bg-black transition-opacity"
+                id="featured-hero-video-{{ block.id }}"
+                x-show="isOpen"
+                x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100"
+                x-transition:leave-end="opacity-0"
+              >
+                {% render 'featured-hero-video', video: block_video, controls: block_video_controls, class: 'md:object-contain' %}
+              </div>
+            </details>
+          {% endif %}
+
+          {% if block_image and block_video_autoplay == null %}
+            {% render 'featured-hero-image',
+              image: block_image,
+              image_mobile: block_image_mobile,
+              loading: block_image_loading,
+              preload: block_image_preload
+            %}
+          {% endif %}
+
+          <div
+            class="
+              relative z-10 h-full container
+
+              {% if block_video_controls %}
+                pointer-events-none
+              {% endif %}
+
+              {% if block_video_hide_content_when_playing %}
+                transition-opacity [.group\/has-video:has([open])_&]:opacity-0
+              {% endif %}
+            "
+          >
+            <div
+              class="
+                relative h-full main-grid gap-y-12
+
+                {% if block_align_content == 'end' %}
+                  content-end
+                {% endif %}
+              "
+            >
+              <div class="col-span-full md:col-span-6 xl:col-span-4 mb-auto">
+                {% if block_pretitle %}
+                  <p class="underline mb-4 last:mb-0">
+                    {{ block_pretitle }}
+                  </p>
+                {% endif %}
+
+                {% if block_title or block_subtitle %}
+                  <div class="mb-6 md:mb-12 last:mb-0">
+                    {% if block_title %}
+                      <div
+                        class="
+                          mb-2 last:mb-0 font-display
+
+                          {% case block_title_size %}
+                            {% when 'small' %}
+                              text-[33px]/[35px] md:text-[40px]/[48px]
+                            {% when 'large' %}
+                              text-[44px]/[51px] md:text-[70px]/[76px]
+                          {% endcase %}
+                        "
+                      >
+                        {% render 'heading', tag: block_title_tag, text: block_title %}
+                      </div>
+                    {% endif %}
+
+                    {% if block_subtitle %}
+                      <div class="text-[16px]/[20px] md:text-[20px]/[25px] -tracking-[0.02em]">
+                        {% render 'heading', tag: block_subtitle_tag, text: block_subtitle %}
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+
+                {% if block_buttons_html != blank %}
+                  <div class="flex items-center gap-6 md:gap-x-10">
+                    {{ block_buttons_html }}
+                  </div>
+                {% endif %}
+              </div>
+
+              {% if block_features_html != blank %}
+                <ul class="col-span-full flex flex-wrap items-center gap-y-4 gap-x-14 mt-auto pb-8 md:pb-14">
+                  {{ block_features_html }}
+                </ul>
+              {% endif %}
+
+              {% if block_logo %}
+                {% render 'svg', name: block_logo, class: 'max-md:hidden absolute bottom-0 right-0 w-[186px] h-auto' %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if top_fade_enable %}
+      <div
+        class="absolute top-0 left-0 right-0 z-20 h-[206px] pointer-events-none"
+        style="background: linear-gradient(180deg, #000 -24.4%, rgba(0, 0, 0, 0.00) 70.87%);"
+      ></div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Hero Banner",
+    "presets": [
+      {
+        "name": "Hero Banner"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "checkbox",
+        "id": "top_fade_enable",
+        "label": "Top fade enable?"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "hero",
+        "name": "Hero",
+        "settings": [
+          {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background color",
+            "default": "#000"
+          },
+          {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color",
+            "default": "#FFF"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_mobile",
+            "label": "Image (mobile)"
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
+          },
+          {
+            "type": "checkbox",
+            "id": "video_autoplay",
+            "label": "Video autoplay"
+          },
+          {
+            "type": "checkbox",
+            "id": "video_controls",
+            "label": "Video controls"
+          },
+          {
+            "type": "checkbox",
+            "id": "video_hide_content_when_playing",
+            "label": "Video hide content when playing"
+          },
+          {
+            "type": "checkbox",
+            "id": "video_play_button_inverted",
+            "label": "Video play button inverted"
+          },
+          {
+            "type": "select",
+            "id": "logo",
+            "label": "Logo",
+            "options": [
+              { "value": "", "label": "None" },
+              { "value": "vacmaster", "label": "Vacmaster" },
+              { "value": "lawnmaster", "label": "LawnMaster" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "align_content",
+            "label": "Align content",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "end", "label": "End" }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "pretitle",
+            "label": "Pretitle"
+          },
+          {
+            "type": "select",
+            "id": "title_tag",
+            "label": "Title tag",
+            "options": [
+              { "value": "h1", "label": "H1" },
+              { "value": "h2", "label": "H2" },
+              { "value": "h3", "label": "H3" }
+            ],
+            "default": "h1"
+          },
+          {
+            "type": "select",
+            "id": "title_size",
+            "label": "Title size",
+            "options": [
+              { "value": "small", "label": "Small" },
+              { "value": "large", "label": "Large" }
+            ],
+            "default": "large"
+          },
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "select",
+            "id": "subtitle_tag",
+            "label": "Subtitle tag",
+            "options": [
+              { "value": "h1", "label": "H1" },
+              { "value": "h2", "label": "H2" },
+              { "value": "h3", "label": "H3" }
+            ],
+            "default": "h2"
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+          },
+          {
+            "type": "header",
+            "content": "Button #1"
+          },
+          {
+            "type": "select",
+            "id": "button_1_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_1_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_1_url",
+            "label": "URL"
+          },
+          {
+            "type": "header",
+            "content": "Button #2"
+          },
+          {
+            "type": "select",
+            "id": "button_2_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_2_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_2_url",
+            "label": "URL"
+          },
+          {
+            "type": "header",
+            "content": "Feature #1"
+          },
+          {
+            "type": "text",
+            "id": "feature_1_title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "feature_1_text",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Feature #2"
+          },
+          {
+            "type": "text",
+            "id": "feature_2_title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "feature_2_text",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Feature #3"
+          },
+          {
+            "type": "text",
+            "id": "feature_3_title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "feature_3_text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

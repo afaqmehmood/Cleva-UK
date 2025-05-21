@@ -1,0 +1,92 @@
+{% liquid
+  assign quantity_minus_1 = item.quantity | minus: 1
+
+  assign quantity_plus_1 = item.quantity | plus: 1
+
+  assign url_to_decrease = item.url_to_remove | replace: 'quantity=0', 'quantity=' | append: quantity_minus_1
+
+  assign url_to_increase = item.url_to_remove | replace: 'quantity=0', 'quantity=' | append: quantity_plus_1
+%}
+
+<li class= "relative flex gap-x-6 p-[10px] md:p-4 bg-grey-50 rounded-2xl mb-6 last:mb-0">
+  <div class="shrink-0 w-[20%]">
+    {% render 'cart-item-image', image: item.image, is_mini_cart: is_mini_cart %}
+  </div>
+
+  <div class="flex-1">
+    <div class="flex items-start gap-x-6 mb-1.5 md:mb-4">
+      <h3 class="flex-1">
+        <a class="live-full-focus-ring" href="{{ item.url }}">
+          {% render 'product-title-content'
+            product: item.product,
+            pretitle_class: 'block text-[16px]/[20px] text-grey-300 mb-1',
+            title_class: 'block text-[20px]/[25px] md:-tracking-[0.02em]',
+            subtitle_class: 'block text-[16px]/[20px] text-grey-300'
+          %}
+        </a>
+      </h3>
+
+      <a
+        class="relative z-10 text-grey-300 hover:text-black"
+        href="{{ item.url_to_remove }}"
+
+        {% if is_mini_cart %}
+          x-data="cartItemChangeLink"
+          @click.prevent="click"
+        {% endif %}
+      >
+        {% render 'svg', name: 'trash', class: 'text-[20px]' %}
+
+        <span class="sr-only">
+          {{ 'cart.item_remove' | t }}
+        </span>
+      </a>
+    </div>
+
+    <div class="flex items-center justify-between gap-x-6">
+      <div class="relative z-[10] w-[110px] p-1.5 border border-grey-100 rounded-lg text-center">
+        <span class="sr-only">
+          {{ 'cart.item_quantity' | t }}
+        </span>
+
+        {{ item.quantity }}
+
+        <a
+          class="absolute top-1/2 left-0 -translate-y-1/2 p-3"
+          href="{{ url_to_decrease }}"
+
+          {% if is_mini_cart %}
+            x-data="cartItemChangeLink"
+            @click.prevent="click"
+          {% endif %}
+        >
+          {% render 'svg', name: 'minus', class: 'text-[14px]' %}
+
+          <span class="sr-only">
+            {{ 'cart.item_quantity_decrease' | t }}
+          </span> 
+        </a>
+
+        <a
+          class="absolute top-1/2 right-0 -translate-y-1/2 p-3"
+          href="{{ url_to_increase }}"
+
+          {% if is_mini_cart %}
+            x-data="cartItemChangeLink"
+            @click.prevent="click"
+          {% endif %}
+        >
+          {% render 'svg', name: 'plus', class: 'text-[14px]' %}
+
+          <span class="sr-only">
+            {{ 'cart.item_quantity_increase' | t }}
+          </span>
+        </a>
+      </div>
+
+      <div class="text-grey-300">
+        {{ item.line_price | money }}
+      </div>
+    </div>
+  </div>
+</li>

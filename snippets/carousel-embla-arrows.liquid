@@ -1,0 +1,88 @@
+<div
+  class="flex justify-end gap-2 md:gap-4 {{ class }}"
+  :class="{
+    'invisible': !prev && !next
+  }"
+>
+  <button
+    class="
+      {{ previous_class }} max-md:text-[10px] -scale-x-100
+
+      {% if is_circle %}
+        relative p-2 md:p-4 border border-2 border-grey-100 rounded-full
+      {% endif %}
+    "
+    :class="{ 'cursor-not-allowed': !prev }"
+    :aria-disabled="!prev"
+    :disabled="!prev"
+    :tabindex="!prev ? -1 : 0"
+    @click="embla.scrollPrev()"
+  >
+    {% if is_circle %}
+      <span
+        class="absolute inset-0 -m-0.5 rounded-full border-2 transition-[clip-path]"
+        :class="{
+          'percent-0': progressLeft >= 0,
+          'percent-12-5': progressLeft >= 1,
+          'percent-25': progressLeft >= 25,
+          'percent-37-5': progressLeft >= 37.5,
+          'percent-50': progressLeft >= 50,
+          'percent-62-5': progressLeft >= 62.5,
+          'percent-75': progressLeft >= 75,
+          'percent-87-5': progressLeft >= 87.5,
+          'percent-100': progressLeft >= 100
+        }"
+      >
+      </span>
+    {% endif %}
+
+    <span class="block" :class="{ 'opacity-50': !prev }">
+      {% render 'svg', name: 'arrow' %}
+
+      <span class="sr-only">
+        {{ 'carousel.previous' | t }}
+      </span>
+    </span>
+  </button>
+
+  <button
+    class="
+    {{ next_class }} max-md:text-[10px]
+
+      {% if is_circle %}
+        relative p-2 md:p-4 border border-2 border-grey-100 rounded-full
+      {% endif %}
+    "
+    :class="{ 'cursor-not-allowed': !next }"
+    :aria-disabled="!next"
+    :disabled="!next"
+    :tabindex="!next ? -1 : 0"
+    @click="embla.scrollNext()"
+  >
+    {% if is_circle %}
+      <span
+        class="absolute inset-0 -m-0.5 rounded-full border-2 transition-[clip-path]"
+        :class="{
+          'percent-0': progress >= 0,
+          'percent-12-5': progress >= 1,
+          'percent-25': progress >= 25,
+          'percent-37-5': progress >= 37.5,
+          'percent-50': progress >= 50,
+          'percent-62-5': progress >= 62.5,
+          'percent-75': progress >= 75,
+          'percent-87-5': progress >= 87.5,
+          'percent-100': progress >= 100
+        }"
+      >
+      </span>
+    {% endif %}
+
+    <span class="block" :class="{ 'opacity-50': !next }">
+      {% render 'svg', name: 'arrow' %}
+
+      <span class="sr-only">
+        {{ 'carousel.next' | t }}
+      </span>
+    </span>
+  </button>
+</div>

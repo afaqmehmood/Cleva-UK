@@ -1,0 +1,125 @@
+{% comment %}
+  @TODO:
+
+  - Probably needs work to suit other templates
+{% endcomment %}
+
+<section class="{% render 'section-class', section: section %}">
+  <nav class="container">
+    <ul
+      class="
+        overflow-auto max-md:-mx-[--container-padding-x] max-md:px-[--container-padding-x]
+        flex md:flex-wrap gap-x-1 text-grey-100 [&>*]:shrink-0 [&>*:not(:last-child)]:after:content-['>']
+      "
+    >
+      {% case template.name %}
+        {% when 'collection' %}
+          <li>
+            {{ 'breadcrumbs.collection' | t }}
+          </li>
+  
+          <li>
+            <a class="hover:text-black" href="{{ collection.url }}">
+              {{ collection.title }}
+            </a>
+          </li>
+        {% when 'product' %}
+          <li>
+            {% if product.metafields.custom.collection.value %}
+              <a class="hover:text-black" href="{{ product.metafields.custom.collection.value.url }}">
+                {{ product.metafields.custom.collection.value.title }}
+              </a>
+            {% else %}
+              {{ 'breadcrumbs.product' | t }}
+            {% endif %}
+          </li>
+  
+          <li>
+            <a class="hover:text-black" href="{{ product.url }}">
+              {{ product.title }}
+            </a>
+          </li>
+        {% else %}
+          <li>
+            <a class="hover:text-black" href="{{ page_url }}">
+              {{ page_title }}
+            </a>
+          </li>
+      {% endcase %}
+    </ul>
+  </nav>
+</section>
+
+</section>
+
+{% schema %}
+  {
+    "name": "Breadcrumbs",
+    "presets": [
+      {
+        "name": "Breadcrumbs"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

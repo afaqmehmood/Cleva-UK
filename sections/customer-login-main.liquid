@@ -1,0 +1,121 @@
+{% capture recover_form_html %}
+  {% render 'customer-recover-form' %}
+{% endcapture %}
+
+{% liquid
+  assign recover_success_text = 'customer.recover.success_text' | t
+
+  assign is_recover_success = false
+
+  if recover_form_html contains recover_success_text
+    assign is_recover_success = true
+  endif
+%}
+
+<section class="{% render 'section-class', section: section %}">
+  <div class="container">
+    <div class="max-w-[440px] mx-auto group">
+      <div
+        class="
+          hidden target:!block [.group:has(#login:target)_&]:!hidden
+
+          {% if is_recover_success %}
+            !block
+          {% endif %}
+        "
+        id="recover"
+      >
+        {{ recover_form_html }}
+      </div>
+
+      <div
+        class="
+          [:target_+_&]:hidden target:!block
+
+          {% if is_recover_success %}
+            !hidden
+          {% endif %}
+        "
+        id="login"
+      >
+        {% render 'customer-login-form' %}
+      
+        {% if shop.checkout.guest_login %}
+          {% render 'customer-guest-login-form' %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Customer login main",
+    "presets": [
+      {
+        "name": "Customer login main"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["customers/login"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ]
+  }
+{% endschema %}

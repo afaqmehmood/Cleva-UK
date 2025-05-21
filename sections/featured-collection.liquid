@@ -1,0 +1,207 @@
+{% liquid
+  assign pretitle = section.settings.pretitle | default: null
+
+  assign title = section.settings.title | default: null
+
+  assign text = section.settings.text | default: null
+
+  assign collection = section.settings.collection | default: null
+
+  assign products_per_page = section.settings.products_per_page | default: 8
+
+  assign blocks = section.blocks | default: null
+%}
+
+<section class="{% render 'section-class', section: section %}">
+  <div class="container main-grid">
+    <div class="col-span-full md:mb-4 last:mb-0">
+      {% if pretitle %}
+        <p class="font-bold text-[15px]/[normal] underline underline-offset-4 mb-4 last:mb-0">
+          {{ pretitle }}
+        </p>
+      {% endif %}
+    
+      {% if title %}
+        <h2 class="font-display !font-bold text-[33px]/[35px] md:text-[43px]/[51px]">
+          {{ title }}
+        </h2>
+      {% endif %}
+    </div>
+
+    {% if text %}
+      <div class="col-span-full md:col-span-6 xl:col-span-4 text-[20px] text-black/60">
+        {{ text }}
+      </div>
+    {% endif %}
+
+    {% if collection %}
+      {% capture slides_content %}
+        {% for product in collection.products, limit: products_per_page %}
+          {% capture slide_content %}
+            {% liquid
+              assign image_loading = null
+
+              if forloop.index > 4
+                assign image_loading = 'lazy'
+              endif
+            %}
+
+            {% render 'product-card', product: product, image_loading: image_loading, is_carousel: true %}
+          {% endcapture %}
+
+          {% render 'cards-carousel-slide', slide_content: slide_content %}
+        {% endfor %}
+      {% endcapture %}
+
+      {% render 'cards-carousel', slides_content: slides_content, slides_columns: 3.77, slides_gap: 5 %}
+    {% endif %}
+
+    {% if blocks %}
+      <div class="col-span-full mt-12 flex flex-wrap items-center gap-y-6 gap-x-6 md:gap-x-11">
+        {% for block in blocks %}
+          {% liquid
+            assign block_style = block.settings.style | default: null
+
+            assign block_text = block.settings.text | default: null
+
+            assign block_url = block.settings.url | default: null
+          %}
+
+          {% if block_text and block_url %}
+            {% render 'section-button', style: block_style, text: block_text, url: block_url %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Featured Products",
+    "presets": [
+      {
+        "name": "Featured Products"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "text",
+        "id": "pretitle",
+        "label": "Pretitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      },
+      {
+        "type": "number",
+        "id": "products_per_page",
+        "label": "Products per page",
+        "default": 8
+      }
+    ],
+    "blocks": [
+      {
+        "type": "button",
+        "name": "Button",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "select",
+            "id": "style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

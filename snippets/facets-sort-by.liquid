@@ -1,0 +1,50 @@
+{% assign sort_by = object.sort_by | default: object.default_sort_by %}
+
+<div
+  class="
+    relative font-bold 
+
+    {% if is_mobile %}
+      text-[18px]/[22px]
+    {% else %}
+      text-[14px]
+    {% endif %}
+  "
+>
+  <label class="absolute top-1/2 left-0 -translate-y-1/2" for="facets-sort-by{{ id_suffix }}">
+    {{ 'facets.sort_by' | t }} - 
+  </label>
+
+  {% if is_mobile %}
+    {% render 'svg', name: 'arrow', class: 'absolute top-1/2 right-0 -translate-y-1/2 text-grey-200' %}
+  {% else %}
+    {% render 'svg', name: 'caret', class: 'absolute top-1/2 right-0 -translate-y-1/2' %}
+  {% endif %}
+
+  <select
+    class="
+      relative appearance-none bg-transparent not-focus-ring cursor-pointer
+      text-grey-300 [.group\/facets:has([open])_&]:text-inherit
+
+      {% if is_mobile %}
+        w-full py-6 pl-20 pr-7
+      {% else %}
+        py-6 pl-16 pr-7
+      {% endif %}
+    "
+    id="facets-sort-by{{ id_suffix }}"
+    name="sort_by"
+  >
+    {% for option in object.sort_options %}
+      <option
+        value="{{ option.value | escape }}"
+
+        {% if option.value == sort_by %}
+          selected
+        {% endif %}
+      >
+        {{ option.name }}
+      </option>
+    {% endfor %}
+  </select>
+</div>

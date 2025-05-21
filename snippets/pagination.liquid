@@ -1,0 +1,38 @@
+<div
+  class="
+    text-center
+
+    {% if part_handle == 'previous' %}
+      mb-12 md:mb-16
+    {% else %}
+      mt-12 md:mt-16
+    {% endif %}
+  "
+  style="
+    {% unless part %}
+      display: none;
+    {% endunless %}  
+  "
+
+  {% if part_handle == 'previous' %}
+    data-ref="paginationPrevious"
+  {% else %}
+    data-ref="paginationNext"
+  {% endif %}
+>
+  <a
+    class="form-button form-button--black"
+    href="{{ part.url }}{{ url_suffix }}"
+
+    {% if template.name == 'collection' or template.name == 'search' %}
+      x-data="collectionPaginationLink({ sectionId: {{ section.id | json | escape }} })"
+      @click.prevent="onClick"
+    {% endif %}
+  >
+    {% if part_handle == 'previous' %}
+      {{ 'pagination.previous' | t }}
+    {% else %}
+      {{ 'pagination.next' | t }}
+    {% endif %}
+  </a>
+</div>

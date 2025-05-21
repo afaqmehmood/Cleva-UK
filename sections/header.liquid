@@ -1,0 +1,230 @@
+{% capture newline %}
+{% endcapture %}
+
+{% liquid
+  assign newline_double = newline | append: newline
+
+  assign position_overlay_templates = section.settings.position_overlay_templates | replace: newline_double, newline | default: null
+
+  assign background_color = section.settings.background_color | default: null
+
+  assign text_color = section.settings.text_color | default: null
+
+  assign menu = section.settings.menu | default: null
+
+  assign button_text = section.settings.button_text | default: null
+
+  assign button_url = section.settings.button_url | default: null
+
+  assign button_modal = section.settings.button_modal | default: null
+
+  assign blocks = section.blocks | default: null
+
+  assign blocks_mega_menu = blocks | where: 'type', 'mega_menu'
+  
+  assign position_overlay = false
+
+  if position_overlay_templates contains template
+    assign position_overlay = true
+  endif
+%}
+
+<header
+  class="
+    relative z-40 py-5 lg:py-6 transition-[top,background-color] ease-in-out duration-150
+
+    {% if position_overlay %}
+      -mb-[--header-height-live] !bg-transparent !text-white
+    {% endif %}
+  "
+  :class="{
+    '!top-[calc(-1_*_var(--header-height-live))]': isHidden && !isRevealed && !isMegaMenuOpen && !isHeaderSearchOpen && !isMobileMenuLevel0Open,
+    '!sticky !top-0': isHidden || isRevealed,
+    '!bg-transparent': !isHidden && !isRevealed && !isMegaMenuOpen && !isHeaderSearchOpen && !isMobileMenuLevel0Open,
+    '!text-white': (
+      {% if position_overlay %}
+        !isHidden && !isRevealed && !isMegaMenuOpen && !isHeaderSearchOpen && !isMobileMenuLevel0Open
+      {% else %}
+        false
+      {% endif %}
+    )
+  }"
+  style="
+    {% if background_color %}
+      background-color: {{ background_color }};
+    {% endif %}
+
+    {% if text_color %}
+      color: {{ text_color }};
+    {% endif %}
+  "
+  x-data="header"
+>
+  <style>
+    :root {
+      --header-height-live: var(--header-height);
+    }
+  </style>
+
+  <div class="container flex items-center max-lg:justify-between gap-x-8 xl:gap-x-12">
+    <div>
+      {% render 'header-logo' %}
+    </div>
+
+    <div class="flex-1">
+      {% if menu %}
+        {% render 'header-menu',
+          newline: newline,
+          newline_double: newline_double,
+          menu: menu,
+          button_text: button_text,
+          button_url: button_url,
+          button_modal: button_modal,
+          blocks_mega_menu: blocks_mega_menu,
+          position_overlay: position_overlay
+        %}
+      {% endif %}
+    </div>
+
+    {% render 'header-utility-menu',
+      newline: newline,
+      newline_double: newline_double,
+      menu: menu,
+      button_text: button_text,
+      button_url: button_url,
+      button_modal: button_modal,
+      blocks_mega_menu: blocks_mega_menu
+    %}
+  </div>
+</header>
+
+{% schema %}
+  {
+    "name": "Header",
+    "presets": [
+      {
+        "name": "Header"
+      }
+    ],
+    "limit": 1,
+    "enabled_on": {
+      "groups": ["header"]
+    },
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "position_overlay_templates",
+        "label": "Position overlay templates",
+        "info": "Templates listed here will display the header in the overlay position. Separate each with a new line."
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#FFF"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#000"
+      },
+      {
+        "type": "header",
+        "content": "Menu"
+      },
+      {
+        "type": "link_list",
+        "id": "menu",
+        "label": "Menu"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Text"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "button_modal",
+        "label": "Button modal",
+        "info": "This will override the 'URL' setting and open the modal when the button is clicked."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "mega_menu",
+        "name": "Mega menu",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title (menu link name)",
+            "info": "The below settings will apply to the menu link with this name. This mega menu will also display nested links from this menu link."
+          },
+          {
+            "type": "header",
+            "content": "Logo"
+          },
+          {
+            "type": "select",
+            "id": "logo",
+            "label": "Logo",
+            "options": [
+              { "value": "", "label": "None" },
+              { "value": "vacmaster", "label": "Vacmaster" },
+              { "value": "lawnmaster", "label": "LawnMaster" }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Sale links"
+          },
+          {
+            "type": "textarea",
+            "id": "sale_links_titles",
+            "label": "Titles (link names)",
+            "info": "Separate each with a new line."
+          },
+          {
+            "type": "header",
+            "content": "Feature"
+          },
+          {
+            "type": "checkbox",
+            "id": "feature_enable",
+            "label": "Enable?"
+          },
+          {
+            "type": "image_picker",
+            "id": "feature_image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "feature_title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "feature_button_text",
+            "label": "Button text"
+          },
+          {
+            "type": "url",
+            "id": "feature_button_url",
+            "label": "Button URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

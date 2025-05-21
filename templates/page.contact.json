@@ -1,0 +1,255 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_usp_iMnE3e": {
+      "type": "featured-usp",
+      "blocks": {
+        "usp_CJRbdH": {
+          "type": "usp",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Next Day Delivery"
+          }
+        },
+        "usp_w3tXCC": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "Buy Direct from the Makers"
+          }
+        },
+        "usp_X4Pw73": {
+          "type": "usp",
+          "settings": {
+            "icon": "chat",
+            "title": "UK Customer Support"
+          }
+        }
+      },
+      "block_order": [
+        "usp_CJRbdH",
+        "usp_w3tXCC",
+        "usp_X4Pw73"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
+      }
+    },
+    "featured_about_zNj6Nq": {
+      "type": "featured-about",
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "watermark_enable": false,
+        "scroll_animation_enable": false,
+        "logo": "",
+        "pretitle": "",
+        "title_tag": "h1",
+        "title": "Contact Us",
+        "text_truncate_enable": true,
+        "text": "<p>Please complete the form below and our friendly UK based customer services team will be in touch as soon as possible. For specialist product information, find your model on our product support pages.</p>",
+        "button_style": "black",
+        "button_text": "Go to Product Support",
+        "button_url": "shopify://pages/product-support",
+        "image_loading": ""
+      }
+    },
+    "17023606968e20444f": {
+      "type": "apps",
+      "blocks": {
+        "688a6ce1-9960-47c9-b8da-6df3db83bfc9": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "n4AXlzC14WSSFrto9esRBQ",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 0,
+            "border": 0,
+            "fill_color": "#ebe9e9",
+            "padding": 0,
+            "form_width": 1000,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "688a6ce1-9960-47c9-b8da-6df3db83bfc9"
+      ],
+      "settings": {
+        "background_color": "bg-grey-50",
+        "padding_top": "sm",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_promo_wm7PPL": {
+      "type": "featured-promo",
+      "disabled": true,
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "2xs",
+        "mode": "",
+        "background_image": "exclamation",
+        "pretitle": "",
+        "title": "Christmas Opening Hours",
+        "text_size": "small",
+        "text": "<p>Our office hours will be limited over the festive period so it might take us a little longer to get back to you than usual; we will close December 23rd at 12 noon, and re-open on Monday 4th January.</p>"
+      }
+    },
+    "featured_accordion_XDF3Nb": {
+      "type": "featured-accordion",
+      "blocks": {
+        "button_mw4zq3": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Go to Product Support",
+            "url": "shopify://pages/product-support"
+          }
+        },
+        "entry_YfxK7p": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Guarantee",
+            "text": "<p>All Vacmaster and LawnMaster appliances, spare parts and accessories carry a manufacturer guarantee.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_twXmEe": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Delivery and Returns",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "button_1_style": "white",
+            "button_1_text": "View Delivery Page",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "View Returns Page",
+            "button_2_url": "shopify://pages/returns-policy",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_9ajdFg": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Frequently Asked Questions",
+            "text": "<p>Answers to your frequently asked questions from 'where is my order?' to 'can I have a VAT receipt?' and everything in between.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Go to FAQs",
+            "button_1_url": "shopify://pages/frequently-asked-questions",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_mw4zq3",
+        "entry_YfxK7p",
+        "entry_twXmEe",
+        "entry_9ajdFg"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Support",
+        "title_size": "small",
+        "title": "Always here to help",
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+      }
+    },
+    "featured_content_gzm7f9": {
+      "type": "featured-content",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "pretitle": "Keep Updated",
+        "title": "Sign up for 10% off",
+        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "button_style": "gold",
+        "button_text": "Sign up",
+        "button_url": "#",
+        "button_modal": true
+      }
+    }
+  },
+  "order": [
+    "featured_usp_iMnE3e",
+    "featured_about_zNj6Nq",
+    "17023606968e20444f",
+    "featured_promo_wm7PPL",
+    "featured_accordion_XDF3Nb",
+    "featured_content_gzm7f9"
+  ]
+}

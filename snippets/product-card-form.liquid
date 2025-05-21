@@ -1,0 +1,21 @@
+{% if product.has_only_default_variant %}
+  {% form 'product', product, class: 'absolute bottom-0 right-0 z-20', x-data: 'productForm' %}
+    <input type="hidden" name="id" value="{{ product.first_available_variant.id }}" x-model.number.fill="variantId">
+
+    <button class="p-3 text-grey-100 hover:text-gold-50" type="submit">
+      {% render 'svg', name: 'cart-add', class: 'text-[32px]' %}
+
+      <span class="sr-only">
+        {{ 'product.add_to_cart' | t }}
+      </span>
+    </button>
+  {% endform %}
+{% else %}
+  <span class="absolute bottom-0 right-0 p-3 text-grey-100 group-hover/card:text-gold-50">
+    {% render 'svg', name: 'cart-add', class: 'text-[32px]' %}
+
+    <span class="sr-only">
+      {{ 'product.add_to_cart' | t }}
+    </span>
+  </span>
+{% endif %}
