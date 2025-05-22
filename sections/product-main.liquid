@@ -75,6 +75,13 @@
                 %}
               </div>
             {% endif %}
+            <div x-show="!isSticky">
+              {%- if section.settings.compare_button -%}
+                <button class="modal-trigger flex gap-y-2 " onclick="openComparisonModal()">Compare 
+                  {% render 'svg', name: 'compare-2', class: 'w-10 h-10', icon-class: 'mr-4' %}
+                </button>
+              {%- endif -%}
+            </div>
 
             <div :class="{ 'contents': isSticky }" data-ref="form">
               {% render 'product-form', bis_notify_enable: bis_notify_enable, link_group: link_group %}
@@ -108,6 +115,13 @@
       "templates": ["product"]
     },
     "settings": [
+      {
+        "type": "checkbox",
+        "id": "compare_button",
+        "label": "Show compare button",
+        "default": true,
+        "info": "This will trigger the compare modal. you need to add Comparison Modal section to your theme for this to work."
+      },
       {
         "type": "select",
         "id": "padding_top",
