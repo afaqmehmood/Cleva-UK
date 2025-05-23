@@ -83,7 +83,7 @@
                 }
                 </script>
                 <label for="products-selector-{{ i }}" class="feature-label">Product</label>
-                <select id="products-selector-{{ i }}" data-column="{{ i }}" {% if i == 0 and template.name contains 'product' %}disabled{% endif %}>
+                <select id="products-selector-{{ i }}" class="product-select" data-column="{{ i }}" {% if i == 0 and template.name contains 'product' %}disabled{% endif %}>
                   <option value="">Select a product</option>
                   {% for _product in products %}
                     <option {% if i == 0 and _product.id == product.id %}selected{% endif %} value="{{ _product.handle }}">{{ _product.title }}</option>
@@ -95,7 +95,7 @@
           </div>
 
           <div class="comparison-row">
-            <div class="product-card-wrapper{% unless template.name contains 'product' %} visually-hidden{% endunless %}">
+            <div class="product-card-wrapper{% unless template.name contains 'product' %} visually-hidden{% endunless %}" data-column="0">
               <div class="product-card">
                 <div class="product-image">
                   {{ product.featured_image | image_url: width: 1000 | image_tag }}
@@ -136,7 +136,7 @@
               </div>
               <button class="product-buy-button" data-product-id="{{ product.selected_or_first_available_variant.id }}" onclick="addToCart(this)">Buy now</button>
             </div>
-            <div class="product-card-wrapper visually-hidden">
+            <div class="product-card-wrapper visually-hidden" data-column="1">
               <div class="product-card">
                 <div class="product-image"></div>
                 <div class="product-vendor"></div>
@@ -149,7 +149,7 @@
               </div>
               <button class="product-buy-button" data-product-id="" disabled onclick="addToCart(this)">Buy now</button>
             </div>
-            <div class="product-card-wrapper visually-hidden">
+            <div class="product-card-wrapper visually-hidden" data-column="2">
               <div class="product-card">
                 <div class="product-image"></div>
                 <div class="product-vendor"></div>
@@ -165,7 +165,7 @@
           </div>
           
           <div class="comparison-row">
-            <div class="product-features">
+            <div class="product-features" data-column="0">
               {% if product.metafields.custom.features.value %}
                 <label class="comparison-metafields">Features</label>
                 {% for feature in product.metafields.custom.features.value limit: 5 %}
@@ -176,12 +176,12 @@
                 <hr>
               {% endif %}
             </div>
-            <div class="product-features"></div>
-            <div class="product-features"></div>
+            <div class="product-features" data-column="1"></div>
+            <div class="product-features" data-column="2"></div>
           </div>
 
           <div class="comparison-row">
-            <div class="product-specifications">
+            <div class="product-specifications" data-column="0">
               {% if product.metafields.custom.specifications.value %}
                 <label class="comparison-metafields">Specifications</label>
                 {% for specifications in product.metafields.custom.specifications.value limit: 5 %}
@@ -192,12 +192,12 @@
                 <hr>
               {% endif %}
             </div>
-            <div class="product-specifications"></div>
-            <div class="product-specifications"></div>
+            <div class="product-specifications" data-column="1"></div>
+            <div class="product-specifications" data-column="2"></div>
           </div>
 
           <div class="comparison-row">
-            <div class="product-in-the-box">
+            <div class="product-in-the-box" data-column="0">
               {% if product.metafields.custom.in_the_box.value %}
                 <label class="comparison-metafields">In the Box</label>
                 <div class="flex items-center">
@@ -206,8 +206,8 @@
                 <hr>
               {% endif %}
             </div>
-            <div class="product-in-the-box"></div>
-            <div class="product-in-the-box"></div>
+            <div class="product-in-the-box" data-column="1"></div>
+            <div class="product-in-the-box" data-column="2"></div>
           </div>
         </div>
       </div>
@@ -222,8 +222,10 @@
   }
 
   .comparison-title {
-    font-size: 24px;
+    font-size: 44px;
+    font-weight: 700;
     margin-bottom: 20px;
+    letter-spacing: var(--font-display-letter-spacing);
   }
 
   .comparison-table {

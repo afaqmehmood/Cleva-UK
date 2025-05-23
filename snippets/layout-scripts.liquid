@@ -4,6 +4,30 @@
   <script src="{{ 'customer.js' | asset_url }}" defer></script>
 {% endif %}
 
+<script>
+  window.theme = window.theme || {
+    settings: {{ settings | json }},
+    config: {
+      shopUrl: '{{ shop.url }}',
+      assetUrl: '{{ 'main.min.js' | asset_url }}',
+      currency: '{{ shop.currency }}',
+      moneyFormat: '{{ shop.money_format | escape }}',
+      moneyWithCurrencyFormat: '{{ shop.money_with_currency_format | escape }}',
+      moneyWithoutCurrencyFormat: '{{ shop.money_without_currency_format | escape }}',
+      moneyWithCurrencyFormatNoSymbol: '{{ shop.money_with_currency_format_no_symbol | escape }}',
+      moneyWithoutCurrencyFormatNoSymbol: '{{ shop.money_without_currency_format_no_symbol | escape }}'
+    },
+    translations: {
+      addToCart: '{{ 'products.product.add_to_cart' | t }}',
+      soldOut: '{{ 'products.product.sold_out' | t }}',
+      unavailable: '{{ 'products.product.unavailable' | t }}',
+      inStock: '{{ 'products.product.in_stock' | t }}',
+      outOfStock: '{{ 'products.product.out_of_stock' | t }}',
+      backInStock: '{{ 'products.product.back_in_stock' | t }}'
+    },
+    
+  };
+</script>
 
 <template x-data x-if="$store.klaviyo.isScriptsLoaded">
   <script>
