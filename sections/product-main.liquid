@@ -75,9 +75,10 @@
                 %}
               </div>
             {% endif %}
-            <div x-show="!isSticky">
+            <div x-show="!isSticky" class="flex justify-end">
               {%- if section.settings.compare_button -%}
-                <button class="modal-trigger flex gap-y-2 " onclick="openComparisonModal()">Compare 
+                <button class="modal-trigger flex gap-y-2 " onclick="openComparisonModal()">
+                  <span class="text">Compare</span> 
                   {% render 'svg', name: 'compare-2', class: 'w-10 h-10', icon-class: 'mr-4' %}
                 </button>
               {%- endif -%}
