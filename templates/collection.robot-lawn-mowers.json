@@ -597,14 +597,6 @@
         "button_url": "/",
         "button_modal": true
       }
-    },
-    "product_comparison_bHjycM": {
-      "type": "product-comparison",
-      "name": "Product Comparison Modal",
-      "settings": {
-        "title": "Product Comparison",
-        "collection": ""
-      }
     }
   },
   "order": [
@@ -621,7 +613,6 @@
     "7e19b5fc-8697-4d83-b7d1-ce74b9ff1718",
     "featured_cards_JwtbDM",
     "355df750-9c77-46f5-9902-2521e6eabd60",
-    "9fdd4d6a-b0fd-46f5-9ab9-6bd129633d4c",
-    "product_comparison_bHjycM"
+    "9fdd4d6a-b0fd-46f5-9ab9-6bd129633d4c"
   ]
 }

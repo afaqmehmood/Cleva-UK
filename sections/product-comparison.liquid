@@ -60,7 +60,10 @@
               <div class="product-selector">
                 {% liquid 
                 if template.name contains 'product'
-                  assign collection = product.collections[0]
+                  assign collection = product.collections[0] 
+                  if product.metafields.custom.collection.value != blank
+                  assign collection = product.metafields.custom.collection.value
+                  endif
                 else
                   if template.name contains 'collection'
                     assign collection = collection
@@ -72,12 +75,13 @@
                 %}
                 <script>
                 window.productFeatures = {
-                  {% for product in collection.products %}
-                    "{{ product.id }}": {
-                      "card_features": {{ product.metafields.custom.card_features.value | json }},
-                      "features": {{ product.metafields.custom.features.value | json }},
-                      "specifications": {{ product.metafields.custom.specifications.value | json }},
-                      "in_the_box": {{ product.metafields.custom.in_the_box.value | json }}
+                  {% for compare_product in collection.products %}
+                    "{{ compare_product.id }}": {
+                      "card_features": {{ compare_product.metafields.custom.card_features.value | json }},
+                      "features": {{ compare_product.metafields.custom.features.value | json }},
+                      "specifications": {{ compare_product.metafields.custom.specifications.value | json }},
+                      "in_the_box": {{ compare_product.metafields.custom.in_the_box.value | json }},
+                      "collection": "{{ collection.handle }}"
                     }{% unless forloop.last %},{% endunless %}
                   {% endfor %}
                 }
