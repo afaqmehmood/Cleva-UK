@@ -57,17 +57,19 @@
             {% render 'product-card', product: product, image_loading: image_loading, form_enable: true %}
           </li>
         {% endfor %}
-        <li class="col-span-full md:col-span-4" {% unless paginate.next %}style="display: none"{% endunless %}>
+        {% if collection.metafields.custom.collection_comparison_enabled.value == true %}
+        <li class="col-span-full md:col-span-4">
           <article style="background-color: #fafafa; " class="justify-center comparison-card align-center text-center group overflow-hidden relative h-full flex flex-col text-black p-4 bg-white border background-grey-50 border-grey-100 rounded-2xl">
             <span class="block icon-compare">
               {% render 'svg', name: 'compare', class: 'w-10 h-10' %}
             </span>
-              <h3 class="block mb-1 last:mb-0 group-hover:underline font-bold text-[20px]/[25px]">Not sure which model is right for you?</h3>
-              <p>Launch our comparison tool to compare models</p>
-              <button onclick="openComparisonModal()" class="compare-link live-full-focus-ring">Start comparing <span class="icon-arrow">{% render 'svg', name: 'arrow', class: 'w-10 h-10' %}</span>
-              </button>
-            </article>
-          </li>
+            <h3 class="block mb-1 last:mb-0 group-hover:underline font-bold text-[20px]/[25px]">Not sure which model is right for you?</h3>
+            <p>Launch our comparison tool to compare models</p>
+            <button onclick="openComparisonModal()" class="compare-link live-full-focus-ring">Start comparing <span class="icon-arrow">{% render 'svg', name: 'arrow', class: 'w-10 h-10' %}</span>
+            </button>
+          </article>
+        </li>
+        {% endif %}
       </ul>
 
       {% render 'pagination', part: paginate.next, part_handle: 'next', url_suffix: '#collection-main' %}

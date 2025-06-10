@@ -140,11 +140,13 @@
             <button class="form-button form-button--black" type="button" @click="toggle">
               {{ 'facets.apply_selected' | t }}
               </button>
+            {% if collection.metafields.custom.collection_comparison_enabled.value == true %}
             <button class="
               form-button form-button--transparent-black text-current ring-current font-bold py-1 px-4
               compare-btn-mobile" onclick="openComparisonModal()">
                 Compare
             </button>
+            {% endif %}
           </div>
         </div>
       </div>

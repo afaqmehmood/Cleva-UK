@@ -4,6 +4,21 @@
   - Selected products are removed from other dropdowns
   - Selections persist across page reloads using Local Storage
 {% endcomment %}
+{%- liquid
+  assign show_on_collection = false
+  assign show_on_product = false
+  assign collection_comparison_enabled = collection.metafields.custom.collection_comparison_enabled.value
+  assign product_comparison_enabled = product.metafields.custom.product_comparison_enabled.value
+  if template.name contains 'collection' and collection_comparison_enabled == true
+    assign show_on_collection = true
+  endif
+  if template.name contains 'product' and product_comparison_enabled == true
+    assign show_on_product = true
+  endif
+
+  echo show_on_collection
+  echo show_on_product
+-%}
 {% style %}
   .comparison-metafields {
     font-weight: bolder;
@@ -43,400 +58,402 @@
 
 
 <!-- The Modal -->
-<div id="comparisonModal" class="comparison-modal">
-  <div class="comparison-modal-content">
-    <span class="close-comparison" onclick="closeComparisonModal()">&times;</span>
-    
-    <div id="comparison-section" class="comparison-page">
-      {% if section.settings.title != blank %}
-        <h1 class="comparison-title">{{ section.settings.title }}</h1>
-      {% endif %}
-
-      <div class="comparison-table-wrapper">
-        <div class="comparison-grid">
-          <div class="comparison-header">
-            {% for i in (0..2) %}
-            <div class="product-column">
-              <div class="product-selector">
-                {% liquid 
-                if template.name contains 'product'
-                  assign collection = product.collections[0] 
-                  if product.metafields.custom.collection.value != blank
-                  assign collection = product.metafields.custom.collection.value
-                  endif
-                else
-                  if template.name contains 'collection'
-                    assign collection = collection
-                  else
-                    assign collection = section.settings.collection
-                  endif
-                endif
-                    assign products = collection.products
-                %}
-                <script>
-                window.productFeatures = {
-                  {% for compare_product in collection.products %}
-                    "{{ compare_product.id }}": {
-                      "card_features": {{ compare_product.metafields.custom.card_features.value | json }},
-                      "features": {{ compare_product.metafields.custom.features.value | json }},
-                      "specifications": {{ compare_product.metafields.custom.specifications.value | json }},
-                      "in_the_box": {{ compare_product.metafields.custom.in_the_box.value | json }},
-                      "collection": "{{ collection.handle }}"
-                    }{% unless forloop.last %},{% endunless %}
-                  {% endfor %}
-                }
-                </script>
-                <label for="products-selector-{{ i }}" class="feature-label">Product</label>
-                <select id="products-selector-{{ i }}" class="product-select" data-column="{{ i }}" {% if i == 0 and template.name contains 'product' %}disabled{% endif %}>
-                  <option value="">Select a product</option>
-                  {% for _product in products %}
-                    <option {% if i == 0 and _product.id == product.id %}selected{% endif %} value="{{ _product.handle }}">{{ _product.title |  split: "|" |  first }}</option>
-                  {% endfor %}
-                </select>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-
-          <div class="comparison-row">
-            <div class="product-card-wrapper{% unless template.name contains 'product' %} visually-hidden{% endunless %}" data-column="0">
-              <div class="product-card">
-                <div class="product-image">
-                  {{ product.featured_image | image_url: width: 1000 | image_tag }}
-                </div>
-                <div class="product-vendor">
-                  {{ product.vendor }}
-                </div>
-                <h3 class="product-title">
-                  {{ product.title }}
-                </h3>
-                <div class="product-excerpt">
+ {% if show_on_collection or show_on_product %}
+  <div id="comparisonModal" class="comparison-modal">
+    <div class="comparison-modal-content">
+      <span class="close-comparison" onclick="closeComparisonModal()">&times;</span>
+      
+      <div id="comparison-section" class="comparison-page">
+        {% if section.settings.title != blank %}
+          <h1 class="comparison-title">{{ section.settings.title }}</h1>
+        {% endif %}
+  
+        <div class="comparison-table-wrapper">
+          <div class="comparison-grid">
+            <div class="comparison-header">
+              {% for i in (0..2) %}
+              <div class="product-column">
+                <div class="product-selector">
                   {% liquid 
-                  assign features = product.metafields.custom.card_features.value
+                  if template.name contains 'product'
+                    assign collection = product.collections[0] 
+                    if product.metafields.custom.collection.value != blank
+                    assign collection = product.metafields.custom.collection.value
+                    endif
+                  else
+                    if template.name contains 'collection'
+                      assign collection = collection
+                    else
+                      assign collection = section.settings.collection
+                    endif
+                  endif
+                      assign products = collection.products
                   %}
-                  <ul class="card-features flex flex-col gap-y-1.5 text-[13px] text-grey-200 mb-4">
-                    {% if features.size > 0 %}
-                      {% for feature in features %}
-                        {% liquid 
-                          assign feature_icon = 'tick'
-                        %}
-                        <li class="flex items-center">
-                          <div class="mr-1.5 p-[3px] bg-black rounded-full text-[8px] text-white">
-                            {% render 'svg', name: feature_icon %}
-                          </div>
-                          <p>
-                            {{ feature }}
-                          </p>
-                        </li>
-                      {% endfor %}
-                    {% endif %}
-                  </ul>
-                </div>
-                <div class="product-price">
-                  <span class="price">
-                    {{ product.selected_or_first_available_variant.price | money }}
-                  </span>
+                  <script>
+                  window.productFeatures = {
+                    {% for compare_product in collection.products %}
+                      "{{ compare_product.id }}": {
+                        "card_features": {{ compare_product.metafields.custom.card_features.value | json }},
+                        "features": {{ compare_product.metafields.custom.features.value | json }},
+                        "specifications": {{ compare_product.metafields.custom.specifications.value | json }},
+                        "in_the_box": {{ compare_product.metafields.custom.in_the_box.value | json }},
+                        "collection": "{{ collection.handle }}"
+                      }{% unless forloop.last %},{% endunless %}
+                    {% endfor %}
+                  }
+                  </script>
+                  <label for="products-selector-{{ i }}" class="feature-label">Product</label>
+                  <select id="products-selector-{{ i }}" class="product-select" data-column="{{ i }}" {% if i == 0 and template.name contains 'product' %}disabled{% endif %}>
+                    <option value="">Select a product</option>
+                    {% for _product in products %}
+                      <option {% if i == 0 and _product.id == product.id %}selected{% endif %} value="{{ _product.handle }}">{{ _product.title |  split: "|" |  first }}</option>
+                    {% endfor %}
+                  </select>
                 </div>
               </div>
-              <button class="product-buy-button" data-product-id="{{ product.selected_or_first_available_variant.id }}" onclick="addToCart(this)">Buy now</button>
+              {% endfor %}
             </div>
-            <div class="product-card-wrapper visually-hidden" data-column="1">
-              <div class="product-card">
-                <div class="product-image"></div>
-                <div class="product-vendor"></div>
-                <h3 class="product-title"></h3>
-                <div class="product-excerpt">
-                  <ul class="card-features flex flex-col gap-y-1.5 text-[13px] text-grey-200 mb-4">
-                  </ul>
-                </div>
-                <div class="product-price"></div>
-              </div>
-              <button class="product-buy-button" data-product-id="" disabled onclick="addToCart(this)">Buy now</button>
-            </div>
-            <div class="product-card-wrapper visually-hidden" data-column="2">
-              <div class="product-card">
-                <div class="product-image"></div>
-                <div class="product-vendor"></div>
-                <h3 class="product-title"></h3>
-                <div class="product-excerpt">
-                  <ul class="card-features flex flex-col gap-y-1.5 text-[13px] text-grey-200 mb-4">
-                  </ul>
-                </div>
-                <div class="product-price"></div>
-              </div>
-              <button class="product-buy-button" data-product-id="" disabled onclick="addToCart(this)">Buy now</button>
-            </div>
-          </div>
-          
-          <div class="comparison-row">
-            <div class="product-features" data-column="0">
-              {% if product.metafields.custom.features.value %}
-                <label class="comparison-metafields">Features</label>
-                {% for feature in product.metafields.custom.features.value limit: 5 %}
-                  <div class="flex items-center">
-                    <p>{{ feature }}</p>
+  
+            <div class="comparison-row">
+              <div class="product-card-wrapper{% unless template.name contains 'product' %} visually-hidden{% endunless %}" data-column="0">
+                <div class="product-card">
+                  <div class="product-image">
+                    {{ product.featured_image | image_url: width: 1000 | image_tag }}
                   </div>
-                {% endfor %}
-                <hr>
-              {% endif %}
-            </div>
-            <div class="product-features" data-column="1"></div>
-            <div class="product-features" data-column="2"></div>
-          </div>
-
-          <div class="comparison-row">
-            <div class="product-specifications" data-column="0">
-              {% if product.metafields.custom.specifications.value %}
-                <label class="comparison-metafields">Specifications</label>
-                {% for specifications in product.metafields.custom.specifications.value limit: 5 %}
-                  <div class="flex items-center">
-                    <p>{{ specifications }}</p>
+                  <div class="product-vendor">
+                    {{ product.vendor }}
                   </div>
-                {% endfor %}
-                <hr>
-              {% endif %}
-            </div>
-            <div class="product-specifications" data-column="1"></div>
-            <div class="product-specifications" data-column="2"></div>
-          </div>
-
-          <div class="comparison-row">
-            <div class="product-in-the-box" data-column="0">
-              {% if product.metafields.custom.in_the_box.value %}
-                <label class="comparison-metafields">In the Box</label>
-                <div class="flex items-center">
-                  <p>{{ product.metafields.custom.in_the_box.value }}</p>
+                  <h3 class="product-title">
+                    {{ product.title }}
+                  </h3>
+                  <div class="product-excerpt">
+                    {% liquid 
+                    assign features = product.metafields.custom.card_features.value
+                    %}
+                    <ul class="card-features flex flex-col gap-y-1.5 text-[13px] text-grey-200 mb-4">
+                      {% if features.size > 0 %}
+                        {% for feature in features %}
+                          {% liquid 
+                            assign feature_icon = 'tick'
+                          %}
+                          <li class="flex items-center">
+                            <div class="mr-1.5 p-[3px] bg-black rounded-full text-[8px] text-white">
+                              {% render 'svg', name: feature_icon %}
+                            </div>
+                            <p>
+                              {{ feature }}
+                            </p>
+                          </li>
+                        {% endfor %}
+                      {% endif %}
+                    </ul>
+                  </div>
+                  <div class="product-price">
+                    <span class="price">
+                      {{ product.selected_or_first_available_variant.price | money }}
+                    </span>
+                  </div>
                 </div>
-                <hr>
-              {% endif %}
+                <button class="product-buy-button" data-product-id="{{ product.selected_or_first_available_variant.id }}" onclick="addToCart(this)">Buy now</button>
+              </div>
+              <div class="product-card-wrapper visually-hidden" data-column="1">
+                <div class="product-card">
+                  <div class="product-image"></div>
+                  <div class="product-vendor"></div>
+                  <h3 class="product-title"></h3>
+                  <div class="product-excerpt">
+                    <ul class="card-features flex flex-col gap-y-1.5 text-[13px] text-grey-200 mb-4">
+                    </ul>
+                  </div>
+                  <div class="product-price"></div>
+                </div>
+                <button class="product-buy-button" data-product-id="" disabled onclick="addToCart(this)">Buy now</button>
+              </div>
+              <div class="product-card-wrapper visually-hidden" data-column="2">
+                <div class="product-card">
+                  <div class="product-image"></div>
+                  <div class="product-vendor"></div>
+                  <h3 class="product-title"></h3>
+                  <div class="product-excerpt">
+                    <ul class="card-features flex flex-col gap-y-1.5 text-[13px] text-grey-200 mb-4">
+                    </ul>
+                  </div>
+                  <div class="product-price"></div>
+                </div>
+                <button class="product-buy-button" data-product-id="" disabled onclick="addToCart(this)">Buy now</button>
+              </div>
             </div>
-            <div class="product-in-the-box" data-column="1"></div>
-            <div class="product-in-the-box" data-column="2"></div>
+            
+            <div class="comparison-row">
+              <div class="product-features" data-column="0">
+                {% if product.metafields.custom.features.value %}
+                  <label class="comparison-metafields">Features</label>
+                  {% for feature in product.metafields.custom.features.value limit: 5 %}
+                    <div class="flex items-center">
+                      <p>{{ feature }}</p>
+                    </div>
+                  {% endfor %}
+                  <hr>
+                {% endif %}
+              </div>
+              <div class="product-features" data-column="1"></div>
+              <div class="product-features" data-column="2"></div>
+            </div>
+  
+            <div class="comparison-row">
+              <div class="product-specifications" data-column="0">
+                {% if product.metafields.custom.specifications.value %}
+                  <label class="comparison-metafields">Specifications</label>
+                  {% for specifications in product.metafields.custom.specifications.value limit: 5 %}
+                    <div class="flex items-center">
+                      <p>{{ specifications }}</p>
+                    </div>
+                  {% endfor %}
+                  <hr>
+                {% endif %}
+              </div>
+              <div class="product-specifications" data-column="1"></div>
+              <div class="product-specifications" data-column="2"></div>
+            </div>
+  
+            <div class="comparison-row">
+              <div class="product-in-the-box" data-column="0">
+                {% if product.metafields.custom.in_the_box.value %}
+                  <label class="comparison-metafields">In the Box</label>
+                  <div class="flex items-center">
+                    <p>{{ product.metafields.custom.in_the_box.value }}</p>
+                  </div>
+                  <hr>
+                {% endif %}
+              </div>
+              <div class="product-in-the-box" data-column="1"></div>
+              <div class="product-in-the-box" data-column="2"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<style>
-  .comparison-page {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .comparison-title {
-    font-size: 44px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    letter-spacing: var(--font-display-letter-spacing);
-  }
-
-  .comparison-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-
-  .product-card-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: flex-start;
-    transition: visibility 0s, opacity 0.5s linear;
-  }
-
-  .product-card-wrapper.visually-hidden {
-    visibility: hidden;
-    opacity: 0;
-  }
-
-  .product-card {
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 1rem;
-    background: #fff;
-    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
-    text-align: left;
-    flex: 1;
-  }
-
-  .product-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 4px;
-    background-color: #f2f2f2;
-  }
-
-  .product-vendor {
-    color: #666;
-    font-size: 0.9rem;
-    margin: 0.5rem 0;
-  }
-
-  .product-title {
-    font-size: 1.1rem;
-    margin: 0.5rem 0;
-  }
-
-  .product-excerpt {
-    font-size: 0.9rem;
-    color: #444;
-    margin: 0.5rem 0;
-  }
-
-  .product-price {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-  }
-
-  .product-buy-button {
-    width: auto;
-    padding: 0.75rem 1rem;
-    background: #000;
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background 0.2s ease;
-    display: inline-block;
-    align-self: flex-start;
-  }
-
-  .product-buy-button:disabled {
-    background: #ccc;
-    cursor: not-allowed;
-  }
-
-  .product-buy-button:hover {
-    background: #333;
-  }
-
-  .comparison-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(calc(33.33% - 30px), 1fr));
-    gap: 30px;
-  }
-
-  @media screen and (max-width: 990px) {
+  
+  <style>
     .comparison-page {
-      padding-inline-start: 20px;
+      text-align: center;
+      padding: 20px;
     }
+  
+    .comparison-title {
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: var(--font-display-letter-spacing);
+    }
+  
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    .product-card-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: flex-start;
+      transition: visibility 0s, opacity 0.5s linear;
+    }
+  
+    .product-card-wrapper.visually-hidden {
+      visibility: hidden;
+      opacity: 0;
+    }
+  
+    .product-card {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 1rem;
+      background: #fff;
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+      text-align: left;
+      flex: 1;
+    }
+  
+    .product-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 4px;
+      background-color: #f2f2f2;
+    }
+  
+    .product-vendor {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+  
+    .product-title {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+  
+    .product-excerpt {
+      font-size: 0.9rem;
+      color: #444;
+      margin: 0.5rem 0;
+    }
+  
+    .product-price {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+  
+    .product-buy-button {
+      width: auto;
+      padding: 0.75rem 1rem;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+      display: inline-block;
+      align-self: flex-start;
+    }
+  
+    .product-buy-button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+  
+    .product-buy-button:hover {
+      background: #333;
+    }
+  
     .comparison-grid {
-      grid-template-columns: repeat(3, minmax(80vw, 1fr));
-      overflow-x: auto;
-      padding-bottom: 1rem;
-      -webkit-overflow-scrolling: touch;
-      padding-inline-end: 25px;
-      column-gap: 10px;
-      max-width: 100%;
-      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(calc(33.33% - 30px), 1fr));
+      gap: 30px;
     }
-    .comparison-modal-content {
-      width: 95%;
-      padding: 15px;
+  
+    @media screen and (max-width: 990px) {
+      .comparison-page {
+        padding-inline-start: 20px;
+      }
+      .comparison-grid {
+        grid-template-columns: repeat(3, minmax(80vw, 1fr));
+        overflow-x: auto;
+        padding-bottom: 1rem;
+        -webkit-overflow-scrolling: touch;
+        padding-inline-end: 25px;
+        column-gap: 10px;
+        max-width: 100%;
+        margin: 0;
+      }
+      .comparison-modal-content {
+        width: 95%;
+        padding: 15px;
+      }
     }
-  }
-
-  .comparison-header,
-  .comparison-row {
-    display: contents;
-  }
-
-  .comparison-row > div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: space-between;
-  }
-
-  .comparison-row hr {
-    margin-top: 30px;
-    border-color: #f2f2f2;
-  }
-
-  .feature-label,
-  .product-column,
-  .comparison-grid > div {
-    background-color: #fff;
-    padding: 10px;
-    text-align: left;
-  }
-
-  .feature-label {
-    background-color: transparent;
-    font-weight: bold;
-  }
-
-  .product-column {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-inline: 0
-  }
-
-  .collection-selector:not([hidden]),
-  .product-selector:not([hidden]) {
-    width: 100%;
-    position: relative;
-    display: inline-block;
-  }
-
-  .collection-selector select:disabled,
-  .product-selector select:disabled {
-    opacity: 0.5;
-    pointer-events: none;
-    background-color: #f2f2f2;
-  }
-
-  .collection-selector select,
-  .product-selector select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 30px;
-    padding-inline-start: 16px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    color: black;
-    outline: none;
-    text-align: left;
-  }
-
-  .collection-selector::after,
-  .product-selector::after {
-    content: '↓';
-    position: absolute;
-    top: 50%;
-    right: 16px;
-    transform: translateY(-50%);
-    font-size: 16px;
-    color: black;
-    pointer-events: none;
-  }
-
-  .collection-selector label,
-  .product-selector label {
-    position: absolute;
-    top: 0px;
-    left: 16px;
-    font-size: 12px;
-    color: gray;
-    pointer-events: none;
-    padding-inline: 0;
-  }
-
-  .collection-selector select:focus,
-  .product-selector select:focus {
-    border-color: black;
-  }
-</style>
+  
+    .comparison-header,
+    .comparison-row {
+      display: contents;
+    }
+  
+    .comparison-row > div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: space-between;
+    }
+  
+    .comparison-row hr {
+      margin-top: 30px;
+      border-color: #f2f2f2;
+    }
+  
+    .feature-label,
+    .product-column,
+    .comparison-grid > div {
+      background-color: #fff;
+      padding: 10px;
+      text-align: left;
+    }
+  
+    .feature-label {
+      background-color: transparent;
+      font-weight: bold;
+    }
+  
+    .product-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-inline: 0
+    }
+  
+    .collection-selector:not([hidden]),
+    .product-selector:not([hidden]) {
+      width: 100%;
+      position: relative;
+      display: inline-block;
+    }
+  
+    .collection-selector select:disabled,
+    .product-selector select:disabled {
+      opacity: 0.5;
+      pointer-events: none;
+      background-color: #f2f2f2;
+    }
+  
+    .collection-selector select,
+    .product-selector select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 30px;
+      padding-inline-start: 16px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+      outline: none;
+      text-align: left;
+    }
+  
+    .collection-selector::after,
+    .product-selector::after {
+      content: '↓';
+      position: absolute;
+      top: 50%;
+      right: 16px;
+      transform: translateY(-50%);
+      font-size: 16px;
+      color: black;
+      pointer-events: none;
+    }
+  
+    .collection-selector label,
+    .product-selector label {
+      position: absolute;
+      top: 0px;
+      left: 16px;
+      font-size: 12px;
+      color: gray;
+      pointer-events: none;
+      padding-inline: 0;
+    }
+  
+    .collection-selector select:focus,
+    .product-selector select:focus {
+      border-color: black;
+    }
+  </style>
+{% endif %}
 
 {% schema %}
 {
