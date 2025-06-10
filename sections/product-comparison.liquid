@@ -90,7 +90,7 @@
                 <select id="products-selector-{{ i }}" class="product-select" data-column="{{ i }}" {% if i == 0 and template.name contains 'product' %}disabled{% endif %}>
                   <option value="">Select a product</option>
                   {% for _product in products %}
-                    <option {% if i == 0 and _product.id == product.id %}selected{% endif %} value="{{ _product.handle }}">{{ _product.title }}</option>
+                    <option {% if i == 0 and _product.id == product.id %}selected{% endif %} value="{{ _product.handle }}">{{ _product.title |  split: "|" |  first }}</option>
                   {% endfor %}
                 </select>
               </div>
