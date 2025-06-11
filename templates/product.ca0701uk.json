@@ -23,7 +23,7 @@
           "type": "usp",
           "settings": {
             "icon": "house",
-            "title": "Buy Direct from the Makers"
+            "title": "Buy direct from the makers"
           }
         },
         "b71fd280-d110-4e31-afbb-2a2740db996a": {
@@ -60,48 +60,191 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
+        "padding_bottom": "md",
         "padding_bottom_mobile": "sm"
       }
     },
     "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35": {
       "type": "featured-text-with-icon",
       "blocks": {
-        "a73107f1-d813-4f4a-9738-d04082969ce4": {
+        "aa9370f5-862d-4221-88f8-2df4783e5117": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "capacity",
-            "title": "Extra Large Capacity",
-            "text": "<p>Cover more area with an extra-large 3.2L water tank.<br/></p>"
+            "icon": "touch",
+            "title": "Touch Control",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>"
           }
         },
         "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "brushroll-double-overlap",
-            "title": "2 Rotating Brush Rolls",
-            "text": "<p>Deep clean and revitalize your carpets with dual motorised brush rolls.<br/></p>"
+            "icon": "battery",
+            "title": "Long Battery Life",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>"
           }
         },
-        "aa9370f5-862d-4221-88f8-2df4783e5117": {
+        "a73107f1-d813-4f4a-9738-d04082969ce4": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "wand",
-            "title": "Easy Maintenance",
-            "text": "<p>Prevent odour and dirt from building up with easy-to-clean attachments and brushes. </p>"
+            "icon": "temperature",
+            "title": "Self-Cooling",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>"
           }
         }
       },
       "block_order": [
-        "a73107f1-d813-4f4a-9738-d04082969ce4",
+        "aa9370f5-862d-4221-88f8-2df4783e5117",
         "e69b6b41-6535-4b89-b55d-84d5a7f26796",
-        "aa9370f5-862d-4221-88f8-2df4783e5117"
+        "a73107f1-d813-4f4a-9738-d04082969ce4"
       ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "featured_text_with_image_aLB9xW": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_pRxFRp": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Built to Last",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>We apply the latest processes<br/>and highest standards of engineering to deliver high performance products that stand the test of time. <strong> </strong></p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_pRxFRp"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md"
+      }
+    },
+    "featured_text_with_image_PmFD8q": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_hRYWwx": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/Vacmaster_Guarantee.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Vacmaster Guarantee",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>We take pride in engineering high quality, durable products. All our Vacmaster® appliances come with a 2-year guarantee.</p>",
+            "button_1_style": "black",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_hRYWwx"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md"
+      }
+    },
+    "featured_quotes_YamDdc": {
+      "type": "featured-quotes",
+      "blocks": {
+        "quote_z6FiLd": {
+          "type": "quote",
+          "settings": {
+            "text": "Capture and trap 99.9% of common household dust and allergens with all new Allergen Pro™ Range.",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_z6FiLd"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_cards_LbU947": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_XzYgYx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster-Carpet-Spot-Cleaner-EasyClean-Clean-Spilt-Drink-SCA0801.jpg",
+            "image_loading": "lazy",
+            "title": "For the home",
+            "text": "",
+            "url": ""
+          }
+        },
+        "card_Cmwr7p": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_48V_Cordless_Lawn_Mower_Hero_CLMF4841E.jpg",
+            "image_loading": "",
+            "title": "For the garden",
+            "text": "",
+            "url": ""
+          }
+        },
+        "card_p3THhR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_110V_M-Class_VDK1138SWC-110_Hero.jpg",
+            "image_loading": "",
+            "title": "For the professional",
+            "text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_XzYgYx",
+        "card_Cmwr7p",
+        "card_p3THhR"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Discover",
+        "title": "Find Your Perfect Solution",
+        "text": ""
       }
     },
     "featured_text_with_image_FXPR6E": {
@@ -110,19 +253,19 @@
         "text_with_image_67Kbzd": {
           "type": "text-with-image",
           "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/Vacmaster_CA0701UK_Revitalise_your_carpets_51eb7ce7-6a60-4723-a267-e89411017a67.webp",
+            "align_content": "",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "lazy",
             "logo": "",
-            "pretitle": "",
+            "pretitle": "Features",
             "title_tag": "h2",
-            "title": "Revitalise Your Carpets",
+            "title": "Built to Last",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>Experience a deeper clean. Over 300 flexible nylon bristle tufts agitate ground-in dirt and lift stains from deep within your carpet fibres. Dual motorised brush rolls deliver exceptional cleaning performance across your home.</p>",
+            "text": "<p>We apply the latest processes<br/>and highest standards of engineering to deliver high performance products that stand the test of time. <strong> </strong></p>",
             "button_1_style": "black",
             "button_1_text": "Learn more",
-            "button_1_url": "",
+            "button_1_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
             "button_2_style": "transparent-black",
             "button_2_text": "",
             "button_2_url": ""
@@ -133,268 +276,10 @@
         "text_with_image_67Kbzd"
       ],
       "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm"
-      }
-    },
-    "featured_text_with_image_daeCer": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_wTWk7P": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_CA0701UK_Target_the_whole_home.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "For the Whole Home",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>With an extra-long 8m power cable, flexible hose attachment, and two additional hand tools, you now have the versatility to clean your entire home. Effortlessly tackle everything from large carpets and area rugs to stairs, pet beds, and even your car interior.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_wTWk7P"
-      ],
-      "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
-      }
-    },
-    "featured_cards_LbU947": {
-      "type": "featured-cards",
-      "blocks": {
-        "card_hPwzD3": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Upright_Carpet_Cleaner_Easy_to_Clean.webp",
-            "image_loading": "",
-            "title": "Easy-To-Clean Attachments",
-            "text": "<p>Simply remove the nozzle covers from all attachments to quickly and hygienically clean the dual brush bars and hand tools. Making it easy to maintain and odour free.</p>",
-            "url": ""
-          }
-        },
-        "card_XzYgYx": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Upright_Carpet_Cleaner_Optimal_Cleaning.webp",
-            "image_loading": "lazy",
-            "title": "Optimal Cleaning Results",
-            "text": "<p>Featuring a convenient trigger-operated design, this carpet cleaner allows you to easily dispense cleaning solution when needed. Simply release the trigger to switch to dry vacuum mode and remove excess water for a faster drying time.</p>",
-            "url": ""
-          }
-        },
-        "card_Cmwr7p": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Upright_Carpet_Cleaner_Versatile_Hand_Tools.webp",
-            "image_loading": "",
-            "title": "Versatile Tool Attachments",
-            "text": "<p>Includes a narrow tough-stain tool for tackling smaller stubborn stains and a wide-path attachment for quickly lifting larger spills from upholstery.</p>",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_hPwzD3",
-        "card_XzYgYx",
-        "card_Cmwr7p"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "2xs",
-        "padding_bottom_mobile": "",
-        "pretitle": "Explore",
-        "title": "Features & Benefits",
-        "text": ""
-      }
-    },
-    "featured_cards_MKyUiT": {
-      "type": "featured-cards",
-      "blocks": {
-        "card_DABbWy": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_CA0701UK_Deep_Cleaning_under_a_chair.webp",
-            "image_loading": "",
-            "title": "Deep Cleaning",
-            "text": "<p>A powerful suction motor, high-pressure spray nozzle, and two rapidly rotating brush rolls, effortlessly power through stains, dirt, and grime over larger areas.</p>",
-            "url": ""
-          }
-        },
-        "card_QLbdiX": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Upright_Carpet_Cleaner_with_Large_Capacity.webp",
-            "image_loading": "",
-            "title": "Extra Large Tanks For A Longer Clean",
-            "text": "<p>An extra large 3.2L clean water tank means fewer trips to the kitchen sink to refill. So you can tackle multiple rooms in one go.</p>",
-            "url": ""
-          }
-        },
-        "card_nRTRNq": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Upright_Carpet_Cleaner_extended_reach.webp",
-            "image_loading": "",
-            "title": "Extended Cleaning Reach",
-            "text": "<p>With its 2.6m long hose attachment and multiple cleaning tools, you can effortlessly reach every corner of your home, including from the top to the bottom of your stairs without a precarious balancing act.</p>",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_DABbWy",
-        "card_QLbdiX",
-        "card_nRTRNq"
-      ],
-      "settings": {
-        "padding_top": "2xs",
-        "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "2xs",
-        "pretitle": "",
-        "title": "",
-        "text": ""
-      }
-    },
-    "featured_quotes_YamDdc": {
-      "type": "featured-quotes",
-      "blocks": {
-        "quote_z6FiLd": {
-          "type": "quote",
-          "settings": {
-            "text": "Revitalise your carpets and eliminate pet odours, for a clean and fresh smelling home.",
-            "text_alignment": "text-center",
-            "name": "",
-            "logo": "vacmaster"
-          }
-        }
-      },
-      "block_order": [
-        "quote_z6FiLd"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs",
-        "scroll_animation_enable": true
-      }
-    },
-    "featured_text_with_image_igm99m": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_WHJYnJ": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Carpet_Cleaning_Solution_Vacmaster.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Cleaning Solution Included",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Vacmaster's high performance carpet cleaning solution is expertly formulated to help remove ground-in dirt and stains from your carpets, rugs and upholstery. Perfect for everyday cleaning.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_GifhKh": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Cleva_Eco_Friendly_Packaging.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "100% Recyclable Packaging",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Embrace cleaner and greener packaging with Vacmaster. Our sustainable 100% recyclable packaging reduces our environmental impact through the use of plant-based soybean inks and removing single-use plastics. </p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_rRYYdA": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/EasyClean_Upright_Carpet_Cleaner_with_Large_Capacity.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Keep Dirty Water Separate",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>A dedicated dirty water tank keeps collected mess separate. A large lid makes it easy to empty and clean, preventing unpleasant odours and bacteria from building-up.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_DhdQaK": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Upright_Carpet_Cleaner_Accessory_Bag.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Accessory Bag",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>A mesh accessory bag provides a convenient and breathable storage solution for all your attachments. Keeping them organised and odour-free.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_WHJYnJ",
-        "text_with_image_GifhKh",
-        "text_with_image_rRYYdA",
-        "text_with_image_DhdQaK"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "2xs"
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
       }
     },
     "cf9d582c-da0a-4eab-9e84-ad0300f8f75c": {
@@ -403,41 +288,41 @@
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_EasyClean_Home_Carpet_Cleaner_Guarantee.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "guarantee",
-            "title": "2-Year Guarantee",
-            "text": "<p>Peace of mind with our 2-year domestic use manufacturer guarantee.</p>"
+            "icon": "sqaure-circle-corners",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
           }
         },
         "501a6d11-0820-42d7-9455-af4a760a8e04": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_EasyClean_Home_with_Long_Cable.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "reach",
-            "title": "Long Reach 8m Power Cable",
-            "text": "<p>Offers extended reach and flexibility for larger spaces and hard-to-access areas.</p>"
+            "icon": "touch",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
           }
         },
         "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Upright_Carpet_Cleaner_Lightweight.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "feather",
-            "title": "Lightweight Design",
-            "text": "<p>Weighing just 7.3 kg, it is effortless to carry and manoeuvre around your home.</p>"
+            "icon": "battery",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
           }
         },
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Upright_Carpet_Cleaning_Solution.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "plus-square",
-            "title": "Compatible Cleaning Solutions",
-            "text": "<p>The Vacmaster EasyClean range is compatible with all major low foaming carpet cleaning solutions.<br/></p>"
+            "icon": "temperature",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
           }
         }
       },
@@ -448,87 +333,137 @@
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750"
       ],
       "settings": {
-        "padding_top": "2xs",
-        "padding_top_mobile": "2xs",
+        "padding_top": "",
+        "padding_top_mobile": "",
         "padding_bottom": "md",
-        "padding_bottom_mobile": "sm",
-        "pretitle": "",
-        "title": "",
+        "padding_bottom_mobile": "md",
+        "pretitle": "Features",
+        "title": "Features & Benefits",
         "text": ""
       }
     },
-    "featured_hero_Y4G47Q": {
+    "featured_hero_V6A8yr": {
       "type": "featured-hero",
       "blocks": {
-        "hero_K4BtKk": {
+        "hero_VBULpa": {
           "type": "hero",
           "settings": {
-            "background_color": "#ffffff",
-            "text_color": "#000000",
-            "image": "shopify://shop_images/EasyClean_Home_Upright_Carpet_Cleaner_Video.webp",
-            "image_mobile": "shopify://shop_images/EasyClean_Upright_Carpet_Cleaner_Mobile.webp",
-            "image_loading": "lazy",
-            "video": "shopify://files/videos/Vacmaster_CA071UK_EasyCleanHome.mp4",
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "image": "shopify://shop_images/hero.jpg",
+            "image_loading": "",
+            "video": "shopify://files/videos/CLEVA_Promo_16-9_MASTER_1_2.mp4",
             "video_autoplay": false,
-            "video_controls": true,
-            "video_hide_content_when_playing": true,
-            "video_play_button_inverted": true,
-            "logo": "vacmaster",
+            "video_controls": false,
+            "video_hide_content_when_playing": false,
+            "video_play_button_inverted": false,
+            "logo": "lawnmaster",
             "align_content": "",
-            "pretitle": "",
+            "pretitle": "Features",
             "title_tag": "h2",
             "title_size": "large",
-            "title": "Refresh, Revive, Renew",
+            "title": "Simply Drop And Mow",
             "subtitle_tag": "h2",
             "subtitle": "",
-            "button_1_style": "link",
+            "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
-            "feature_1_title": "Clean Deeper",
-            "feature_1_text": "Dual Motorised Brush Rolls",
-            "feature_2_title": "Clean More",
-            "feature_2_text": "Extra Large 3.2L Tank",
-            "feature_3_title": "",
-            "feature_3_text": ""
+            "feature_1_title": "Drop & Mow",
+            "feature_1_text": "No Boundary Wire Needed",
+            "feature_2_title": "Navigation System",
+            "feature_2_text": "Camera Software & Ultra Sonic Sensors",
+            "feature_3_title": "Detachable Battery",
+            "feature_3_text": "Charge anywhere in 1 hour "
           }
         }
       },
       "block_order": [
-        "hero_K4BtKk"
+        "hero_VBULpa"
       ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "",
-        "padding_bottom_mobile": "",
-        "top_fade_enable": false
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "featured_press_EYE6Rn": {
+      "type": "featured-press",
+      "blocks": {
+        "logo_TiQqqt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/GQ.svg",
+            "image_loading": ""
+          }
+        },
+        "logo_EAe4r7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Easy-lawn.png",
+            "image_loading": ""
+          }
+        },
+        "logo_3BBPmh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/expert-reviews.svg",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_TiQqqt",
+        "logo_EAe4r7",
+        "logo_3BBPmh"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "",
+        "title": "As Seen In",
+        "text": "<p>Our appliances are stocked in B&Q, Argos, Wickes & The Range. Trusted by some of the UK’s leading online retailers.</p>"
       }
     },
     "df696699-42a8-4b2a-8976-674c3e309cd2": {
       "type": "featured-accordion",
       "blocks": {
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Learn More",
+            "url": "/"
+          }
+        },
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "/"
+          }
+        },
         "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "In the Box",
-            "text": "<p>Tough stain tool, wide path tool, accessory bag, nozzle cleaning tool, carpet cleaning solution.</p>",
+            "title": "Design Excellence",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "white",
             "button_1_text": "Shop now",
-            "button_1_url": "",
+            "button_1_url": "/",
             "button_2_style": "link",
             "button_2_text": "Go to support page",
-            "button_2_url": "",
+            "button_2_url": "/",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image": "shopify://shop_images/EasyClean_Home_In_the_Box.webp",
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -536,21 +471,18 @@
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Technical Specifications",
-            "text": "",
+            "title": "Outstanding Service",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
-            "product_specifications": "vacmaster-easyclean-home-carpet-cleaner",
+            "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -558,12 +490,11 @@
         "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Product Support",
-            "text": "<p>Learn how to use, maintain and troubleshoot your Vacmaster carpet cleaner with easy to follow videos, user guides and FAQs.</p>",
-            "button_1_style": "link",
-            "button_1_text": "Go to product support",
-            "button_1_url": "shopify://metaobjects/product_support/vacmaster-easy-clean-home-carpet-cleaner",
+            "title": "Educate, Inform and Support",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
             "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
@@ -571,8 +502,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -580,27 +509,26 @@
         "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Instruction Manual",
+            "title": "Technical Specifications",
             "text": "",
             "button_1_style": "white",
-            "button_1_text": "Download",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/vacmaster_easyclean_carpetcleaner_vacuum_CA0701UK_instruction_manual_2024.pdf?v=1720777411",
+            "button_1_text": "",
+            "button_1_url": "",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
-            "product_specifications": "",
+            "product_specifications": "{{ product }}",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         }
       },
       "block_order": [
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc",
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5",
         "d7624e53-96f3-43a2-a5b4-052847d8844f",
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
         "f65aa26e-6f20-4e9c-a91b-0a269239be79",
@@ -613,12 +541,13 @@
         "padding_bottom_mobile": "",
         "background_color": "#000000",
         "text_color": "#ffffff",
+        "image": "shopify://shop_images/pdp-accordion.png",
         "image_loading": "",
         "watermark_enable": false,
-        "pretitle": "Product Information",
+        "pretitle": "Product Info",
         "title_size": "large",
         "title": "Specification",
-        "text": ""
+        "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
       }
     },
     "88f30ef1-5d27-47e7-9655-32f0d8016675": {
@@ -629,7 +558,7 @@
           "settings": {
             "style": "black",
             "text": "Shop All",
-            "url": "shopify://collections/ca0701uk-accessories-1"
+            "url": "/"
           }
         },
         "4a3319f2-a88e-4233-a4b4-72590768cea0": {
@@ -637,7 +566,7 @@
           "settings": {
             "style": "link",
             "text": "Go to support page",
-            "url": "shopify://metaobjects/product_support/vacmaster-easy-clean-home-carpet-cleaner"
+            "url": "/"
           }
         }
       },
@@ -646,32 +575,93 @@
         "4a3319f2-a88e-4233-a4b4-72590768cea0"
       ],
       "settings": {
-        "padding_top": "sm",
+        "padding_top": "md",
         "padding_top_mobile": "sm",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
         "pretitle": "Discover",
         "title": "Accessories & Spare Parts",
         "text": "",
-        "collection": "ca0701uk-accessories-1",
+        "collection": "vacmaster-accessories",
         "products_per_page": 8
+      }
+    },
+    "featured_accordion_tDiBLC": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_q7pMtc": {
+          "type": "entry",
+          "settings": {
+            "title": "Where is my order?",
+            "text": "<p>Orders placed before 12pm, Monday to Friday, are usually dispatched the same day. Orders placed after 12pm will be dispatched the following working day. <br/><br/>Fast 24 hour Delivery - Appliances<br/><br/>As standard, delivery for purchases that include appliances will usually be made 24 hours after dispatch on weekdays. If you place an order for an appliance after 12pm on a Friday, delivery will be made on the following Tuesday.<br/><br/>Standard 48 hour Delivery - Accessories<br/><br/>Delivery for orders of accessories only will usually be made 48 hours after dispatch on weekdays.<br/><br/>Please expect delays around public and bank holidays. See the delivery page for specific information.<br/><br/>To check the delivery status of your order, log into the My Account section of our website and click on the tracking link provided. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_frmLHx": {
+          "type": "entry",
+          "settings": {
+            "title": "My order hasn’t arrived",
+            "text": "<p>If your delivery date has passed and you haven't received your order, log into the My Account section of our website, open your orders and click on the tracking link provided to trace where your parcel is up to with our courier partner. Please note that all of our Vacuum Cleaners, Air Movers, Fans and Lawnmaster products require a signature upon delivery. If this can’t be obtained by the courier then your order will be returned to the delivery depot, and you will need to contact them to arrange a collection or a new delivery.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_q7pMtc",
+        "entry_frmLHx"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
+        "text": ""
       }
     },
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
       "type": "product-reviews",
       "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
-    "featured_articles_REpeJ9": {
+    "featured_articles_6pYXMw": {
       "type": "featured-articles",
       "blocks": {
-        "article_jRNLK9": {
+        "article_pU7fUE": {
           "type": "article",
           "settings": {
             "blog": "",
@@ -679,7 +669,7 @@
             "image_loading": ""
           }
         },
-        "article_KQ9MN4": {
+        "article_UYtKY9": {
           "type": "article",
           "settings": {
             "blog": "",
@@ -687,25 +677,34 @@
             "image_loading": ""
           }
         },
-        "article_UmAThe": {
+        "article_TkyhFC": {
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/10-tips-to-motivate-yourself-to-clean",
+            "article": "news/how-to-clean-a-wood-burning-stove",
+            "image_loading": ""
+          }
+        },
+        "article_Br7Rxg": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/when-to-change-a-lawnmower-blade",
             "image_loading": ""
           }
         }
       },
       "block_order": [
-        "article_jRNLK9",
-        "article_KQ9MN4",
-        "article_UmAThe"
+        "article_pU7fUE",
+        "article_UYtKY9",
+        "article_TkyhFC",
+        "article_Br7Rxg"
       ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
         "pretitle": "Learn",
         "title": "News & Advice",
         "text": ""
@@ -716,8 +715,8 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
         "pretitle": "Related",
         "title": "You May Also Like"
       }
@@ -730,27 +729,24 @@
           "settings": {
             "style": "white",
             "text": "View Support Page",
-            "url": "shopify://metaobjects/product_support/vacmaster-easy-clean-home-carpet-cleaner"
+            "url": "shopify://pages/vacmaster-support"
           }
         },
         "entry_Kf4exw": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "Vacmaster Guarantee",
-            "text": "<p>This Vacmaster appliance, spare parts and accessories carry a 2-year domestic use guarantee. </p>",
+            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "link",
             "button_2_text": "View guarantee",
-            "button_2_url": "shopify://pages/guarantee",
+            "button_2_url": "shopify://pages/vacmaster-guarantee",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -758,34 +754,11 @@
         "entry_mbP8Km": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "Delivery and Returns",
             "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
-            "button_1_style": "white",
-            "button_1_text": "View Delivery Page",
-            "button_1_url": "shopify://pages/delivery",
-            "button_2_style": "white",
-            "button_2_text": "View Returns Page",
-            "button_2_url": "shopify://pages/returns-policy",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_Bb8WRF": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "UK Customer Support",
-            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
             "button_1_style": "link",
-            "button_1_text": "Ask a question",
-            "button_1_url": "shopify://pages/contact-us",
+            "button_1_text": "Read more",
+            "button_1_url": "shopify://pages/delivery",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
@@ -793,8 +766,25 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_Bb8WRF": {
+          "type": "entry",
+          "settings": {
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
             "video_1": "",
             "video_2": ""
           }
@@ -808,7 +798,7 @@
       ],
       "settings": {
         "padding_top": "xs",
-        "padding_top_mobile": "sm",
+        "padding_top_mobile": "xs",
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "background_color": "#000000",
@@ -829,12 +819,12 @@
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "pretitle": "Keep Updated",
-        "title": "Sign up for 10% off",
-        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "title": "10% off when you sign up to hear from us",
+        "text": "<p>Join our community to access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
         "button_style": "gold",
         "button_text": "Sign up",
-        "button_url": "/",
-        "button_modal": true
+        "button_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
+        "button_modal": false
       }
     }
   },
@@ -843,18 +833,19 @@
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
     "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
-    "featured_text_with_image_FXPR6E",
-    "featured_text_with_image_daeCer",
-    "featured_cards_LbU947",
-    "featured_cards_MKyUiT",
+    "featured_text_with_image_aLB9xW",
+    "featured_text_with_image_PmFD8q",
     "featured_quotes_YamDdc",
-    "featured_text_with_image_igm99m",
+    "featured_cards_LbU947",
+    "featured_text_with_image_FXPR6E",
     "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
-    "featured_hero_Y4G47Q",
+    "featured_hero_V6A8yr",
+    "featured_press_EYE6Rn",
     "df696699-42a8-4b2a-8976-674c3e309cd2",
     "88f30ef1-5d27-47e7-9655-32f0d8016675",
+    "featured_accordion_tDiBLC",
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
-    "featured_articles_REpeJ9",
+    "featured_articles_6pYXMw",
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
     "featured_accordion_YyyUxg",
     "featured_content_7E4itj"

@@ -62,7 +62,7 @@
           {% endif %}
 
           {% if klaviyo_list_id %}
-            <form id="newsletter-form" action="https://manage.kmail-lists.com/subscriptions/subscribe" method="post" target="_blank">
+            <form action="https://manage.kmail-lists.com/subscriptions/subscribe" method="post" target="_blank">
               <input type="hidden" name="g" value="{{ klaviyo_list_id }}">
 
               <label class="sr-only" for="modal-email">
@@ -87,7 +87,7 @@
               </div>
 
               <div class="flex items-center gap-x-6">
-                <button id="newsletter-form-submit" class="form-button form-button--black" type="submit">
+                <button class="form-button form-button--black" type="submit">
                   {{ 'newsletter_form.submit' | t }}
                 </button>
 

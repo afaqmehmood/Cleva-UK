@@ -5,7 +5,7 @@
   assign newline_double = newline | append: newline
 
   assign vendor_handle = product.vendor | handle
-
+  
   assign badge_tags = settings.product_badge_tags | replace: newline_double, newline | split: newline
 
   assign bis_notify_enable = product.metafields.custom.bis_notify_enable.value
@@ -50,7 +50,7 @@
 
           <div
             class="flex flex-col gap-y-6"
-            :class="{
+            :class="{ 
               'col-span-6 !flex-row items-center justify-end gap-x-6': isSticky
             }"
           >
@@ -64,7 +64,7 @@
             >
               {% render 'price', use_variant: true %}
             </div>
-
+            
             {% render 'product-text' %}
 
             {% if product.metafields.custom.features.value %}
@@ -75,7 +75,7 @@
                 %}
               </div>
             {% endif %}
-
+      
             <div :class="{ 'contents': isSticky }" data-ref="form">
               {% render 'product-form', bis_notify_enable: bis_notify_enable, link_group: link_group %}
             </div>

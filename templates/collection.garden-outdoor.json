@@ -73,8 +73,8 @@
         "button_style": "black",
         "button_text": "",
         "button_url": "/",
-        "image": "shopify://shop_images/Vacmaster_Garden_and_Outdoor_Vacuum_cleaners.webp",
-        "image_mobile": "shopify://shop_images/Garden_and_Outdoor_Vacuums_-_mobile_new_48eb3c15-6aed-48cd-819c-6d6bb76520f4.webp",
+        "image": "shopify://shop_images/Garden_and_Outdoor_Vacuums.webp",
+        "image_mobile": "shopify://shop_images/Garden_and_Outdoor_Vacuums_-_mobile.webp",
         "image_loading": ""
       }
     },
@@ -85,7 +85,11 @@
         "padding_top_mobile": "xs",
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
-        "subcollections": []
+        "subcollections": [
+          "outdoor-garden-vacuum-cleaners",
+          "garage-workshop-vacuum-cleaners",
+          "car-vacuum-cleaners"
+        ]
       }
     },
     "collection-main": {
@@ -139,7 +143,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/Garden_and_Outdoor_Vacmaster_patio.webp",
+            "image": "shopify://shop_images/Garden_and_Outdoor_Vacmaster_blower_vac.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
@@ -395,55 +399,6 @@
         "text": ""
       }
     },
-    "featured_cards_7faWrz": {
-      "type": "featured-cards",
-      "blocks": {
-        "card_f9N8tb": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_DIY_Garage_and_Workshop_Explore.webp",
-            "image_loading": "",
-            "title": "DIY, Garage & Workshop",
-            "text": "",
-            "url": "shopify://collections/garage-workshop-vacuum-cleaners"
-          }
-        },
-        "card_dPPyWt": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster-Car_Valeting_Explore.webp",
-            "image_loading": "",
-            "title": "Car Valeting",
-            "text": "",
-            "url": "shopify://collections/car-vacuum-cleaners"
-          }
-        },
-        "card_Qd7QgT": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
-            "image_loading": "",
-            "title": "Garden Power Tools",
-            "text": "",
-            "url": "shopify://collections/garden-power-tools"
-          }
-        }
-      },
-      "block_order": [
-        "card_f9N8tb",
-        "card_dPPyWt",
-        "card_Qd7QgT"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs",
-        "pretitle": "Explore",
-        "title": "Also Discover",
-        "text": ""
-      }
-    },
     "96321673-9ad1-4fe2-b4a0-e97c46c50acb": {
       "type": "featured-accordion",
       "blocks": {
@@ -572,7 +527,6 @@
     "00a3e0c4-2c63-49d6-8758-77e08f85e73c",
     "0aa96139-5b59-4ced-a8c7-2fa5c1bc0836",
     "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927",
-    "featured_cards_7faWrz",
     "96321673-9ad1-4fe2-b4a0-e97c46c50acb",
     "ba486b1a-9132-469d-a5bc-06bdea19a01c"
   ]

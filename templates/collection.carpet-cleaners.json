@@ -129,7 +129,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_CA0701UK_Target_the_whole_home.webp",
+            "image": "shopify://shop_images/Vacmaster_Easyclean_Floorcare.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
@@ -188,11 +188,11 @@
           "type": "hero",
           "settings": {
             "background_color": "#000000",
-            "text_color": "#000000",
-            "image": "shopify://shop_images/EasyClean_Home_Upright_Carpet_Cleaner_Video.webp",
-            "image_mobile": "shopify://shop_images/EasyClean_Upright_Carpet_Cleaner_Mobile.webp",
+            "text_color": "#050505",
+            "image": "shopify://shop_images/SCA0801-01_Carpet_Cleaners_Vacmaster__EasyClean_Video.webp",
+            "image_mobile": "shopify://shop_images/arpet_Cleaners_Vacmaster__EasyClean_Video_mob_alt.webp",
             "image_loading": "",
-            "video": "shopify://files/videos/Vacmaster_CA071UK_EasyCleanHome.mp4",
+            "video": "shopify://files/videos/VacmasterCarpetSpotCleaner19sec.mp4",
             "video_autoplay": false,
             "video_controls": true,
             "video_hide_content_when_playing": true,
@@ -202,19 +202,19 @@
             "pretitle": "",
             "title_tag": "h2",
             "title_size": "large",
-            "title": "Refresh, Revive, Renew",
+            "title": "Simply Spray, Brush and Vacuum",
             "subtitle_tag": "h2",
-            "subtitle": "Vacmaster EasyClean Home",
+            "subtitle": "",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
-            "feature_1_title": "Clean Deeper",
-            "feature_1_text": "Dual Motorised Brush Rolls",
-            "feature_2_title": "Clean More",
-            "feature_2_text": "Extra Large 3.2L Tank",
+            "feature_1_title": "",
+            "feature_1_text": "",
+            "feature_2_title": "",
+            "feature_2_text": "",
             "feature_3_title": "",
             "feature_3_text": ""
           }
@@ -397,7 +397,7 @@
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/new-home-cleaning-essentials",
+            "article": "news/new-home-cleaning-essentials-1",
             "image_loading": ""
           }
         },
@@ -432,17 +432,17 @@
         "card_iUDp9B": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Upright_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
-            "title": "Upright Vacuum Cleaners",
+            "title": "Vacuum Cleaners & Floorcare",
             "text": "",
-            "url": "shopify://collections/upright-vacuum-cleaners"
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
           }
         },
         "card_kABcE3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_wet_and_dry_Vacuum_Cleaners_Explore.webp",
+            "image": "shopify://shop_images/Wet_and_Dry_Vacuum_Cleaners.webp",
             "image_loading": "",
             "title": "Wet & Dry Vacuum Cleaners",
             "text": "",
@@ -452,11 +452,11 @@
         "card_6txFmD": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },

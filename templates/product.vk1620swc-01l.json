@@ -321,7 +321,7 @@
         "501a6d11-0820-42d7-9455-af4a760a8e04": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/WD_L20_Dust_Extractor_Vacmaster_Anti_Crush_Hose.webp",
+            "image": "shopify://shop_images/Vacmaster_35mm_vacuum_system.webp",
             "image_loading": "",
             "icon": "size",
             "title": "Anti Crush Hose",
@@ -385,7 +385,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Dust_Extractor_Vacmaster_WD_L20_240V_VK1620SWC-01L_in_the_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -523,7 +522,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

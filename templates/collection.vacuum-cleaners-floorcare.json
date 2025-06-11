@@ -420,40 +420,40 @@
     "featured_cards_FFJxAN": {
       "type": "featured-cards",
       "blocks": {
-        "card_3yFxmn": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Professional_Vacuum_Cleaners_Explore.webp",
-            "image_loading": "",
-            "title": "Professional Vacuum Cleaners",
-            "text": "",
-            "url": "shopify://collections/professional-cleaning-vacuum"
-          }
-        },
         "card_HiGbfC": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_Air_movers_and_Fans_Explore.webp",
+            "image": "shopify://shop_images/Air_Movers_and_Fans_d347c7a6-0d21-4381-9808-2bbb50b76080.webp",
             "image_loading": "",
             "title": "Air Movers & Fans",
             "text": "",
             "url": "shopify://collections/vacmaster-air-movers"
           }
         },
+        "card_3yFxmn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractors_b1ddca68-0545-4e0d-8a6f-6f35d32a1a9a.webp",
+            "image_loading": "",
+            "title": "Dust Extractors",
+            "text": "",
+            "url": "shopify://collections/dust-extractors"
+          }
+        },
         "card_Vt4awY": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },
       "block_order": [
-        "card_3yFxmn",
         "card_HiGbfC",
+        "card_3yFxmn",
         "card_Vt4awY"
       ],
       "settings": {

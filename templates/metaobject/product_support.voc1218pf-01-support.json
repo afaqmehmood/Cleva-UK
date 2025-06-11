@@ -53,7 +53,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_Artificial_Grass_Spares_and_Accessories.webp",
+            "image": "shopify://shop_images/Vacmaster_Artificial_Grass_Vacuum_Cleaners_Accessories.webp",
             "image_loading": "",
             "logo": "vacmaster",
             "pretitle": "Support",
@@ -433,14 +433,6 @@
             "image_loading": ""
           }
         },
-        "article_pXJ4kw": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/what-are-the-benefits-of-a-garden-vacuum-cleaner",
-            "image_loading": ""
-          }
-        },
         "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
           "type": "article",
           "settings": {
@@ -452,7 +444,6 @@
       },
       "block_order": [
         "708ba8e1-e397-4a69-9535-ab9a38767020",
-        "article_pXJ4kw",
         "a233c1da-b475-4851-942e-ca87a3cdd6ae"
       ],
       "settings": {

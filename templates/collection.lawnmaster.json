@@ -416,9 +416,9 @@
         "card_iDtVDC": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-Lawn_Mowers_Explore.webp",
+            "image": "shopify://shop_images/LawnMaster_Lawn_Mowers_Cordless_Robot_Electric1.webp",
             "image_loading": "",
-            "title": "Lawn Mowers",
+            "title": "Lawnmowers",
             "text": "",
             "url": "shopify://collections/lawnmaster-lawnmowers"
           }
@@ -426,7 +426,7 @@
         "card_dLmrQL": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_Power_Tools_d49252f9-0355-4ea6-820f-d092572a64e4.webp",
             "image_loading": "",
             "title": "Garden Power Tools",
             "text": "",
@@ -436,11 +436,11 @@
         "card_ziWTG3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_-_MX_24V_Shared_Battery_System_Explore.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
-            "title": "MX 24V Shared Battery System",
+            "title": "Vacuum Cleaners & Fans",
             "text": "",
-            "url": "shopify://collections/mx-24v-battery-system"
+            "url": "shopify://collections/vacmaster"
           }
         }
       },
@@ -450,9 +450,9 @@
         "card_ziWTG3"
       ],
       "settings": {
-        "padding_top": "xs",
+        "padding_top": "",
         "padding_top_mobile": "xs",
-        "padding_bottom": "xs",
+        "padding_bottom": "2xs",
         "padding_bottom_mobile": "",
         "pretitle": "Explore",
         "title": "Also Discover",

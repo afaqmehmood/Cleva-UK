@@ -61,11 +61,11 @@
         "@type": "Brand",
         "name": {{ product.vendor | json }}
       },
-      {% if product.metafields.reviewscouk.rating -%}
+      {% if product.metafields.attributes.yotpo.value.average_score -%}
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": {{ product.metafields.reviewscouk.rating | json }},
-        "reviewCount": {{ product.metafields.reviewscouk.total | json }}
+        "ratingValue": {{ product.metafields.attributes.yotpo.value.average_score | json }},
+        "reviewCount": {{ product.metafields.attributes.yotpo.value.total_reviews | json }}
       },
       {%- endif %}
       "offers": [

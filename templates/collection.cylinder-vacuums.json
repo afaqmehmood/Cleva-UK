@@ -396,37 +396,87 @@
         "text": ""
       }
     },
+    "b5e892ef-f729-4f8c-986d-a902e0e4938d": {
+      "type": "featured-cards",
+      "blocks": {
+        "f21ca91d-dbeb-46fe-ae65-89ea0821861b": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster-Carpet-Spot-Cleaner-EasyClean-Clean-Spilt-Drink-SCA0801.jpg",
+            "image_loading": "lazy",
+            "title": "For the home",
+            "text": "",
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
+          }
+        },
+        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_48V_Cordless_Lawn_Mower_Hero_CLMF4841E.jpg",
+            "image_loading": "",
+            "title": "For the garden",
+            "text": "",
+            "url": "shopify://collections/lawnmaster"
+          }
+        },
+        "228a23e6-3af5-433c-90ab-21d5710c0149": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_110V_M-Class_VDK1138SWC-110_Hero.jpg",
+            "image_loading": "",
+            "title": "For the professional",
+            "text": "",
+            "url": "shopify://collections/dust-extractors"
+          }
+        }
+      },
+      "block_order": [
+        "f21ca91d-dbeb-46fe-ae65-89ea0821861b",
+        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3",
+        "228a23e6-3af5-433c-90ab-21d5710c0149"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Discover",
+        "title": "Find Your Perfect Solution",
+        "text": ""
+      }
+    },
     "featured_cards_XeYhdk": {
       "type": "featured-cards",
       "blocks": {
         "card_LrJegN": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_wet_and_dry_Vacuum_Cleaners_Explore.webp",
+            "image": "shopify://shop_images/Professional_Vacuum_Cleaners_--_Vacmaster_26860668-3e8a-4b5f-a771-ef8582d3e860.webp",
             "image_loading": "",
-            "title": "Wet & Dry Vacuum Cleaners",
+            "title": "Professional Vacuum Cleaners",
             "text": "",
-            "url": "shopify://collections/wet-and-dry-vacuum-cleaners"
+            "url": "shopify://collections/professional-cleaning-vacuum"
           }
         },
         "card_NWjfiW": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Dust_Extractors_Explore.webp",
+            "image": "shopify://shop_images/Cordless_Vacuum_Cleaners_-_Vacmaster.webp",
             "image_loading": "",
-            "title": "Dust Extractors",
+            "title": "Cordless Vacuum Cleaners",
             "text": "",
-            "url": "shopify://collections/dust-extractors"
+            "url": "shopify://collections/vacmaster-cordless-stick-vacuum-cleaners"
           }
         },
         "card_CxT3Ec": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },
@@ -573,6 +623,7 @@
     "00a3e0c4-2c63-49d6-8758-77e08f85e73c",
     "featured_accordion_HxTVe6",
     "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927",
+    "b5e892ef-f729-4f8c-986d-a902e0e4938d",
     "featured_cards_XeYhdk",
     "96321673-9ad1-4fe2-b4a0-e97c46c50acb",
     "ba486b1a-9132-469d-a5bc-06bdea19a01c"

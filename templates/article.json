@@ -60,13 +60,12 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "2xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm"
+        "padding_bottom": "",
+        "padding_bottom_mobile": ""
       }
     },
     "2f1085fa-64fa-4a2c-9030-b3dc0386f107": {
       "type": "featured-articles",
-      "disabled": true,
       "settings": {
         "padding_top": "md",
         "padding_top_mobile": "sm",

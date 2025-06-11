@@ -415,40 +415,40 @@
     "featured_cards_3JRwQ9": {
       "type": "featured-cards",
       "blocks": {
-        "card_cnQJHY": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster-Lawn_Mowers_Explore.webp",
-            "image_loading": "",
-            "title": "Lawn Mowers",
-            "text": "",
-            "url": "shopify://collections/lawnmaster-lawnmowers"
-          }
-        },
         "card_AJQbLF": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_-_MX_24V_Shared_Battery_System_Explore.webp",
+            "image": "shopify://shop_images/LawnMaster_MX24v_Shared_Battery_System_Explore.webp",
             "image_loading": "",
             "title": "MX 24V Shared Battery System",
             "text": "",
             "url": "shopify://collections/mx-24v-battery-system"
           }
         },
+        "card_cnQJHY": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_Lawn_Mowers_Cordless_Robot_Electric1.webp",
+            "image_loading": "",
+            "title": "Lawnmowers",
+            "text": "",
+            "url": "shopify://collections/lawnmaster-lawnmowers"
+          }
+        },
         "card_EVJyxK": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
-            "title": "Vacuum Cleaners & Floorcare",
+            "title": "Vacuum Cleaners  Fans",
             "text": "",
-            "url": "shopify://collections/vacuum-cleaners-floorcare"
+            "url": "shopify://collections/vacmaster"
           }
         }
       },
       "block_order": [
-        "card_cnQJHY",
         "card_AJQbLF",
+        "card_cnQJHY",
         "card_EVJyxK"
       ],
       "settings": {

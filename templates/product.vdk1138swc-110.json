@@ -385,7 +385,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/M_Class_Dust_Extractor_Vacmaster_Vacuum_VDK1138SWC_Box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -591,68 +590,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
-      }
-    },
-    "featured_articles_6w4YHX": {
-      "type": "featured-articles",
-      "blocks": {
-        "article_tA9rBT": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/a-simple-guide-to-m-class-dust-extractors",
-            "image_loading": ""
-          }
-        },
-        "article_kgwqLX": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/dust-extractors-push-clean-filter-pcf-system-explained",
-            "image_loading": ""
-          }
-        },
-        "article_XUepHq": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/what-s-the-best-vacuum-cleaner-for-chimney-sweeps",
-            "image_loading": ""
-          }
-        },
-        "article_PFUQTd": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/knowing-your-watts-from-your-amps",
-            "image_loading": ""
-          }
-        },
-        "article_GVcfMV": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/silicosis-and-dust-management-at-work",
-            "image_loading": ""
-          }
-        }
-      },
-      "block_order": [
-        "article_tA9rBT",
-        "article_kgwqLX",
-        "article_XUepHq",
-        "article_PFUQTd",
-        "article_GVcfMV"
-      ],
-      "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "xs",
-        "pretitle": "Learn",
-        "title": "News & Advice",
-        "text": ""
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
@@ -796,7 +734,6 @@
     "88f30ef1-5d27-47e7-9655-32f0d8016675",
     "featured_accordion_tDiBLC",
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
-    "featured_articles_6w4YHX",
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
     "featured_accordion_YyyUxg",
     "featured_content_7E4itj"

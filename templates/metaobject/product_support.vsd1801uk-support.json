@@ -64,7 +64,7 @@
             "text": "<p>VSD1801UK</p><p>Learn how to set up and use your cordless vacuum cleaner with instruction manuals, user guides and FAQs.</p>",
             "button_1_style": "black",
             "button_1_text": "Download Instruction Manual",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cordless_vacuum-cleaner_vacmaster_VSD1801UK_manual_2024.pdf?v=1730885025",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cordless_vacuum-cleaner_vacmaster_VSD1801UK_manual.pdf?v=1679587159",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": ""
@@ -310,6 +310,14 @@
     "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5": {
       "type": "featured-articles",
       "blocks": {
+        "708ba8e1-e397-4a69-9535-ab9a38767020": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/new-home-cleaning-essentials-1",
+            "image_loading": ""
+          }
+        },
         "a233c1da-b475-4851-942e-ca87a3cdd6ae": {
           "type": "article",
           "settings": {
@@ -328,6 +336,7 @@
         }
       },
       "block_order": [
+        "708ba8e1-e397-4a69-9535-ab9a38767020",
         "a233c1da-b475-4851-942e-ca87a3cdd6ae",
         "article_YXJmhP"
       ],

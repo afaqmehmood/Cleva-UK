@@ -70,23 +70,6 @@
     },
     "13c4de91-4fee-462f-bb16-ad38c30f26f6": {
       "type": "product-support-main",
-      "blocks": {
-        "archived_product_CMwWaV": {
-          "type": "archived_product",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Captura_BaggedUprightVacuumCleaner_UB0212EUK_Cutout_1.webp",
-            "tags": "",
-            "pretitle": "Vacmaster",
-            "title": "Captura®",
-            "subtitle": "Upright Vacuum Cleaner",
-            "features": "HEPA 13 Filtration\nWrapFree Brush Roll",
-            "product_url": "shopify://collections/ub0213euk-accessories"
-          }
-        }
-      },
-      "block_order": [
-        "archived_product_CMwWaV"
-      ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",

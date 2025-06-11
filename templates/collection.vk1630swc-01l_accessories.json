@@ -53,12 +53,12 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/VK1630SWC_L30_Dust_Extractor_Accessories_365b0d35-0732-4bf0-9c07-dff1d27be25f.webp",
+            "image": "shopify://shop_images/VK1630SWC_L30_Dust_Extractor_Accessories.webp",
             "image_loading": "",
             "logo": "vacmaster",
             "pretitle": "",
             "title_tag": "h1",
-            "title": "Vacmaster WD L30 240V Dust Extractor",
+            "title": "Vacmaster WD L20 240V Dust Extractor",
             "subtitle_tag": "h1",
             "subtitle": "Accessories & Spare Parts",
             "text": "<p>VK1630SWC-01L</p>",
@@ -97,7 +97,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "reverse",
-            "image": "shopify://shop_images/VK1630SWC_L30_Dust_Spare_Parts.webp",
+            "image": "shopify://shop_images/VK1630SWC_L30_Dust_Extractor_Spare_Parts.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "Spare Parts",

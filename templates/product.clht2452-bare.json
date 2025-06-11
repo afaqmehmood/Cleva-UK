@@ -70,7 +70,7 @@
         "aa9370f5-862d-4221-88f8-2df4783e5117": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "battery-horizontal",
+            "icon": "hydroheat",
             "title": "Cordless Freedom",
             "text": "<p>Lithium-ion battery (not supplied) provides up to 40 minutes of runtime.</p>"
           }
@@ -429,7 +429,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

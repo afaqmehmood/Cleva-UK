@@ -71,8 +71,8 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "torque",
-            "title": "T-Drive™",
-            "text": "<p>Powerful cutting even in tough conditions.<br/></p>"
+            "title": "Torque Drive",
+            "text": "<p>Automatically adjusts blade speed to suit grass conditions.<br/></p>"
           }
         },
         "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
@@ -113,7 +113,7 @@
             "image": "shopify://shop_images/MEB1434M-01_Combo_LawnMaster.webp",
             "image_loading": "lazy",
             "title": "Powerful Performance",
-            "text": "<p>Powerful 1400W electric motor with T-Drive™ delivers immediate power for easy start up in longer grass. Its high torque helps to maintain blade speed even in tough conditions. This gives a cleaner cut and ensures consistently efficient grass collection. </p>",
+            "text": "<p>Powerful 1400W electric motor with T-Drive™ which automatically adjusts torque to maintain blade speed in tougher cutting conditions such as long or wet grass.</p>",
             "url": ""
           }
         },
@@ -221,7 +221,7 @@
             "image": "shopify://shop_images/Combo_34cm_Mower_Trimmer.webp",
             "image_loading": "",
             "title": "Lightweight and Ergonomic",
-            "text": "<p>Lightweight design with a secondary handle for two handed use makes the trimmer comfortable to use.</p>",
+            "text": "<p>Lightweight design with a secondary handle for two handed use makes the trimmer.</p>",
             "url": ""
           }
         },
@@ -319,55 +319,11 @@
             "button_2_text": "",
             "button_2_url": ""
           }
-        },
-        "text_with_image_7BjiEG": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_32cm_Electric_Lawn_Mower_Safe_Stop.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "Electric Lawn Mower",
-            "title_tag": "h2",
-            "title": "Safe-Stop Brake",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>LawnMaster's patented mechanical brake actively stops the blade when the mower is switched off to increase user safety.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_8eriWC": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_1400w_34cm_MEB1434M-01_Electric_lawnmower_spare_parts.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "Electric Lawn Mower",
-            "title_tag": "h2",
-            "title": "Air-Collect System",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>The design of the mower and the blade is optimised to maximise grass collection in tough conditions. More grass is pushed to the back of the Redi-bag, resulting in less blockages and a full bag every time.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
         }
       },
       "block_order": [
         "text_with_image_67Kbzd",
-        "text_with_image_8krqyC",
-        "text_with_image_7BjiEG",
-        "text_with_image_8eriWC"
+        "text_with_image_8krqyC"
       ],
       "settings": {
         "padding_top": "xs",
@@ -593,7 +549,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

@@ -53,10 +53,10 @@
             "logo": "vacmaster",
             "sale_links_titles": "Sale",
             "feature_enable": true,
-            "feature_image": "shopify://shop_images/Carpet_Cleaner_SCB0501-01_EasyClean_Up_powerful.webp",
-            "feature_title": "New: Put Stains on the Spot with Vacmaster®",
+            "feature_image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Hero_2.webp",
+            "feature_title": "New: Respira® Lift Off",
             "feature_button_text": "Shop Now",
-            "feature_button_url": "https://www.cleva-uk.com/products/vacmaster-easyclean-up-carpet-spot-cleaner"
+            "feature_button_url": "shopify://products/vacmaster-respira-lift-off-vacuum-cleaner"
           }
         },
         "fde585a4-c711-495a-9556-62e96b633b33": {
@@ -66,10 +66,10 @@
             "logo": "lawnmaster",
             "sale_links_titles": "Sale",
             "feature_enable": true,
-            "feature_image": "shopify://shop_images/MX_24V_Shared_Battery_System_Product_Card.webp",
-            "feature_title": "Explore: MX 24V Shared Battery System",
-            "feature_button_text": "Learn More",
-            "feature_button_url": "https://www.cleva-uk.com/collections/mx-24v-battery-system"
+            "feature_image": "shopify://shop_images/LawnMaster_VBRM16_Support_Page_Hero.webp",
+            "feature_title": "Trending: OcuMow™ Robot Mowers",
+            "feature_button_text": "Shop Now",
+            "feature_button_url": "shopify://collections/ocumow"
           }
         }
       },

@@ -23,7 +23,7 @@
           "type": "usp",
           "settings": {
             "icon": "house",
-            "title": "Buy Direct from the Makers"
+            "title": "Buy direct from the makers"
           }
         },
         "b71fd280-d110-4e31-afbb-2a2740db996a": {
@@ -60,146 +60,200 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
       }
     },
-    "featured_cards_iAmDwi": {
-      "type": "featured-cards",
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
+      "type": "featured-accordion",
       "blocks": {
-        "card_mxdEhL": {
-          "type": "card",
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc": {
+          "type": "button",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_Original_Accessory.webp",
-            "image_loading": "lazy",
-            "title": "LawnMaster Original Accessory",
-            "text": "<p>High-quality LawnMaster lawn mower blades, direct from the manufacturer. </p>",
-            "url": ""
+            "style": "white",
+            "text": "Learn More",
+            "url": "/"
           }
         },
-        "card_e8RAUE": {
-          "type": "card",
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5": {
+          "type": "button",
           "settings": {
-            "image": "shopify://shop_images/60V_46cm_Cordless_Lawn_Mowers_Blade.webp",
-            "image_loading": "",
-            "title": "Secure  Fit",
-            "text": "<p>Blade fixing bolts are now pre-coated with thread locking compound for extra security.</p>",
-            "url": ""
+            "style": "link",
+            "text": "Go to support page",
+            "url": "/"
           }
         },
-        "card_DRcWmA": {
-          "type": "card",
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
           "settings": {
-            "image": "shopify://shop_images/60V_46cm_Cordless_Lawn_Mower_Blade_kit.webp",
-            "image_loading": "",
-            "title": "New and Improved Design",
-            "text": "<p>Kit includes improved design blade carrier disc, insulation cap, locking washer and blade carrier bolt and fixing bolts. </p>",
-            "url": ""
+            "title": "01 Design Excellence",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Shop now",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "/",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
           }
-        }
-      },
-      "block_order": [
-        "card_mxdEhL",
-        "card_e8RAUE",
-        "card_DRcWmA"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "2xs",
-        "pretitle": "Explore",
-        "title": "Features & Benefits",
-        "text": ""
-      }
-    },
-    "featured_text_with_image_dqHKxW": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_j7ymGV": {
-          "type": "text-with-image",
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
           "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/60V_46cm_Cordless_Lawn_Mower_Accessory.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Built to Last",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Made from durable and high-quality carbon steel. </p>",
+            "title": "02 Outstanding Service",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "title": "03 Educate, Inform and Support",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "title": "04 Technical Specifications",
+            "text": "",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "white",
             "button_2_text": "",
-            "button_2_url": ""
+            "button_2_url": "",
+            "product_specifications": "{{ product }}",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
           }
         }
       },
       "block_order": [
-        "text_with_image_j7ymGV"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "2xs"
-      }
-    },
-    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
-      "type": "product-reviews",
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm",
-        "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
-      }
-    },
-    "featured_articles_zetajt": {
-      "type": "featured-articles",
-      "blocks": {
-        "article_RLwqdx": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/when-to-change-a-lawnmower-blade",
-            "image_loading": ""
-          }
-        },
-        "article_dMFj8H": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/5-tips-to-make-your-lawn-thrive",
-            "image_loading": ""
-          }
-        },
-        "article_t8KqCm": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/lawnmowers-choosing-the-optimal-cutting-width-for-your-lawn",
-            "image_loading": ""
-          }
-        }
-      },
-      "block_order": [
-        "article_RLwqdx",
-        "article_dMFj8H",
-        "article_t8KqCm"
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc",
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5",
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
       ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs",
-        "pretitle": "Learn",
-        "title": "News & Advice",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image": "shopify://shop_images/pdp-accordion.png",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Info",
+        "title_size": "large",
+        "title": "Specification",
+        "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
+      }
+    },
+    "featured_accordion_8xNYPh": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_NqN8Jp": {
+          "type": "entry",
+          "settings": {
+            "title": "Where is my order?",
+            "text": "<p>Orders placed before 12pm, Monday to Friday, are usually dispatched the same day. Orders placed after 12pm will be dispatched the following working day. <br/><br/>Fast 24 hour Delivery - Appliances<br/><br/>As standard, delivery for purchases that include appliances will usually be made 24 hours after dispatch on weekdays. If you place an order for an appliance after 12pm on a Friday, delivery will be made on the following Tuesday.<br/><br/>Standard 48 hour Delivery - Accessories<br/><br/>Delivery for orders of accessories only will usually be made 48 hours after dispatch on weekdays.<br/><br/>Please expect delays around public and bank holidays. See the delivery page for specific information.<br/><br/>To check the delivery status of your order, log into the My Account section of our website and click on the tracking link provided. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_cPhtB6": {
+          "type": "entry",
+          "settings": {
+            "title": "My order hasn’t arrived",
+            "text": "<p>If your delivery date has passed and you haven't received your order, log into the My Account section of our website, open your orders and click on the tracking link provided to trace where your parcel is up to with our courier partner. Please note that all of our Vacuum Cleaners, Air Movers, Fans and Lawnmaster products require a signature upon delivery. If this can’t be obtained by the courier then your order will be returned to the delivery depot, and you will need to contact them to arrange a collection or a new delivery.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_NqN8Jp",
+        "entry_cPhtB6"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "FAQs",
+        "title_size": "small",
+        "title": "Frequently Asked Questions",
         "text": ""
+      }
+    },
+    "product_reviews_c3pgXb": {
+      "type": "product-reviews",
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Reviews",
+        "title": "Don't just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
@@ -207,21 +261,28 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
+        "padding_bottom": "md",
         "padding_bottom_mobile": "xs",
         "pretitle": "Related",
         "title": "You May Also Like"
       }
     },
-    "featured_accordion_aGietx": {
+    "featured_accordion_T9UnNr": {
       "type": "featured-accordion",
       "blocks": {
-        "entry_egRCnw": {
+        "button_EkrenG": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://pages/vacmaster-support"
+          }
+        },
+        "entry_AHwC4z": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "LawnMaster Guarantee",
-            "text": "<p>All LawnMaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
+            "title": "Vacmaster Guarantee",
+            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -232,43 +293,18 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         },
-        "entry_krUnEd": {
+        "entry_c3jTWr": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "Delivery and Returns",
             "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
-            "button_1_style": "white",
-            "button_1_text": "View Delivery Page",
-            "button_1_url": "shopify://pages/delivery",
-            "button_2_style": "white",
-            "button_2_text": "View Returns Page",
-            "button_2_url": "shopify://pages/returns-policy",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_eWgiNi": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "UK Customer Support",
-            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
             "button_1_style": "link",
-            "button_1_text": "Ask a question",
-            "button_1_url": "shopify://pages/contact-us",
+            "button_1_text": "Read more",
+            "button_1_url": "shopify://pages/delivery",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
@@ -276,21 +312,39 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_YET7Qe": {
+          "type": "entry",
+          "settings": {
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
             "video_1": "",
             "video_2": ""
           }
         }
       },
       "block_order": [
-        "entry_egRCnw",
-        "entry_krUnEd",
-        "entry_eWgiNi"
+        "button_EkrenG",
+        "entry_AHwC4z",
+        "entry_c3jTWr",
+        "entry_YET7Qe"
       ],
       "settings": {
         "padding_top": "xs",
-        "padding_top_mobile": "sm",
+        "padding_top_mobile": "xs",
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "background_color": "#000000",
@@ -303,7 +357,7 @@
         "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
       }
     },
-    "featured_content_jaj74w": {
+    "featured_content_BTAxpN": {
       "type": "featured-content",
       "settings": {
         "padding_top": "",
@@ -311,8 +365,8 @@
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "pretitle": "Keep Updated",
-        "title": "Sign up for 10% off",
-        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "title": "10% off when you sign up to hear from us",
+        "text": "<p>Join our community to access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
         "button_style": "gold",
         "button_text": "Sign up",
         "button_url": "/",
@@ -324,12 +378,11 @@
     "4357080a-a2a5-4163-9ba8-1273f2709095",
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
-    "featured_cards_iAmDwi",
-    "featured_text_with_image_dqHKxW",
-    "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
-    "featured_articles_zetajt",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "featured_accordion_8xNYPh",
+    "product_reviews_c3pgXb",
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
-    "featured_accordion_aGietx",
-    "featured_content_jaj74w"
+    "featured_accordion_T9UnNr",
+    "featured_content_BTAxpN"
   ]
 }

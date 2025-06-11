@@ -104,86 +104,16 @@
         "padding_bottom_mobile": "xs"
       }
     },
-    "featured_text_with_image_UGaHXf": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_iVppMe": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_L_Class_Push_clean_filter.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Push Clean Filter System",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>The Vacmaster ‘PCF’ Push Clean Filter system improves airflow to prevent clogged filters and maintain high suction power. Push the vacuum hose into the PCF button to reverse the airflow. Cleaning the cartridge filter of trapped debris and depositing it back into the collection tank.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_iVppMe"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm"
-      }
-    },
-    "featured_text_with_image_GKwCFV": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_nGfeaD": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/Vacmaster_L_Class_Hepa_filter.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Certified HEPA 13 Filtration",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Improved HEPA 13 cartridge filter, now with integrated sealing cap to increase efficiency. Capture and trap at least 99.95% of dust and allergen particles, down to 0.3 microns.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_nGfeaD"
-      ],
-      "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
-      }
-    },
     "featured_cards_LbU947": {
       "type": "featured-cards",
       "blocks": {
-        "card_p3THhR": {
+        "card_XzYgYx": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_L_Class_Power_take_off.webp",
-            "image_loading": "",
-            "title": "Power Take Off",
-            "text": "<p>1590W power take-off socket. Plug in your power tool and connect up the suction hose to start extracting dust as you sand or drill. Operate the vacuum from the power switch on your tool.</p>",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_Hepa_13.webp",
+            "image_loading": "lazy",
+            "title": "Certified HEPA 13 Filtration",
+            "text": "<p>Improved HEPA 13 cartridge filter, now with integrated sealing cap to increase efficiency. Capture and trap at least 99.95% of dust and allergen particles, down to 0.3 microns.</p>",
             "url": ""
           }
         },
@@ -197,21 +127,21 @@
             "url": ""
           }
         },
-        "card_XzYgYx": {
+        "card_p3THhR": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_L_Class_Heavy_Duty.webp",
-            "image_loading": "lazy",
-            "title": "Designed for Heavy Duty Use",
-            "text": "<p>With 30L tank, suction tubes and fittings all moulded from thick-skinned stainless steel. Reinforced 10m cable with toughened PVC and crush resistant 2.5m suction hose. The WD L30 PCF is build to last.</p>",
+            "image": "shopify://shop_images/Vacmaster_VDK1430SFC-01L_Power_Take_Off.webp",
+            "image_loading": "",
+            "title": "Power Take Off",
+            "text": "<p>1590W power take-off socket. Plug in your power tool and connect up the suction hose to start extracting dust as you sand or drill. Operate the vacuum from the power switch on your tool.</p>",
             "url": ""
           }
         }
       },
       "block_order": [
-        "card_p3THhR",
+        "card_XzYgYx",
         "card_Cmwr7p",
-        "card_XzYgYx"
+        "card_p3THhR"
       ],
       "settings": {
         "padding_top": "xs",
@@ -229,17 +159,17 @@
         "card_pqxtrd": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_L_Class_Long_cable.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_1400W_PCF_Push_Clean_Filter.webp",
             "image_loading": "lazy",
-            "title": "Extra Long Cable",
-            "text": "<p>Extra-long 10m power cable, with abrasion resistant rubber coating, for heavy duty cleaning. Working reach is approximately 14m.</p>",
+            "title": "Push Clean Filter System",
+            "text": "<p>The Push Clean Filter system improves airflow to prevent clogged filters and maintain a constant, high suction power. The PCF system uses reverse airflow to clean the cartridge filter and remove trapped debris back into the collection tank.</p>",
             "url": ""
           }
         },
         "card_YTVTrg": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_L_Class_Variable_speed.webp",
+            "image": "shopify://shop_images/Vacmaster_VDK1430SFC-01L_Vacuum_Variable_Speed_Control.webp",
             "image_loading": "",
             "title": "Variable Speed Control",
             "text": "<p>Control the speed of the vacuum cleaner's motor to adjust suction power to the level the job demands. Decreasing suction power when cleaning delicate surfaces and increasing it for tougher jobs.</p>",
@@ -455,7 +385,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Dust_Extractor_Vacuum_Cleaner_240V_PCF_VDK1430SFC-01L-400_In_The_Box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -661,7 +590,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
@@ -796,8 +725,6 @@
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
     "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
-    "featured_text_with_image_UGaHXf",
-    "featured_text_with_image_GKwCFV",
     "featured_cards_LbU947",
     "featured_cards_xQQQKP",
     "featured_quotes_YamDdc",

@@ -70,25 +70,25 @@
         "aa9370f5-862d-4221-88f8-2df4783e5117": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "modes",
-            "title": "Mulch or Collect",
-            "text": "<p>With removable mulch plug for returning grass clippings to the lawn.</p>"
+            "icon": "plus-square",
+            "title": "Wet & Dry Collection",
+            "text": "<p>Extract dust, rubble and liquids.</p>"
           }
         },
         "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "capacity",
-            "title": "6 Cutting Heights",
-            "text": "<p>Quickly change the height of cut from 20mm - 70mm with a single lever.</p>"
+            "icon": "gauge",
+            "title": "Powerful Suction",
+            "text": "<p>Delivers 235 Air Watt suction performance powered by a 1200W bypass motor </p>"
           }
         },
         "a73107f1-d813-4f4a-9738-d04082969ce4": {
           "type": "text-with-icon",
           "settings": {
             "icon": "sqaure-circle-corners",
-            "title": "MX 24V Shared Battery System",
-            "text": "<p>Compatible with the LawnMaster MX 24V Shared Battery System.</p>"
+            "title": "Impact Resistant Design",
+            "text": "<p>Rugged tank construction engineered for demanding worksite environments.</p>"
           }
         }
       },
@@ -104,44 +104,114 @@
         "padding_bottom_mobile": "xs"
       }
     },
-    "featured_cards_LbU947": {
+    "featured_text_with_image_x9L8DT": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_FYqDkL": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Dust_Extractor_Vacmaster_VJH1245PF-01L_L_Class.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "L-Class Dust Extraction",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>The Vacmaster WD L45 has been independently certified for the safe extraction of light hazardous dusts with a workplace exposure limit (WEL) value of &gt;1 mg/m3; including soft woods, gypsum, plasterboard and Corian. L-class industrial wet and dry vacuum cleaners are built for workshops, trades and construction sites.The Vacmaster WD L45 has been independently certified for the safe extraction of light hazardous dusts with a workplace exposure limit (WEL) value of &gt;1 mg/m3; including soft woods, gypsum, plasterboard and Corian. L-class industrial wet and dry vacuum cleaners are built for workshops, trades and construction sites.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_FYqDkL"
+      ],
+      "settings": {
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
+      }
+    },
+    "featured_text_with_image_wnyEaE": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_6JgAJC": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/Dust_Extractor_Vacmaster_VJH1245PF-01L_HEPA13.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Certified HEPA 13 Filtration",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Engineered to capture 99.95% of harmful dust and allergen particles down to 0.3 microns from the vacuum’s air stream.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_6JgAJC"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "featured_cards_DczXcH": {
       "type": "featured-cards",
       "blocks": {
-        "card_p3THhR": {
+        "card_EJg74m": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_Cordless_Lawnmower_Freedom_24V_34cm.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_Wet_Extraction.webp",
             "image_loading": "",
-            "title": "Complete Cordless Freedom",
-            "text": "<p>Take care of your lawn without the hassle of cables. Supplied with a powerful detachable MX 24V 4.0Ah lithium-ion battery and a 1 hour fast charger. </p>",
+            "title": "Wet & Dry Extraction",
+            "text": "<p>Effortlessly vacuum wet or dry debris with ease. Simply attach the HEPA cartridge filter and optional dust bag to trap dry debris, then seamlessly transition to the foam filter for liquid extraction. Cleanup made convenient and efficient, all in one versatile system.</p>",
             "url": ""
           }
         },
-        "card_XzYgYx": {
+        "card_iKwHBQ": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMasyer_Cordless_iPower_Intelligent_Battery_Management.webp",
-            "image_loading": "lazy",
-            "title": "iPower™ Intelligent Battery Management",
-            "text": "<p>Automatically adjusts motor speed to match the condition of your grass. Delivering extra power in tough conditions and conserving power during lighter trims - optimising battery performance.</p>",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_VJH1245PF-01L_Bypass_Motor.webp",
+            "image_loading": "",
+            "title": "1200W Bypass Motor",
+            "text": "<p>The Vacmaster 1200-watt bypass motor delivers more suction power and lower noise levels over an extended life time. Generating 235 Air Watts of suction power and a maximum airflow of 43 L/s.</p>",
             "url": ""
           }
         },
-        "card_Cmwr7p": {
+        "card_RkXtG4": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_24V_Cordless_Mow_Mulching_Function.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_flat.webp",
             "image_loading": "",
-            "title": "Mulching Function",
-            "text": "<p>Collect grass clippings in the 32L Redi-bag™ for green waste disposal, or use the supplied mulch plug to finely cut the clippings and return to the lawn to act as a nutrient.</p>",
+            "title": "Flat Top Design",
+            "text": "<p>A convenient workspace or storage area to keep tools and accessories within reach while working. Designed to maximise efficiency and provide easy access to any bits and bobs needed when on a jobsite. </p>",
             "url": ""
           }
         }
       },
       "block_order": [
-        "card_p3THhR",
-        "card_XzYgYx",
-        "card_Cmwr7p"
+        "card_EJg74m",
+        "card_iKwHBQ",
+        "card_RkXtG4"
       ],
       "settings": {
         "padding_top": "xs",
@@ -153,44 +223,44 @@
         "text": ""
       }
     },
-    "featured_cards_g9WKxM": {
+    "featured_cards_iB6dpW": {
       "type": "featured-cards",
       "blocks": {
-        "card_YhRhay": {
+        "card_bnMzbf": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Cordless_Mower_LawnMaster_24V_34cm_Rear_Roller.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_Wet_Rugged_Tank.webp",
             "image_loading": "",
-            "title": "Rear Roller",
-            "text": "<p>The integrated rear roller delivers a precise striped finish on your lawn.</p>",
+            "title": "Rugged Polypropylene Tank",
+            "text": "<p>Crafted with durability and resilience at the forefront, our Vacmaster WD L45 is engineered to thrive in the most demanding environments. Boasting a rugged polypropylene tank, designed to withstand the rigors of transportation without compromising on performance. Its robust construction ensures durability, capable of withstanding dents and damages commonly encountered in industrial settings. </p>",
             "url": ""
           }
         },
-        "card_GQ6hHe": {
+        "card_KPBeCJ": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_24V_Cordless_Mower_34cm_Compact_Storage.webp",
-            "image_loading": "lazy",
-            "title": "Compact Storage",
-            "text": "<p>Folding handles and collapsible grass collector makes storage in tight spaces easy. This mower can be stored upright for an even more compact footprint.</p>",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_VJH1245PF-01L_Dust_Sealed.webp",
+            "image_loading": "",
+            "title": "Dust Sealed On/Off Switch",
+            "text": "<p>The sealed operational switch effortlessly protects against dust and debris penetration, guaranteeing reliable operation and extended life even in the most challenging dusty environments. The extra large form factor allows for easy control even when wearing gloves. </p>",
             "url": ""
           }
         },
-        "card_cbk77j": {
+        "card_JGitje": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_24V_34cm_Mower_Carry_Handle.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_38mm_Connector.webp",
             "image_loading": "",
-            "title": "Carrying Handle",
-            "text": "<p>Convenient central handle for moving the mower in and out of tight storage spaces, and for transporting over uneven surfaces, and up and down steps.</p>",
+            "title": "38mm Connection Diameter",
+            "text": "<p>Featuring a larger diameter anti-crush suction hose and accessory system, the WD L45 can efficiently handle larger debris like leaves, wood chips, and gravel, significantly reducing clogs making it ideal for heavy-duty cleaning tasks in commercial environments.</p>",
             "url": ""
           }
         }
       },
       "block_order": [
-        "card_YhRhay",
-        "card_GQ6hHe",
-        "card_cbk77j"
+        "card_bnMzbf",
+        "card_KPBeCJ",
+        "card_JGitje"
       ],
       "settings": {
         "padding_top": "2xs",
@@ -207,27 +277,16 @@
       "blocks": {
         "quote_z6FiLd": {
           "type": "quote",
-          "disabled": true,
           "settings": {
-            "text": "Speed through the mowing cable-free with this compact mower with intelligent power delivery",
+            "text": "REPLACE",
             "text_alignment": "text-center",
             "name": "",
-            "logo": "lawnmaster"
-          }
-        },
-        "quote_iXz8fb": {
-          "type": "quote",
-          "settings": {
-            "text": "\"In terms of cutting credentials, the LawnMaster certainly delivers the goods\"",
-            "text_alignment": "text-center",
-            "name": "T3",
-            "logo": ""
+            "logo": "vacmaster"
           }
         }
       },
       "block_order": [
-        "quote_z6FiLd",
-        "quote_iXz8fb"
+        "quote_z6FiLd"
       ],
       "settings": {
         "padding_top": "xs",
@@ -240,41 +299,20 @@
     "featured_text_with_image_FXPR6E": {
       "type": "featured-text-with-image",
       "blocks": {
-        "text_with_image_67Kbzd": {
+        "text_with_image_QxFKW8": {
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_MX_24V_Shared_Battery_System.webp",
-            "image_loading": "lazy",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_Blower.webp",
+            "image_loading": "",
             "logo": "",
             "pretitle": "",
             "title_tag": "h2",
-            "title": "MX 24V Shared Battery System",
+            "title": "Blower Function",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>The supplied MX 24V 4.0Ah battery and charger is fully compatible with the LawnMaster MX 24V cordless range, including lawnmowers, hedge trimmers, grass trimmers, chainsaws and leaf blowers.</p>",
-            "button_1_style": "black",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "transparent-black",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_8krqyC": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_MX_24V_Cordless_battery.webp",
-            "image_loading": "lazy",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Supplied with an MX 24V Battery",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Supplied with a powerful and reliable MX 24V 4.0Ah Lithium Ion battery for a continuous mowing time of up to 30 minutes. Ideal for small to medium sized gardens. Fast charging time of 60 minutes.</p>",
-            "button_1_style": "black",
+            "text": "<p>Seamlessly switch between vacuuming and blowing modes to tackle a variety of cleaning tasks with ease and speed through sweeping chores.</p>",
+            "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "white",
@@ -282,20 +320,40 @@
             "button_2_url": ""
           }
         },
-        "text_with_image_KKMAjk": {
+        "text_with_image_tLWhdt": {
           "type": "text-with-image",
-          "disabled": true,
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/USB_Power_Adapter_Free_with_Cordless_Mower.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_Drainage_port.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
-            "title_tag": "h1",
-            "title": "Free USB Power Bank Adapter",
+            "title_tag": "h2",
+            "title": "Extra Large Drainage Port",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>Adapter to convert LawnMaster 24V and MX 24V batteries to a handy USB power bank. Perfect for charging USB devices while camping or doing DIY. Can charge up to 2 devices simultaneously with a total output current of 2.1A.</p>",
+            "text": "<p>Unscrew the convenient drainage cap to safely dispose of liquid waste. Effortlessly empty the tank without any heavy lifting, making cleanup a quick and seamless process.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_WbdY7q": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/UC0902EHUK_Respira_Lift_Off_Eco_Friendly_Packaging.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title": "Recyclable Product Packaging",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Embrace cleaner and greener packaging with Vacmaster. Our sustainable 100% recyclable packaging reduces our environmental impact through the use of plant-based soybean inks and by removing single-use plastics.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -306,9 +364,9 @@
         }
       },
       "block_order": [
-        "text_with_image_67Kbzd",
-        "text_with_image_8krqyC",
-        "text_with_image_KKMAjk"
+        "text_with_image_QxFKW8",
+        "text_with_image_tLWhdt",
+        "text_with_image_WbdY7q"
       ],
       "settings": {
         "padding_top": "xs",
@@ -323,49 +381,49 @@
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_2year_Lawn_Mower_Guarantee.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_Guarantee.webp",
             "image_loading": "",
             "icon": "guarantee",
-            "title": "2-Year Guarantee",
-            "text": "<p>Peace of mind with our 2-year manufacturer guarantee.</p>"
+            "title": "Guarantee",
+            "text": "<p>We take pride in engineering high quality, durable products. All our Vacmaster® commercial appliances come with a 1-year guarantee.</p>"
           }
         },
         "501a6d11-0820-42d7-9455-af4a760a8e04": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/24V_34cm_Mower_Charger.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "battery-bolt",
-            "title": "1hr Fast Charge",
-            "text": "<p>The detachable MX 24V 4.0Ah lithium battery can be charged in just 1hr with the LawnMaster fast charger provided.</p>"
-          }
-        },
-        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster_MX_24V_34cm_Mower_Height_Adjust.webp",
-            "image_loading": "",
-            "icon": "capacity",
-            "title": "Single Lever Height Adjust",
-            "text": "<p>Quickly and easily change the height of cut from 20mm to 70mm with a single lever.</p>"
+            "icon": "reach",
+            "title": "13m Working Range",
+            "text": "<p>A 3.05m reinforced, anti-crush suction hose and a toughened PVC 9m cable provide a working reach of approx. 14m.</p>"
           }
         },
         "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/MX_24V_34cm_Mower_Grass_Box.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "compact",
-            "title": "Collapsible Grass Bag",
-            "text": "<p>32L Redi-bag grass collector is collapsible for compact storage on top of the mower.</p>"
+            "icon": "bagged",
+            "title": "Bagged or Bagless",
+            "text": "<p>Vacuum rubble and dust directly into the tank or add a dust bag for quick and hygienic disposal.</p>"
+          }
+        },
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "",
+            "icon": "plus-square",
+            "title": "On Board Accessory Storage",
+            "text": "<p>Store all the included accessories on the vacuum cleaner unit to ensure they are always conveniently on hand for any task.</p>"
           }
         }
       },
       "block_order": [
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a",
         "501a6d11-0820-42d7-9455-af4a760a8e04",
-        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750",
-        "d04e62c1-ff0c-4391-ae14-bbfc59269d75"
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75",
+        "62e2b129-2d00-4be4-9a36-2ffb3e1d9750"
       ],
       "settings": {
         "padding_top": "2xs",
@@ -377,6 +435,55 @@
         "text": ""
       }
     },
+    "featured_hero_mwczYd": {
+      "type": "featured-hero",
+      "blocks": {
+        "hero_bbxtpU": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_VJH1245PF_b4bee7b8-7241-4c74-9a40-8f86b27f1f01.webp",
+            "image_mobile": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_VJH1245PF_Mobile.webp",
+            "image_loading": "",
+            "video_autoplay": false,
+            "video_controls": false,
+            "video_hide_content_when_playing": false,
+            "video_play_button_inverted": false,
+            "logo": "",
+            "align_content": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title_size": "large",
+            "title": "",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "feature_1_title": "Durability",
+            "feature_1_text": "Rugged Polypropylene Tank",
+            "feature_2_title": "Flat Top Design",
+            "feature_2_text": "Keep your tools within reach",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "hero_bbxtpU"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": false
+      }
+    },
     "df696699-42a8-4b2a-8976-674c3e309cd2": {
       "type": "featured-accordion",
       "blocks": {
@@ -385,7 +492,7 @@
           "settings": {
             "full_width_enable": false,
             "title": "In the Box",
-            "text": "<p>MX24V 4.0Ah Battery 24LB4005-CN (x1), 1x MX 24V Fast Charger, Mulch Plug and 32L Collapsible Grass Bag</p>",
+            "text": "<p>1x Standard Filtration Dust Bag, 1 x Thick Foam Filter, 1x Anti-Crush 3.05m 38mm Suction Hose, 1x 38mm Plastic Airflow Control Handle, 2x 38mm Plastic Extension Wand, 1x 38mm Round Dusting Brush, 1x 38mm Crevice Tool (23.5cm), 1x 38mm Plastic Floor Nozzle (260mm) For Plastic Wand Assembly, 1x 38mm Plastic Utility Nozzle (176mm) For Plastic Wand Assembly, 1x HEPA H13 Cartridge Filter</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -402,41 +509,19 @@
             "video_2": ""
           }
         },
-        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
             "title": "Technical Specifications",
             "text": "",
-            "button_1_style": "white",
+            "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "lawnmaster-24v-34cm-cordless-lawn-mower",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "Product Support",
-            "text": "<p>Learn how to set up, use and update your lawn mower with instruction manuals, user guides, videos and FAQs on our dedicated MX 24V 34cm Cordless Lawn Mower Support Page.</p>",
-            "button_1_style": "link",
-            "button_1_text": "Go to product support",
-            "button_1_url": "shopify://metaobjects/product_support/lawn-master-mx-24-v-34-cm-cordless-lawn-mower-with-spare-battery",
             "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
-            "product_specifications": "",
+            "product_specifications": "vacmaster-wd-l45-240v-dust-extractor",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
@@ -450,11 +535,11 @@
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "Instruction Manual",
-            "text": "",
-            "button_1_style": "white",
-            "button_1_text": "Download",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Lawnmower_cordless_lawnmaster_CLMF2434G_instruction_manual_2025_lo.pdf?v=1740565787",
+            "title": "Product Support",
+            "text": "<p>Learn how to use, maintain and troubleshoot your Vacmaster WD L45 wet and dry vacuum cleaner with easy to follow videos, user guides and FAQs.</p>",
+            "button_1_style": "link",
+            "button_1_text": "Go to product support",
+            "button_1_url": "shopify://metaobjects/product_support/vacmaster-wd-l-45-240-v-dust-extractor",
             "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
@@ -467,13 +552,35 @@
             "video_1": "",
             "video_2": ""
           }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Instruction Manual",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "Download",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/wet-dry_vacuum-cleaner_l-class_dust-extractor_vacmaster_VJH1245PF_WD_L45_manual.pdf?v=1713342285",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "{{ product }}",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
         }
       },
       "block_order": [
         "d7624e53-96f3-43a2-a5b4-052847d8844f",
-        "00fe8650-5574-49e9-9e8a-6c283c7e0628",
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
-        "f65aa26e-6f20-4e9c-a91b-0a269239be79"
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
       ],
       "settings": {
         "padding_top": "",
@@ -498,7 +605,7 @@
           "settings": {
             "style": "black",
             "text": "Shop All",
-            "url": "shopify://collections/clmf2434g-01-accessories"
+            "url": "shopify://collections/vjh1245pf-01l-accessories-1"
           }
         },
         "4a3319f2-a88e-4233-a4b4-72590768cea0": {
@@ -506,7 +613,7 @@
           "settings": {
             "style": "link",
             "text": "Go to support page",
-            "url": "shopify://metaobjects/product_support/lawn-master-mx-24-v-34-cm-cordless-lawn-mower-with-spare-battery"
+            "url": "shopify://metaobjects/product_support/vacmaster-wd-l-45-240-v-dust-extractor"
           }
         }
       },
@@ -522,7 +629,7 @@
         "pretitle": "Discover",
         "title": "Accessories & Spare Parts",
         "text": "",
-        "collection": "clmf2434g-01-accessories",
+        "collection": "vjh1245pf-01l-accessories-1",
         "products_per_page": 8
       }
     },
@@ -581,9 +688,9 @@
       "disabled": true,
       "settings": {
         "padding_top": "",
-        "padding_top_mobile": "",
+        "padding_top_mobile": "2xs",
         "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs",
+        "padding_bottom_mobile": "xs",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "image_loading": "",
@@ -602,7 +709,50 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
+      }
+    },
+    "featured_articles_jE8Qjq": {
+      "type": "featured-articles",
+      "blocks": {
+        "article_Vtek9n": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/what-s-the-best-vacuum-cleaner-for-chimney-sweeps",
+            "image_loading": ""
+          }
+        },
+        "article_VAnnjN": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-to-clean-a-wood-burning-stove",
+            "image_loading": ""
+          }
+        },
+        "article_PVYWLw": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/knowing-your-watts-from-your-amps",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_Vtek9n",
+        "article_VAnnjN",
+        "article_PVYWLw"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Learn",
+        "title": "News & Advice",
+        "text": ""
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
@@ -624,21 +774,21 @@
           "settings": {
             "style": "white",
             "text": "View Support Page",
-            "url": "shopify://metaobjects/product_support/lawn-master-mx-24-v-34-cm-cordless-lawn-mower-with-spare-battery"
+            "url": "shopify://metaobjects/product_support/vacmaster-wd-l-45-240-v-dust-extractor"
           }
         },
         "entry_Kf4exw": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "LawnMaster Guarantee",
-            "text": "<p>All LawnMaster machines, spare parts and accessories carry a 2-year guarantee. </p>",
-            "button_1_style": "link",
-            "button_1_text": "View Guarantee",
-            "button_1_url": "shopify://pages/guarantee",
+            "title": "Vacmaster Guarantee",
+            "text": "<p>This Vacmaster appliance, spare parts and accessories carry a 1-year commercial-use guarantee.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
             "button_2_style": "link",
-            "button_2_text": "",
-            "button_2_url": "",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/guarantee",
             "product_specifications": "",
             "html": "",
             "collection": "",
@@ -708,7 +858,7 @@
         "background_color": "#000000",
         "text_color": "#ffffff",
         "image_loading": "lazy",
-        "watermark_enable": true,
+        "watermark_enable": false,
         "pretitle": "Support",
         "title_size": "small",
         "title": "Always here to help",
@@ -727,8 +877,8 @@
         "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
         "button_style": "gold",
         "button_text": "Sign up",
-        "button_url": "/",
-        "button_modal": true
+        "button_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
+        "button_modal": false
       }
     }
   },
@@ -737,15 +887,19 @@
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
     "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
-    "featured_cards_LbU947",
-    "featured_cards_g9WKxM",
+    "featured_text_with_image_x9L8DT",
+    "featured_text_with_image_wnyEaE",
+    "featured_cards_DczXcH",
+    "featured_cards_iB6dpW",
     "featured_quotes_YamDdc",
     "featured_text_with_image_FXPR6E",
     "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
+    "featured_hero_mwczYd",
     "df696699-42a8-4b2a-8976-674c3e309cd2",
     "88f30ef1-5d27-47e7-9655-32f0d8016675",
     "featured_accordion_tDiBLC",
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
+    "featured_articles_jE8Qjq",
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
     "featured_accordion_YyyUxg",
     "featured_content_7E4itj"

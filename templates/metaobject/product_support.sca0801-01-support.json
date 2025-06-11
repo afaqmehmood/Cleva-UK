@@ -58,15 +58,15 @@
             "logo": "vacmaster",
             "pretitle": "Support",
             "title_tag": "h2",
-            "title": "Vacmaster EasyClean Rapid Carpet Spot Cleaner",
+            "title": "Vacmaster EasyClean Carpet Spot Cleaner",
             "subtitle_tag": "h1",
             "subtitle": "Guides, Manuals, Parts & Support",
             "text": "<p>SCA0801-01</p><p>Learn how to set up and use your carpet spot cleaner with instruction manuals, user guides and FAQs.</p>",
             "button_1_style": "black",
-            "button_1_text": "Download Instruction Manual  Models: May 2024 Onwards",
+            "button_1_text": "Download Instruction Manual <br> Models: May 2024 Onwards",
             "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/spotcleaner_easyclean_carpet_vacuum_vacmaster_SCA0801_instruction_manual_2024.pdf?v=1715848343",
             "button_2_style": "link",
-            "button_2_text": "Download Instruction Manual  Models: Pre May 2024",
+            "button_2_text": "Download Instruction Manual <br> Models: Pre May 2024",
             "button_2_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/spotcleaner_easyclean_carpet_vacuum_vacmaster_SCA0801_instruction_manual_2022.pdf?v=1679587202"
           }
         }
@@ -217,6 +217,165 @@
         "text": ""
       }
     },
+    "featured_accordion_baD3wD": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_BVkRV7": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How-to Change the Tool Attachment",
+            "text": "<p>Read this guide for support with changing the Tough Stain Nozzle and Wide Path Nozzle.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guide",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/SCA0801-01_changing_the_tool_attachment.pdf?v=1744196131",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_FQLPew": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How-to Clean the Tool Attachment",
+            "text": "<p>Read this guide for support with cleaning the Tough Stain Nozzle and Wide Path Nozzle.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guide",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/SCA0801-01_cleaning_the_tool_attachment_24032025.pdf?v=1744190239",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_tcnJkM": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How-to Clean the Hose",
+            "text": "<p>Read this guide for support with cleaning dirt or debris from the suction hose.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guide",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/SCA0801-01_cleaning_the_hose_24032025.pdf?v=1744190240",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_JW77eb": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How-to Clean the Filter Grill",
+            "text": "<p>Read this guide for support with cleaning dirt or debris from the filter grill.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guide",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/SCA0801-01_cleaning_the_filter_grill_24032025.pdf?v=1744190239",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_4JE76Y": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How-to Troubleshoot a High-Pitched Motor Noise",
+            "text": "<p>Read this guide for support with troubleshooting a high-pitched motor noise. This can happen when the dirty water tank is full or when there is a blockage in the suction hose.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guide",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/SCA0801-01_high-pitched_motor_noise_24032025.pdf?v=1744190239",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_9YmYcj": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How-to Troubleshoot No Solution Spraying Out",
+            "text": "<p>Read this guide for support with troubleshooting no solution spraying out. This can happen when the thermal protector activates, when the water tank is not installed or when air is trapped in the suction hose.</p>",
+            "button_1_style": "link",
+            "button_1_text": "View guide",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/SCA0801-01_no_solution_spraying_out_24032025.pdf?v=1744190240",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_BVkRV7",
+        "entry_FQLPew",
+        "entry_tcnJkM",
+        "entry_JW77eb",
+        "entry_4JE76Y",
+        "entry_9YmYcj"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#f2f2f2",
+        "text_color": "#000000",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Explore",
+        "title_size": "small",
+        "title": "How-To Guides",
+        "text": "<p>Here are some handy how-to guides to help you keep your carpet spot cleaner performing at its best. Open the links below to view the guides.</p>"
+      }
+    },
     "df696699-42a8-4b2a-8976-674c3e309cd21": {
       "type": "featured-accordion",
       "blocks": {
@@ -247,7 +406,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "Why is no solution spraying out?",
-            "text": "<p>This can be caused by: <br/><br/>1. Clean water tank is empty. Fill the clean water tank.<br/>2. Clean water tank is not installed correctly. Check the clean water tank for correct installation. Ensure it is installed in place.<br/>3. The cleaner is overheated. Unplug the power cord and let the cleaner cool down for 30 minutes. Restart the cleaner. If the problem persists, contact the customer services team.</p>",
+            "text": "<p>This can be caused by: <br/><br/>1. Clean water tank is empty. Fill the clean water tank.<br/>2. Clean water tank is not installed correctly. Check the clean water tank for correct installation. Ensure it is installed in place.<br/>3. The cleaner is overheated. Unplug the power cord and let the cleaner cool down for 30 minutes. Restart the cleaner. If the problem persists, contact the after sales helpline.</p>",
             "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "",
@@ -268,7 +427,7 @@
           "type": "entry",
           "settings": {
             "full_width_enable": true,
-            "title": "Why is the motor making a high pitched noise?",
+            "title": "Why is the Motor making a high pitched noise?",
             "text": "<p>This can be caused by:<br/><br/>1. Dirty water tank is full. Empty the dirty water tank.<br/>2. The suction hose is clogged. Clean the hose.<br/>3. The float in the dirty water tank has been activated. Empty and clean the dirty water tank.</p>",
             "button_1_style": "",
             "button_1_text": "",
@@ -326,11 +485,11 @@
             "image_loading": ""
           }
         },
-        "article_3kbkcV": {
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/award-winning-vacuum-cleaners-lawn-mowers-and-garden-power-tools",
+            "article": "news/new-home-cleaning-essentials-1",
             "image_loading": ""
           }
         }
@@ -338,7 +497,7 @@
       "block_order": [
         "708ba8e1-e397-4a69-9535-ab9a38767020",
         "a233c1da-b475-4851-942e-ca87a3cdd6ae",
-        "article_3kbkcV"
+        "5197c988-4367-4157-b142-218fc4bcafd1"
       ],
       "settings": {
         "padding_top": "md",
@@ -461,6 +620,7 @@
     "4357080a-a2a5-4163-9ba8-1273f2709095",
     "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
     "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "featured_accordion_baD3wD",
     "df696699-42a8-4b2a-8976-674c3e309cd21",
     "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
     "df696699-42a8-4b2a-8976-674c3e309cd3",

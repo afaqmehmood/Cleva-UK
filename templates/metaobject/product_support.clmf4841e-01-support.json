@@ -63,7 +63,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_48V_41cm_Cordless_Mower_Support_Accessory.webp",
+            "image": "shopify://shop_images/LawnMaster_48V_41cm_Cordless_Mower_Accessories.webp",
             "image_loading": "",
             "logo": "lawnmaster",
             "pretitle": "Support",
@@ -71,10 +71,10 @@
             "title": "LawnMaster 48V 41cm Cordless Lawn Mower",
             "subtitle_tag": "h1",
             "subtitle": "Guides, Manuals, Parts & Support",
-            "text": "<p>CLMF4841E-01<br/>CLMF4841E-1-01</p><p>Learn how to set up, use and troubleshoot your LawnMaster mower with instruction manuals, user guides, videos and FAQs.</p>",
+            "text": "<p>CLMF4841E-01</p><p>Learn how to set up, use and troubleshoot your LawnMaster mower with instruction manuals, user guides, videos and FAQs.</p>",
             "button_1_style": "black",
             "button_1_text": "Download Instruction Manual",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/lawnmower_cordless_lawnmaster_CLMF4841E_manual_2025.pdf?v=1740569290",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/lawnmower_cordless_lawnmaster_CLMF4841E_manual_2022.pdf?v=1679587121",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": ""

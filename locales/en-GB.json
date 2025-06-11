@@ -77,7 +77,7 @@
     "product": "Product"
   },
   "cart": {
-    "title": "Your Basket",
+    "title": "Your Cart",
     "item_count": "{{ item_count }} Items",
     "checkout": "Checkout",
     "continue_shopping": "Continue Shopping",
@@ -164,7 +164,7 @@
       "total": "Total",
       "total_refunded": "Refunded",
       "fulfilled_at_html": "Fulfilled {{ date }}",
-      "track_shipment": "Track Delivery",
+      "track_shipment": "Track shipment",
       "tracking_url": "Tracking link",
       "tracking_company": "Carrier",
       "tracking_number": "Tracking number",
@@ -185,7 +185,7 @@
       "city": "City",
       "country": "Country/region",
       "province": "County",
-      "zip": "Postal code",
+      "zip": "Postal/ZIP code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -231,8 +231,7 @@
         "choose_shipping_method": "Choose a delivery method"
       },
       "contact": {
-        "different_shipping_address_label": "Deliver to a different address",
-        "optional_address2_label": "Apartment, flat, etc. (optional)"
+        "different_shipping_address_label": "Deliver to a different address"
       },
       "delivery_options": {
         "shipping_address": "Delivery address",
@@ -250,9 +249,7 @@
         "shipping_default_value": "Enter delivery address",
         "shipping_discount_title": "Delivery discount",
         "shipping_policy_link": "Delivery costs",
-        "multiple_shipping_lines_label": "Delivery total",
-        "discount_requires_customer_notice": "Enter your delivery information to apply the <strong style=\"text-transform:uppercase\">{{ code }}</strong> discount code",
-        "updated_shipping_method": "Updated delivery method: {{ shipping_method }}"
+        "multiple_shipping_lines_label": "Delivery total"
       },
       "shipping": {
         "shipping_method_title": "Delivery method",
@@ -266,22 +263,12 @@
         "address2_add_label": "Add flat, apartment etc. (optional)",
         "shipping_address_title": "Deliver to",
         "invalid_shipping_method_summary": "Enter a valid delivery address to view available delivery methods",
-        "missing_shipping_address": "Delivery address is missing",
-        "different_shipping_method_summary": "Enter a different delivery address to view available delivery methods",
-        "shipping_information_required_notice": "Delivery information is required. {{link}}.",
-        "method_summary": {
-          "incomplete_address_entered": "Enter a complete delivery address to view available delivery methods",
-          "incomplete_address_selected": "Select a complete delivery address to view available delivery methods"
-        }
+        "missing_shipping_address": "Delivery address is missing"
       },
       "payment": {
         "same_billing_address_label": "Same as delivery address",
         "billing_must_match_shipping_notice": "Your payment method's billing address must match the delivery address",
-        "same_billing_address_checkbox_label": "Use delivery address as billing address",
-        "payment_method_not_available_for_shipping_address_error": "Payment not available for selected delivery address. Choose another payment method.",
-        "location_shipping_address_label": "Location delivery address",
-        "use_location_shipping_address_label": "Use location delivery address",
-        "shipping_rate_updated": "Available delivery methods have been updated. Confirm your choice before checking out."
+        "same_billing_address_checkbox_label": "Use delivery address as billing address"
       },
       "billing": {
         "same_as_shipping": "Same as delivery address"
@@ -325,16 +312,6 @@
       },
       "wallets": {
         "shipping_line_label": "Delivery"
-      },
-      "field_errors": {
-        "address_country_not_supported": "We don't deliver to this country or region. Enter a new delivery address and try again."
-      },
-      "payment_errors": {
-        "missing_shipping_address": "Your payment couldn't be processed because your delivery address is missing. Add a delivery address and try again."
-      },
-      "shipping_errors": {
-        "empty_state": "Enter your delivery address to view available delivery methods",
-        "title": "Delivery not available"
       }
     }
   },

@@ -240,7 +240,7 @@
           "settings": {
             "image": "shopify://shop_images/LawnMaster-Cordless_Leafblower_Storage_Hook.webp",
             "image_loading": "",
-            "icon": "plus-square",
+            "icon": "plus",
             "title": "Storage Hook",
             "text": "<p>Store easily by hanging the blower in the shed or garage using the hook provided.</p>"
           }
@@ -429,7 +429,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

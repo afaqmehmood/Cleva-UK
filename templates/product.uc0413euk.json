@@ -249,10 +249,10 @@
         "card_b9bekX": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_AllergenPro_Dogs_Trust_2024.webp",
+            "image": "shopify://shop_images/Vacmaster_AllergenPro_Dogs_Trust.webp",
             "image_loading": "",
             "title": "Supporting Dogs Trust",
-            "text": "<p>Cleva Europe Limited will donate 2% of the sale price to Dogs Trust (Registered Charity Numbers 1167663 & SC053144) for every UK sale of Vacmaster Respira, Vacmaster Respira Pet, Vacmaster Captura and Vacmaster Captura Pet sold through cleva-uk.com.</p>",
+            "text": "<p>Cleva Europe Limited will donate 2% of the sale price to Dogs Trust (Registered Charity Numbers 227523 & SC037843) for every UK sale of Vacmaster Respira, Vacmaster Respira Pet, Vacmaster Captura and Vacmaster Captura Pet sold through cleva-uk.com.</p>",
             "url": ""
           }
         }
@@ -277,27 +277,16 @@
       "blocks": {
         "quote_z6FiLd": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "text": "Deep clean the unseen with this powerful cyclonic vacuum cleaner",
             "text_alignment": "text-center",
             "name": "",
             "logo": "vacmaster"
           }
-        },
-        "quote_TMEiLw": {
-          "type": "quote",
-          "settings": {
-            "text": "\"A powerful and hardworking vacuum cleaner that makes light work of tough jobs.\"",
-            "text_alignment": "text-center",
-            "name": "Trusted Reviews",
-            "logo": ""
-          }
         }
       },
       "block_order": [
-        "quote_z6FiLd",
-        "quote_TMEiLw"
+        "quote_z6FiLd"
       ],
       "settings": {
         "padding_top": "xs",
@@ -455,9 +444,9 @@
             "button_2_text": "",
             "button_2_url": "",
             "feature_1_title": "Designed for Pets",
-            "feature_1_text": "With Pet Mate Tool & HEPA 13",
+            "feature_1_text": "With Pet Mate Tool <br>& HEPA 13",
             "feature_2_title": "Clean Deeper",
-            "feature_2_text": "Seal in 99.9% of Dust & Allergens",
+            "feature_2_text": "Seal in 99.9% of <br>Dust & Allergens",
             "feature_3_title": "",
             "feature_3_text": ""
           }
@@ -494,7 +483,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Vacmaster_Respira_Pet_in_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""

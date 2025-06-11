@@ -343,7 +343,7 @@
           "settings": {
             "image": "shopify://shop_images/Cordless_Vacmaster_Orson_Lite_Wall_Mount.webp",
             "image_loading": "",
-            "icon": "plus-square",
+            "icon": "plus",
             "title": "Discreet Wall Mount",
             "text": "<p>A discreet wall mount stores the vacuum securely and ensures it always remains easy to access.</p>"
           }
@@ -385,7 +385,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Cordless_Vacuum_Cleaner_Orson_Lite_in_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -590,7 +589,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

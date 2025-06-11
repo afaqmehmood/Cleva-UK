@@ -254,7 +254,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/wet_Vac_Dust_Extractor_Vacmaster-Anti_Hose.webp",
+            "image": "shopify://shop_images/wet_Vac_Dust_Extractor_Vacmaster_Anti_Hose.webp",
             "image_loading": "lazy",
             "logo": "",
             "pretitle": "",
@@ -311,7 +311,7 @@
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Commercial_VK1630SWC_Vacmaster_Guarantee.webp",
+            "image": "shopify://shop_images/Commercial_VK1630SWC_Vacmaster_Guarantee_Alt.webp",
             "image_loading": "",
             "icon": "guarantee",
             "title": "Guarantee",
@@ -385,7 +385,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Dust_Extractor_VK1630SWC_in_the_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -591,7 +590,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

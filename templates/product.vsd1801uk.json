@@ -262,7 +262,7 @@
             "title": "Easy to Empty Dust Bin",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>Press the buttons on the dustbin to quickly detach and empty. And with the extra-large 0.6L dust bin, you can clean for longer without the need to empty.</p>",
+            "text": "<p>Press the buttons on the dustbin to quicky detach and empty. And with the extra-large 0.6L dust bin, you can clean for longer without the need to empty.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -365,7 +365,7 @@
           "settings": {
             "image": "shopify://shop_images/Vacmaster__Joey_Compact_VSD1801UK-LED_TASK_LIGHTS.webp",
             "image_loading": "",
-            "icon": "plus-square",
+            "icon": "plus",
             "title": "LED Task Lights",
             "text": "<p>LED task lights help to highlight dust and dirt while vacuuming under furniture and sofas.</p>"
           }
@@ -407,7 +407,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Vacmaster__Joey_Compact_in_the_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -465,7 +464,7 @@
             "text": "",
             "button_1_style": "white",
             "button_1_text": "Download",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cordless_vacuum-cleaner_vacmaster_VSD1801UK_manual_2024.pdf?v=1730885025",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cordless_vacuum-cleaner_vacmaster_VSD1801UK_manual.pdf?v=1679587159",
             "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
@@ -612,7 +611,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

@@ -27,7 +27,7 @@
     "spacing_md_main_grid_gap_x": "24px",
     "product_image_background_enable": true,
     "product_image_background_color": "#fafafa",
-    "product_badge_tags": "Battery Not Included\nRemote Control\nSpare Battery\nSpare Batteries\nx2 Batteries\nWith 6 Bags\nWith 12 Bags\nNew\nSpare Blade\nFree Peg Driver\nFree USB Power Bank Adapter\nFree USB Adapter\nFree Dust Bags\nOffers Available\nx5 Free Dust Bags\n110V",
+    "product_badge_tags": "Battery Not Included\nRemote Control\nSpare Battery\nSpare Batteries\nx2 Batteries\nWith 6 Bags\nWith 12 Bags\nNew\nSpare Blade\nFree Peg Driver",
     "product_card_image_size": "small",
     "sections": {
       "app-optimization": {
@@ -204,6 +204,11 @@
         "disabled": false,
         "settings": {}
       },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": true,
+        "settings": {}
+      },
       "319724205969189013": {
         "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
@@ -226,20 +231,23 @@
           "show_empty_stars": false
         }
       },
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
       "10830403595879607806": {
         "type": "shopify://apps/reviews-io/blocks/reviewsio-core/92a082e5-b297-4e88-b428-ac96cbc505f9",
-        "disabled": false,
+        "disabled": true,
         "settings": {
-          "url_key": "cleva-uk",
+          "url_key": "REVIEWS.io",
           "lang": "auto",
           "enable_syndication": false
         }
+      },
+      "5674012996228588682": {
+        "type": "shopify://apps/cartbot/blocks/cartbot-script-append/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
+        "disabled": false,
+        "settings": {}
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }

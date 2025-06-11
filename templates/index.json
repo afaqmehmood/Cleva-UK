@@ -15,10 +15,10 @@
         "ff434ae1-84c1-4ae2-8f22-ee27a68fe5e7": {
           "type": "hero",
           "settings": {
-            "background_color": "#000000",
+            "background_color": "#fafafa",
             "text_color": "#ffffff",
-            "image": "shopify://shop_images/LawnMaster_Cordless_Lawnmower_range_Alt.webp",
-            "image_mobile": "shopify://shop_images/LawnMaster_Cordless_Lawnmower_range_mob.webp",
+            "image": "shopify://shop_images/DESKTOP_LawnMaster_OcuMow_18_Option_2.webp",
+            "image_mobile": "shopify://shop_images/MOBILE_LawnMaster_OcuMow_18_Option_2_1.webp",
             "image_loading": "",
             "video_autoplay": false,
             "video_controls": false,
@@ -26,18 +26,18 @@
             "video_play_button_inverted": false,
             "logo": "lawnmaster",
             "align_content": "end",
-            "pretitle": "",
-            "title_tag": "h1",
+            "pretitle": "Introducing",
+            "title_tag": "h2",
             "title_size": "small",
-            "title": "Power Up \nYour Tidy Up",
+            "title": "OcuMow® 18",
             "subtitle_tag": "h2",
-            "subtitle": "Inside and out",
-            "button_1_style": "transparent-white",
-            "button_1_text": "Shop LawnMaster",
-            "button_1_url": "shopify://collections/lawnmaster",
-            "button_2_style": "transparent-white",
-            "button_2_text": "Shop Vacmaster",
-            "button_2_url": "shopify://collections/vacmaster",
+            "subtitle": "Independently navigates, mows and charges, boundary wire free.",
+            "button_1_style": "white",
+            "button_1_text": "Shop Now",
+            "button_1_url": "https://www.cleva-uk.com/products/lawnmaster-ocumow-18-mx-24v-auto-charging-vision-robotic-lawnmower",
+            "button_2_style": "link",
+            "button_2_text": "OcuMow® Range",
+            "button_2_url": "https://www.cleva-uk.com/collections/ocumow",
             "feature_1_title": "",
             "feature_1_text": "",
             "feature_2_title": "",
@@ -58,9 +58,59 @@
         "top_fade_enable": true
       }
     },
+    "center_featured_hero_xQDUFi": {
+      "type": "center-featured-hero",
+      "blocks": {
+        "hero_DWXnL3": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "image": "shopify://shop_images/DESKTOP_LawnMaster_OcuMow_18_Option_2.webp",
+            "image_mobile": "shopify://shop_images/MOBILE_LawnMaster_OcuMow_18_Option_2_1.webp",
+            "image_loading": "",
+            "video_autoplay": false,
+            "video_controls": false,
+            "video_hide_content_when_playing": false,
+            "video_play_button_inverted": false,
+            "logo": "",
+            "secondary_logo": "shopify://shop_images/OcuMow_White_R_1d6c9e54-413c-4442-aa92-0a0c62114c3d.png",
+            "pretitle": "",
+            "title_tag": "h2",
+            "title_size": "large",
+            "title": "Driven by Vision",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "button_1_style": "link",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "hero_DWXnL3"
+      ],
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "top_fade_enable": false
+      }
+    },
     "4357080a-a2a5-4163-9ba8-1273f2709095": {
       "type": "featured-usp",
       "blocks": {
+        "usp_zVw9BG": {
+          "type": "usp",
+          "settings": {
+            "icon": "house",
+            "title": "<a href=\"%E2%80%9Chttps://manage.kmail-lists.com/subscriptions/subscribe?a=QeGLdD&g=PayVgm%E2%80%9D\">Sign Up for 10% Off</a>"
+          }
+        },
         "90f24eee-236b-4e26-8e58-d2ad9bbf23da": {
           "type": "usp",
           "settings": {
@@ -84,6 +134,7 @@
         }
       },
       "block_order": [
+        "usp_zVw9BG",
         "90f24eee-236b-4e26-8e58-d2ad9bbf23da",
         "acf3e196-8a1c-4367-bd3a-59e4aa26c373",
         "b71fd280-d110-4e31-afbb-2a2740db996a"
@@ -100,7 +151,7 @@
       "settings": {
         "padding_top": "md",
         "padding_top_mobile": "2xs",
-        "padding_bottom": "md",
+        "padding_bottom": "sm",
         "padding_bottom_mobile": "",
         "watermark_enable": true,
         "scroll_animation_enable": true,
@@ -123,7 +174,6 @@
           "type": "collection",
           "settings": {
             "collection": "vacuum-cleaners-floorcare",
-            "image_overwrite": "shopify://shop_images/Vacmaster_Vacuum_Cleaners_and_Floorcare_UK2.webp",
             "image_loading": "lazy"
           }
         },
@@ -131,7 +181,6 @@
           "type": "collection",
           "settings": {
             "collection": "lawnmaster-lawnmowers",
-            "image_overwrite": "shopify://shop_images/LawnMaster___Lawn_Mowers_Robots_UK.webp",
             "image_loading": "lazy"
           }
         },
@@ -139,7 +188,6 @@
           "type": "collection",
           "settings": {
             "collection": "vacmaster-air-movers",
-            "image_overwrite": "shopify://shop_images/Vacmaster_Air_Movers_Floor_Fans.webp",
             "image_loading": "lazy"
           }
         },
@@ -147,7 +195,6 @@
           "type": "collection",
           "settings": {
             "collection": "garden-power-tools",
-            "image_overwrite": "shopify://shop_images/LawnMaster_Garden_Power_Tools_Grass_Trimmer.webp",
             "image_loading": "lazy"
           }
         }
@@ -186,7 +233,7 @@
             "video_play_button_inverted": true,
             "logo": "vacmaster",
             "align_content": "start",
-            "pretitle": "",
+            "pretitle": "New",
             "title_tag": "h2",
             "title_size": "large",
             "title": "Vacmaster Respira Lift Off Pet",
@@ -199,7 +246,7 @@
             "button_2_text": "AllergenPro Range",
             "button_2_url": "shopify://collections/allergenpro",
             "feature_1_title": "Clean Deeper",
-            "feature_1_text": "Seal in 99.9% of <br>Dirt & Allergens",
+            "feature_1_text": "Seal in 99.9% of<br>Dirt & Allergens",
             "feature_2_title": "Reach Further",
             "feature_2_text": "Lift Off Technology",
             "feature_3_title": "",
@@ -586,10 +633,49 @@
         "button_url": "/",
         "button_modal": true
       }
+    },
+    "featured_text_with_image_Y9fHrn": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_dpcae8": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/VBRM18AMIDR-01_OcuMow_18_Hero_af075e33-06da-4a0d-a2bd-7bff7232c093.webp",
+            "image_loading": "",
+            "logo": "",
+            "video": "shopify://files/videos/LawnMaster OcuMow 18 Autocharging Vision Robot Lawnmower Ad.mp4",
+            "video_show_controls": true,
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "Image with text",
+            "subtitle_tag": "h1",
+            "subtitle": "Test subtitle",
+            "text": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_dpcae8"
+      ],
+      "name": "Text with Image",
+      "settings": {
+        "padding_top": "md",
+        "padding_top_mobile": "sm",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
+      }
     }
   },
   "order": [
     "featured-hero-1",
+    "center_featured_hero_xQDUFi",
     "4357080a-a2a5-4163-9ba8-1273f2709095",
     "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34",
     "9bb42e06-0ce3-4b83-b5e5-2837f70282d7",
@@ -601,6 +687,7 @@
     "7b04fcfc-f1b6-4536-8ff5-f010e00ea0c0",
     "7b04fcfc-f1b6-4536-8ff5-f010e00ea0c01",
     "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
-    "337e6560-6338-43d1-bb33-32461bb7b5cb"
+    "337e6560-6338-43d1-bb33-32461bb7b5cb",
+    "featured_text_with_image_Y9fHrn"
   ]
 }

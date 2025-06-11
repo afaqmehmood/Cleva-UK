@@ -394,40 +394,40 @@
     "featured_cards_x6kPYk": {
       "type": "featured-cards",
       "blocks": {
+        "card_X9q9Xx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_MX24v_Shared_Battery_System_Explore.webp",
+            "image_loading": "",
+            "title": "MX 24V Shared Battery System",
+            "text": "",
+            "url": "shopify://collections/mx-24v-battery-system"
+          }
+        },
         "card_79TnT4": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_Power_Tools_d49252f9-0355-4ea6-820f-d092572a64e4.webp",
             "image_loading": "",
             "title": "Garden Power Tools",
             "text": "",
             "url": "shopify://collections/garden-power-tools"
           }
         },
-        "card_X9q9Xx": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster-Explore_Cordless_Lawn_Mowers.webp",
-            "image_loading": "",
-            "title": "Cordless Lawn Mowers",
-            "text": "",
-            "url": "shopify://collections/cordless-lawn-mowers"
-          }
-        },
         "card_UKLYAe": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
-            "title": "Vacuum Cleaners & Floorcare",
+            "title": "Vacuum Cleaners & Fans",
             "text": "",
-            "url": "shopify://collections/vacuum-cleaners-floorcare"
+            "url": "shopify://collections/vacmaster"
           }
         }
       },
       "block_order": [
-        "card_79TnT4",
         "card_X9q9Xx",
+        "card_79TnT4",
         "card_UKLYAe"
       ],
       "settings": {

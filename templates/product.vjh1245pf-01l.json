@@ -146,7 +146,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/Dust_Extractor_Vacmaster_HEPA_13.webp",
+            "image": "shopify://shop_images/Dust_Extractor_Vacmaster_VJH1245PF-01L_HEPA.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
@@ -278,7 +278,7 @@
         "quote_z6FiLd": {
           "type": "quote",
           "settings": {
-            "text": "Powers through dirt in the toughest places. Wet or dry.",
+            "text": "Rugged and compact. Built to perform in tough trade environments",
             "text_alignment": "text-center",
             "name": "",
             "logo": "vacmaster"
@@ -443,8 +443,8 @@
           "settings": {
             "background_color": "#fafafa",
             "text_color": "#000000",
-            "image": "shopify://shop_images/Vacmaster_L45_Wet_Dry_Vacuum_Cleaner_VJH1245PF-01L_Alt3.webp",
-            "image_mobile": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_VJH1245PF_Mob1.webp",
+            "image": "shopify://shop_images/Vacmaster_L45_Wet_Dry_Vacuum_Cleaner_VJH1245PF-01L_Desk.webp",
+            "image_mobile": "shopify://shop_images/Vacmaster_Dust_Extractor_45L_VJH1245PF_Mobalt.webp",
             "image_loading": "",
             "video_autoplay": false,
             "video_controls": false,
@@ -465,7 +465,7 @@
             "button_2_text": "",
             "button_2_url": "",
             "feature_1_title": "L-Class Dust Extraction",
-            "feature_1_text": "Independently Certified",
+            "feature_1_text": "Independently certified",
             "feature_2_title": "Tough & Agile",
             "feature_2_text": "Rugged Polypropylene Tank",
             "feature_3_title": "",
@@ -504,7 +504,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/L45_Dust_Extractor_In_the_Box_copy.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -566,7 +565,7 @@
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
-            "product_specifications": "",
+            "product_specifications": "{{ product }}",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
@@ -732,25 +731,25 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "featured_articles_jE8Qjq": {
       "type": "featured-articles",
       "blocks": {
-        "article_pL6BjK": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/8-unusual-uses-for-your-wet-dry-vacuum-cleaner",
-            "image_loading": ""
-          }
-        },
         "article_Vtek9n": {
           "type": "article",
           "settings": {
             "blog": "",
             "article": "news/what-s-the-best-vacuum-cleaner-for-chimney-sweeps",
+            "image_loading": ""
+          }
+        },
+        "article_VAnnjN": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-to-clean-a-wood-burning-stove",
             "image_loading": ""
           }
         },
@@ -764,8 +763,8 @@
         }
       },
       "block_order": [
-        "article_pL6BjK",
         "article_Vtek9n",
+        "article_VAnnjN",
         "article_PVYWLw"
       ],
       "settings": {

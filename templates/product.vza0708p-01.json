@@ -104,171 +104,52 @@
         "padding_bottom_mobile": "xs"
       }
     },
-    "featured_text_with_image_nHh9Fx": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_PkH7BV": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/4_Stage_Filtration_System_D8_VZA0708P.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Advanced 4-Stage Filtration",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Introducing the Vacmaster 4 stage filtration system. Dust and dirt is first channelled through an advanced HEPA 13 pre-filter before being captured in a fine filtration dust bag. Any remaining microscopic particles are then filtered from the air stream through a pre-motor foam filter and washable HEPA 13 exhaust filter. Trapping 99.9% of dust and allergens inside the vacuum cleaner, whilst also extending the lifetime of the machine.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_PkH7BV"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm"
-      }
-    },
-    "featured_text_with_image_TmKp49": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_NqLRNQ": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_D8_VZA0708P_Power_for_All_Tasks.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Power For All Tasks",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>A 720W motor delivers 200 Air Watts of suction performance. Built to last and deliver powerful cleaning at home, work, commercial unit or on your DIY job.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_NqLRNQ"
-      ],
-      "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
-      }
-    },
     "featured_cards_LbU947": {
       "type": "featured-cards",
       "blocks": {
-        "card_Cmwr7p": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_D8_Cylinder_Vacuum_Extremely_Quiet.webp",
-            "image_loading": "",
-            "title": "Extremely Quiet",
-            "text": "<p>Extremely quiet during operation. Perfect for cleaning in a busy commercial or home environment.</p>",
-            "url": ""
-          }
-        },
         "card_XzYgYx": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_D8_Cylinder_Wessel_werk_VZA0708P01.webp",
+            "image": "shopify://shop_images/High_Suction_Power_Vacmaster_D8_Vacuum_Cleaner_vza07.webp",
             "image_loading": "",
-            "title": "Wessel-Werk All Floor Nozzle",
-            "text": "<p>A high performance dual mode floor nozzle suitable for both carpet and hard‐floors. Easily switch between modes to achieve the best suction results on all surfaces. Neatly stores on the rear of the vacuum cleaner.</p>",
+            "title": "Power For All Tasks",
+            "text": "<p>A 720W motor delivers 200 Air Watts of suction performance. Built to last and deliver powerful cleaning at home, work, commercial unit or on your DIY job.</p>",
+            "url": ""
+          }
+        },
+        "card_Cmwr7p": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Quiet_Operating_Noise_Vacmaster_Vacuum_Cleaner_D8.webp",
+            "image_loading": "",
+            "title": "No Disturbance",
+            "text": "<p>Extremely quiet during operation. Perfect for cleaning in a busy commercial or home environment.</p>",
             "url": ""
           }
         },
         "card_p3THhR": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/26m_Working_Range_VZA0708P-01_Vacmaster_D8_Cylinder.webp",
-            "image_loading": "",
-            "title": "26m Working Range",
-            "text": "<p>An extra long 10m cable provides ultimate flexibility. With an overall working reach of 26 metres, a huge 8 litre dust capacity and onboard tool for every job, down-time is kept to a minimum.</p>",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_Cmwr7p",
-        "card_XzYgYx",
-        "card_p3THhR"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "2xs",
-        "padding_bottom_mobile": "",
-        "pretitle": "Explore",
-        "title": "Features & Benefits",
-        "text": ""
-      }
-    },
-    "featured_cards_dfft77": {
-      "type": "featured-cards",
-      "blocks": {
-        "card_9cidkf": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Onboard_Storage_VZA0708P-01_Vacmaster_D8_Cylinder.webp",
+            "image": "shopify://shop_images/Vacmaster_cylinder_hoover_tool_storage_VZA0708P01.webp",
             "image_loading": "",
             "title": "Neat Onboard Storage",
             "text": "<p>Store all accessories and tools on board. With a compact footprint, storage of the vacuum cleaner is easy and neat. The floor nozzle and extension tubes also dock onto the rear of the vacuum.</p>",
             "url": ""
           }
-        },
-        "card_UREi8h": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster-Vacuum-CleanerD8-cable-rewind-TradeSetVZA0708P-01TB.webp",
-            "image_loading": "",
-            "title": "Snag-Free Cable Rewind",
-            "text": "<p>Snag free cable rewind smoothly retracts the 10m power cable for storage. Just pull and you're ready to go. And a large foot operated power switch prevents back strain when operating.</p>",
-            "url": ""
-          }
-        },
-        "card_he33EY": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_D8_Cylinder_Trap_in_Dirt_VZA0708P01.webp",
-            "image_loading": "",
-            "title": "Trap In The Dirt",
-            "text": "<p>Capture dirt and debris directly into the dust bag. The fine filtration dust bags seal in the dust, making emptying hassle free with no dust cloud.</p>",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "card_9cidkf",
-        "card_UREi8h",
-        "card_he33EY"
+        "card_XzYgYx",
+        "card_Cmwr7p",
+        "card_p3THhR"
       ],
       "settings": {
-        "padding_top": "2xs",
-        "padding_top_mobile": "",
+        "padding_top": "xs",
+        "padding_top_mobile": "2xs",
         "padding_bottom": "sm",
-        "padding_bottom_mobile": "2xs",
-        "pretitle": "",
-        "title": "",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "Explore",
+        "title": "Features & Benefits",
         "text": ""
       }
     },
@@ -277,27 +158,16 @@
       "blocks": {
         "quote_z6FiLd": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "text": "Consider it done with the Vacmaster D8. At home, at work or on the job",
             "text_alignment": "text-center",
             "name": "",
             "logo": "vacmaster"
           }
-        },
-        "quote_JwhzLH": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Can handle messier jobs and, with four levels of filtration, keeps everything inside\"",
-            "text_alignment": "text-center",
-            "name": "Trusted Reviews",
-            "logo": ""
-          }
         }
       },
       "block_order": [
-        "quote_z6FiLd",
-        "quote_JwhzLH"
+        "quote_z6FiLd"
       ],
       "settings": {
         "padding_top": "xs",
@@ -314,15 +184,15 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_Cylinder_D8_VZA0708P-01_Large_Foot_Switch.webp",
+            "image": "shopify://shop_images/HEPA_Filtration_System_Vacmaster_D8_VZA0708PAlt.webp",
             "image_loading": "lazy",
             "logo": "",
             "pretitle": "",
             "title_tag": "h2",
-            "title": "Large Foot Operated Power Switch",
+            "title": "Advanced 4-Stage Filtration",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>Large foot pedal power switch helps to prevent back strain when operating.</p>",
+            "text": "<p>Introducing the Vacmaster 4 stage filtration system. Dust and dirt is first channelled through an advanced HEPA 13 pre-filter before being captured in a fine filtration dust bag. Any remaining microscopic particles are then filtered from the air stream through a pre-motor foam filter and washable HEPA 13 exhaust filter. Trapping 99.9% of dust and allergens inside the vacuum cleaner, whilst also extending the lifetime of the machine.</p>",
             "button_1_style": "link",
             "button_1_text": "",
             "button_1_url": "",
@@ -335,15 +205,15 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_D8_VZA0708P-01_Variable_Suction.webp",
+            "image": "shopify://shop_images/Long_Cable_Vacmaster_D8_Vacuum_Cleaner_VZA0708P.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
             "title_tag": "h2",
-            "title": "Variable Suction Control",
+            "title": "26m Working Range",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>A fingertip controlled switch adjusts the suction power to suit the cleaning task.</p>",
+            "text": "<p>An extra long 10m cable provides ultimate flexibility. With an overall working reach of 26 metres, a huge 8 litre dust capacity and onboard tool for every job, down-time is kept to a minimum.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -356,15 +226,15 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_Cylinder_D8_VZA0708P-01-Screw_Fit_Hose.webp",
+            "image": "shopify://shop_images/Cable_Rewind_Vacmaster_D8_Vacuum_Cleaner_VZA0708Palt.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
             "title_tag": "h2",
-            "title": "2m Long Screw-fit Suction Hose",
+            "title": "Snag-Free Cable Rewind",
             "subtitle_tag": "h3",
             "subtitle": "",
-            "text": "<p>Reach further with the 2m long suction hose with a secure screw-fit attachment.</p>",
+            "text": "<p>Snag free cable rewind smoothly retracts the 10m power cable for storage. Just pull and your ready to go. And a large foot operated power switch prevents back strain when operating.</p>",
             "button_1_style": "link",
             "button_1_text": "",
             "button_1_url": "",
@@ -392,7 +262,7 @@
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/2_Year_Guarantee-_Vacmaster_D8.webp",
+            "image": "shopify://shop_images/2_Year_Guarantee_Vacmaster.webp",
             "image_loading": "lazy",
             "icon": "guarantee",
             "title": "2-Year Guarantee",
@@ -402,31 +272,31 @@
         "501a6d11-0820-42d7-9455-af4a760a8e04": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Fine_Filtration_Dust_Bags-_Vacmaster_D8.webp",
+            "image": "shopify://shop_images/WesselWerk_Floor_Nozzle_on_Vacmaster_Vacuum.webp",
             "image_loading": "",
-            "icon": "bagged",
-            "title": "Supplied with 5x Fine Filtration Dust Bags",
-            "text": "<p>Vacmaster dust bags, spares and accessories widely available. Also compatible with Henry Hepa-Flo NVM-1CH dust bags.</p>"
+            "icon": "tools",
+            "title": "Wessel-Werk Combination Floor Nozzle",
+            "text": "<p>A high performance dual mode floor nozzle suitable for both carpet and hard‐floors. Easily switch between modes to achieve the best suction results on all surfaces. Neatly stores on the rear of the vacuum cleaner.</p>"
           }
         },
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Accessories_-_Vacmaster_D8.webp",
+            "image": "shopify://shop_images/Vacuum_Cleaner_Dust_Bags_Fine_Vacmaster.webp",
             "image_loading": "",
-            "icon": "tools",
-            "title": "Supplied Attachments",
-            "text": "<p>Reach further with the crevice tool and dusting brush included in the box.</p>"
+            "icon": "bagged",
+            "title": "Trap In The Dirt",
+            "text": "<p>Capture dirt and debris directly into the dust bag. The fine filtration dust bags seal in the dust, making emptying hassle free with no dust cloud.</p>"
           }
         },
         "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Folding_Carry_Handle_-_Vacmaster_D8.webp",
+            "image": "shopify://shop_images/Foot_Operated_Power_Swich_Vacuum_Cleaner_Vacmaster.webp",
             "image_loading": "",
             "icon": "plus-square",
-            "title": "Foldable Carry Handle",
-            "text": "<p>Effortlessly transport with a foldable carry handle. Designed for both comfort and convenience, this sturdy handle easily folds down when not in use.</p>"
+            "title": "Foot Operated Power Switch",
+            "text": "<p>Large foot pedal power switch helps to prevent back strain when operating.</p>"
           }
         }
       },
@@ -444,55 +314,6 @@
         "pretitle": "",
         "title": "",
         "text": ""
-      }
-    },
-    "featured_hero_qXd6NB": {
-      "type": "featured-hero",
-      "blocks": {
-        "hero_bWYT8Y": {
-          "type": "hero",
-          "settings": {
-            "background_color": "#ffffff",
-            "text_color": "#000000",
-            "image": "shopify://shop_images/Cylinder_Vacuum_Cleaners_D8_Vacmaster_Desktop.webp",
-            "image_mobile": "shopify://shop_images/Cylinder_Vacuum_Cleaners_D8_Vacmaster_Mobile.webp",
-            "image_loading": "",
-            "video_autoplay": false,
-            "video_controls": false,
-            "video_hide_content_when_playing": false,
-            "video_play_button_inverted": false,
-            "logo": "vacmaster",
-            "align_content": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title_size": "large",
-            "title": "Consider \nit Done",
-            "subtitle_tag": "h2",
-            "subtitle": "",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "feature_1_title": "Advanced Filtration",
-            "feature_1_text": "4-Stage Filtration System",
-            "feature_2_title": "Powerful Performance",
-            "feature_2_text": "For the Home or Workplace",
-            "feature_3_title": "",
-            "feature_3_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "hero_bWYT8Y"
-      ],
-      "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "",
-        "padding_bottom_mobile": "",
-        "top_fade_enable": false
       }
     },
     "df696699-42a8-4b2a-8976-674c3e309cd2": {
@@ -515,7 +336,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Vacmaster_D8_Vacuum_Cleaner_In_the_Box_4ddaadc4-8295-4add-837e-3acafdcb8231.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -721,50 +541,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
-      }
-    },
-    "featured_articles_QJcNXL": {
-      "type": "featured-articles",
-      "blocks": {
-        "article_UiX9eT": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/head-to-head-how-the-vacmaster-d8-vza0708p-compares-to-the-henry-hvr-160-11",
-            "image_loading": ""
-          }
-        },
-        "article_cHJ9R3": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/why-are-bagged-vacuum-cleaners-best-for-allergen-sufferers",
-            "image_loading": ""
-          }
-        },
-        "article_ANHPFn": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/vacuum-cleaners-the-benefits-of-using-a-hepa-filter",
-            "image_loading": ""
-          }
-        }
-      },
-      "block_order": [
-        "article_UiX9eT",
-        "article_cHJ9R3",
-        "article_ANHPFn"
-      ],
-      "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "xs",
-        "pretitle": "Learn",
-        "title": "News & Advice",
-        "text": ""
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
@@ -899,19 +676,14 @@
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
     "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
-    "featured_text_with_image_nHh9Fx",
-    "featured_text_with_image_TmKp49",
     "featured_cards_LbU947",
-    "featured_cards_dfft77",
     "featured_quotes_YamDdc",
     "featured_text_with_image_FXPR6E",
     "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
-    "featured_hero_qXd6NB",
     "df696699-42a8-4b2a-8976-674c3e309cd2",
     "88f30ef1-5d27-47e7-9655-32f0d8016675",
     "featured_accordion_tDiBLC",
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
-    "featured_articles_QJcNXL",
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
     "featured_accordion_YyyUxg",
     "featured_content_7E4itj"

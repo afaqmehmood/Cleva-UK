@@ -169,7 +169,7 @@
         "card_QDPQUj": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_Power_30_Quick_Lock_Connection_e2779313-ec94-4efa-a23e-e5263e3a4112.webp",
+            "image": "shopify://shop_images/Vacmaster_Power_30_Quick_Lock_Connection.webp",
             "image_loading": "",
             "title": "Quick Lock Connection",
             "text": "<p>With the secure quick-lock connection, there is little chance of the hose ever becoming disconnected from the vacuum unit while you are using it.</p>",
@@ -207,27 +207,16 @@
       "blocks": {
         "quote_z6FiLd": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "text": "Master any mess around the home, garage and workshop",
             "text_alignment": "text-center",
             "name": "",
             "logo": "vacmaster"
           }
-        },
-        "quote_hyMnHR": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Big isn’t always beautiful, but you do seem to get a lot for your money with this Vacmaster\"",
-            "text_alignment": "text-center",
-            "name": "Ideal Home",
-            "logo": ""
-          }
         }
       },
       "block_order": [
-        "quote_z6FiLd",
-        "quote_hyMnHR"
+        "quote_z6FiLd"
       ],
       "settings": {
         "padding_top": "xs",
@@ -344,7 +333,7 @@
           "settings": {
             "image": "shopify://shop_images/Vacmaster_Universal_Power_Tool_Adapter.webp",
             "image_loading": "",
-            "icon": "plus-square",
+            "icon": "plus",
             "title": "Universal Power Tool Adaptor",
             "text": "<p>Securely attach the vacuum hose to a sander, circular saw or other power tool.</p>"
           }
@@ -352,9 +341,9 @@
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Power_30_Vacmaster_On-Board_Accessories_cdfa0eca-3a77-4ffa-8a40-8e0fc3ebfc7e.webp",
+            "image": "shopify://shop_images/Power_30_Vacmaster_On-Board_Accessories.webp",
             "image_loading": "",
-            "icon": "plus-square",
+            "icon": "plus",
             "title": "On Board Accessory Storage",
             "text": "<p>Accessories can be stored on the unit to ensure they are always conveniently to hand.</p>"
           }
@@ -396,7 +385,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Power_30_PTO_Vacmaster_Wet_and_Dry_Vacuum_Cleaner_in_the_Box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -578,7 +566,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

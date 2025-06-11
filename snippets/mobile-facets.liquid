@@ -116,7 +116,6 @@
               <li class="border-b border-grey-50 last:border-b-0">
                 {% render 'facets-sort-by', object: object, is_mobile: true, id_suffix: '-mobile' %}
               </li>
-
             </ul>
           </div>
 
@@ -128,7 +127,7 @@
           -%}
           <div
             class="
-              relative flex items-center flex-wrap justify-between gap-x-4
+              relative flex items-center justify-between gap-x-4
               -mx-[--container-padding-x] pt-3 pb-5 px-[--container-padding-x] border-t border-grey-50
             "
           >
@@ -136,20 +135,12 @@
               {{ 'facets.reset_all' | t }}
             </a>
 
-            
             <button class="form-button form-button--black" type="button" @click="toggle">
               {{ 'facets.apply_selected' | t }}
-              </button>
-            <a class="
-              form-button form-button--transparent-black text-current ring-current font-bold py-1 px-4
-              compare-btn-mobile
-                " href="/products/lawnmaster-drop-and-mow-robot-mower-vbrm16">
-                Compare
-            </a>
+            </button>
           </div>
         </div>
       </div>
     </details>
   </div>
-  
 </form>

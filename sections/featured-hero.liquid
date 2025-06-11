@@ -13,7 +13,7 @@
 {% if blocks %}
   <section
     class="relative {% render 'section-class', section: section %}"
-
+  
     {% if is_carousel %}
       x-data="carousel"
       tabindex="0"
@@ -23,10 +23,9 @@
     {% endif %}
   >
     <div
-      class="flex overflow-y-hidden overflow-x-scroll snap-x snap-mandatory scrollbar-none group/has-video"
+      class="flex overflow-x-scroll snap-x snap-mandatory scrollbar-none group/has-video"
 
       {% if is_carousel %}
-        style="-webkit-overflow-scrolling: touch;"
         x-ref="slider"
       {% endif %}
     >
@@ -37,13 +36,13 @@
           assign block_text_color = block.settings.text_color | default: null
 
           assign block_image = block.settings.image | default: null
-
+        
           assign block_image_mobile = block.settings.image_mobile | default: block_image
-
+        
           assign block_image_loading = block.settings.image_loading | default: null
-
+        
           assign block_video = block.settings.video | default: null
-
+        
           assign block_video_autoplay = block.settings.video_autoplay | default: null
 
           assign block_video_controls = block.settings.video_controls | default: null
@@ -55,13 +54,13 @@
           assign block_logo = block.settings.logo | default: null
 
           assign block_align_content = block.settings.align_content | default: null
-
+        
           assign block_pretitle = block.settings.pretitle | default: null
 
           assign block_title_tag = block.settings.title_tag | default: null
 
           assign block_title_size = block.settings.title_size | default: null
-
+        
           assign block_title = block.settings.title | newline_to_br | default: null
 
           assign block_subtitle_tag = block.settings.subtitle_tag | default: null
@@ -138,15 +137,13 @@
         <div
           class="
             snap-start shrink-0
-            w-full  pt-12 pb-6 relative
-            min-h-[612px] md:min-h-[750px] md:pt-28 md:pb-12
-            {% if block_video %}aspect-video max-h-[750px]{% endif %}
+            w-full min-h-[612px] md:min-h-[750px] pt-12 pb-6 md:pt-28 md:pb-12 relative
           "
           style="
             {% if block_background_color %}
               background-color: {{ block_background_color }};
             {% endif %}
-
+      
             {% if block_text_color %}
               color: {{ block_text_color }};
             {% endif %}
@@ -205,11 +202,10 @@
                 x-transition:enter-end="opacity-100"
                 x-transition:leave-end="opacity-0"
               >
-                {% render 'featured-hero-video', video: block_video, controls: block_video_controls, class: 'md:object-contain' %}
+                {% render 'featured-hero-video', video: block_video, controls: block_video_controls %}
               </div>
             </details>
           {% endif %}
-
           {% if block_image and block_video_autoplay == null %}
             {% render 'featured-hero-image',
               image: block_image,
@@ -247,7 +243,7 @@
                     {{ block_pretitle }}
                   </p>
                 {% endif %}
-
+                
                 {% if block_title or block_subtitle %}
                   <div class="mb-6 md:mb-12 last:mb-0">
                     {% if block_title %}
@@ -266,7 +262,7 @@
                         {% render 'heading', tag: block_title_tag, text: block_title %}
                       </div>
                     {% endif %}
-
+                    
                     {% if block_subtitle %}
                       <div class="text-[16px]/[20px] md:text-[20px]/[25px] -tracking-[0.02em]">
                         {% render 'heading', tag: block_subtitle_tag, text: block_subtitle %}

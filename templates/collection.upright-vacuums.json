@@ -392,31 +392,31 @@
         "card_Mk8NaU": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_Cordless_Vacuum_Cleaners_Explore.webp",
+            "image": "shopify://shop_images/Professional_Vacuum_Cleaners_--_Vacmaster_26860668-3e8a-4b5f-a771-ef8582d3e860.webp",
             "image_loading": "",
-            "title": "Cordless Vacuum Cleaners",
+            "title": "Professional Vacuum Cleaners",
             "text": "",
-            "url": "shopify://collections/vacmaster-cordless-stick-vacuum-cleaners"
+            "url": "shopify://collections/professional-cleaning-vacuum"
           }
         },
         "card_AcmCKP": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_Carpet_Cleaners_Explore.webp",
+            "image": "shopify://shop_images/Air_Movers_and_Fans_d347c7a6-0d21-4381-9808-2bbb50b76080.webp",
             "image_loading": "",
-            "title": "Carpet Cleaners",
+            "title": "Floor Fans",
             "text": "",
-            "url": "shopify://collections/carpet-cleaners"
+            "url": "shopify://collections/floor-fans"
           }
         },
         "card_gpy9jd": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },

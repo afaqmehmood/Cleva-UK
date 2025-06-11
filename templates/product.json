@@ -241,10 +241,6 @@
         "button_url": "/",
         "button_modal": true
       }
-    },
-    "product_comparison_gdReTM": {
-      "type": "product-comparison",
-      "settings": {}
     }
   },
   "order": [
@@ -255,7 +251,6 @@
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
     "featured_accordion_YyyUxg",
     "featured_cards_LbU947",
-    "featured_content_7E4itj",
-    "product_comparison_gdReTM"
+    "featured_content_7E4itj"
   ]
 }

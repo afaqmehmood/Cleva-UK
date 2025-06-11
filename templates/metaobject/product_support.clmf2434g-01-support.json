@@ -46,6 +46,15 @@
         "padding_bottom_mobile": ""
       }
     },
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
     "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb": {
       "type": "featured-text-with-image",
       "blocks": {
@@ -61,10 +70,10 @@
             "title": "LawnMaster MX 24V 34cm Cordless Lawn Mower",
             "subtitle_tag": "h1",
             "subtitle": "Guides, Manuals, Parts & Support",
-            "text": "<p>CLMF2434G-01<br/>CLMF2434G-1-01</p><p>Learn how to set up, use and troubleshoot your LawnMaster mower with instruction manuals, user guides, videos and FAQs.</p>",
+            "text": "<p>CLMF2434G-01<br/></p><p>Learn how to set up, use and troubleshoot your LawnMaster mower with instruction manuals, user guides, videos and FAQs.</p>",
             "button_1_style": "black",
             "button_1_text": "Download Instruction Manual",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Lawnmower_cordless_lawnmaster_CLMF2434G_instruction_manual_2025_lo.pdf?v=1740565787",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Lawnmower_cordless_lawnmaster_CLMF2434G_instruction_manual_2022.pdf?v=1679587124",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": ""
@@ -436,6 +445,7 @@
   },
   "order": [
     "4357080a-a2a5-4163-9ba8-1273f2709095",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "d2ec8ceb-5411-444c-ba08-eadc5a7f92cb",
     "df696699-42a8-4b2a-8976-674c3e309cd2",
     "df696699-42a8-4b2a-8976-674c3e309cd21",

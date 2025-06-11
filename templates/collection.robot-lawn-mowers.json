@@ -343,7 +343,7 @@
           "settings": {
             "full_width_enable": false,
             "title": "Which LawnMaster robot mower is best for me?",
-            "text": "<p>LawnMaster <a href=\"/collections/ocumow\" title=\"OcuMow Robot Mowers\">OcuMow® robot mowers</a> utilise a camera, sensors and Optical Grass Recognition (OGR) software to navigate around the lawn. These mowers are best suited for smaller lawns that have a defined border all around the edge of the lawn.</p><p>LawnMaster <a href=\"/collections/l-series\" title=\"L Series Robot Mowers\">L Series robot mowers</a> use a fixed boundary wire and sensors to navigate around the lawn. These mowers are best suited to medium and large lawns that feature more complex layouts, boundaries or have full borders.</p>",
+            "text": "<p>LawnMaster <a href=\"/collections/ocumow\" title=\"OcuMow Robot Mowers\">OcuMow robot mowers</a> utilise a camera, sensors and Optical Grass Recognition (OGR) software to navigate around the lawn. These mowers are best suited for smaller lawns that have a defined border all around the edge of the lawn.</p><p>LawnMaster <a href=\"/collections/l-series\" title=\"L Series Robot Mowers\">L Series robot mowers</a> use a fixed boundary wire and sensors to navigate around the lawn. These mowers are best suited to medium and large lawns that feature more complex layouts, boundaries or have full borders.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -393,19 +393,19 @@
             "image_loading": ""
           }
         },
-        "a8089af5-3b6e-4354-a94f-a252a935cd68": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/how-mulching-benefits-your-lawn",
-            "image_loading": ""
-          }
-        },
         "e1dc2c1f-1d21-4268-8558-9ab7e2583e9d": {
           "type": "article",
           "settings": {
             "blog": "",
             "article": "news/3-step-winter-maintenance-for-your-lawnmaster-l10-robot-mower",
+            "image_loading": ""
+          }
+        },
+        "a8089af5-3b6e-4354-a94f-a252a935cd68": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/do-these-three-things-to-get-a-lush-green-lawn-naturally",
             "image_loading": ""
           }
         },
@@ -420,8 +420,8 @@
       },
       "block_order": [
         "20f5382f-c283-4fe9-a1bb-47f26fe60401",
-        "a8089af5-3b6e-4354-a94f-a252a935cd68",
         "e1dc2c1f-1d21-4268-8558-9ab7e2583e9d",
+        "a8089af5-3b6e-4354-a94f-a252a935cd68",
         "button_44ppda"
       ],
       "settings": {
@@ -437,40 +437,40 @@
     "featured_cards_JwtbDM": {
       "type": "featured-cards",
       "blocks": {
+        "card_3pMXhB": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_MX24v_Shared_Battery_System_Explore.webp",
+            "image_loading": "",
+            "title": "MX 24V Shared Battery System",
+            "text": "",
+            "url": "shopify://collections/mx-24v-battery-system"
+          }
+        },
         "card_8CXrCD": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-Explore_Cordless_Lawn_Mowers.webp",
+            "image": "shopify://shop_images/LawnMaster_Lawn_Mowers_Cordless_Robot_Electric1.webp",
             "image_loading": "",
             "title": "Cordless Lawn Mowers",
             "text": "",
             "url": "shopify://collections/cordless-lawn-mowers"
           }
         },
-        "card_3pMXhB": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Electric_Lawn_Mowers_Explore.webp",
-            "image_loading": "",
-            "title": "Electric Lawn Mowers",
-            "text": "",
-            "url": "shopify://collections/electric-lawn-mower"
-          }
-        },
         "card_RYPc7G": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
-            "title": "Vacuum Cleaners & Floorcare",
+            "title": "Vacuum Cleaners & Fans",
             "text": "",
-            "url": "shopify://collections/vacuum-cleaners-floorcare"
+            "url": "shopify://collections/vacmaster"
           }
         }
       },
       "block_order": [
-        "card_8CXrCD",
         "card_3pMXhB",
+        "card_8CXrCD",
         "card_RYPc7G"
       ],
       "settings": {

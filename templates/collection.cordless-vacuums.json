@@ -350,6 +350,14 @@
     "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927": {
       "type": "featured-articles",
       "blocks": {
+        "374dfa5e-c387-4bba-8481-7b5163c920fa": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/new-home-cleaning-essentials-1",
+            "image_loading": "lazy"
+          }
+        },
         "a50db38c-6712-4ee2-916a-0abefe6a1107": {
           "type": "article",
           "settings": {
@@ -368,6 +376,7 @@
         },
         "485f4a84-1c2c-41c8-818a-c9876e1aa5c8": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "blog": "",
             "article": "news/how-to-remove-spills-and-stains-from-carpet-rugs-and-upholstery",
@@ -393,6 +402,7 @@
         }
       },
       "block_order": [
+        "374dfa5e-c387-4bba-8481-7b5163c920fa",
         "a50db38c-6712-4ee2-916a-0abefe6a1107",
         "394a5b34-5f1e-4c38-b85b-d58b44bfd063",
         "485f4a84-1c2c-41c8-818a-c9876e1aa5c8",
@@ -415,31 +425,31 @@
         "f21ca91d-dbeb-46fe-ae65-89ea0821861b": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Upright_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "lazy",
-            "title": "Upright Vacuum Cleaners",
+            "title": "Vacuum Cleaners & Floorcare",
             "text": "",
-            "url": "shopify://collections/upright-vacuum-cleaners"
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
           }
         },
         "a2dadb73-3a45-4a18-b2a2-99470b06d3f3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_Carpet_Cleaners_Explore.webp",
+            "image": "shopify://shop_images/Wet_and_Dry_Vacuum_Cleaners.webp",
             "image_loading": "",
-            "title": "Carpet Cleaners",
+            "title": "Wet & Dry Vacuum Cleaners",
             "text": "",
-            "url": "shopify://collections/carpet-cleaners"
+            "url": "shopify://collections/wet-and-dry-vacuum-cleaners"
           }
         },
         "228a23e6-3af5-433c-90ab-21d5710c0149": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },
@@ -454,7 +464,7 @@
         "padding_bottom": "xs",
         "padding_bottom_mobile": "2xs",
         "pretitle": "Explore",
-        "title": "Also Discover",
+        "title": "Also Discover...",
         "text": ""
       }
     },

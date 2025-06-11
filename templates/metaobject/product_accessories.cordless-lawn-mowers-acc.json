@@ -70,6 +70,23 @@
     },
     "13c4de91-4fee-462f-bb16-ad38c30f26f6": {
       "type": "product-support-main",
+      "blocks": {
+        "archived_product_p7MTkx": {
+          "type": "archived_product",
+          "settings": {
+            "image": "shopify://shop_images/CLMF4846A-01_48V46cmCordlessLawnMower_s.webp",
+            "tags": "",
+            "pretitle": "LawnMaster",
+            "title": "60V 46cm",
+            "subtitle": "Cordless Lawn Mower",
+            "features": "",
+            "product_url": "shopify://collections/clmf4846a-01-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "archived_product_p7MTkx"
+      ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",

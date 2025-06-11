@@ -23,7 +23,7 @@
           "type": "usp",
           "settings": {
             "icon": "house",
-            "title": "Buy Direct from the Makers"
+            "title": "Buy direct from the makers"
           }
         },
         "b71fd280-d110-4e31-afbb-2a2740db996a": {
@@ -46,48 +46,151 @@
         "padding_bottom_mobile": ""
       }
     },
-    "featured_text_with_image_zg6nAz": {
-      "type": "featured-text-with-image",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
+      "type": "featured-breadcrumbs",
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34": {
+      "type": "featured-about",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "watermark_enable": false,
+        "scroll_animation_enable": false,
+        "logo": "vacmaster",
+        "pretitle": "",
+        "title_tag": "h1",
+        "title": "Vacmaster Vacuum Cleaners & Fans",
+        "text_truncate_enable": true,
+        "text": "<p>Capture and trap 99.9% of common household dust and allergens with our next generation AllergenPro™ Captura and Respira bagged and bagless upright vacuum cleaner range. Designed for families sensitive to allergens and pets.</p><p>Capture and trap 99.9% of common household dust and allergens with our next generation AllergenPro™ Captura and Respira bagged and bagless upright vacuum cleaner range. Designed for families sensitive to allergens and pets. </p><p>Capture and trap 99.9% of common household dust and allergens with our next generation AllergenPro™ Captura and Respira bagged and bagless upright vacuum cleaner range. Designed for families sensitive to allergens and pets.</p>",
+        "button_style": "black",
+        "button_text": "",
+        "button_url": "/",
+        "image": "shopify://shop_images/collection.jpg",
+        "image_mobile": "shopify://shop_images/collection-mobile.jpg",
+        "image_loading": ""
+      }
+    },
+    "b85e586a-2b07-45d6-9de8-08088ba28d2d": {
+      "type": "featured-subcollections",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm",
+        "subcollections": [
+          "vacuum-cleaners-floorcare",
+          "garage-workshop-vacuum-cleaners",
+          "dust-extractors",
+          "vacmaster-air-movers",
+          "vacmaster-accessories"
+        ]
+      }
+    },
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a": {
+      "type": "featured-quotes",
       "blocks": {
-        "text_with_image_ePd9Dg": {
-          "type": "text-with-image",
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121": {
+          "type": "quote",
           "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Vacmaster_Artificial_Grass_AG_Plus_Accessories.webp",
-            "image_loading": "",
-            "logo": "vacmaster",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Vacmaster WD18 AG+ Garden & Artificial Grass Vacuum Cleaner",
-            "subtitle_tag": "h1",
-            "subtitle": "Accessories & Spare Parts",
-            "text": "<p>VBVB1518PF-01</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
+            "text": "Master any Mess with Vacmaster",
+            "text_alignment": "text-center",
+            "name": "by Cleva",
+            "logo": ""
+          }
+        },
+        "5eff107c-4819-4aa2-be23-93ed5c26a735": {
+          "type": "quote",
+          "settings": {
+            "text": "Trap 99.9% of dust and allergens with the Allergen Pro™ Range.",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": ""
           }
         }
       },
       "block_order": [
-        "text_with_image_ePd9Dg"
+        "f72a23bb-04b4-4c27-b1a7-ea48c78dc121",
+        "5eff107c-4819-4aa2-be23-93ed5c26a735"
       ],
       "settings": {
-        "padding_top": "sm",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm"
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
       }
     },
     "collection-main": {
       "type": "collection-main",
       "settings": {
-        "padding_top": "xs",
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
+      }
+    },
+    "00a3e0c4-2c63-49d6-8758-77e08f85e73c": {
+      "type": "featured-press",
+      "blocks": {
+        "a7f194b5-7e01-47eb-a03e-18f184b459bf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Argos.svg",
+            "image_loading": "lazy"
+          }
+        },
+        "b0c3d483-43a7-45ec-86cf-912a1d4615c0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/expert-reviews.svg",
+            "image_loading": "lazy"
+          }
+        },
+        "3ae5c7f8-cd1b-4899-9f67-ca27b5f56c89": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Wickes.svg",
+            "image_loading": "lazy"
+          }
+        },
+        "0732f5fa-0203-4f29-915e-70ca4901a3c4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/B_Q.svg",
+            "image_loading": "lazy"
+          }
+        },
+        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Range.svg",
+            "image_loading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a7f194b5-7e01-47eb-a03e-18f184b459bf",
+        "b0c3d483-43a7-45ec-86cf-912a1d4615c0",
+        "3ae5c7f8-cd1b-4899-9f67-ca27b5f56c89",
+        "0732f5fa-0203-4f29-915e-70ca4901a3c4",
+        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b"
+      ],
+      "settings": {
+        "padding_top": "sm",
         "padding_top_mobile": "xs",
-        "padding_bottom": "2xs",
-        "padding_bottom_mobile": "2xs"
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "xs",
+        "pretitle": "",
+        "title": "As Seen In",
+        "text": "<p>Our appliances are trusted<br/>by some of the UK’s leading online retailers.</p>"
       }
     },
     "8c87b26b-f533-4c79-b866-25d981fb6652": {
@@ -96,19 +199,19 @@
         "6af24ec3-c3af-44ec-bb32-f39e2b2964c7": {
           "type": "text-with-image",
           "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/Vacmaster_Artificial_Grass_AG_Plus_Spare.webp",
-            "image_loading": "",
+            "align_content": "",
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "lazy",
             "logo": "",
-            "pretitle": "Spare Parts",
-            "title_tag": "h1",
-            "title": "Can't find what you're looking for?",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Built to Last",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for on our website, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p><p><strong>All Vacmaster appliances, spare parts and accessories carry a manufacturer guarantee.</strong></p>",
-            "button_1_style": "link",
-            "button_1_text": "View guarantee",
-            "button_1_url": "shopify://pages/guarantee",
+            "text": "<p>We apply the latest processes<br/>and highest standards of engineering to deliver high performance products that stand the test of time. <strong> </strong></p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
             "button_2_style": "transparent-black",
             "button_2_text": "",
             "button_2_url": ""
@@ -119,153 +222,31 @@
         "6af24ec3-c3af-44ec-bb32-f39e2b2964c7"
       ],
       "settings": {
-        "padding_top": "md",
-        "padding_top_mobile": "sm",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm"
-      }
-    },
-    "1718197557f74efc61": {
-      "type": "apps",
-      "blocks": {
-        "hulk_form_builder_form_block_nizPag": {
-          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-          "settings": {
-            "form_uuid": "otjOjpGJNTLkEoKsicfZrA",
-            "form_settings": false,
-            "font_color": "#000000",
-            "size": 14,
-            "input_background_color": "#ffffff",
-            "input_background_color_focus": "#f4dada",
-            "input_border_radius": 1,
-            "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2d2727",
-            "input_font_color": "#3d3131",
-            "input_size": 14,
-            "border_color": "#121212",
-            "border_radius": 2,
-            "border": 1,
-            "fill_color": "#ebe9e9",
-            "padding": 35,
-            "form_width": 600,
-            "btn_text": "Submit",
-            "sub_btn_txt_color": "#f3f3f3",
-            "sub_btn_bg_color": "#3f3333",
-            "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#ffffff",
-            "sub_btn_bdr_rad": 3,
-            "sub_btn_bdr_width": 1,
-            "fonts": "Times New Roman"
-          }
-        }
-      },
-      "block_order": [
-        "hulk_form_builder_form_block_nizPag"
-      ],
-      "settings": {
-        "background_color": "bg-grey-50",
-        "padding_top": "md",
-        "padding_top_mobile": "sm",
-        "padding_bottom": "2xs",
-        "padding_bottom_mobile": "2xs"
-      }
-    },
-    "featured_accordion_cEwgck": {
-      "type": "featured-accordion",
-      "blocks": {
-        "entry_6c3GQC": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "Will this vacuum damage my artificial grass?",
-            "text": "<p>No. The Vacmaster artificial grass tool is tough on dirt, but gentle on your lawn. This specially developed tool combines nylon brushes with innovative moulded combs to gently dislodge and lift away dirt and debris as you clean. </p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_7EjABV": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "Does the Vacmaster WD18 AG+ use dustbags?",
-            "text": "<p>We don’t recommend you use a dust bag when using the Vacmaster WD18 AG+ outside and when vacuuming a mixture of wet and dry debris from your lawn. A dust bag can however be used when working in normal dusty or indoor environments.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "entry_6c3GQC",
-        "entry_7EjABV"
-      ],
-      "disabled": true,
-      "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "xs",
-        "background_color": "#ffffff",
-        "text_color": "#000000",
-        "image_loading": "",
-        "watermark_enable": false,
-        "pretitle": "FAQs",
-        "title_size": "small",
-        "title": "Most Popular FAQs",
-        "text": ""
-      }
-    },
-    "featured_quotes_LbHn9K": {
-      "type": "featured-quotes",
-      "blocks": {
-        "quote_76UFBx": {
-          "type": "quote",
-          "settings": {
-            "text": "Never compromise on performance with original Vacmaster spares",
-            "text_alignment": "text-center",
-            "name": "",
-            "logo": "vacmaster"
-          }
-        }
-      },
-      "block_order": [
-        "quote_76UFBx"
-      ],
-      "disabled": true,
-      "settings": {
         "padding_top": "xs",
         "padding_top_mobile": "xs",
-        "padding_bottom": "md",
-        "padding_bottom_mobile": "sm",
-        "scroll_animation_enable": true
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
       }
     },
     "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927": {
       "type": "featured-articles",
       "blocks": {
+        "374dfa5e-c387-4bba-8481-7b5163c920fa": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/head-to-head-how-the-vacmaster-d8-vza0708p-compares-to-the-henry-hvr-160-11",
+            "image_loading": "lazy"
+          }
+        },
+        "a50db38c-6712-4ee2-916a-0abefe6a1107": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/indoor-training-keep-cool-and-get-results-with-a-cardio-fitness-fan",
+            "image_loading": ""
+          }
+        },
         "394a5b34-5f1e-4c38-b85b-d58b44bfd063": {
           "type": "article",
           "settings": {
@@ -274,19 +255,19 @@
             "image_loading": ""
           }
         },
-        "374dfa5e-c387-4bba-8481-7b5163c920fa": {
+        "485f4a84-1c2c-41c8-818a-c9876e1aa5c8": {
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/what-are-the-benefits-of-a-garden-vacuum-cleaner",
-            "image_loading": "lazy"
+            "article": "news/how-to-remove-spills-and-stains-from-carpet-rugs-and-upholstery",
+            "image_loading": ""
           }
         },
-        "a50db38c-6712-4ee2-916a-0abefe6a1107": {
+        "8dbf8d68-d089-499e-b109-bd98b09bd2d7": {
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/5-tips-to-make-your-lawn-thrive",
+            "article": "news/vacuum-cleaners-a-guide-to-buying-the-right-dust-bags",
             "image_loading": ""
           }
         },
@@ -300,19 +281,69 @@
         }
       },
       "block_order": [
-        "394a5b34-5f1e-4c38-b85b-d58b44bfd063",
         "374dfa5e-c387-4bba-8481-7b5163c920fa",
         "a50db38c-6712-4ee2-916a-0abefe6a1107",
+        "394a5b34-5f1e-4c38-b85b-d58b44bfd063",
+        "485f4a84-1c2c-41c8-818a-c9876e1aa5c8",
+        "8dbf8d68-d089-499e-b109-bd98b09bd2d7",
         "button_VxEfmz"
       ],
-      "disabled": true,
       "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
         "padding_bottom": "xs",
         "padding_bottom_mobile": "xs",
         "pretitle": "Learn",
         "title": "News & Advice",
+        "text": ""
+      }
+    },
+    "b5e892ef-f729-4f8c-986d-a902e0e4938d": {
+      "type": "featured-cards",
+      "blocks": {
+        "f21ca91d-dbeb-46fe-ae65-89ea0821861b": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster-Carpet-Spot-Cleaner-EasyClean-Clean-Spilt-Drink-SCA0801.jpg",
+            "image_loading": "lazy",
+            "title": "For the home",
+            "text": "",
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
+          }
+        },
+        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_48V_Cordless_Lawn_Mower_Hero_CLMF4841E.jpg",
+            "image_loading": "",
+            "title": "For the garden",
+            "text": "",
+            "url": "shopify://collections/lawnmaster"
+          }
+        },
+        "228a23e6-3af5-433c-90ab-21d5710c0149": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_110V_M-Class_VDK1138SWC-110_Hero.jpg",
+            "image_loading": "",
+            "title": "For the professional",
+            "text": "",
+            "url": "shopify://collections/dust-extractors"
+          }
+        }
+      },
+      "block_order": [
+        "f21ca91d-dbeb-46fe-ae65-89ea0821861b",
+        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3",
+        "228a23e6-3af5-433c-90ab-21d5710c0149"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
+        "pretitle": "Discover",
+        "title": "Find Your Perfect Solution",
         "text": ""
       }
     },
@@ -323,50 +354,25 @@
           "type": "button",
           "settings": {
             "style": "white",
-            "text": "View Support Page",
-            "url": "https://www.cleva-uk.com/pages/product-support/vacmaster-wd-18-ag-garden-vacuum-cleaner-blower"
+            "text": "Go to support",
+            "url": "shopify://pages/vacmaster-support"
           }
         },
         "1d9243aa-1948-4d40-9c7d-f69d796691ca": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Vacmaster Guarantee",
-            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a manufacturer guarantee. </p>",
+            "title": "Cleva Guarantee",
+            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "link",
             "button_2_text": "View guarantee",
-            "button_2_url": "shopify://pages/guarantee",
+            "button_2_url": "shopify://pages/vacmaster-guarantee",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "e7eb8d83-4d05-49a0-97df-c0fdd0096242": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "Delivery and Returns",
-            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
-            "button_1_style": "white",
-            "button_1_text": "View Delivery Page",
-            "button_1_url": "shopify://pages/delivery",
-            "button_2_style": "white",
-            "button_2_text": "View Returns Page",
-            "button_2_url": "shopify://pages/returns-policy",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -374,12 +380,11 @@
         "ada9a5c7-b78b-448b-be7d-e4ed7410d133": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "UK Customer Support",
             "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
             "button_1_style": "link",
             "button_1_text": "Ask a question",
-            "button_1_url": "shopify://pages/contact-us",
+            "button_1_url": "shopify://pages/contact",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
@@ -387,8 +392,25 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242": {
+          "type": "entry",
+          "settings": {
+            "title": "How We Can Help",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "link",
+            "button_1_text": "Read more",
+            "button_1_url": "shopify://pages/delivery",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
             "video_1": "",
             "video_2": ""
           }
@@ -397,8 +419,8 @@
       "block_order": [
         "b1111e40-9939-4b59-a28a-0f3860c554d5",
         "1d9243aa-1948-4d40-9c7d-f69d796691ca",
-        "e7eb8d83-4d05-49a0-97df-c0fdd0096242",
-        "ada9a5c7-b78b-448b-be7d-e4ed7410d133"
+        "ada9a5c7-b78b-448b-be7d-e4ed7410d133",
+        "e7eb8d83-4d05-49a0-97df-c0fdd0096242"
       ],
       "settings": {
         "padding_top": "xs",
@@ -423,8 +445,8 @@
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "pretitle": "Keep Updated",
-        "title": "Sign up for 10% off",
-        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "title": "10% off when you sign up to hear from us",
+        "text": "<p>Join our community to access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
         "button_style": "gold",
         "button_text": "Sign up",
         "button_url": "/",
@@ -434,13 +456,15 @@
   },
   "order": [
     "4357080a-a2a5-4163-9ba8-1273f2709095",
-    "featured_text_with_image_zg6nAz",
+    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
+    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34",
+    "b85e586a-2b07-45d6-9de8-08088ba28d2d",
+    "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a",
     "collection-main",
+    "00a3e0c4-2c63-49d6-8758-77e08f85e73c",
     "8c87b26b-f533-4c79-b866-25d981fb6652",
-    "1718197557f74efc61",
-    "featured_accordion_cEwgck",
-    "featured_quotes_LbHn9K",
     "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927",
+    "b5e892ef-f729-4f8c-986d-a902e0e4938d",
     "96321673-9ad1-4fe2-b4a0-e97c46c50acb",
     "ba486b1a-9132-469d-a5bc-06bdea19a01c"
   ]

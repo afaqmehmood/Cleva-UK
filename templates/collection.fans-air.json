@@ -403,40 +403,40 @@
     "featured_cards_6FKL4n": {
       "type": "featured-cards",
       "blocks": {
-        "card_tAVGkz": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster_Professional_Vacuum_Cleaners_Explore.webp",
-            "image_loading": "",
-            "title": "Professional Vacuum Cleaners",
-            "text": "",
-            "url": "shopify://collections/professional-cleaning-vacuum"
-          }
-        },
         "card_wY96qq": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
             "title": "Vacuum Cleaners & Floorcare",
             "text": "",
             "url": "shopify://collections/vacuum-cleaners-floorcare"
           }
         },
+        "card_tAVGkz": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Wet_and_Dry_Vacuum_Cleaners.webp",
+            "image_loading": "",
+            "title": "Wet and Dry Vacuum Cleaners",
+            "text": "",
+            "url": "shopify://collections/wet-and-dry-vacuum-cleaners"
+          }
+        },
         "card_U6iQMn": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },
       "block_order": [
-        "card_tAVGkz",
         "card_wY96qq",
+        "card_tAVGkz",
         "card_U6iQMn"
       ],
       "settings": {

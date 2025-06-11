@@ -53,7 +53,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/VK1638SWC_L38_Dust_Extractor_Support_Accessories.webp",
+            "image": "shopify://shop_images/VK1638SWC_L38_Dust_Extractor_Accessories.webp",
             "image_loading": "",
             "logo": "vacmaster",
             "pretitle": "",
@@ -97,7 +97,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "reverse",
-            "image": "shopify://shop_images/VK1638SWC_L38_Dust_Extractor-Spare_Parts.webp",
+            "image": "shopify://shop_images/VK1638SWC_L38_Dust_Extractor_Spare_Parts.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "Spare Parts",

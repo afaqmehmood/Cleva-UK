@@ -119,7 +119,7 @@
             "title": "Advanced Technology, Simplified.",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>The LawnMaster OcuMow® 16 bare robot mower combines a camera and sensors with Optical Grass Recognition (OGR) software to identify grass and navigate around your lawn without the need for a boundary wire, outdoor power socket or app. </p>",
+            "text": "<p>The LawnMaster OcuMow™ bare robot mower combines a camera and sensors with Optical Grass Recognition (OGR) software to identify grass and navigate around your lawn without the need for a boundary wire, outdoor power socket or app. </p>",
             "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "",
@@ -395,7 +395,7 @@
             "image_loading": "",
             "icon": "sqaure-circle-corners",
             "title": "Shared Battery System",
-            "text": "<p>Our OcuMow® range of robot mowers are compatible with the LawnMaster MX 24V Shared Battery System. This model excludes battery and charger.</p>"
+            "text": "<p>Our OcuMow range of robot mowers are compatible with the LawnMaster MX 24V Shared Battery System. This model excludes battery and charger.</p>"
           }
         },
         "501a6d11-0820-42d7-9455-af4a760a8e04": {
@@ -492,8 +492,8 @@
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "Is OcuMow® 16 Right For My Garden?",
-            "text": "<p>Is the LawnMaster OcuMow® 16 the right robot mower for your garden? Watch this video to discover all you need to know about starting and running your robotic lawn mower:</p>",
+            "title": "Is OcuMow Right For My Garden?",
+            "text": "<p>Is the LawnMaster OcuMow VBRM16 the right robot mower for your garden? Watch this video to discover all you need to know about starting and running your robotic lawn mower:</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -665,7 +665,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "How does it work?",
-            "text": "<p>The OcuMow® 16 uses a camera combined with two ultrasonic sensors to navigate around your garden. The camera detects the difference between surface textures and colours, for example grass or paving, and the ultrasonic sensors detect obstacles higher than 6cm, such as plants, garden furniture, walls and fences meaning there is no need for a boundary wire.<br/><br/>To keep the mower within the lawn area, your lawn must be bordered on all sides by a hard, visually distinctive border. This can be a flat border of paving, gravel or wooden boards, or a raised edge such as border edging, walls or fences. The mower can detect some edges that are not distinctive however for best and correct operation making your borders clearly defined will improve edge detection and allow the robot to work correctly.</p>",
+            "text": "<p>The VBRM16 OcuMow™ uses a camera combined with two ultrasonic sensors to navigate around your garden. The camera detects the difference between surface textures and colours, for example grass or paving, and the ultrasonic sensors detect obstacles higher than 6cm, such as plants, garden furniture, walls and fences meaning there is no need for a boundary wire.<br/><br/>To keep the mower within the lawn area, your lawn must be bordered on all sides by a hard, visually distinctive border. This can be a flat border of paving, gravel or wooden boards, or a raised edge such as border edging, walls or fences. The mower can detect some edges that are not distinctive however for best and correct operation making your borders clearly defined will improve edge detection and allow the robot to work correctly.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -709,7 +709,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "Can it stay on the lawn 24/7?",
-            "text": "<p>Unlike traditional robots the OcuMow® 16 is designed to Drop and Mow. The mower is designed to be placed on the lawn once or twice a week and will mow for up to 4 hours on a single charge covering 100m2. The mower should be stored away in a dry place between uses.</p>",
+            "text": "<p>Unlike traditional robots the VBRM16 OcuMow™ is designed to Drop and Mow. The mower is designed to be placed on the lawn once or twice a week and will mow for up to 4 hours on a single charge covering 100m2. The mower should be stored away in a dry place between uses.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -731,7 +731,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "Will it cut up to edges?",
-            "text": "<p>The mower stops approximately 10 - 20cm away from the edge of the lawn, meaning some grass will remain uncut. This can easily be taken care of with a grass trimmer such as our battery compatible LawnMaster MX 24V Grass Trimmer. Lawn edges should be kept neatly trimmed so that the OcuMow® 16 can easily see the edge of the lawn.</p>",
+            "text": "<p>The mower stops approximately 10 - 20cm away from the edge of the lawn, meaning some grass will remain uncut. This can easily be taken care of with a grass trimmer such as our battery compatible LawnMaster MX 24V Grass Trimmer. Lawn edges should be kept neatly trimmed so that the VBRM16 OcuMow™ can easily see the edge of the lawn.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -753,7 +753,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "My lawn has hard borders/raised edges but is bigger than 100m2, can I still use this mower?",
-            "text": "<p>The OcuMow® 16 works with our MX 24V 4.0Ah battery. The mower will cover 100m2 on a single charge. Lawn coverage can be increased with additional batteries (sold separately).</p>",
+            "text": "<p>The VBRM16 OcuMow™ works with our MX 24V 4.0Ah battery. The mower will cover 100m2 on a single charge. Lawn coverage can be increased with additional batteries (sold separately).</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -775,7 +775,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "Can the mower be used at night?",
-            "text": "<p>No. As the OcuMow® 16 requires good light in order for the camera to function, this mower can only be used in the daytime. The robot will not operate outside daylight hours.</p>",
+            "text": "<p>No. As the VBRM16 OcuMow™ requires good light in order for the camera to function, this mower can only be used in the daytime. The robot will not operate outside daylight hours.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -797,7 +797,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "What happens to the grass clippings?",
-            "text": "<p>The grass is cut using three small sharp blades and the clippings are returned to the lawn surface where the nutrients contained in them fertilise the soil. This means stronger, healthier grass with less need for supplemental fertiliser and has the added bonus of helping the lawn retain water in dry periods. It also means no grass clippings to dispose of or compost. Provided that the OcuMow® 16 is used regularly (i.e., once or twice a week) the clippings are not visible to the eye.</p>",
+            "text": "<p>The grass is cut using three small sharp blades and the clippings are returned to the lawn surface where the nutrients contained in them fertilise the soil. This means stronger, healthier grass with less need for supplemental fertiliser and has the added bonus of helping the lawn retain water in dry periods. It also means no grass clippings to dispose of or compost. Provided that the VBRM16 OcuMow™ is used regularly (i.e., once or twice a week) the clippings are not visible to the eye.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -819,7 +819,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "Can this mower be used in a garden with a pond?",
-            "text": "<p>It is possible to use the OcuMow® 16 on lawns with a pond, however it is strongly recommended that the pond is surrounded by a raised barrier to safeguard against the mower falling in. We recommend either a raised edge or a paved/gravel border at least 75cm wide surrounding the pond. Water damaged mowers are not covered under guarantee.</p>",
+            "text": "<p>It is possible to use the VBRM16 OcuMow™ on lawns with a pond, however it is strongly recommended that the pond is surrounded by a raised barrier to safeguard against the mower falling in. We recommend either a raised edge or a paved/gravel border at least 75cm wide surrounding the pond. Water damaged mowers are not covered under guarantee.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -841,7 +841,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "Is it safe to use around pets and children?",
-            "text": "<p>The OcuMow® 16 has a safety key which can be removed to prevent children starting the mower unsupervised. Safety sensors stop the blades if the mower is lifted or flips over. The mower is also equipped with ultrasonic sensors which will avoid obstacles higher than 6cm. We recommend that children and pets are not left unsupervised with the mower while it is operating.</p>",
+            "text": "<p>The VBRM16 OcuMow™ has a safety key which can be removed to prevent children starting the mower unsupervised. Safety sensors stop the blades if the mower is lifted or flips over. The mower is also equipped with ultrasonic sensors which will avoid obstacles higher than 6cm. We recommend that children and pets are not left unsupervised with the mower while it is operating.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",

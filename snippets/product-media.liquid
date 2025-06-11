@@ -21,10 +21,9 @@
       {% endif %}
 
       <ul
-        class="flex overflow-y-hidden overflow-x-scroll snap-x snap-mandatory scrollbar-none -ml-2"
-
+        class="flex overflow-x-scroll snap-x snap-mandatory scrollbar-none -ml-2"
+        
         {% if product.media.size > 1 %}
-          style="-webkit-overflow-scrolling: touch;"
           x-ref="slider"
         {% endif %}
       >

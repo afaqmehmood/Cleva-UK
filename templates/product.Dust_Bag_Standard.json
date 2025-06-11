@@ -64,111 +64,6 @@
         "padding_bottom_mobile": "sm"
       }
     },
-    "featured_features_Y3Fx6q": {
-      "type": "featured-features",
-      "blocks": {
-        "feature_n7346f": {
-          "type": "feature",
-          "settings": {
-            "image_loading": "",
-            "icon": "brushroll",
-            "title": "Brushroll Text",
-            "text": "<p>Brushroll Text Brushroll Text Brushroll Text</p>"
-          }
-        },
-        "feature_FnPCCE": {
-          "type": "feature",
-          "settings": {
-            "image_loading": "",
-            "icon": "brushroll-single",
-            "title": "Brushroll - Single Text",
-            "text": "<p>Brushroll - Single Text Brushroll - Single Text Brushroll - Single Text</p>"
-          }
-        },
-        "feature_dU6tfp": {
-          "type": "feature",
-          "settings": {
-            "image_loading": "",
-            "icon": "brushroll-double",
-            "title": "Brushroll - Double Text",
-            "text": "<p>Brushroll - Double Text Brushroll - Double Text Brushroll - Double Text</p>"
-          }
-        },
-        "feature_PY9dCz": {
-          "type": "feature",
-          "settings": {
-            "image_loading": "",
-            "icon": "brushroll-double-overlap",
-            "title": "Brushroll - Double Overlay Text",
-            "text": "<p>Brushroll - Double Overlay Text Brushroll - Double Overlay Text Brushroll - Double Overlay Text</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_n7346f",
-        "feature_FnPCCE",
-        "feature_dU6tfp",
-        "feature_PY9dCz"
-      ],
-      "settings": {
-        "padding_top": "md",
-        "padding_top_mobile": "sm",
-        "padding_bottom": "md",
-        "padding_bottom_mobile": "sm",
-        "pretitle": "",
-        "title": "",
-        "text": ""
-      }
-    },
-    "featured_text_with_icon_EGyVxG": {
-      "type": "featured-text-with-icon",
-      "blocks": {
-        "text_with_icon_q4x6ti": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "brushroll",
-            "title": "Brushroll - Text",
-            "text": "<p>Brushroll - Text Brushroll - Text</p>"
-          }
-        },
-        "text_with_icon_3phHwX": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "brushroll-single",
-            "title": "Brushroll - Single Text",
-            "text": "<p>Brushroll - Single Text Brushroll - Single Text</p>"
-          }
-        },
-        "text_with_icon_NEitXP": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "brushroll-double",
-            "title": "Brushroll - Double Text",
-            "text": "<p>Brushroll - Double Text Brushroll - Double Text</p>"
-          }
-        },
-        "text_with_icon_WtbFCd": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "brushroll-double-overlap",
-            "title": "Brushroll - Double overlay Text",
-            "text": "<p>Brushroll - Double overlay Text Brushroll - Double overlay Text</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_with_icon_q4x6ti",
-        "text_with_icon_3phHwX",
-        "text_with_icon_NEitXP",
-        "text_with_icon_WtbFCd"
-      ],
-      "settings": {
-        "padding_top": "md",
-        "padding_top_mobile": "sm",
-        "padding_bottom": "md",
-        "padding_bottom_mobile": "sm"
-      }
-    },
     "featured_cards_iAmDwi": {
       "type": "featured-cards",
       "blocks": {
@@ -567,8 +462,6 @@
     "4357080a-a2a5-4163-9ba8-1273f2709095",
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
-    "featured_features_Y3Fx6q",
-    "featured_text_with_icon_EGyVxG",
     "featured_cards_iAmDwi",
     "featured_cards_BWX6XH",
     "df696699-42a8-4b2a-8976-674c3e309cd2",

@@ -283,7 +283,7 @@
         "card_GE889Q": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
             "title": "Vacuum Cleaners & Floorcare",
             "text": "",
@@ -293,21 +293,21 @@
         "card_JMHaDH": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_Professional_Vacuum_Cleaners_Explore.webp",
+            "image": "shopify://shop_images/Cylinder_Vacuum_Cleaners_-_Vacmaster_ea4daf9a-f286-4a4d-9f59-87ca1ce0deea.webp",
             "image_loading": "",
-            "title": "Professional Vacuum Cleaners",
+            "title": "Cylinder Vacuum Cleaners",
             "text": "",
-            "url": "shopify://collections/professional-cleaning-vacuum"
+            "url": "shopify://collections/cylinder-vacuum-cleaners"
           }
         },
         "card_acftTj": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },

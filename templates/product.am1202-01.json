@@ -123,7 +123,7 @@
             "image": "shopify://shop_images/Vacmaster_Floor_Fans_Air_Three_Tilt_Positions.webp",
             "image_loading": "lazy",
             "title": "Three Tilt Positions",
-            "text": "<p>Tilts at 0, 45 or 90 degrees, horizontally and vertically for a precise, focused air flow.</p>",
+            "text": "<p>Tilts at 0, 45 or 90 degrees, horizontally and vertically for a precise, focussed air flow.</p>",
             "url": ""
           }
         },
@@ -313,9 +313,7 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [
-
-            ],
+            "products": [],
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -337,9 +335,7 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [
-
-            ],
+            "products": [],
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -361,9 +357,7 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [
-
-            ],
+            "products": [],
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -377,7 +371,7 @@
             "text": "",
             "button_1_style": "white",
             "button_1_text": "Download",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/air-mover_cooling-fan_carpet_drying-fan_vacmaster_AM1202_manual_2024.pdf?v=1730824518",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/air-mover_cooling-fan_carpet_drying-fan_vacmaster_AM1202_manual.pdf?v=1679586658",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
@@ -385,9 +379,7 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [
-
-            ],
+            "products": [],
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -423,7 +415,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
@@ -464,9 +456,7 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [
-
-            ],
+            "products": [],
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -488,9 +478,7 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [
-
-            ],
+            "products": [],
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -512,9 +500,7 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [
-
-            ],
+            "products": [],
             "image_loading": "",
             "video_1": "",
             "video_2": ""

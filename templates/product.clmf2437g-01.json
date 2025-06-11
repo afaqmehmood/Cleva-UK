@@ -260,7 +260,7 @@
             "text": "Reach new limits with this feature-packed cordless lawn mower",
             "text_alignment": "text-center",
             "name": "",
-            "logo": "lawnmaster"
+            "logo": ""
           }
         }
       },
@@ -319,34 +319,11 @@
             "button_2_text": "",
             "button_2_url": ""
           }
-        },
-        "text_with_image_89ELbW": {
-          "type": "text-with-image",
-          "disabled": true,
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/USB_Power_Adapter_Free_with_Cordless_Mower.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Free USB Power Bank Adapter",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Adapter to convert LawnMaster 24V and MX 24V batteries to a handy USB power bank. Perfect for charging USB devices while camping or doing DIY. Can charge up to 2 devices simultaneously with a total output current of 2.1A.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
         }
       },
       "block_order": [
         "text_with_image_67Kbzd",
-        "text_with_image_8krqyC",
-        "text_with_image_89ELbW"
+        "text_with_image_8krqyC"
       ],
       "settings": {
         "padding_top": "xs",
@@ -371,7 +348,7 @@
         "501a6d11-0820-42d7-9455-af4a760a8e04": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_MX_24V_37cm_Carry-Handle.webp",
+            "image": "shopify://shop_images/LawnMaster_MX_24V_37cm_Carry_Handle.webp",
             "image_loading": "",
             "icon": "tools",
             "title": "Carry Handle",
@@ -381,7 +358,7 @@
         "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_MX_24V_37cm-Foam_Handles.webp",
+            "image": "shopify://shop_images/LawnMaster_MX_24V_37cm_Foam_Handles.webp",
             "image_loading": "",
             "icon": "touch",
             "title": "Soft Grip Handle",
@@ -391,7 +368,7 @@
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_MX_24V_37cm-Safety_Key.webp",
+            "image": "shopify://shop_images/LawnMaster_MX_24V_37cm_Safety_Key.webp",
             "image_loading": "",
             "icon": "plus-square",
             "title": "Safety Key Child Lock",
@@ -410,8 +387,8 @@
         "padding_top_mobile": "2xs",
         "padding_bottom": "md",
         "padding_bottom_mobile": "sm",
-        "pretitle": "",
-        "title": "",
+        "pretitle": "Features",
+        "title": "Features & Benefits",
         "text": ""
       }
     },
@@ -435,7 +412,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/MX_24v_37cm_Cordless_Lawn_Mower_in_the_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -573,7 +549,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

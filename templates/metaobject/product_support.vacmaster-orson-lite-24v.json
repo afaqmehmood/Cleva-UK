@@ -87,7 +87,7 @@
         "padding_top": "sm",
         "padding_top_mobile": "xs",
         "padding_bottom": "md",
-        "padding_bottom_mobile": "sm"
+        "padding_bottom_mobile": "md"
       }
     },
     "17a3b995-b420-4150-8d7a-9378987a0729": {
@@ -96,7 +96,7 @@
         "padding_top": "",
         "padding_top_mobile": "",
         "padding_bottom": "md",
-        "padding_bottom_mobile": "sm",
+        "padding_bottom_mobile": "md",
         "mode": "",
         "background_image": "exclamation",
         "pretitle": "",
@@ -111,8 +111,7 @@
         "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Design Excellence",
+            "title": "01 Design Excellence",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "black",
             "button_1_text": "Shop now",
@@ -124,8 +123,6 @@
             "html": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"n4AXlzC14WSSFrto9esRBQ\"></div>",
             "collection": "all",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -133,8 +130,7 @@
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Outstanding Service",
+            "title": "02 Outstanding Service",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "",
             "button_1_text": "",
@@ -146,8 +142,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -155,8 +149,7 @@
         "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Educate, Inform and Support",
+            "title": "03 Educate, Inform and Support",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "",
             "button_1_text": "",
@@ -168,8 +161,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -184,7 +175,7 @@
         "padding_top": "",
         "padding_top_mobile": "",
         "padding_bottom": "md",
-        "padding_bottom_mobile": "sm",
+        "padding_bottom_mobile": "md",
         "background_color": "rgba(0,0,0,0)",
         "text_color": "#000000",
         "image_loading": "",
@@ -201,8 +192,7 @@
         "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Design Excellence",
+            "title": "01 Design Excellence",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "white",
             "button_1_text": "Shop now",
@@ -214,8 +204,6 @@
             "html": "",
             "collection": "all",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -223,8 +211,7 @@
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Outstanding Service",
+            "title": "02 Outstanding Service",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "black",
             "button_1_text": "",
@@ -236,8 +223,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "https://www.youtube.com/watch?v=9Q5yMrDWr7I&ab_channel=ClevaEurope",
             "video_2": "https://www.youtube.com/watch?v=9Q5yMrDWr7I&ab_channel=ClevaEurope"
           }
@@ -245,8 +230,7 @@
         "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Educate, Inform and Support",
+            "title": "03 Educate, Inform and Support",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "",
             "button_1_text": "",
@@ -258,8 +242,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -320,10 +302,10 @@
       ],
       "settings": {
         "padding_top": "md",
-        "padding_top_mobile": "sm",
+        "padding_top_mobile": "md",
         "padding_bottom": "md",
-        "padding_bottom_mobile": "sm",
-        "pretitle": "Learn",
+        "padding_bottom_mobile": "md",
+        "pretitle": "Help",
         "title": "News & Advice",
         "text": ""
       }
@@ -350,7 +332,6 @@
         "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "01 Design Excellence",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "white",
@@ -363,8 +344,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -372,7 +351,6 @@
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "02 Outstanding Service",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "black",
@@ -385,8 +363,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -394,7 +370,6 @@
         "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "03 Educate, Inform and Support",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "",
@@ -407,8 +382,6 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -446,7 +419,7 @@
         "pretitle": "Cleva Newsletter",
         "title": "Join our newsletter for 10% off",
         "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. </p>",
-        "button_style": "gold",
+        "button_style": "black",
         "button_text": "Sign Up",
         "button_url": "/",
         "button_modal": true

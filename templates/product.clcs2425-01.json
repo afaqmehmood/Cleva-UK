@@ -130,7 +130,7 @@
         "card_p3THhR": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_Chainsaw_image_with_Text.webp",
+            "image": "shopify://shop_images/LawnMaster_MX_24v_25cm_Laser_Cut_blade.webp",
             "image_loading": "",
             "title": "Lightweight & Ergonomic",
             "text": "<p>The perfect chain saw for jobs around UK gardens such as pruning and felling small trees and large shrubs, cutting down waste wood, and preparing firewood.</p>",
@@ -294,9 +294,9 @@
           "settings": {
             "image": "shopify://shop_images/LawnMaster_MX_24v_25cm_Chainsaw_Oil.webp",
             "image_loading": "",
-            "icon": "plus-square",
+            "icon": "plus",
             "title": "Includes Chainsaw Oil",
-            "text": "<p>Supplied with 100ml of high quality biodegradable anti-fling chain oil.</p>"
+            "text": "<p>Supplied with 100ml of high quality biodegradable anti-fling chain oil is included in the box. </p>"
           }
         }
       },
@@ -541,7 +541,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

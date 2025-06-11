@@ -481,7 +481,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/In_the_Box_VDK1538SWC-01M.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -687,7 +686,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "featured_articles_6pYXMw": {
@@ -706,14 +705,6 @@
           "settings": {
             "blog": "",
             "article": "news/dust-extractors-push-clean-filter-pcf-system-explained",
-            "image_loading": ""
-          }
-        },
-        "article_H7VkyF": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/silicosis-and-dust-management-at-work",
             "image_loading": ""
           }
         },
@@ -737,7 +728,6 @@
       "block_order": [
         "article_pU7fUE",
         "article_UYtKY9",
-        "article_H7VkyF",
         "article_TkyhFC",
         "article_Br7Rxg"
       ],

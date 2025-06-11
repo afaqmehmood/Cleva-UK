@@ -112,22 +112,6 @@
         "padding_bottom_mobile": "xs"
       }
     },
-    "featured_promo_wm7PPL": {
-      "type": "featured-promo",
-      "disabled": true,
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "2xs",
-        "mode": "",
-        "background_image": "exclamation",
-        "pretitle": "",
-        "title": "Christmas Opening Hours",
-        "text_size": "small",
-        "text": "<p>Our office hours will be limited over the festive period so it might take us a little longer to get back to you than usual; we will close December 23rd at 12 noon, and re-open on Monday 4th January.</p>"
-      }
-    },
     "featured_accordion_XDF3Nb": {
       "type": "featured-accordion",
       "blocks": {
@@ -248,7 +232,6 @@
     "featured_usp_iMnE3e",
     "featured_about_zNj6Nq",
     "17023606968e20444f",
-    "featured_promo_wm7PPL",
     "featured_accordion_XDF3Nb",
     "featured_content_gzm7f9"
   ]

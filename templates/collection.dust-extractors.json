@@ -456,17 +456,17 @@
         "card_68K8hg": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_wet_and_dry_Vacuum_Cleaners_Explore.webp",
+            "image": "shopify://shop_images/Vacmaster_Floorcare_and_vacuum_cleaners.webp",
             "image_loading": "",
-            "title": "Wet & Dry Vacuum Cleaners",
+            "title": "Vacuum Cleaners & Floorcare",
             "text": "",
-            "url": "shopify://collections/wet-and-dry-vacuum-cleaners"
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
           }
         },
         "card_ExVR9B": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Air_Movers_Explore.webp",
+            "image": "shopify://shop_images/Air_Movers_and_Fans_d347c7a6-0d21-4381-9808-2bbb50b76080.webp",
             "image_loading": "",
             "title": "Floor Fans",
             "text": "",
@@ -476,11 +476,11 @@
         "card_Xig8wh": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-_Garden_Power_Tools.webp",
+            "image": "shopify://shop_images/LawnMaster_Garden_POwer.webp",
             "image_loading": "",
-            "title": "Garden Power Tools",
+            "title": "Garden Power",
             "text": "",
-            "url": "shopify://collections/garden-power-tools"
+            "url": "shopify://collections/lawnmaster"
           }
         }
       },

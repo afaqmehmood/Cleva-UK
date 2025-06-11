@@ -60,6 +60,23 @@
     },
     "13c4de91-4fee-462f-bb16-ad38c30f26f6": {
       "type": "product-support-main",
+      "blocks": {
+        "archived_product_bQGhD7": {
+          "type": "archived_product",
+          "settings": {
+            "image": "shopify://shop_images/Lawnmaster_CLMFR6046A_Cordless_Lawnmower_Product.jpg",
+            "tags": "",
+            "pretitle": "LawnMaster",
+            "title": "60V 46cm",
+            "subtitle": "Cordless Lawn Mower",
+            "features": "iPower Battery Optimisation\nRear Roller for Stripes",
+            "product_url": "shopify://metaobjects/product_support/lawn-master-60-v-max-46-cm-cordless-lawn-mower"
+          }
+        }
+      },
+      "block_order": [
+        "archived_product_bQGhD7"
+      ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",

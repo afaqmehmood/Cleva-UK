@@ -53,7 +53,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/VJH1245PF-01L_L_Class_Accessories.webp",
+            "image": "shopify://shop_images/VJH1245PF-01L_L_Class_Support.webp",
             "image_loading": "",
             "logo": "vacmaster",
             "pretitle": "Support",
@@ -154,7 +154,7 @@
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "Accessories & Spare Parts",
+            "title": "Accessories",
             "text": "<p>Genuine Vacmaster accessories and spare parts for your machine.</p>",
             "button_1_style": "black",
             "button_1_text": "Shop All",
@@ -164,7 +164,7 @@
             "button_2_url": "",
             "product_specifications": "",
             "html": "",
-            "collection": "vjh1245pf-01l-accessories-1",
+            "collection": "vjh1245pf-01l-accessories",
             "collection_products_per_page": 8,
             "products": [],
             "image_loading": "",
@@ -176,8 +176,8 @@
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "Parts Enquiry Form",
-            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. Not all spare parts are listed on our website, if you can't find the part you are looking for in the section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
+            "title": "Spare Parts",
+            "text": "<p>We stock a wide range of spare parts if you'd like to repair your machine, rather than replace it. If you can't find the part you are looking for in the accessories section above, please get in touch with us. For safety, certain parts may not be available individually, but as part of a combined unit.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",

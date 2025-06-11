@@ -53,18 +53,18 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_1200W_32cm_Electric_Mower_Accessories_and_Spares.webp",
+            "image": "shopify://shop_images/CLMF4846A-01_LawnMaster_48V_46cm_support.webp",
             "image_loading": "",
             "logo": "lawnmaster",
             "pretitle": "Support",
-            "title_tag": "h2",
-            "title": "LawnMaster 1200W 32cm Electric Lawn Mower",
-            "subtitle_tag": "h1",
+            "title_tag": "h1",
+            "title": "LawnMaster 60V 46cm Cordless Lawn Mower",
+            "subtitle_tag": "h2",
             "subtitle": "Guides, Manuals, Parts & Support",
-            "text": "<p>M2EB1232M-01</p><p>Learn how to set up and use your electric lawn mower with instruction manuals, user guides and FAQs.</p>",
+            "text": "<p>CLMFR6046A</p><p>Learn how to set up, use and troubleshoot your LawnMaster mower with instruction manuals, user guides, videos and FAQs.</p>",
             "button_1_style": "black",
             "button_1_text": "Download Instruction Manual",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Lawnmower_electric_lawnmaster_M2EB1232M_instruction_manual_2025_lo.pdf?v=1738773525",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Lawnmower_cordless_lawnmaster_CLMF4846A_instruction_manual_2024_lo.pdf?v=1713343395",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": ""
@@ -84,12 +84,34 @@
     "df696699-42a8-4b2a-8976-674c3e309cd2": {
       "type": "featured-accordion",
       "blocks": {
-        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Setting Up",
+            "text": "<p>The LawnMaster 48V 46cm Cordless Lawn Mower requires minimal assembly out of the box.<br/><br/><strong>Assembling the Lower Handle<br/></strong><br/>1. Unfold the lower handle and adjust to the desired operating position. There are three possible positions.<br/>2. Rotate the wing knobs clockwise to tighten. Do not use excessive force; this may damage the knobs.<br/><br/><strong>Assembling the Upper Handle<br/></strong><br/>1. Unfold the upper handle assembly.<br/>2. Align the upper handle and lower handle and secure with the wing knobs.<br/>3. Ensure the cable is secured against the handle frame with the supplied cable fasten strap.<br/><br/><strong>Assembling the Grass Collection Bag </strong><br/><br/>Your mower comes with a tool free grass collection bag.<br/><br/>1. Insert the grass collection bag handle into the slots on the upper cover of grass collection bag. Make sure the arrow mark on the handle aligns with that on the cover of grass collection bag. Ensure this securely 'clicks’ into place.<br/>2. Secure the metal support rods into the fixing position on either side of the grass collection base. Ensure the side clamping sleeves are properly fixed onto the metal support frame.<br/>3. There is a hole in the bottom of the grass collection bag to hang it up if required.<br/><br/><strong>Inserting the Battery Pack<br/></strong><br/>1. Make sure the battery is fully charged.<br/>2. Lift the battery compartment cover on the lawnmower deck.<br/>3. Align the support rails located within the battery compartment with the guides in the batterypack, and then insert the battery pack into the compartment.<br/>4. Push the battery pack until you hear a “click”.<br/>5. Insert the isolator key into the keyholes located within the battery compartment.<br/>6. Close the battery compartment cover.</p>",
+            "button_1_style": "black",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
             "full_width_enable": true,
-            "title": "Setting Up",
-            "text": "<p><strong>Assembling the Lower Handles</strong><br/><br/>1. Insert the left and right lower handles into the slots of the mower housing. Push down the lower handles until the screw holes are aligned.<br/>2. Secure the lower handles with the 2 screws provided.<br/><br/><strong>Assembling the Upper Handle</strong><br/><br/>1. Align the upper handle and lower handles and secure with the wing knobs and bolts.<br/>There are two possible height positions. Choose the one most suitable to the operator’s height.<br/>2. Before fitting the wing knob, check and ensure the cable guide is attached on the upper handle. If not, attach the cable guide on the upper handle as shown. Ensure the hole on the cable guide is aligned with the hole on the upper handle. Insert the bolt through the inside of the lower handle, cable guide and upper handle assembly. Secure the wing knob to the bolt as shown.<br/>3. Secure the cable against the handle frame with the supplied cable clips.<br/><br/><strong>Assembling the Grass Collection Bag</strong><br/><br/>1. Check the collection bag before assembling to make sure there is no damage.<br/>2. Insert the grass collection bag handle into the slots on the upper cover of grass collection bag. Ensure this securely 'clicks' into place.<br/>3. Secure the metal support rods into the fixing position on either side of the grass collection base. Ensure the side clamping sleeves are properly fixed onto the metal support frame.<br/>4. There is a hole in the bottom of the grass collection bag to hang it up if required.</p>",
+            "title": "Maintenance",
+            "text": "<p>Lawnmower blades need to be regularly checked, cleaned and sharpened to preserve the cutting performance of your mower and encourage healthy grass growth. If the blade becomes damaged, we always recommend changing it. It's quick and easy to do.</p><p>Guide: <a href=\"/blogs/news/when-to-change-a-lawnmower-blade\" target=\"_blank\" title=\"When to change a lawnmower blade\">When to change your lawn mower blade</a></p><p>Guide: <a href=\"/blogs/news/how-to-clean-and-maintain-a-cordless-lawnmower\" target=\"_blank\" title=\"How to Clean and Maintain a Cordless Lawnmower\">How to maintain a cordless lawn mower</a></p><p>Follow this step by step video below to see how to change a change blade on a rotary lawn mower.</p>",
             "button_1_style": "",
             "button_1_text": "",
             "button_1_url": "",
@@ -102,45 +124,23 @@
             "collection_products_per_page": 8,
             "products": [],
             "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_DXwQCy": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "Maintenance",
-            "text": "<p>Your LawnMaster 1200W 32cm Electric Lawn Mower blade needs to be regularly checked, cleaned and sharpened to preserve the cutting performance of your mower and encourage healthy grass growth. If the blade becomes damaged, we always recommend changing it. It's quick and easy to do.</p><p>Follow this step by step video to see how:</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "https://youtu.be/AJSoCE_6woU",
             "video_2": ""
           }
         },
-        "entry_cBXiaw": {
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
             "title": "Technical Specifications",
             "text": "",
-            "button_1_style": "white",
+            "button_1_style": "",
             "button_1_text": "",
             "button_1_url": "",
-            "button_2_style": "white",
+            "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
-            "product_specifications": "lawnmaster-1200w-32cm-electric-lawn-mower",
+            "product_specifications": "lawnmaster-48v-46cm-cordless-lawn-mower",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
@@ -150,7 +150,7 @@
             "video_2": ""
           }
         },
-        "entry_i448Kn": {
+        "entry_EpkUXT": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
@@ -164,7 +164,7 @@
             "button_2_url": "",
             "product_specifications": "",
             "html": "",
-            "collection": "lawnmaster-1200w-32cm-electric-lawn-mower-spare-parts",
+            "collection": "clmf4846a-01-accessories",
             "collection_products_per_page": 8,
             "products": [],
             "image_loading": "",
@@ -172,7 +172,7 @@
             "video_2": ""
           }
         },
-        "entry_rU6TQf": {
+        "entry_hgmVQz": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
@@ -196,11 +196,11 @@
         }
       },
       "block_order": [
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
         "f65aa26e-6f20-4e9c-a91b-0a269239be79",
-        "entry_DXwQCy",
-        "entry_cBXiaw",
-        "entry_i448Kn",
-        "entry_rU6TQf"
+        "entry_EpkUXT",
+        "entry_hgmVQz"
       ],
       "settings": {
         "padding_top": "",
@@ -220,13 +220,35 @@
     "df696699-42a8-4b2a-8976-674c3e309cd21": {
       "type": "featured-accordion",
       "blocks": {
-        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "Can you adjust the height of the handle?",
-            "text": "<p>Yes. There are two height positions to choose from when you fit the upper handle and lower handle together during handle assembly.  </p>",
-            "button_1_style": "",
+            "title": "How do you use the grass bag full indicator?",
+            "text": "<p>The grass collection bag full indicator is a small orange flap located on the side of the grass collection box.</p><p><br/>1. If the grass collection box is empty or it is not full with grass, the grass full indicator flap will remain open.</p><p><br/>2. When this flap remains closed it means that the grass collection box is full and needs to be emptied.</p>",
+            "button_1_style": "white",
+            "button_1_text": "Shop now",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "How long do the batteries last?",
+            "text": "<p>Up to 35 minutes run time per charge.</p><p>N.B. With the supplied fast chargers, you can fully recharge the batteries in 60 minutes. </p><p>The LawnMaster 48V 46cm Cordless Lawn Mower has Intelligent Battery Management; adjusting power delivery according to the grass conditions. Delivering extra power in tougher conditions and reserving battery life during lighter cutting. </p><p>You can easily check battery capacity at the touch of a button, whilst you're mowing too.</p>",
+            "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "",
@@ -241,56 +263,11 @@
             "video_1": "",
             "video_2": ""
           }
-        },
-        "entry_MCxBcd": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "How do I know when the grass box is full?",
-            "text": "<p>The grass collection bag is fitted with a small orange flap located on the side of the grass collection box.</p><p>1. If the grass collection box is empty or it is not full with grass, the grass full indicator flap will remain open.</p><p>2. When this flap remains closed it means that the grass collection box is full and needs to be emptied.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_XDh9xW": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "Can you adjust the height of cut with this mower?",
-            "text": "<p>Yes. A single lever changes the height of cut from 20mm up to 60mm.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
         }
       },
       "block_order": [
-        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
-        "entry_MCxBcd",
-        "entry_XDh9xW"
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136"
       ],
       "settings": {
         "padding_top": "",
@@ -314,7 +291,7 @@
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/lawnmowers-how-to-mow-long-grass",
+            "article": "news/when-to-change-a-lawnmower-blade",
             "image_loading": ""
           }
         },
@@ -322,7 +299,7 @@
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/when-to-change-a-lawnmower-blade",
+            "article": "news/how-to-clean-and-maintain-a-cordless-lawnmower",
             "image_loading": ""
           }
         },
@@ -330,7 +307,7 @@
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/lawn-mowers-how-to-get-a-striped-lawn-at-home",
+            "article": "news/lawnmowers-choosing-the-optimal-cutting-width-for-your-lawn",
             "image_loading": ""
           }
         }
@@ -341,7 +318,7 @@
         "5197c988-4367-4157-b142-218fc4bcafd1"
       ],
       "settings": {
-        "padding_top": "md",
+        "padding_top": "sm",
         "padding_top_mobile": "sm",
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
@@ -364,7 +341,7 @@
             "button_1_url": "shopify://pages/guarantee",
             "button_2_style": "link",
             "button_2_text": "",
-            "button_2_url": "/",
+            "button_2_url": "",
             "product_specifications": "",
             "html": "",
             "collection": "",
@@ -380,7 +357,7 @@
           "settings": {
             "full_width_enable": false,
             "title": "Delivery and Returns",
-            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance.<br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><strong><br/>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
             "button_1_style": "white",
             "button_1_text": "View Delivery Page",
             "button_1_url": "shopify://pages/delivery",

@@ -94,7 +94,7 @@
               {% endif %}
 
               {% if blocks_button %}
-                <div id="about-accordion-button" class="flex flex-wrap items-center gap-y-6 gap-x-6 md:gap-x-12">
+                <div class="flex flex-wrap items-center gap-y-6 gap-x-6 md:gap-x-12">
                   {% for block in blocks_button %}
                     {% liquid
                       assign block_style = block.settings.style | default: null
@@ -172,7 +172,7 @@
                   %}
 
                   {% if button_text and button_url %}
-                    <div class="accordion-buttons" class="max-md:w-full">
+                    <div class="max-md:w-full">
                       {% render 'section-button', style: button_style, text: button_text, url: button_url %}
                     </div>
                   {% endif %}

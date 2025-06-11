@@ -23,7 +23,7 @@
           "type": "usp",
           "settings": {
             "icon": "house",
-            "title": "Buy Direct from the Makers"
+            "title": "Buy direct from the makers"
           }
         },
         "b71fd280-d110-4e31-afbb-2a2740db996a": {
@@ -60,8 +60,8 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm"
       }
     },
     "featured_cards_iAmDwi": {
@@ -70,30 +70,30 @@
         "card_mxdEhL": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/952344_Vesa_Mounting_Adaptor.webp",
+            "image": "shopify://shop_images/Vacmaster-Carpet-Spot-Cleaner-EasyClean-Clean-Spilt-Drink-SCA0801.jpg",
             "image_loading": "lazy",
-            "title": "Versatile Mounting Options",
-            "text": "<p>This versatile mounting adaptor supports both VESA wall mounting and tripod installation. This allows you to elevate the fan to your preferred height for optimal cooling. With flexible positioning and adjustable airflow direction, you can tailor the cooling experience to meet your specific needs and enhance your performance.</p>",
+            "title": "For the home",
+            "text": "",
             "url": ""
           }
         },
         "card_e8RAUE": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/952344_Cardio54_Wall_Mount.webp",
+            "image": "shopify://shop_images/LawnMaster_48V_Cordless_Lawn_Mower_Hero_CLMF4841E.jpg",
             "image_loading": "",
-            "title": "Seamless Wall Mounting",
-            "text": "<p>The VESA-compatible mounting adaptor enables easy wall installation, allowing you to position your Cardio54® Fan alongside your monitor or TV for a streamlined setup. The mounting options now allow for the fan to be positioned in a vertical orientation for whole body cooling. For full versatility, a mounting arm with rotation, tilt, and swivel adjustments is required.<br/></p>",
+            "title": "For the garden",
+            "text": "",
             "url": ""
           }
         },
         "card_DRcWmA": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/952344_Cardio54_Tripod_Mount.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_110V_M-Class_VDK1138SWC-110_Hero.jpg",
             "image_loading": "",
-            "title": "Tripod Mounting Option",
-            "text": "<p>The mounting adaptor is compatible with standard tripod threads, allowing flexible fan placement at various heights and angles. This setup elevates the airflow above floor level, enhancing cooling efficiency and targeted airflow. For optimal use, a tripod with a minimum payload capacity of 6 kg is required.</p>",
+            "title": "For the professional",
+            "text": "",
             "url": ""
           }
         }
@@ -104,189 +104,254 @@
         "card_DRcWmA"
       ],
       "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "2xs",
-        "padding_bottom_mobile": "2xs",
-        "pretitle": "Explore",
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "sm",
+        "pretitle": "Features",
         "title": "Features & Benefits",
         "text": ""
       }
     },
-    "featured_accordion_wULeDN": {
+    "df696699-42a8-4b2a-8976-674c3e309cd2": {
       "type": "featured-accordion",
       "blocks": {
-        "entry_8ffYgj": {
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Learn More",
+            "url": "/"
+          }
+        },
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "/"
+          }
+        },
+        "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
-            "full_width_enable": true,
-            "title": "What kind of VESA mount is compatible?",
-            "text": "<p>The mounting bracket is compatible with 75x75 VESA mounts. For full functionality, choose a bracket that offers tilt, swivel, and rotation capabilities. Note that the Adaptor attaches to the underside of the floor fan, making fixed positional wall mounts unsuitable.</p>",
+            "title": "01 Design Excellence",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
+            "button_1_text": "Shop now",
+            "button_1_url": "/",
+            "button_2_style": "link",
+            "button_2_text": "Go to support page",
+            "button_2_url": "/",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         },
-        "entry_LenTNU": {
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
-            "full_width_enable": true,
-            "title": "What is the required thread size for tripod mounting?",
-            "text": "<p>The mounting adaptor is compatible with tripods that use a standard 1/2-20 UNC thread.</p>",
-            "button_1_style": "white",
+            "title": "02 Outstanding Service",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "",
-            "button_2_style": "white",
+            "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
+          "type": "entry",
+          "settings": {
+            "title": "03 Educate, Inform and Support",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
+          "type": "entry",
+          "settings": {
+            "title": "04 Technical Specifications",
+            "text": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "{{ product }}",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
             "video_1": "",
             "video_2": ""
           }
         }
       },
       "block_order": [
-        "entry_8ffYgj",
-        "entry_LenTNU"
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc",
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5",
+        "d7624e53-96f3-43a2-a5b4-052847d8844f",
+        "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
+        "f65aa26e-6f20-4e9c-a91b-0a269239be79",
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
       ],
       "settings": {
         "padding_top": "",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "2xs",
-        "padding_bottom_mobile": "2xs",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "image": "shopify://shop_images/pdp-accordion.png",
+        "image_loading": "",
+        "watermark_enable": false,
+        "pretitle": "Product Info",
+        "title_size": "large",
+        "title": "Specification",
+        "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
+      }
+    },
+    "featured_accordion_4cLd4r": {
+      "type": "featured-accordion",
+      "blocks": {
+        "entry_tEMxGH": {
+          "type": "entry",
+          "settings": {
+            "title": "Where is my order?",
+            "text": "<p>Orders placed before 12pm, Monday to Friday, are usually dispatched the same day. Orders placed after 12pm will be dispatched the following working day. <br/><br/>Fast 24 hour Delivery - Appliances<br/><br/>As standard, delivery for purchases that include appliances will usually be made 24 hours after dispatch on weekdays. If you place an order for an appliance after 12pm on a Friday, delivery will be made on the following Tuesday.<br/><br/>Standard 48 hour Delivery - Accessories<br/><br/>Delivery for orders of accessories only will usually be made 48 hours after dispatch on weekdays.<br/><br/>Please expect delays around public and bank holidays. See the delivery page for specific information.<br/><br/>To check the delivery status of your order, log into the My Account section of our website and click on the tracking link provided. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_AVLkVD": {
+          "type": "entry",
+          "settings": {
+            "title": "My order hasn’t arrived",
+            "text": "<p>If your delivery date has passed and you haven't received your order, log into the My Account section of our website, open your orders and click on the tracking link provided to trace where your parcel is up to with our courier partner. Please note that all of our Vacuum Cleaners, Air Movers, Fans and Lawnmaster products require a signature upon delivery. If this can’t be obtained by the courier then your order will be returned to the delivery depot, and you will need to contact them to arrange a collection or a new delivery.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "video_1": "",
+            "video_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_tEMxGH",
+        "entry_AVLkVD"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "image_loading": "",
         "watermark_enable": false,
         "pretitle": "FAQs",
         "title_size": "small",
-        "title": "Most Popular FAQs",
+        "title": "Frequently Asked Questions",
         "text": ""
-      }
-    },
-    "featured_text_with_image_Wp8TTk": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_mdw7RY": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_Power_Bank_Adapter_2_devices.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Charge up to 2 Devices",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Can charge up to 2 devices simultaneously with a total output current of 2.1A.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_KxMKJE": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_MX_24V_Shared_Battery_System.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Part of the LawnMaster MX 24V Shared Battery System",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Expand your cordless garden power tool collection in a cost effective and environmentally-conscious way with LawnMaster. Every MX 24V 4.0Ah battery is fully compatible with the LawnMaster MX 24V cordless range, including lawnmowers, hedge trimmers, grass trimmers, chainsaws and leaf blowers. This means that you don't need to buy a new battery every time you buy a new LawnMaster garden power tool.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_mdw7RY",
-        "text_with_image_KxMKJE"
-      ],
-      "disabled": true,
-      "settings": {
-        "padding_top": "md",
-        "padding_top_mobile": "sm",
-        "padding_bottom": "md",
-        "padding_bottom_mobile": "sm"
       }
     },
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
       "type": "product-reviews",
       "settings": {
         "padding_top": "",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
+        "padding_top_mobile": "",
+        "padding_bottom": "md",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "featured_articles_zetajt": {
       "type": "featured-articles",
       "blocks": {
+        "article_RLwqdx": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/the-top-5-must-have-features-for-a-car-vacuum-cleaner",
+            "image_loading": ""
+          }
+        },
+        "article_dMFj8H": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/cleva-to-raise-funds-for-leading-uk-charity-dogs-trust",
+            "image_loading": ""
+          }
+        },
+        "article_EKVmAz": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/robot-mowers-how-to-measure-the-gradient-or-slope-of-your-lawn",
+            "image_loading": ""
+          }
+        },
         "article_t8KqCm": {
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/indoor-training-keep-cool-and-get-results-with-a-cardio-fitness-fan",
-            "image_loading": ""
-          }
-        },
-        "article_mhn637": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/cycling-cool-your-pain-cave-with-an-air-mover",
-            "image_loading": ""
-          }
-        },
-        "article_6TBhza": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/award-winning-vacuum-cleaners-lawn-mowers-and-garden-power-tools",
+            "article": "news/when-to-change-a-lawnmower-blade",
             "image_loading": ""
           }
         }
       },
       "block_order": [
-        "article_t8KqCm",
-        "article_mhn637",
-        "article_6TBhza"
+        "article_RLwqdx",
+        "article_dMFj8H",
+        "article_EKVmAz",
+        "article_t8KqCm"
       ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
         "pretitle": "Learn",
         "title": "News & Advice",
         "text": ""
@@ -295,10 +360,10 @@
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
       "type": "product-recommendations",
       "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs",
+        "padding_top": "xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "",
+        "padding_bottom_mobile": "",
         "pretitle": "Related",
         "title": "You May Also Like"
       }
@@ -306,24 +371,29 @@
     "featured_accordion_aGietx": {
       "type": "featured-accordion",
       "blocks": {
+        "button_wcYKB6": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "View Support Page",
+            "url": "shopify://pages/vacmaster-support"
+          }
+        },
         "entry_egRCnw": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Guarantee",
-            "text": "<p>We offer a manufacturer's guarantee on tools and accessories.<br/><br/>This guarantee excludes consumable parts which may be affected by normal wear and tear unless they are faulty or damaged on receipt.</p>",
+            "title": "Vacmaster Guarantee",
+            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "link",
             "button_2_text": "View guarantee",
-            "button_2_url": "shopify://pages/guarantee",
+            "button_2_url": "shopify://pages/vacmaster-guarantee",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -331,34 +401,11 @@
         "entry_krUnEd": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "Delivery and Returns",
             "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
-            "button_1_style": "white",
-            "button_1_text": "View Delivery Page",
-            "button_1_url": "shopify://pages/delivery",
-            "button_2_style": "white",
-            "button_2_text": "View Returns Page",
-            "button_2_url": "shopify://pages/returns-policy",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_eWgiNi": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "UK Customer Support",
-            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
             "button_1_style": "link",
-            "button_1_text": "Ask a question",
-            "button_1_url": "shopify://pages/contact-us",
+            "button_1_text": "Read more",
+            "button_1_url": "shopify://pages/delivery",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
@@ -366,14 +413,32 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_eWgiNi": {
+          "type": "entry",
+          "settings": {
+            "title": "UK Customer Support",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
+            "button_1_style": "link",
+            "button_1_text": "Ask a question",
+            "button_1_url": "shopify://pages/contact",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
             "video_1": "",
             "video_2": ""
           }
         }
       },
       "block_order": [
+        "button_wcYKB6",
         "entry_egRCnw",
         "entry_krUnEd",
         "entry_eWgiNi"
@@ -401,8 +466,8 @@
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "pretitle": "Keep Updated",
-        "title": "Sign up for 10% off",
-        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "title": "10% off when you sign up to hear from us",
+        "text": "<p>Join our community to access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
         "button_style": "gold",
         "button_text": "Sign up",
         "button_url": "/",
@@ -415,8 +480,8 @@
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
     "featured_cards_iAmDwi",
-    "featured_accordion_wULeDN",
-    "featured_text_with_image_Wp8TTk",
+    "df696699-42a8-4b2a-8976-674c3e309cd2",
+    "featured_accordion_4cLd4r",
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
     "featured_articles_zetajt",
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",

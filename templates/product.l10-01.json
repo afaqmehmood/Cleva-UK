@@ -180,10 +180,10 @@
         "card_XzYgYx": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_Robot_Mower_Setup_afd38098-0c20-4ecb-ba62-194d54f8bc0c.webp",
+            "image": "shopify://shop_images/LawnMaster_Robot_Mower_Setup.webp",
             "image_loading": "lazy",
-            "title": "Easy Set Up",
-            "text": "<p>Simply mark out the robot mower's cutting area of up to 400m² and install the boundary wire with the supplied pegs. Complete step-by-step instructions provided in the support section.</p>",
+            "title": "Simple Set Up",
+            "text": "<p>Simply mark out the robot mower's cutting area, which can be up to 400m², with the boundary wire and pegs that are supplied. Complete step-by-step instructions provided.</p>",
             "url": ""
           }
         },
@@ -277,27 +277,16 @@
       "blocks": {
         "quote_z6FiLd": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "text": "You decide where, when and how you want your robot to mow your lawn with the LawnMaster L10",
             "text_alignment": "text-center",
             "name": "",
             "logo": "lawnmaster"
           }
-        },
-        "quote_K4CX8T": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Once set up it’s about as low-maintenance a lawncare solution as you can get\"",
-            "text_alignment": "text-center",
-            "name": "London Evening Standard",
-            "logo": ""
-          }
         }
       },
       "block_order": [
-        "quote_z6FiLd",
-        "quote_K4CX8T"
+        "quote_z6FiLd"
       ],
       "settings": {
         "padding_top": "xs",
@@ -404,7 +393,7 @@
             "image_loading": "",
             "icon": "plus-square",
             "title": "150m Boundary Wire",
-            "text": "<p>Comes supplied with 150m of boundary wire and 250 pegs, suitable for lawns up to 400m².</p>"
+            "text": "<p>Comes supplied with 180m of boundary wire and 250 pegs, suitable for lawns up to 400m².</p>"
           }
         }
       },
@@ -538,7 +527,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/LawnMaster_L10_Robotic_Lawnmower_Box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -812,7 +800,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "featured_articles_6pYXMw": {

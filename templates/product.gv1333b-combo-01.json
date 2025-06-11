@@ -23,7 +23,7 @@
           "type": "usp",
           "settings": {
             "icon": "house",
-            "title": "Buy Direct from the Makers"
+            "title": "Buy direct from the makers"
           }
         },
         "b71fd280-d110-4e31-afbb-2a2740db996a": {
@@ -67,172 +67,41 @@
     "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35": {
       "type": "featured-text-with-icon",
       "blocks": {
+        "aa9370f5-862d-4221-88f8-2df4783e5117": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "touch",
+            "title": "Touch Control",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>"
+          }
+        },
         "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "modes",
-            "title": "2-in-1 Scarifier and Rake",
-            "text": "<p>Separate scarifier and rake attachments can be changed over without tools.</p>"
+            "icon": "battery",
+            "title": "Long Battery Life",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>"
           }
         },
         "a73107f1-d813-4f4a-9738-d04082969ce4": {
           "type": "text-with-icon",
           "settings": {
-            "icon": "capacity",
-            "title": "Variable Working Depths",
-            "text": "<p>Choose between three working depths which can be adjusted with a single lever.</p>"
-          }
-        },
-        "aa9370f5-862d-4221-88f8-2df4783e5117": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "size",
-            "title": "Large Collection Bag",
-            "text": "<p>Supplied with a 40L collection bag for collecting moss and leaves.</p>"
+            "icon": "temperature",
+            "title": "Self-Cooling",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>"
           }
         }
       },
       "block_order": [
+        "aa9370f5-862d-4221-88f8-2df4783e5117",
         "e69b6b41-6535-4b89-b55d-84d5a7f26796",
-        "a73107f1-d813-4f4a-9738-d04082969ce4",
-        "aa9370f5-862d-4221-88f8-2df4783e5117"
+        "a73107f1-d813-4f4a-9738-d04082969ce4"
       ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
         "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
-      }
-    },
-    "featured_cards_cDPnrU": {
-      "type": "featured-cards",
-      "blocks": {
-        "card_Pzzgdn": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/GV1333B_Combo-01-LawnMaster_Scarifier-Healthy_Lawn.webp",
-            "image_loading": "",
-            "title": "Healthy Lawn, Naturally",
-            "text": "<p>Quickly and effortlessly remove moss, thatch and aerate the lawn. Using a scarifier allows better access to the soil surface for lawn seed, water and fertiliser, for successful lawn renovation. <br/></p>",
-            "url": ""
-          }
-        },
-        "card_RmqkLB": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/GV1333B_Combo-01-LawnMaster_working_depths.webp",
-            "image_loading": "",
-            "title": "Variable Working Depths",
-            "text": "<p>Choose between three different working depths which can be adjusted using a single lever.</p>",
-            "url": ""
-          }
-        },
-        "card_jVYm6A": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster_Scarifier_Rake-collection_bag.webp",
-            "image_loading": "",
-            "title": "Large Collection Bag",
-            "text": "<p>Supplied with a large 40L collection bag for collecting moss and leaves. For more intensive scarifying, removing large amounts of moss and thatch, the scarifier can be used without the collection bag.<br/></p>",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_Pzzgdn",
-        "card_RmqkLB",
-        "card_jVYm6A"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "xs",
-        "pretitle": "Explore",
-        "title": "Features & Benefits",
-        "text": ""
-      }
-    },
-    "977c22bf-5dd3-46fd-826d-2683d57f2e57": {
-      "type": "featured-quotes",
-      "blocks": {
-        "c7b7d53e-422a-4b6d-9133-9f699fb3cbee": {
-          "type": "quote",
-          "settings": {
-            "text": "Quickly and effortlessly remove moss, thatch and aerate your lawn",
-            "text_alignment": "text-center",
-            "name": "",
-            "logo": "lawnmaster"
-          }
-        }
-      },
-      "block_order": [
-        "c7b7d53e-422a-4b6d-9133-9f699fb3cbee"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs",
-        "scroll_animation_enable": true
-      }
-    },
-    "b96a3c52-17d3-4cae-bc4b-727e3bf003e1": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "19143756-eef9-4b86-8f5b-2d455a3968e2": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/GV1333B_Combo-01-LawnMaster_2-in-1.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "2-in-1 Function",
-            "subtitle_tag": "h2",
-            "subtitle": "",
-            "text": "<p>Interchangeable bladed scarifier and tined rake attachments can be quickly changed over without the need for tools. Use the rake attachment to clear the lawn of moss and leaves, or use the bladed scarifier for deeper renovation projects.<br/></p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_DbmWiz": {
-          "type": "text-with-image",
-          "disabled": true,
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/GV1333B_Combo-01-LawnMaster-compact_storage.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Compact Storage",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Folding handles give a compact footprint and the collection bag can be disassembled for easy storage.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "19143756-eef9-4b86-8f5b-2d455a3968e2",
-        "text_with_image_DbmWiz"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "2xs"
+        "padding_bottom_mobile": "sm"
       }
     },
     "cf9d582c-da0a-4eab-9e84-ad0300f8f75c": {
@@ -241,48 +110,48 @@
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/GV1333B_Combo-01_Scarifier-guarantee.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "guarantee",
-            "title": "2-Year Guarantee",
-            "text": "<p>Peace of mind with our 2-year manufacturer guarantee.</p>"
-          }
-        },
-        "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/GV1333B_Combo-01-_compact_storage.webp",
-            "image_loading": "",
-            "icon": "compact",
-            "title": "Compact Storage",
-            "text": "<p>Folding handles give a compact footprint and the collection bag can be disassembled for easy storage.</p>"
+            "icon": "sqaure-circle-corners",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
           }
         },
         "501a6d11-0820-42d7-9455-af4a760a8e04": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/GV1333B_Combo-01-LawnMaster_Cable_Hooks.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "plus-square",
-            "title": "Cable Hooks",
-            "text": "<p>Wrap the 10m power cable around the integrated cable hooks for neat storage.</p>"
+            "icon": "touch",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
+          }
+        },
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "",
+            "icon": "battery",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
           }
         },
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/GV1333B_Combo-01-LawnMaster_Single_lever.webp",
+            "image": "shopify://shop_images/feature.jpg",
             "image_loading": "",
-            "icon": "touch",
-            "title": "Single Switch Lever",
-            "text": "<p>The ergonomic single button switch lever is designed for one-handed use.</p>"
+            "icon": "temperature",
+            "title": "Pioneering Design",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
           }
         }
       },
       "block_order": [
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a",
-        "d04e62c1-ff0c-4391-ae14-bbfc59269d75",
         "501a6d11-0820-42d7-9455-af4a760a8e04",
+        "d04e62c1-ff0c-4391-ae14-bbfc59269d75",
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750"
       ],
       "settings": {
@@ -290,84 +159,175 @@
         "padding_top_mobile": "2xs",
         "padding_bottom": "md",
         "padding_bottom_mobile": "sm",
+        "pretitle": "Features",
+        "title": "Features & Benefits",
+        "text": ""
+      }
+    },
+    "featured_quotes_YamDdc": {
+      "type": "featured-quotes",
+      "blocks": {
+        "quote_z6FiLd": {
+          "type": "quote",
+          "settings": {
+            "text": "Capture and trap 99.9% of common household dust and allergens with all new Allergen Pro™ Range.",
+            "text_alignment": "text-center",
+            "name": "",
+            "logo": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_z6FiLd"
+      ],
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "2xs",
+        "padding_bottom_mobile": "2xs",
+        "scroll_animation_enable": true
+      }
+    },
+    "featured_cards_LbU947": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_XzYgYx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster-Carpet-Spot-Cleaner-EasyClean-Clean-Spilt-Drink-SCA0801.jpg",
+            "image_loading": "lazy",
+            "title": "For the home",
+            "text": "",
+            "url": "shopify://collections/household-floorcare"
+          }
+        },
+        "card_Cmwr7p": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/LawnMaster_48V_Cordless_Lawn_Mower_Hero_CLMF4841E.jpg",
+            "image_loading": "",
+            "title": "For the garden",
+            "text": "",
+            "url": "shopify://collections/lawnmaster"
+          }
+        },
+        "card_p3THhR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_110V_M-Class_VDK1138SWC-110_Hero.jpg",
+            "image_loading": "",
+            "title": "For the professional",
+            "text": "",
+            "url": "shopify://collections/professional-cleaning-vacuum"
+          }
+        }
+      },
+      "block_order": [
+        "card_XzYgYx",
+        "card_Cmwr7p",
+        "card_p3THhR"
+      ],
+      "settings": {
+        "padding_top": "2xs",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "xs",
         "pretitle": "",
         "title": "",
         "text": ""
       }
     },
-    "1dcc172a-b87e-46ca-852f-34db8d636dea": {
-      "type": "featured-hero",
+    "featured_text_with_image_FXPR6E": {
+      "type": "featured-text-with-image",
       "blocks": {
-        "1eafd369-e802-4515-bc62-5688dbcaa911": {
-          "type": "hero",
+        "text_with_image_67Kbzd": {
+          "type": "text-with-image",
           "settings": {
-            "background_color": "#fafafa",
-            "text_color": "#000000",
-            "image": "shopify://shop_images/OcuMow_Robot_Mower_Advert.webp",
-            "image_mobile": "shopify://shop_images/Ocumow_Robot_Mower_Ad_Mobile.webp",
-            "image_loading": "lazy",
-            "video": "shopify://files/videos/VBRM16 Promo Video No URL.mp4",
-            "video_autoplay": false,
-            "video_controls": true,
-            "video_hide_content_when_playing": true,
-            "video_play_button_inverted": true,
-            "logo": "lawnmaster",
             "align_content": "",
-            "pretitle": "Explore",
+            "image": "shopify://shop_images/feature.jpg",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "Features",
             "title_tag": "h2",
-            "title_size": "large",
-            "title": "Simply Drop <br>& Mow",
-            "subtitle_tag": "h2",
+            "title": "Built to Last",
+            "subtitle_tag": "h1",
             "subtitle": "",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
+            "text": "<p>We apply the latest processes<br/>and highest standards of engineering to deliver high performance products that stand the test of time. <strong> </strong></p>",
+            "button_1_style": "black",
+            "button_1_text": "Learn more",
+            "button_1_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
+            "button_2_style": "transparent-black",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_8krqyC": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/Vacmaster_Guarantee.webp",
+            "image_loading": "lazy",
+            "logo": "",
+            "pretitle": "Features",
+            "title_tag": "h2",
+            "title": "Peace of Mind",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>We take pride in engineering high quality, durable products. All our Vacmaster® appliances come with a 2-year guarantee.</p>",
+            "button_1_style": "black",
+            "button_1_text": "View guarantee",
+            "button_1_url": "shopify://pages/guarantee",
             "button_2_style": "white",
             "button_2_text": "",
-            "button_2_url": "",
-            "feature_1_title": "Drop & Mow",
-            "feature_1_text": "No Boundary Wire Needed",
-            "feature_2_title": "Navigation System",
-            "feature_2_text": "Camera & Ultra Sonic Sensors",
-            "feature_3_title": "",
-            "feature_3_text": ""
+            "button_2_url": ""
           }
         }
       },
       "block_order": [
-        "1eafd369-e802-4515-bc62-5688dbcaa911"
+        "text_with_image_67Kbzd",
+        "text_with_image_8krqyC"
       ],
-      "disabled": true,
       "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "",
-        "padding_bottom_mobile": "",
-        "top_fade_enable": false
+        "padding_top": "2xs",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "sm"
       }
     },
     "df696699-42a8-4b2a-8976-674c3e309cd2": {
       "type": "featured-accordion",
       "blocks": {
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc": {
+          "type": "button",
+          "settings": {
+            "style": "white",
+            "text": "Learn More",
+            "url": "/"
+          }
+        },
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5": {
+          "type": "button",
+          "settings": {
+            "style": "link",
+            "text": "Go to support page",
+            "url": "/"
+          }
+        },
         "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "In the Box",
-            "text": "<p>Collection Bag, Scarifier Attachment, Rake Attachment</p>",
+            "title": "Design Excellence",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
+            "button_1_text": "Shop now",
+            "button_1_url": "/",
             "button_2_style": "link",
-            "button_2_text": "",
-            "button_2_url": "",
+            "button_2_text": "Go to support page",
+            "button_2_url": "/",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image": "shopify://shop_images/GV1333B_Combo-01-LawnMaster-Scarifier-BOX.webp",
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -375,21 +335,18 @@
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Technical Specifications",
-            "text": "",
+            "title": "Outstanding Service",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "",
             "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
-            "product_specifications": "lawnmaster-lawn-scarifier-and-rake",
+            "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -397,12 +354,11 @@
         "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Product Support",
-            "text": "<p>Learn how to use, maintain and troubleshoot your LawnMaster Scarifier and Rake with easy to follow videos, user guides and FAQs</p>",
-            "button_1_style": "link",
-            "button_1_text": "Go to product support",
-            "button_1_url": "shopify://metaobjects/product_support/lawn-master-1350-w-33-cm-2-in-1-lawn-scarifier-and-rake",
+            "title": "Educate, Inform and Support",
+            "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
+            "button_1_style": "",
+            "button_1_text": "",
+            "button_1_url": "",
             "button_2_style": "",
             "button_2_text": "",
             "button_2_url": "",
@@ -410,40 +366,37 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         },
-        "98eefe16-4a82-4d62-9cad-1abc541b2614": {
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "Instruction Manual",
+            "title": "Technical Specifications",
             "text": "",
             "button_1_style": "white",
-            "button_1_text": "Download",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Scarifier_lawnrake_lawnmaster_GV1333B_Combo_Instruction_Manual_2024_lo.pdf?v=1718035062",
+            "button_1_text": "",
+            "button_1_url": "",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
-            "product_specifications": "",
+            "product_specifications": "{{ product }}",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         }
       },
       "block_order": [
+        "f1167918-8e10-4192-88d6-aa89b90eb9fc",
+        "c40ed8f5-7fbe-42ae-9069-38169d1a43e5",
         "d7624e53-96f3-43a2-a5b4-052847d8844f",
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136",
         "f65aa26e-6f20-4e9c-a91b-0a269239be79",
-        "98eefe16-4a82-4d62-9cad-1abc541b2614"
+        "00fe8650-5574-49e9-9e8a-6c283c7e0628"
       ],
       "settings": {
         "padding_top": "",
@@ -452,12 +405,13 @@
         "padding_bottom_mobile": "",
         "background_color": "#000000",
         "text_color": "#ffffff",
+        "image": "shopify://shop_images/pdp-accordion.png",
         "image_loading": "",
         "watermark_enable": false,
-        "pretitle": "Product Information",
+        "pretitle": "Product Info",
         "title_size": "large",
         "title": "Specification",
-        "text": ""
+        "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>"
       }
     },
     "88f30ef1-5d27-47e7-9655-32f0d8016675": {
@@ -468,7 +422,7 @@
           "settings": {
             "style": "black",
             "text": "Shop All",
-            "url": "shopify://collections/gv1333bcombo-01-accessories"
+            "url": "/"
           }
         },
         "4a3319f2-a88e-4233-a4b4-72590768cea0": {
@@ -476,7 +430,7 @@
           "settings": {
             "style": "link",
             "text": "Go to support page",
-            "url": "shopify://metaobjects/product_support/lawn-master-1350-w-33-cm-2-in-1-lawn-scarifier-and-rake"
+            "url": "/"
           }
         }
       },
@@ -492,19 +446,18 @@
         "pretitle": "Discover",
         "title": "Accessories & Spare Parts",
         "text": "",
-        "collection": "gv1333bcombo-01-accessories",
+        "collection": "vacmaster-accessories",
         "products_per_page": 8
       }
     },
-    "e094b7d7-62c1-4a89-9667-d2e84667f1e2": {
+    "featured_accordion_tDiBLC": {
       "type": "featured-accordion",
       "blocks": {
-        "8612c06e-26f7-43bd-9c85-b23150480743": {
+        "entry_q7pMtc": {
           "type": "entry",
           "settings": {
-            "full_width_enable": true,
-            "title": "How does it work?",
-            "text": "<p>The VBRM16 OcuMow™ uses a camera combined with two ultrasonic sensors to navigate around your garden. The camera detects the difference between surface textures and colours, for example grass or paving, and the ultrasonic sensors detect obstacles higher than 6cm, such as plants, garden furniture, walls and fences meaning there is no need for a boundary wire.</p><p>To keep the mower within the lawn area, your lawn must be bordered on all sides by a hard, visually distinctive border. This can be a flat border of paving, gravel or wooden boards, or a raised edge such as border edging, walls or fences. The mower can detect some edges that are not distinctive however for best and correct operation making your borders clearly defined will improve edge detection and allow the robot to work correctly.</p>",
+            "title": "Where is my order?",
+            "text": "<p>Orders placed before 12pm, Monday to Friday, are usually dispatched the same day. Orders placed after 12pm will be dispatched the following working day. <br/><br/>Fast 24 hour Delivery - Appliances<br/><br/>As standard, delivery for purchases that include appliances will usually be made 24 hours after dispatch on weekdays. If you place an order for an appliance after 12pm on a Friday, delivery will be made on the following Tuesday.<br/><br/>Standard 48 hour Delivery - Accessories<br/><br/>Delivery for orders of accessories only will usually be made 48 hours after dispatch on weekdays.<br/><br/>Please expect delays around public and bank holidays. See the delivery page for specific information.<br/><br/>To check the delivery status of your order, log into the My Account section of our website and click on the tracking link provided. </p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -515,18 +468,15 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         },
-        "08075082-30cf-4e58-b239-668dd5d08bdf": {
+        "entry_frmLHx": {
           "type": "entry",
           "settings": {
-            "full_width_enable": true,
-            "title": "Why are there such specific lawn border requirements?",
-            "text": "<p>If the mower cannot recognise a clearly defined lawn edge, it may not stay within the lawn area. Bare earth borders which can become weedy, or flower borders with low plants can be interpreted as grass by the Optical Grass Recognition (OGR) software. For this reason, we recommend that either raised edges, a hard border of paving or gravel, or walls and fences are the best options around the lawn.</p>",
+            "title": "My order hasn’t arrived",
+            "text": "<p>If your delivery date has passed and you haven't received your order, log into the My Account section of our website, open your orders and click on the tracking link provided to trace where your parcel is up to with our courier partner. Please note that all of our Vacuum Cleaners, Air Movers, Fans and Lawnmaster products require a signature upon delivery. If this can’t be obtained by the courier then your order will be returned to the delivery depot, and you will need to contact them to arrange a collection or a new delivery.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -537,247 +487,39 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "b31ee862-e04c-41c1-b6df-1b81387257b3": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": true,
-            "title": "Can it stay on the lawn 24/7?",
-            "text": "<p>Unlike traditional robots the VBRM16 OcuMow™ is designed to Drop and Mow. The mower is designed to be placed on the lawn once or twice a week and will mow for up to 4 hours on a single charge covering 100m2. The mower should be stored away in a dry place between uses.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "1aa89dbd-9c7d-4a57-8d9f-4ea2cd5d1309": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": true,
-            "title": "Will it cut up to edges?",
-            "text": "<p>The mower stops approximately 10 - 20cm away from the edge of the lawn, meaning some grass will remain uncut. This can easily be taken care of with a grass trimmer such as our battery compatible LawnMaster MX 24V Grass Trimmer. Lawn edges should be kept neatly trimmed so that the VBRM16 OcuMow™ can easily see the edge of the lawn.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "ab84675c-966a-4d70-969a-f700e3cbd841": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": true,
-            "title": "My lawn has hard borders/raised edges but is bigger than 100m2, can I still use this mower?",
-            "text": "<p>The VBRM16 OcuMow™ works with our MX 24V 4.0Ah battery. The mower will cover 100m2 on a single charge. Lawn coverage can be increased with additional batteries (sold separately).</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "57014fb3-aa53-4b87-900b-e121ba207b93": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": true,
-            "title": "Can the mower be used at night?",
-            "text": "<p>No. As the VBRM16 OcuMow™ requires good light in order for the camera to function, this mower can only be used in the daytime. The robot will not operate outside daylight hours.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "ff46babd-ca75-4940-b272-b5729c3d93d8": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": true,
-            "title": "What happens to the grass clippings?",
-            "text": "<p>The grass is cut using three small sharp blades and the clippings are returned to the lawn surface where the nutrients contained in them fertilise the soil. This means stronger, healthier grass with less need for supplemental fertiliser and has the added bonus of helping the lawn retain water in dry periods. It also means no grass clippings to dispose of or compost. Provided that the VBRM16 OcuMow™ is used regularly (i.e., once or twice a week) the clippings are not visible to the eye.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "9dfe8da6-23bb-4e63-a961-3a0b283987d6": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": true,
-            "title": "Can this mower be used in a garden with a pond?",
-            "text": "<p>It is possible to use the VBRM16 OcuMow™ on lawns with a pond, however it is strongly recommended that the pond is surrounded by a raised barrier to safeguard against the mower falling in. We recommend either a raised edge or a paved/gravel border at least 75cm wide surrounding the pond. Water damaged mowers are not covered under guarantee.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "c0197e1c-14fd-4d4c-9b30-09cb28171157": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": true,
-            "title": "Is it safe to use around pets and children?",
-            "text": "<p>The VBRM16 OcuMow™ has a safety key which can be removed to prevent children starting the mower unsupervised. Safety sensors stop the blades if the mower is lifted or flips over. The mower is also equipped with ultrasonic sensors which will avoid obstacles higher than 6cm. We recommend that children and pets are not left unsupervised with the mower while it is operating.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         }
       },
       "block_order": [
-        "8612c06e-26f7-43bd-9c85-b23150480743",
-        "08075082-30cf-4e58-b239-668dd5d08bdf",
-        "b31ee862-e04c-41c1-b6df-1b81387257b3",
-        "1aa89dbd-9c7d-4a57-8d9f-4ea2cd5d1309",
-        "ab84675c-966a-4d70-969a-f700e3cbd841",
-        "57014fb3-aa53-4b87-900b-e121ba207b93",
-        "ff46babd-ca75-4940-b272-b5729c3d93d8",
-        "9dfe8da6-23bb-4e63-a961-3a0b283987d6",
-        "c0197e1c-14fd-4d4c-9b30-09cb28171157"
+        "entry_q7pMtc",
+        "entry_frmLHx"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "",
-        "padding_bottom_mobile": "",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "image_loading": "",
         "watermark_enable": false,
         "pretitle": "FAQs",
         "title_size": "small",
-        "title": "Most Popular FAQs",
+        "title": "Frequently Asked Questions",
         "text": ""
       }
     },
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7": {
       "type": "product-reviews",
       "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm",
-        "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
-      }
-    },
-    "featured_articles_w4EpgX": {
-      "type": "featured-articles",
-      "blocks": {
-        "article_PC3rrC": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/robot-mowers-how-to-measure-the-gradient-or-slope-of-your-lawn",
-            "image_loading": "lazy"
-          }
-        },
-        "article_Dzdhkm": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/do-these-three-things-to-get-a-lush-green-lawn-naturally",
-            "image_loading": "lazy"
-          }
-        },
-        "article_48Yrnw": {
-          "type": "article",
-          "settings": {
-            "blog": "",
-            "article": "news/5-ways-to-make-your-garden-more-insect-friendly",
-            "image_loading": ""
-          }
-        }
-      },
-      "block_order": [
-        "article_PC3rrC",
-        "article_Dzdhkm",
-        "article_48Yrnw"
-      ],
-      "disabled": true,
-      "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "xs",
-        "pretitle": "Learn",
-        "title": "News & Advice",
-        "text": ""
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "md",
+        "pretitle": "Reviews",
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {
@@ -785,76 +527,69 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "sm",
+        "padding_bottom": "md",
         "padding_bottom_mobile": "xs",
         "pretitle": "Related",
         "title": "You May Also Like"
       }
     },
-    "62625fef-8f9d-441b-a118-965f5fb3e641": {
+    "featured_accordion_YyyUxg": {
       "type": "featured-accordion",
       "blocks": {
-        "c6d4cbd2-bb63-4861-96e9-882bd1a3054d": {
+        "button_DYDnbx": {
           "type": "button",
           "settings": {
             "style": "white",
             "text": "View Support Page",
-            "url": "shopify://metaobjects/product_support/lawn-master-1350-w-33-cm-2-in-1-lawn-scarifier-and-rake"
+            "url": "shopify://pages/vacmaster-support"
           }
         },
-        "2f74ba8c-6b69-44fb-9632-e094e8def291": {
+        "entry_Kf4exw": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "LawnMaster Guarantee",
-            "text": "<p>All LawnMaster machines, spare parts and accessories carry a 2-year guarantee. </p>",
-            "button_1_style": "link",
-            "button_1_text": "View guarantee",
-            "button_1_url": "shopify://pages/guarantee",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
+            "title": "Vacmaster Guarantee",
+            "text": "<p>All Vacmaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "link",
+            "button_2_text": "View guarantee",
+            "button_2_url": "shopify://pages/vacmaster-guarantee",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         },
-        "3ec14c56-a678-45c0-9033-5a128cec188c": {
+        "entry_mbP8Km": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "Delivery and Returns",
-            "text": "<p><strong>Free and Fast Delivery:</strong></p><p>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. </p><p>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.</p><p>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.</p><p><strong>Returns:</strong></p><p>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.</p>",
-            "button_1_style": "white",
-            "button_1_text": "View Delivery Page",
+            "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
+            "button_1_style": "link",
+            "button_1_text": "Read more",
             "button_1_url": "shopify://pages/delivery",
             "button_2_style": "white",
-            "button_2_text": "View Returns Page",
-            "button_2_url": "shopify://pages/returns-policy",
+            "button_2_text": "",
+            "button_2_url": "",
             "product_specifications": "",
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         },
-        "5666fc98-5739-4dc1-aaad-5420a11d58ca": {
+        "entry_Bb8WRF": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
             "title": "UK Customer Support",
-            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand.</p>",
+            "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
             "button_1_style": "link",
             "button_1_text": "Ask a question",
-            "button_1_url": "shopify://pages/contact-us",
+            "button_1_url": "shopify://pages/contact",
             "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": "",
@@ -862,18 +597,16 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
         }
       },
       "block_order": [
-        "c6d4cbd2-bb63-4861-96e9-882bd1a3054d",
-        "2f74ba8c-6b69-44fb-9632-e094e8def291",
-        "3ec14c56-a678-45c0-9033-5a128cec188c",
-        "5666fc98-5739-4dc1-aaad-5420a11d58ca"
+        "button_DYDnbx",
+        "entry_Kf4exw",
+        "entry_mbP8Km",
+        "entry_Bb8WRF"
       ],
       "settings": {
         "padding_top": "xs",
@@ -882,15 +615,15 @@
         "padding_bottom_mobile": "",
         "background_color": "#000000",
         "text_color": "#ffffff",
-        "image_loading": "",
+        "image_loading": "lazy",
         "watermark_enable": true,
         "pretitle": "Support",
         "title_size": "small",
         "title": "Always here to help",
-        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p>"
+        "text": "<p>We’re here to empower you with the knowledge and solutions to make the most of your machine, and to support you when you just need a helping hand. Our friendly, UK based, customer service team are here to help.</p><p></p>"
       }
     },
-    "429ed167-89a6-49e5-b639-252bd0fa5704": {
+    "featured_content_7E4itj": {
       "type": "featured-content",
       "settings": {
         "padding_top": "",
@@ -898,10 +631,10 @@
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "pretitle": "Keep Updated",
-        "title": "Sign up for 10% off",
-        "text": "<p>Access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
+        "title": "10% off when you sign up to hear from us",
+        "text": "<p>Join our community to access exclusive offers, news and advice. Plus, get 10% off your next purchase.</p>",
         "button_style": "gold",
-        "button_text": "Sign Up",
+        "button_text": "Sign up",
         "button_url": "/",
         "button_modal": true
       }
@@ -912,18 +645,16 @@
     "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
     "product-main",
     "b602e1f8-2a07-4e04-a2ab-b4383e3f2c35",
-    "featured_cards_cDPnrU",
-    "977c22bf-5dd3-46fd-826d-2683d57f2e57",
-    "b96a3c52-17d3-4cae-bc4b-727e3bf003e1",
     "cf9d582c-da0a-4eab-9e84-ad0300f8f75c",
-    "1dcc172a-b87e-46ca-852f-34db8d636dea",
+    "featured_quotes_YamDdc",
+    "featured_cards_LbU947",
+    "featured_text_with_image_FXPR6E",
     "df696699-42a8-4b2a-8976-674c3e309cd2",
     "88f30ef1-5d27-47e7-9655-32f0d8016675",
-    "e094b7d7-62c1-4a89-9667-d2e84667f1e2",
+    "featured_accordion_tDiBLC",
     "b8f4da06-939c-4beb-9bd2-784c6cfd63e7",
-    "featured_articles_w4EpgX",
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad",
-    "62625fef-8f9d-441b-a118-965f5fb3e641",
-    "429ed167-89a6-49e5-b639-252bd0fa5704"
+    "featured_accordion_YyyUxg",
+    "featured_content_7E4itj"
   ]
 }

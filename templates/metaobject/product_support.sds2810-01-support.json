@@ -329,7 +329,7 @@
             "text": "<p>This LawnMaster appliance, spare parts and accessories carry a 2-year guarantee.</p>",
             "button_1_style": "link",
             "button_1_text": "View guarantee",
-            "button_1_url": "shopify://pages/guarantee",
+            "button_1_url": "/",
             "button_2_style": "link",
             "button_2_text": "",
             "button_2_url": "/",

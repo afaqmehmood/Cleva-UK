@@ -146,7 +146,7 @@
           "type": "text-with-image",
           "settings": {
             "align_content": "reverse",
-            "image": "shopify://shop_images/Auto_Express-Best_Buy_Car_Vacuum.webp",
+            "image": "shopify://shop_images/Auto_Express_Best_Buy_Car_Vacuum.webp",
             "image_loading": "lazy",
             "logo": "",
             "pretitle": "",
@@ -381,7 +381,7 @@
         "b22a8e44-4e4e-4888-846d-9b612e1f9b4a": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster_Multi_20_PTO-2_Year_Guarantee.webp",
+            "image": "shopify://shop_images/Multi_20_PTO_Vacuum_2-Year_Guarantee.webp",
             "image_loading": "",
             "icon": "guarantee",
             "title": "2-Year Guarantee",
@@ -411,7 +411,7 @@
         "62e2b129-2d00-4be4-9a36-2ffb3e1d9750": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/Multi_20_PTO_Vacuum_-_Accessories.webp",
+            "image": "shopify://shop_images/VQ1220PFC-01_Vacuum_On-Board_Storage.webp",
             "image_loading": "",
             "icon": "plus-square",
             "title": "On Board Accessory Storage",
@@ -455,7 +455,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/VQ1220PFC-01_Multi_20-Vacmaster_Wet_and_Dry_Vacuum_in_the_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -593,7 +592,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "featured_articles_6pYXMw": {

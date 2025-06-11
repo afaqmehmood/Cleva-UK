@@ -60,11 +60,11 @@
             %}
           {% endcapture %}
 
-          {% render 'cards-carousel-embla-slide', slide_content: slide_content %}
+          {% render 'cards-carousel-slide', slide_content: slide_content %}
         {% endfor %}
       {% endcapture %}
 
-      {% render 'cards-carousel-embla', slides_content: slides_content, slides_columns: 3, slides_gap: 14 %}
+      {% render 'cards-carousel', slides_content: slides_content, slides_columns: 3, slides_gap: 14 %}
     {% endif %}
   </div>
 </section>

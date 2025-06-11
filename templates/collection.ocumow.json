@@ -46,141 +46,194 @@
         "padding_bottom_mobile": ""
       }
     },
-    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f": {
-      "type": "featured-breadcrumbs",
+    "featured_hero_Wi6wFb": {
+      "type": "featured-hero",
+      "blocks": {
+        "hero_YtgDw3": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "image": "shopify://shop_images/OcuMow_18_New_Hero_Banner5.webp",
+            "image_mobile": "shopify://shop_images/OcuMow_18_New_Hero_Banner_Mobile_2961984d-c3cf-44cf-8e5c-ce31c72cb00d.webp",
+            "image_loading": "",
+            "video_autoplay": false,
+            "video_controls": false,
+            "video_hide_content_when_playing": false,
+            "video_play_button_inverted": false,
+            "logo": "",
+            "align_content": "end",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title_size": "large",
+            "title": "",
+            "subtitle_tag": "h2",
+            "subtitle": "",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "feature_1_title": "",
+            "feature_1_text": "",
+            "feature_2_title": "",
+            "feature_2_text": "",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "hero_YtgDw3"
+      ],
       "settings": {
-        "padding_top": "2xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs"
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": false
       }
     },
-    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34": {
+    "featured_about_G38FNA": {
       "type": "featured-about",
+      "settings": {
+        "padding_top": "lg",
+        "padding_top_mobile": "xs",
+        "padding_bottom": "md",
+        "padding_bottom_mobile": "2xs",
+        "watermark_enable": true,
+        "scroll_animation_enable": true,
+        "logo": "lawnmaster",
+        "pretitle": "",
+        "title_tag": "h1",
+        "title": "See in a New Era of Garden Robotics with OcuMow®",
+        "text_truncate_enable": false,
+        "text": "<p>LawnMaster OcuMow® robot lawn mowers fuse high-definition camera technology with advanced vision software to independently mow wherever you want them to, boundary-wire free. Your back garden, front garden, side garden, even your neighbour's garden.</p>",
+        "button_style": "white",
+        "button_text": "",
+        "button_url": "",
+        "image_loading": ""
+      }
+    },
+    "featured_hero_WUjPWk": {
+      "type": "featured-hero",
+      "blocks": {
+        "hero_Wfz8iz": {
+          "type": "hero",
+          "settings": {
+            "background_color": "#000000",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/OcuMow_18_New_Hero_Banner_mowers_2244ac44-8c61-472c-85c6-0fa157d053e0.webp",
+            "image_mobile": "shopify://shop_images/OcuMow_18_New_Hero_Banner_Mobile_mowers_df84d2ff-5b29-410e-ba3b-6c6a357cb0af.webp",
+            "image_loading": "lazy",
+            "video": "shopify://files/videos/LawnMaster OcuMow 18 Autocharging Vision Robot Lawnmower Ad.mp4",
+            "video_autoplay": false,
+            "video_controls": true,
+            "video_hide_content_when_playing": true,
+            "video_play_button_inverted": true,
+            "logo": "lawnmaster",
+            "align_content": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title_size": "large",
+            "title": "Bright Vision,\nBold Future.",
+            "subtitle_tag": "h2",
+            "subtitle": "Vision Robot Lawn Mowers",
+            "button_1_style": "transparent-black",
+            "button_1_text": "OcuMow® 18",
+            "button_1_url": "",
+            "button_2_style": "transparent-black",
+            "button_2_text": "OcuMow® 16",
+            "button_2_url": "",
+            "feature_1_title": "OcuMow® 18",
+            "feature_1_text": "Auto Charging",
+            "feature_2_title": "OcuMow® 16",
+            "feature_2_text": "Manual Charging",
+            "feature_3_title": "",
+            "feature_3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "hero_Wfz8iz"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "",
+        "padding_bottom": "sm",
+        "padding_bottom_mobile": "",
+        "top_fade_enable": false
+      }
+    },
+    "featured_cards_KDp9iF": {
+      "type": "featured-cards",
+      "blocks": {
+        "card_Qh6Hb7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/OcuMow_16_Camera_and_Sensors_c9eb7252-9078-45bf-aacc-68568d6437e3.webp",
+            "image_loading": "",
+            "title": "OGR™ Technology",
+            "text": "<p>Fusing high-definition camera and sensor technology, with our latest Optical Grass Recognition (OGR™) vision software to navigate around your lawn.</p>",
+            "url": ""
+          }
+        },
+        "card_9EFVWn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/OcuMow_16_Defined_edges_bd96b996-1ff6-4657-a99c-14c31c43343b.webp",
+            "image_loading": "",
+            "title": "No Boundary Wire",
+            "text": "<p>OcuMow® mowers detect your lawn edges for you, so you don't have to train them where to go or laboriously map out your boundaries in an app. </p>",
+            "url": ""
+          }
+        },
+        "card_jUnUwj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/OcuMow_16_Carry_handle_drop_mow_d2e1f81a-0481-479d-a93f-495435390703.webp",
+            "image_loading": "",
+            "title": "Drop-&-Mow Mode",
+            "text": "<p>Developed with detachable LawnMaster MX 24V lithium batteries, OcuMow® mowers can be used in drop-&-mow mode, for cutting other lawns, in other locations.</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_Qh6Hb7",
+        "card_9EFVWn",
+        "card_jUnUwj"
+      ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
         "padding_bottom": "sm",
         "padding_bottom_mobile": "2xs",
-        "watermark_enable": false,
-        "scroll_animation_enable": false,
-        "logo": "lawnmaster",
         "pretitle": "",
-        "title_tag": "h1",
-        "title": "OcuMow® Robot Mowers",
-        "text_truncate_enable": true,
-        "text": "<p>Simply drop and mow with the LawnMaster OcuMow® range. Robot mowers for smaller lawns. <strong>Official LawnMaster® UK Store.</strong></p>",
-        "button_style": "black",
-        "button_text": "",
-        "button_url": "/",
-        "image": "shopify://shop_images/Ocumow_Robot_Mower.webp",
-        "image_mobile": "shopify://shop_images/Ocumow_Robot_Mower_-_Mobile.webp",
-        "image_loading": ""
+        "title": "",
+        "text": ""
       }
     },
-    "b85e586a-2b07-45d6-9de8-08088ba28d2d": {
-      "type": "featured-subcollections",
-      "disabled": true,
+    "featured_about_Jr3EXp": {
+      "type": "featured-about",
       "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "sm",
-        "subcollections": [
-          "vacuum-cleaners-floorcare",
-          "garage-workshop-vacuum-cleaners",
-          "dust-extractors",
-          "vacmaster-air-movers",
-          "vacmaster-accessories"
-        ]
-      }
-    },
-    "collection-main": {
-      "type": "collection-main",
-      "settings": {
-        "padding_top": "",
-        "padding_top_mobile": "",
-        "padding_bottom": "sm",
-        "padding_bottom_mobile": "xs"
-      }
-    },
-    "8c87b26b-f533-4c79-b866-25d981fb6652": {
-      "type": "featured-text-with-image",
-      "blocks": {
-        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/UK_VBRM16_OcuMow_Robot_Mower.webp",
-            "image_loading": "lazy",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h2",
-            "title": "Advanced Technology, Simplified",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>LawnMaster OcuMow® robot mowers combine a camera and sensors with Optical Grass Recognition (OGR) software to identify grass and navigate around your lawn without the need for a boundary wire, outdoor power socket or app.</p>",
-            "button_1_style": "black",
-            "button_1_text": "Learn more",
-            "button_1_url": "",
-            "button_2_style": "transparent-black",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_4Re36P": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/Drop_and_Mow_Robot_Mower.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Simply Drop and Mow",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>No need for an outdoor power socket. Simply charge the detachable MX 24V 4.0Ah lithium-ion battery in the 1 hour fast charger provided and put the mower on the lawn once or twice a week during the daytime in dry weather.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_fT7PMF": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/Healthy_UK_Lawn_Robot_Mower.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "A Healthier, Greener Lawn",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>These LawnMaster robot mowers cut the grass little and often in a random pattern, returning tiny clippings to the surface, naturally fertilising the grass and creating a lush looking, well-manicured lawn.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "6af24ec3-c3af-44ec-bb32-f39e2b2964c7",
-        "text_with_image_4Re36P",
-        "text_with_image_fT7PMF"
-      ],
-      "settings": {
-        "padding_top": "sm",
+        "padding_top": "md",
         "padding_top_mobile": "xs",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "xs"
+        "padding_bottom": "lg",
+        "padding_bottom_mobile": "sm",
+        "watermark_enable": true,
+        "scroll_animation_enable": true,
+        "logo": "",
+        "pretitle": "Two Platforms",
+        "title_tag": "h1",
+        "title": "Break Free from Complicated",
+        "text_truncate_enable": false,
+        "text": "<p>Whether you choose an OcuMow® that auto-charges or one that doesn't, set-up is minimal. With no app mapping, no boundary wire to lay. For the OcuMow® that auto-charges, even the installation of the charging station is as simple as plug-and-play.</p>",
+        "button_style": "white",
+        "button_text": "",
+        "button_url": "",
+        "image_loading": ""
       }
     },
     "featured_text_with_image_EPkbXD": {
@@ -189,16 +242,37 @@
         "text_with_image_itPFRr": {
           "type": "text-with-image",
           "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/VBRM16_OcuMow_Robot_Mowers.webp",
+            "align_content": "reverse",
+            "image": "shopify://shop_images/LawnMaster_OcuMow_18_Robot_Mower_Charging_Station2.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "New",
+            "title_tag": "h1",
+            "title": "OcuMow® 18",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Independently navigates, mows and charges, boundary-wire free. With plug-and-play installation and vision technology, OcuMow® 18 saves time from the moment it's yours. For gardens up to 800m² with mostly well-defined borders and outdoor power.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Watch Ad",
+            "button_1_url": "https://cdn.shopify.com/videos/c/o/v/b21024e921804b4babf2e2e16e20cbb8.mp4",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_GhFjAd": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "reverse",
+            "image": "shopify://shop_images/OcuMow_16_robotic_mower_Screen.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
             "title_tag": "h1",
-            "title": "Direct from the Makers",
+            "title": "Auto-Charging",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>Browse our latest products, access detailed specification information, and use the insights from the team that design and make the products to choose the best automatic lawn mower for your needs, at a price you'll love. <br/><br/><strong>LawnMaster by Cleva. Manufacturer of over 65 million appliances sold worldwide.</strong></p>",
+            "text": "<p>In schedule mode, OcuMow® 18 operates automatically from dawn to dusk, recharging itself when the battery gets low. With OcuMow® 18 you can also customise when and how long you want your robot to be active using the simple dial and LCD screen interface.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -207,19 +281,19 @@
             "button_2_url": ""
           }
         },
-        "text_with_image_Tmmgex": {
+        "text_with_image_mymjeT": {
           "type": "text-with-image",
           "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/Robot_LawnMaster_Lawn_Mower.webp",
+            "align_content": "reverse",
+            "image": "shopify://shop_images/LawnMaster_OcuMow_18_Robot_Mower_Charging_Station.webp",
             "image_loading": "",
             "logo": "",
             "pretitle": "",
-            "title_tag": "h2",
-            "title": "Built to Perform",
+            "title_tag": "h1",
+            "title": "Plug and Play Charging System",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>We apply the latest processes and highest standards of engineering to our motor technology, product design and production. The result is a wide range of high-quality automatic lawn mowers with exceptional performance and durability.</p><p><strong>Our robot mowers consistently receive 5 star reviews from customers and industry experts.</strong></p>",
+            "text": "<p>Simply plug the charger into an outdoor power socket, set the schedule and OcuMow® 18 will do the rest. No guide wires to lay or boundaries to map. The mower will use a combination of GPS positioning and the camera to find its way back to the charging station when its battery is low.</p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -231,7 +305,8 @@
       },
       "block_order": [
         "text_with_image_itPFRr",
-        "text_with_image_Tmmgex"
+        "text_with_image_GhFjAd",
+        "text_with_image_mymjeT"
       ],
       "settings": {
         "padding_top": "sm",
@@ -240,15 +315,94 @@
         "padding_bottom_mobile": "xs"
       }
     },
+    "featured_text_with_image_4HPd7m": {
+      "type": "featured-text-with-image",
+      "blocks": {
+        "text_with_image_QD8fF6": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/LawnMaster_VBRM16_robot_lawmower_Camera_Navigation_Indy.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "Best Seller",
+            "title_tag": "h1",
+            "title": "OcuMow® 16",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>The LawnMaster OcuMow® 16 robotic mower combines a camera and sensors with Optical Grass Recognition (OGR) software to identify grass and navigate around your lawn, without the need for boundary wire, outdoor power socket or app. Perfect for UK lawns of up to 100m², simply drop and mow.</p>",
+            "button_1_style": "black",
+            "button_1_text": "Watch Ad",
+            "button_1_url": "https://cdn.shopify.com/videos/c/o/v/22fc14e8a7a94547b38e5d9a13bf0e14.mp4",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_WXWqDW": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/OcuMow_16_robotic_mower_Drop_and_Mow.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "Drop & Mow",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>No need for an outdoor power socket. Simply charge the detachable MX 24 lithium-ion battery in the 1 hour fast charger provided and put the mower on the lawn once or twice a week during the daytime in dry weather.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        },
+        "text_with_image_cTd7PU": {
+          "type": "text-with-image",
+          "settings": {
+            "align_content": "",
+            "image": "shopify://shop_images/OcuMow_16_robotic_mower_small_lawns.webp",
+            "image_loading": "",
+            "logo": "",
+            "pretitle": "",
+            "title_tag": "h1",
+            "title": "For Small Lawns",
+            "subtitle_tag": "h1",
+            "subtitle": "",
+            "text": "<p>Of up to 100m². A clearly defined edge around the full perimeter of your lawn, such as paving or gravel, or a raised edge at least 6cm high, is required to prevent the mower leaving the grass. Adjustment of the lawn edges may be required. As with other robot mowers, a grass trimmer (not included) is needed to trim the edges. Not suitable of gardens with overhanging plants, undefined flower borders or edges with a drop off.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_QD8fF6",
+        "text_with_image_WXWqDW",
+        "text_with_image_cTd7PU"
+      ],
+      "settings": {
+        "padding_top": "sm",
+        "padding_top_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "2xs"
+      }
+    },
     "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a": {
       "type": "featured-quotes",
       "blocks": {
         "5eff107c-4819-4aa2-be23-93ed5c26a735": {
           "type": "quote",
           "settings": {
-            "text": "\"This is revolutionary, with no boundary wire to lay, no charging station to pin to the lawn and no need to have an outdoor power supply to plug it in.\"",
+            "text": "“Didn’t miss anything and left behind a lovely, smooth, even lawn surface”",
             "text_alignment": "text-center",
-            "name": "Expert Reviews",
+            "name": "The Independent - OcuMow® 16",
             "logo": ""
           }
         }
@@ -264,116 +418,94 @@
         "scroll_animation_enable": true
       }
     },
-    "00a3e0c4-2c63-49d6-8758-77e08f85e73c": {
-      "type": "featured-press",
+    "featured_hero_xbFiWj": {
+      "type": "featured-hero",
       "blocks": {
-        "0732f5fa-0203-4f29-915e-70ca4901a3c4": {
-          "type": "logo",
+        "hero_jWQ9aV": {
+          "type": "hero",
           "settings": {
-            "text": "",
-            "image": "shopify://shop_images/B_Q.svg",
-            "image_loading": "lazy"
-          }
-        },
-        "b0c3d483-43a7-45ec-86cf-912a1d4615c0": {
-          "type": "logo",
-          "settings": {
-            "text": "",
-            "image": "shopify://shop_images/Amazon.svg",
-            "image_loading": "lazy"
-          }
-        },
-        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b": {
-          "type": "logo",
-          "settings": {
-            "text": "",
-            "image": "shopify://shop_images/Range.svg",
-            "image_loading": ""
-          }
-        },
-        "3ae5c7f8-cd1b-4899-9f67-ca27b5f56c89": {
-          "type": "logo",
-          "settings": {
-            "text": "",
-            "image": "shopify://shop_images/Roberty_Dyas.svg",
-            "image_loading": "lazy"
+            "background_color": "#000000",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/OcuMow_18_New_Hero_Robot_picker_tool_f8d9c532-76b3-4a5f-ad77-6831892aa6ac.webp",
+            "image_mobile": "shopify://shop_images/OcuMow_18_New_Hero_Banner_Mobile_mowers_df84d2ff-5b29-410e-ba3b-6c6a357cb0af.webp",
+            "image_loading": "",
+            "video_autoplay": false,
+            "video_controls": false,
+            "video_hide_content_when_playing": false,
+            "video_play_button_inverted": false,
+            "logo": "",
+            "align_content": "end",
+            "pretitle": "Selection Tool",
+            "title_tag": "h1",
+            "title_size": "small",
+            "title": "Find the robot mower that's right for you.",
+            "subtitle_tag": "h3",
+            "subtitle": "",
+            "button_1_style": "black",
+            "button_1_text": "Start Now",
+            "button_1_url": "https://cleva-uk.myshopify.com/tools/perfect-product-finder/robot-picker-tool-uwqpzodeeh?instore=true",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "feature_1_title": "",
+            "feature_1_text": "",
+            "feature_2_title": "",
+            "feature_2_text": "",
+            "feature_3_title": "",
+            "feature_3_text": ""
           }
         }
       },
       "block_order": [
-        "0732f5fa-0203-4f29-915e-70ca4901a3c4",
-        "b0c3d483-43a7-45ec-86cf-912a1d4615c0",
-        "4f7cca9b-60ac-40e3-b930-ae8caeb2ac2b",
-        "3ae5c7f8-cd1b-4899-9f67-ca27b5f56c89"
+        "hero_jWQ9aV"
       ],
-      "disabled": true,
       "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "2xs",
-        "padding_bottom": "",
-        "padding_bottom_mobile": "",
-        "pretitle": "",
-        "title": "As Seen In",
-        "text": "<p>Our appliances are trusted<br/>by some of the UK’s leading online retailers.</p>"
-      }
-    },
-    "f334ec60-fd1b-41ab-a899-b624093c811b": {
-      "type": "featured-collections",
-      "blocks": {
-        "4fa28b19-cec0-4fc9-a4a2-417edf91a44b": {
-          "type": "collection",
-          "settings": {
-            "collection": "upright-vacuum-cleaners",
-            "image_loading": ""
-          }
-        },
-        "6e9652f3-2f14-4a92-b453-13487e8ee558": {
-          "type": "collection",
-          "settings": {
-            "collection": "turbo-fans-air-movers",
-            "image_loading": "lazy"
-          }
-        },
-        "64a43e2c-3d27-4425-82bf-35cc7836222f": {
-          "type": "collection",
-          "settings": {
-            "collection": "garage-workshop-vacuum-cleaners",
-            "image_loading": "lazy"
-          }
-        },
-        "b1c8bb6f-404e-4179-823d-fd9cec11d2ab": {
-          "type": "collection",
-          "settings": {
-            "collection": "dust-extractors",
-            "image_loading": ""
-          }
-        }
-      },
-      "block_order": [
-        "4fa28b19-cec0-4fc9-a4a2-417edf91a44b",
-        "6e9652f3-2f14-4a92-b453-13487e8ee558",
-        "64a43e2c-3d27-4425-82bf-35cc7836222f",
-        "b1c8bb6f-404e-4179-823d-fd9cec11d2ab"
-      ],
-      "disabled": true,
-      "settings": {
-        "padding_top": "xs",
+        "padding_top": "",
         "padding_top_mobile": "2xs",
         "padding_bottom": "sm",
         "padding_bottom_mobile": "xs",
-        "pretitle": "Discover",
-        "title": "Featured Ranges",
-        "text": ""
+        "top_fade_enable": false
+      }
+    },
+    "collection-main": {
+      "type": "collection-main",
+      "settings": {
+        "padding_top": "",
+        "padding_top_mobile": "",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs"
       }
     },
     "0aa96139-5b59-4ced-a8c7-2fa5c1bc0836": {
       "type": "featured-accordion",
       "blocks": {
-        "090a05a9-c530-405c-8480-12d5b201f814": {
+        "entry_QJWLQm": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "How does an OcuMow® robot mower work?",
+            "title": "Why choose an OcuMow® robot mower?",
+            "text": "<p>Save time mowing the lawn with OcuMow® robot mowers from LawnMaster®. Easy to use, they provide cutting-edge technology at an affordable price.     </p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "090a05a9-c530-405c-8480-12d5b201f814": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": true,
+            "title": "How do OcuMow® robot mowers work?",
             "text": "<p>LawnMaster OcuMow® <a href=\"/collections/lawnmaster-robot-lawnmowers\" title=\"Robot Lawn Mowers\">robot lawn mowers</a> use a camera combined with two ultrasonic sensors to navigate around your garden. The camera detects the difference between surface textures and colours, for example grass or paving, and the ultrasonic sensors detect obstacles higher than 6cm, such as plants, garden furniture, walls and fences meaning there is no need for a boundary wire.</p>",
             "button_1_style": "white",
             "button_1_text": "",
@@ -391,12 +523,12 @@
             "video_2": ""
           }
         },
-        "entry_QJWLQm": {
+        "entry_YbYqtW": {
           "type": "entry",
           "settings": {
             "full_width_enable": false,
-            "title": "What is the runtime for an OcuMow® robot mower?",
-            "text": "<p>LawnMaster OcuMow® robot mowers have a runtime of 4 hours, making them suitable for smaller lawns up to 100m2. Runtime can be extended with additional batteries (sold separately).</p>",
+            "title": "Can OcuMow® robot mowers be used on any size of lawn?",
+            "text": "<p>OcuMow® 16 robot mowers are designed for smaller lawns up to 100m2. OcuMow® 18 autocharging robot mowers are for any size lawn up to 800m2. </p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -416,9 +548,53 @@
         "entry_DK9RBg": {
           "type": "entry",
           "settings": {
-            "full_width_enable": false,
-            "title": "What happens to the grass clippings?",
+            "full_width_enable": true,
+            "title": "What happens with the grass clippings?",
             "text": "<p>The grass is cut using three small sharp blades and the clippings are returned to the lawn surface where the nutrients contained in them fertilise the soil. This means stronger, healthier grass with less need for supplemental fertiliser and has the added bonus of helping the lawn retain water in dry periods. It also means no grass clippings to dispose of or compost. Provided that the mower is used regularly (i.e., once or twice a week) the clippings are not visible to the eye.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_GARTTH": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Does it mow right to the edge of the lawn?",
+            "text": "<p>OcuMow® mowers stop approximately 10 - 20cm away from the edge of the lawn, meaning some grass will remain uncut. This can easily be taken care of with a grass trimmer such as our battery compatible LawnMaster MX 24V Grass Trimmer. Lawn edges should be kept neatly trimmed so that OcuMow® mowers can easily see the edge of the lawn.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": "",
+            "product_specifications": "",
+            "html": "",
+            "collection": "",
+            "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
+            "video_1": "",
+            "video_2": ""
+          }
+        },
+        "entry_pbrUJM": {
+          "type": "entry",
+          "settings": {
+            "full_width_enable": false,
+            "title": "Can OcuMow® robot mowers be used at night?",
+            "text": "<p>No. OcuMow® robot mowers require good light in order for the camera to function. The robot will not operate outside daylight hours. If this is a requirement, consider our LawnMaster L10 and L12 robot mowers. </p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -437,9 +613,12 @@
         }
       },
       "block_order": [
-        "090a05a9-c530-405c-8480-12d5b201f814",
         "entry_QJWLQm",
-        "entry_DK9RBg"
+        "090a05a9-c530-405c-8480-12d5b201f814",
+        "entry_YbYqtW",
+        "entry_DK9RBg",
+        "entry_GARTTH",
+        "entry_pbrUJM"
       ],
       "settings": {
         "padding_top": "",
@@ -471,7 +650,7 @@
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/how-mulching-benefits-your-lawn",
+            "article": "news/do-these-three-things-to-get-a-lush-green-lawn-naturally",
             "image_loading": ""
           }
         },
@@ -479,7 +658,7 @@
           "type": "article",
           "settings": {
             "blog": "",
-            "article": "news/5-ways-to-make-your-garden-more-insect-friendly",
+            "article": "news/award-winning-vacuum-cleaners-lawn-mowers-and-garden-power-tools",
             "image_loading": ""
           }
         },
@@ -505,55 +684,6 @@
         "padding_bottom_mobile": "2xs",
         "pretitle": "Learn",
         "title": "News & Advice",
-        "text": ""
-      }
-    },
-    "b5e892ef-f729-4f8c-986d-a902e0e4938d": {
-      "type": "featured-cards",
-      "blocks": {
-        "f21ca91d-dbeb-46fe-ae65-89ea0821861b": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster-_L_Series_Robot_Mowers_Explore.webp",
-            "image_loading": "lazy",
-            "title": "L Series Robot Mowers",
-            "text": "",
-            "url": "shopify://collections/l-series"
-          }
-        },
-        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/LawnMaster-Explore_Cordless_Lawn_Mowers.webp",
-            "image_loading": "",
-            "title": "Cordless Lawn Mowers",
-            "text": "",
-            "url": "shopify://collections/cordless-lawn-mowers"
-          }
-        },
-        "228a23e6-3af5-433c-90ab-21d5710c0149": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
-            "image_loading": "",
-            "title": "Vacuum Cleaners & Floorcare",
-            "text": "",
-            "url": "shopify://collections/vacuum-cleaners-floorcare"
-          }
-        }
-      },
-      "block_order": [
-        "f21ca91d-dbeb-46fe-ae65-89ea0821861b",
-        "a2dadb73-3a45-4a18-b2a2-99470b06d3f3",
-        "228a23e6-3af5-433c-90ab-21d5710c0149"
-      ],
-      "settings": {
-        "padding_top": "xs",
-        "padding_top_mobile": "xs",
-        "padding_bottom": "xs",
-        "padding_bottom_mobile": "2xs",
-        "pretitle": "Explore",
-        "title": "Also Discover",
         "text": ""
       }
     },
@@ -643,7 +773,7 @@
       ],
       "settings": {
         "padding_top": "sm",
-        "padding_top_mobile": "sm",
+        "padding_top_mobile": "xs",
         "padding_bottom": "",
         "padding_bottom_mobile": "",
         "background_color": "#000000",
@@ -675,18 +805,18 @@
   },
   "order": [
     "4357080a-a2a5-4163-9ba8-1273f2709095",
-    "e27b1ce5-c95c-4341-9d78-5b15c29eee3f",
-    "1a821b1f-85b4-4e0c-bb04-d1ee4be63a34",
-    "b85e586a-2b07-45d6-9de8-08088ba28d2d",
-    "collection-main",
-    "8c87b26b-f533-4c79-b866-25d981fb6652",
+    "featured_hero_Wi6wFb",
+    "featured_about_G38FNA",
+    "featured_hero_WUjPWk",
+    "featured_cards_KDp9iF",
+    "featured_about_Jr3EXp",
     "featured_text_with_image_EPkbXD",
+    "featured_text_with_image_4HPd7m",
     "7a9d69f2-4ee3-425d-b1ef-a72d7871ee2a",
-    "00a3e0c4-2c63-49d6-8758-77e08f85e73c",
-    "f334ec60-fd1b-41ab-a899-b624093c811b",
+    "featured_hero_xbFiWj",
+    "collection-main",
     "0aa96139-5b59-4ced-a8c7-2fa5c1bc0836",
     "22fe1b9d-032a-4ebf-bbf1-6f1b8c2b6927",
-    "b5e892ef-f729-4f8c-986d-a902e0e4938d",
     "96321673-9ad1-4fe2-b4a0-e97c46c50acb",
     "ba486b1a-9132-469d-a5bc-06bdea19a01c"
   ]

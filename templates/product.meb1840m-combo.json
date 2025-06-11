@@ -71,8 +71,8 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "torque",
-            "title": "T-Drive™",
-            "text": "<p>Powerful cutting even in tough conditions.</p>"
+            "title": "Torque Drive",
+            "text": "<p>Automatically adjusts blade speed to suit grass conditions.</p>"
           }
         },
         "e69b6b41-6535-4b89-b55d-84d5a7f26796": {
@@ -113,7 +113,7 @@
             "image": "shopify://shop_images/Powerful_LawnMaster_40cm_Combo_Mower.webp",
             "image_loading": "lazy",
             "title": "Powerful Performance",
-            "text": "<p>Powerful 1800W motor with T-Drive™ delivers immediate power for easy start up in longer grass. Its high torque helps to maintain blade speed even in tough conditions. This gives a cleaner cut and ensures consistently efficient grass collection.</p>",
+            "text": "<p>Powerful 1800W motor with T-Drive™ which automatically adjusts torque to maintain blade speed in tougher cutting conditions such as long or wet grass.</p>",
             "url": ""
           }
         },
@@ -257,7 +257,7 @@
         "quote_z6FiLd": {
           "type": "quote",
           "settings": {
-            "text": "Master your lawn in less time, with this powerful 1800W mower and dual line grass trimmer",
+            "text": "Master your lawn in less time, with LawnMaster's powerful 1800W T-Drive™ motor, and dual line grass trimmer",
             "text_alignment": "text-center",
             "name": "",
             "logo": "lawnmaster"
@@ -319,55 +319,11 @@
             "button_2_text": "",
             "button_2_url": ""
           }
-        },
-        "text_with_image_N73JcT": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_32cm_Electric_Lawn_Mower_Safe_Stop.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "Electric Lawn Mower",
-            "title_tag": "h2",
-            "title": "Safe-Stop Brake",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>LawnMaster's patented mechanical brake actively stops the blade when the mower is switched off to increase user safety.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        },
-        "text_with_image_FV8JyJ": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/LawnMaster_1800WElectricMowerMEB1840M.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "Electric Lawn Mower",
-            "title_tag": "h2",
-            "title": "Air-Collect System",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>The design of the mower and the blade is optimised to maximise grass collection in tough conditions. More grass is pushed to the back of the Redi-bag, resulting in less blockages and a full bag every time.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
         }
       },
       "block_order": [
         "text_with_image_67Kbzd",
-        "text_with_image_8krqyC",
-        "text_with_image_N73JcT",
-        "text_with_image_FV8JyJ"
+        "text_with_image_8krqyC"
       ],
       "settings": {
         "padding_top": "xs",
@@ -661,7 +617,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

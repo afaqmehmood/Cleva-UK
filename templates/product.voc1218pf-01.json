@@ -79,7 +79,7 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "wind",
-            "title": "Blower Port",
+            "title": "Blower Function",
             "text": "<p>Quickly converts into a powerful blower.</p>"
           }
         },
@@ -358,7 +358,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/Artificial_WD18_Vacmaster_Garden_Vacuums_in_the_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""
@@ -563,7 +562,7 @@
         "padding_bottom": "sm",
         "padding_bottom_mobile": "sm",
         "pretitle": "Reviews",
-        "title": "Don't just take our word for it"
+        "title": "Don't Just take our word for it"
       }
     },
     "e6dbae22-4220-4051-aeb0-bcaa3d5599ad": {

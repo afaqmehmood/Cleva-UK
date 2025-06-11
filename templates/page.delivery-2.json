@@ -7,20 +7,14 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
-    "sections": {
-      "page-main": {
-        "type": "page-main",
-        "settings": {
-          "padding_top": "sm",
-          "padding_top_mobile": "xs",
-          "padding_bottom": "sm",
-          "padding_bottom_mobile": "sm"
-        }
-      }
-    },
-    "order": [
-      "page-main",
-    ]
-  }
-  
+{
+  "sections": {
+    "page-main": {
+      "type": "page-main",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-main"
+  ]
+}

@@ -68,7 +68,7 @@
             "logo": "lawnmaster",
             "pretitle": "",
             "title_tag": "h2",
-            "title": "LawnMaster OcuMow® 16 Robot Mower",
+            "title": "LawnMaster VBRM16 OcuMow Robot Mower",
             "subtitle_tag": "h1",
             "subtitle": "Accessories & Spare Parts",
             "text": "<p>VBRM16-01</p>",
@@ -235,8 +235,8 @@
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
-        "padding_bottom": "2xs",
-        "padding_bottom_mobile": "2xs",
+        "padding_bottom": "xs",
+        "padding_bottom_mobile": "xs",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "image_loading": "",
@@ -265,7 +265,7 @@
       ],
       "settings": {
         "padding_top": "xs",
-        "padding_top_mobile": "2xs",
+        "padding_top_mobile": "xs",
         "padding_bottom": "md",
         "padding_bottom_mobile": "sm",
         "scroll_animation_enable": true

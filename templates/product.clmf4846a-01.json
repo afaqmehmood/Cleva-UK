@@ -110,7 +110,7 @@
         "text_with_image_itmqAG": {
           "type": "text-with-image",
           "settings": {
-            "align_content": "",
+            "align_content": "reverse",
             "image": "shopify://shop_images/LawnMaster_Cordless_Mower_48V_46cm_CLMF4846A.webp",
             "image_loading": "",
             "logo": "",
@@ -145,7 +145,7 @@
         "text_with_image_NdwnE9": {
           "type": "text-with-image",
           "settings": {
-            "align_content": "reverse",
+            "align_content": "",
             "image": "shopify://shop_images/LawnMaster_Cordless_Mower_Ipower_battery_delivery.webp",
             "image_loading": "",
             "logo": "",
@@ -361,35 +361,12 @@
             "button_2_text": "",
             "button_2_url": ""
           }
-        },
-        "text_with_image_7nDcGz": {
-          "type": "text-with-image",
-          "disabled": true,
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/USB_Power_Adapter_Free_with_Cordless_Mower.webp",
-            "image_loading": "",
-            "logo": "",
-            "pretitle": "",
-            "title_tag": "h1",
-            "title": "Free USB Power Bank Adapter",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>Adapter to convert LawnMaster 24V and MX 24V batteries to a handy USB power bank. Perfect for charging USB devices while camping or doing DIY. Can charge up to 2 devices simultaneously with a total output current of 2.1A.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
         }
       },
       "block_order": [
         "text_with_image_BfcwGd",
         "text_with_image_67Kbzd",
-        "text_with_image_YMXDNi",
-        "text_with_image_7nDcGz"
+        "text_with_image_YMXDNi"
       ],
       "settings": {
         "padding_top": "xs",
@@ -527,7 +504,6 @@
             "collection": "",
             "collection_products_per_page": 8,
             "products": [],
-            "image": "shopify://shop_images/MX_48v_46cm_Cordless_Mower_in_the_box.webp",
             "image_loading": "",
             "video_1": "",
             "video_2": ""

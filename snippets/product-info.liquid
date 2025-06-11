@@ -42,7 +42,7 @@
   </h1>
 
   {% if product.selected_or_first_available_variant.sku != blank %}
-    <p class="mt-1 text-grey-100" x-show="!isSticky" data-ref="sku">
+    <p class="mt-1 text-grey-100" x-show="!isSticky">
       {{ product.selected_or_first_available_variant.sku }}
     </p>
   {% endif %}

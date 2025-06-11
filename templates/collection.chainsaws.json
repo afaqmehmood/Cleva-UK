@@ -382,31 +382,31 @@
         "f21ca91d-dbeb-46fe-ae65-89ea0821861b": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster_-_Hedge_Trimmer_Explore.webp",
+            "image": "shopify://shop_images/Vacmaster-Carpet-Spot-Cleaner-EasyClean-Clean-Spilt-Drink-SCA0801.jpg",
             "image_loading": "lazy",
-            "title": "Hedge Trimmers",
+            "title": "For the home",
             "text": "",
-            "url": "shopify://collections/hedge-trimmers"
+            "url": "shopify://collections/vacuum-cleaners-floorcare"
           }
         },
         "a2dadb73-3a45-4a18-b2a2-99470b06d3f3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/LawnMaster-Shredders_Explore.webp",
+            "image": "shopify://shop_images/LawnMaster_48V_Cordless_Lawn_Mower_Hero_CLMF4841E.jpg",
             "image_loading": "",
-            "title": "Garden Shredders",
+            "title": "For the garden",
             "text": "",
-            "url": "shopify://collections/garden-shredders-lawnmaster"
+            "url": "shopify://collections/lawnmaster"
           }
         },
         "228a23e6-3af5-433c-90ab-21d5710c0149": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Vacmaster-Floorcare_and_vacuum_cleaners.webp",
+            "image": "shopify://shop_images/Vacmaster_Dust_Extractor_110V_M-Class_VDK1138SWC-110_Hero.jpg",
             "image_loading": "",
-            "title": "Vacuum Cleaners & Floorcare",
+            "title": "For the professional",
             "text": "",
-            "url": "shopify://collections/vacuum-cleaners-floorcare"
+            "url": "shopify://collections/dust-extractors"
           }
         }
       },
@@ -415,13 +415,14 @@
         "a2dadb73-3a45-4a18-b2a2-99470b06d3f3",
         "228a23e6-3af5-433c-90ab-21d5710c0149"
       ],
+      "disabled": true,
       "settings": {
-        "padding_top": "xs",
+        "padding_top": "2xs",
         "padding_top_mobile": "xs",
         "padding_bottom": "xs",
         "padding_bottom_mobile": "2xs",
-        "pretitle": "Explore",
-        "title": "Also Discover",
+        "pretitle": "Discover",
+        "title": "Find Your Perfect Solution",
         "text": ""
       }
     },

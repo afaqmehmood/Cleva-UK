@@ -1,10 +1,10 @@
 <nav>
   <ul class="flex items-center gap-x-4">
-    <li id="search-button" class="lg:relative">
+    <li class="lg:relative">
       {% render 'header-search' %}
     </li>
 
-    <li id="account-button" class="max-lg:hidden">
+    <li class="max-lg:hidden">
       <a class="block" href="{{ routes.account_url }}">
         {% render 'svg', name: 'account' %}  
 
@@ -14,7 +14,7 @@
       </a>
     </li>
 
-    <li id="cart-button">
+    <li>
       {% if template.name == 'cart' %}
         <a class="block" href="{{ routes.cart_url }}">
           {% render 'cart-link-content' %}

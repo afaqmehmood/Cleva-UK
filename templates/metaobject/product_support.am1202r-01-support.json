@@ -58,16 +58,16 @@
             "logo": "vacmaster",
             "pretitle": "Support",
             "title_tag": "h2",
-            "title": "Vacmaster Cardio54® Fitness Fan",
+            "title": "Vacmaster Cardio54 Fitness Fan",
             "subtitle_tag": "h1",
             "subtitle": "Guides, Manuals, Parts & Support",
             "text": "<p>AM1202R-01</p><p>Learn how to set up and use your fitness fan with instruction manuals, user guides and FAQs.</p>",
             "button_1_style": "black",
-            "button_1_text": "Download Instruction Manual - Fan",
-            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cooling-fan_workout-fan_vacmaster_AM1202R-01_Cardio54_manual_2024.pdf?v=1741623452",
-            "button_2_style": "black",
-            "button_2_text": "Download Instruction Manual - Adaptor",
-            "button_2_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/Cardio54_mounting-bracket_wall-mounting_vacmaster_AM1202R_952344_manual_2024.pdf?v=1726582271"
+            "button_1_text": "Download Instruction Manual",
+            "button_1_url": "https://cdn.shopify.com/s/files/1/0050/9811/1010/files/cooling-fan_zwift-fan_workout-fan_vacmaster_AM1202R-01_Cardio54_manual.pdf?v=1679586274",
+            "button_2_style": "white",
+            "button_2_text": "",
+            "button_2_url": ""
           }
         }
       },
@@ -89,7 +89,7 @@
           "settings": {
             "full_width_enable": true,
             "title": "Setting Up",
-            "text": "<p>Unpack the Vacmaster Cardio54® Fitness Fan and plug it in to an electrical outlet.</p>",
+            "text": "<p>Unpack the Vacmaster Cardio54 Fitness Fan and plug it in to an electrical outlet.</p>",
             "button_1_style": "black",
             "button_1_text": "",
             "button_1_url": "/",
@@ -285,81 +285,12 @@
             "video_1": "",
             "video_2": ""
           }
-        },
-        "entry_RaQybV": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "How do I clean and maintain the Vacmaster Cardio54?",
-            "text": "<p>Regularly clean the exterior with a soft cloth. For a more thorough cleaning, you can use a can of compressed air to clean the fan blades and grilles. </p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_EBDa3m": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "What kind of VESA mount is compatible?",
-            "text": "<p>The Cardio54® fan is now supplied with a VESA compatible mounting adaptor which is compatible with 75x75 VESA mounts. For full functionality, choose a bracket that offers tilt, swivel, and rotation capabilities. Note that the Adaptor attaches to the underside of the floor fan, making fixed positional wall mounts unsuitable.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
-        },
-        "entry_7rfcp7": {
-          "type": "entry",
-          "settings": {
-            "full_width_enable": false,
-            "title": "What is the required thread size for tripod mounting?",
-            "text": "<p>The Vacmaster Cardio54® Fan is now supplied with a VESA compatible mounting adaptor. The mounting adaptor is compatible with tripods that use a standard 1/2-20 UNC thread.</p>",
-            "button_1_style": "white",
-            "button_1_text": "",
-            "button_1_url": "",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": "",
-            "product_specifications": "",
-            "html": "",
-            "collection": "",
-            "collection_products_per_page": 8,
-            "products": [],
-            "image_loading": "",
-            "video_1": "",
-            "video_2": ""
-          }
         }
       },
       "block_order": [
         "d7624e53-96f3-43a2-a5b4-052847d8844f",
         "entry_778byy",
-        "entry_DymxPX",
-        "entry_RaQybV",
-        "entry_EBDa3m",
-        "entry_7rfcp7"
+        "entry_DymxPX"
       ],
       "settings": {
         "padding_top": "",
@@ -394,11 +325,20 @@
             "article": "news/cycling-cool-your-pain-cave-with-an-air-mover",
             "image_loading": ""
           }
+        },
+        "5197c988-4367-4157-b142-218fc4bcafd1": {
+          "type": "article",
+          "settings": {
+            "blog": "",
+            "article": "news/how-to-dry-wet-carpet-after-a-leak-or-flood",
+            "image_loading": ""
+          }
         }
       },
       "block_order": [
         "708ba8e1-e397-4a69-9535-ab9a38767020",
-        "a233c1da-b475-4851-942e-ca87a3cdd6ae"
+        "a233c1da-b475-4851-942e-ca87a3cdd6ae",
+        "5197c988-4367-4157-b142-218fc4bcafd1"
       ],
       "settings": {
         "padding_top": "md",

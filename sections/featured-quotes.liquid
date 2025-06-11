@@ -47,10 +47,9 @@
       {% endif %}
 
       <div
-        class="flex items-center overflow-y-hidden overflow-x-scroll snap-x snap-mandatory scrollbar-none"
+        class="flex items-center overflow-x-scroll snap-x snap-mandatory scrollbar-none"
 
         {% if is_carousel %}
-          style="-webkit-overflow-scrolling: touch;"
           x-ref="slider"
         {% endif %}
       >
