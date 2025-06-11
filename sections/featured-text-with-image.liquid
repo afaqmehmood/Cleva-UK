@@ -77,6 +77,14 @@
               >
                 <div class="relative">
                   {% if block.settings.video %}
+                    {%- liquid
+                      assign poster_image = block.settings.video.preview_image
+                      echo block.settings.image | json
+                      if block_image
+                      
+                        assign poster_image = block_image
+                      endif
+                    -%}
                     <video
                       {% if block.settings.video_show_controls %}controls{% endif %}
                       {% if block.settings.video_show_controls == false %}
@@ -88,7 +96,7 @@
                       class="w-full h-auto rounded-2xl overflow-hidden"
                       preload="auto"
                       {% if block.settings.video.preview_image %}
-                        poster="{{ block.settings.video.preview_image | image_url: width: 1000 }}"
+                        poster="{{ poster_image | image_url: width: 1000 }}"
                       {% endif %}
                     >
                       <source src="{{ block.settings.video.sources[1].url }}" type="{{ block.settings.video.sources[1].mime_type }}">
@@ -263,7 +271,7 @@
     ],
     "blocks": [
       {
-        "type": "text-with-image",
+        "type": "text-with-image-video",
         "name": "Text with image/video",
         "settings": [
           {
