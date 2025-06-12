@@ -46,6 +46,8 @@
           {% liquid
             assign block_align_content = block.settings.align_content | default: null
             assign block_image = block.settings.image | default: null
+            assign block_video = block.settings.video | default: null
+            assign block_video_controls = block.settings.video_show_controls | default: false
             assign block_image_loading = block.settings.image_loading | default: null
             assign block_logo = block.settings.logo | default: null
             assign block_pretitle = block.settings.pretitle | default: null
@@ -54,6 +56,7 @@
             assign block_subtitle_tag = block.settings.subtitle_tag | default: null
             assign block_subtitle = block.settings.subtitle | default: null
             assign block_text = block.settings.text | default: null
+            assign block_video_autoplay = block.settings.video_autoplay | default: null
           %}
 
           {% capture image_html %}
@@ -73,47 +76,78 @@
                   {% else %}
                     md:col-start-7
                   {% endif %}
+                   shrink-0 relative aspect-[--aspect-ratio]
                 "
+                style="--aspect-ratio: 1.27;"
               >
-                <div class="relative">
-                  {% if block.settings.video %}
-                    {%- liquid
-                      assign poster_image = block.settings.video.preview_image
-                      echo block.settings.image | json
-                      if block_image
-                      
-                        assign poster_image = block_image
-                      endif
-                    -%}
-                    <video
-                      {% if block.settings.video_show_controls %}controls{% endif %}
-                      {% if block.settings.video_show_controls == false %}
-                        autoplay
-                        muted
-                        playsinline
-                        loop
-                      {% endif %}
-                      class="w-full h-auto rounded-2xl overflow-hidden"
-                      preload="auto"
-                      {% if block.settings.video.preview_image %}
-                        poster="{{ poster_image | image_url: width: 1000 }}"
+                {% if block_video and block_video_autoplay %}
+                  <div class="absolute inset-0 z-10 bg-black">
+                    {% render 'featured-hero-video',
+                      video: block_video,
+                      autoplay: block_video_autoplay,
+                      controls: block_video_controls
+                    %}
+                  </div>
+                {% elsif block_video %}
+                  <details class="group" x-data="video">
+                    <summary
+                      class="
+                        group container
+                        absolute bottom-12 md:bottom-28 left-0 right-0 z-20
+                        not-focus-ring pointer-events-none
+                      "
+                      role="button"
+                      aria-controls="featured-hero-video-{{ block.id }}"
+                      :aria-expanded="isOpen"
+                      @click.prevent="toggle()"
+
+                      {% if is_carousel %}
+                        x-bind="bindSlideFocusable"
                       {% endif %}
                     >
-                      <source src="{{ block.settings.video.sources[1].url }}" type="{{ block.settings.video.sources[1].mime_type }}">
-                      Your browser does not support the video tag.
-                    </video>
-                  {% elsif block_image %}
-                    {% render 'featured-text-with-image-image', image: block_image, loading: block_image_loading %}
-                  {% endif %}
+                      <span
+                        class="
+                          block w-fit ml-auto p-6 md:p-8 bg-white hover:bg-gold-50 rounded-full
+                          pointer-events-auto group-focus-visible:focus-ring text-black hover:text-white
+                          pointer-events-auto
 
-                  {% if block_logo %}
-                    {% render 'svg', name: block_logo, class: 'absolute bottom-4 right-4 w-[115px] md:w-[172px] h-auto' %}
-                  {% endif %}
-                </div>
+                          {% if block_video_play_button_inverted %}
+                            invert hover:invert-0
+                          {% endif %}
+                        "
+                      >
+                        {% render 'svg', name: 'play', class: 'group-open:hidden text-[18px] md:text-[26px]' %}
+                        {% render 'svg', name: 'pause', class: 'hidden group-open:block text-[18px] md:text-[26px]' %}
+
+                        <span class="sr-only">
+                          {{ 'featured_hero.video_play' | t }}
+                        </span>
+                      </span>
+                    </summary>
+
+                    <div
+                      class="absolute inset-0 z-10 bg-black transition-opacity"
+                      id="featured-hero-video-{{ block.id }}"
+                      x-show="isOpen"
+                      x-transition:enter-start="opacity-0"
+                      x-transition:enter-end="opacity-100"
+                      x-transition:leave-end="opacity-0"
+                    >
+                      {% render 'featured-hero-video', video: block_video, controls: block_video_controls %}
+                    </div>
+                  </details>
+                {% endif %}
+                {% if block_image and block_video_autoplay == null %}
+                  {% render 'featured-hero-image',
+                    image: block_image,
+                    image_mobile: block_image,
+                    loading: block_image_loading,
+                    preload: block_image_preload
+                  %}
+                {% endif %}
               </div>
             {% endif %}
           {% endcapture %}
-
           {% capture block_buttons_html %}
             {% for i in (1..2) %}
               {% liquid
@@ -317,7 +351,13 @@
             "type": "checkbox",
             "id": "video_show_controls",
             "label": "Show video controls",
-            "default": true
+            "default": false
+          },
+          
+          {
+            "type": "checkbox",
+            "id": "video_autoplay",
+            "label": "Video autoplay"
           },
           {
             "type": "text",
