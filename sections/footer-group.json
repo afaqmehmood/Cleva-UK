@@ -16,7 +16,7 @@
       "name": "Product Comparison Modal",
       "settings": {
         "title": "Product Comparison",
-        "collection": ""
+        "collection": "lawnmaster-robot-lawnmowers"
       }
     },
     "footer": {
