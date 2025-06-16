@@ -75,14 +75,6 @@
                 %}
               </div>
             {% endif %}
-            <div x-show="!isSticky" class="flex justify-end">
-              {%- if section.settings.compare_button and product.metafields.custom.product_comparison_enabled.value == true -%}
-                <button class="modal-trigger flex gap-y-2 " onclick="openComparisonModal()">
-                  <span class="text">Compare</span> 
-                  {% render 'svg', name: 'compare-2', class: 'w-10 h-10', icon-class: 'mr-4' %}
-                </button>
-              {%- endif -%}
-            </div>
 
             <div :class="{ 'contents': isSticky }" data-ref="form">
               {% render 'product-form', bis_notify_enable: bis_notify_enable, link_group: link_group %}
