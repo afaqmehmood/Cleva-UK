@@ -634,24 +634,25 @@
         "button_modal": true
       }
     },
-    "featured_text_with_image_Y9fHrn": {
+    "featured_text_with_image_j4nNWk": {
       "type": "featured-text-with-image",
       "blocks": {
-        "text_with_image_dpcae8": {
-          "type": "text-with-image",
+        "text_with_image_video_cDEgjg": {
+          "type": "text-with-image-video",
           "settings": {
             "align_content": "",
             "image": "shopify://shop_images/VBRM18AMIDR-01_OcuMow_18_Hero_af075e33-06da-4a0d-a2bd-7bff7232c093.webp",
             "image_loading": "",
             "logo": "",
-            "video": "shopify://files/videos/LawnMaster OcuMow 18 Autocharging Vision Robot Lawnmower Ad.mp4",
-            "video_show_controls": true,
+            "video": "shopify://files/videos/Vacmaster_SCC1201H_EasyCleanThermo_2024_Promotional Video_eCom_Full Length_NoURL_1923b8d0-e51c-4459-b979-851ab4f2870e.mp4",
+            "video_show_controls": false,
+            "video_autoplay": false,
             "pretitle": "",
             "title_tag": "h1",
-            "title": "Image with text",
+            "title": "Image with Text",
             "subtitle_tag": "h1",
-            "subtitle": "Test subtitle",
-            "text": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+            "subtitle": "Test Subtitle",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus facilisis sem id consectetur. Praesent massa dolor, finibus sit amet iaculis sit amet, euismod quis dolor. Maecenas vehicula est id mauris interdum, vel gravida lacus scelerisque. Fusce vel lacinia enim. Cras imperdiet at sem ac tristique.<br/></p>",
             "button_1_style": "white",
             "button_1_text": "",
             "button_1_url": "",
@@ -662,9 +663,9 @@
         }
       },
       "block_order": [
-        "text_with_image_dpcae8"
+        "text_with_image_video_cDEgjg"
       ],
-      "name": "Text with Image",
+      "name": "Text with Image/Video",
       "settings": {
         "padding_top": "md",
         "padding_top_mobile": "sm",
@@ -688,6 +689,6 @@
     "7b04fcfc-f1b6-4536-8ff5-f010e00ea0c01",
     "fd0a3324-0f5d-4ccd-8cca-9ccc0972cdc5",
     "337e6560-6338-43d1-bb33-32461bb7b5cb",
-    "featured_text_with_image_Y9fHrn"
+    "featured_text_with_image_j4nNWk"
   ]
 }

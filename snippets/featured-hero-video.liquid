@@ -1,6 +1,9 @@
 {% liquid
-  assign class = class | append: ' w-full h-full object-cover'
-
+   unless class contains 'is-featured-text-video'
+    assign class = class | append: 'w-full h-full object-cover'
+   else 
+    assign class = class | append: 'w-full h-full object-contain'
+   endunless
   assign preload = null
 
   unless autoplay
