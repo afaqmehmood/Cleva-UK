@@ -204,10 +204,13 @@
               <div class="product-specifications" data-column="0">
                 {% if product.metafields.custom.specifications.value %}
                   <label class="comparison-metafields">Specifications</label>
-                  {% for specifications in product.metafields.custom.specifications.value limit: 5 %}
-                    <div class="flex items-center row-item">
-                      <p>{{ specifications }}</p>
-                    </div>
+                  {% for specification in product.metafields.custom.specifications.value limit: 5 %}
+                    <div class="flex flex-col items-start row-item">
+                      {%- assign specification_title = specification |  split: "|" | first -%}
+                      {%- assign specification_value = specification |  split: "|" | last -%}
+                      <p class="block"><strong>{{ specification_title }}</strong></p>
+                      <p class="block">{{ specification_value }}</p>
+                  </div>{% unless forloop.last %}<span class="spacer block">&nbsp;</span>{% endunless %}
                   {% endfor %}
                   <hr>
                 {% endif %}
