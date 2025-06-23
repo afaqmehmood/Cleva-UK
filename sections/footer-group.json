@@ -11,12 +11,12 @@
   "name": "Footer",
   "type": "footer",
   "sections": {
-    "product_comparison_3XJCJe": {
+    "product_comparison_ynyy7w": {
       "type": "product-comparison",
       "name": "Product Comparison Modal",
       "settings": {
         "title": "Product Comparison",
-        "collection": "lawnmaster-robot-lawnmowers"
+        "collection": ""
       }
     },
     "footer": {
@@ -28,7 +28,7 @@
     }
   },
   "order": [
-    "product_comparison_3XJCJe",
+    "product_comparison_ynyy7w",
     "footer"
   ]
 }
