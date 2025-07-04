@@ -140,7 +140,469 @@
                 {% if block_image and block_video_autoplay == null %}
                   {% render 'featured-hero-image',
                     image: block_image,
+                    image_mobile: block_image,{% liquid
+  assign blocks = section.blocks | default: null
+  assign is_carousel = false
+
+  if blocks.size > 1
+    assign is_carousel = true
+  endif
+%}
+
+{% if blocks %}
+  <section
+    class="{% render 'section-class', section: section %} container"
+  
+    {% if is_carousel %}
+      x-data="carousel"
+      tabindex="0"
+      role="region"
+      @keydown.right="next"
+      @keydown.left="prev"
+    {% endif %}
+  >
+    <div
+      class="
+        relative
+        {% if is_carousel %}
+          max-md:pt-14
+        {% endif %}
+      "
+    >
+      {% if is_carousel %}
+        {% render 'carousel-arrows',
+          is_circle: true,
+          class: 'max-md:absolute max-md:top-0 max-md:right-0'
+          previous_class: 'md:!absolute md:top-1/2 md:left-4 md:z-10 md:-translate-y-1/2',
+          next_class: 'md:!absolute md:top-1/2 md:right-4 md:z-10 md:-translate-y-1/2'
+        %}
+      {% endif %}
+
+      <div
+        class="flex md:items-center{% if is_carousel %} overflow-x-scroll snap-x snap-mandatory scrollbar-none{% endif %}"
+        {% if is_carousel %}
+          x-ref="slider"
+        {% endif %}
+      > 
+        {% for block in blocks %}
+          {% liquid
+            assign block_align_content = block.settings.align_content | default: null
+            assign block_image = block.settings.image | default: null
+            assign block_video = block.settings.video | default: null
+            assign block_video_controls = block.settings.video_show_controls | default: false
+            assign block_image_loading = block.settings.image_loading | default: null
+            assign block_logo = block.settings.logo | default: null
+            assign block_pretitle = block.settings.pretitle | default: null
+            assign block_title_tag = block.settings.title_tag | default: null
+            assign block_title = block.settings.title | default: null
+            assign block_subtitle_tag = block.settings.subtitle_tag | default: null
+            assign block_subtitle = block.settings.subtitle | default: null
+            assign block_text = block.settings.text | default: null
+            assign block_video_autoplay = block.settings.video_autoplay | default: null
+          %}
+
+          {% capture image_html %}
+            {% if block.settings.video or block_image %}
+              <div
+                class="
+                  col-span-full
+                  {% if is_carousel %}
+                    md:col-span-5
+                  {% else %}
+                    md:col-span-6
+                  {% endif %}
+                  {% if block_align_content == 'reverse' %}
+                    {% if is_carousel %}
+                      md:col-start-2
+                    {% endif %}
+                  {% else %}
+                    md:col-start-7
+                  {% endif %}
+                   shrink-0 relative aspect-[--aspect-ratio]
+                "
+                style="--aspect-ratio: 1.27;"
+              >
+                {% if block_video and block_video_autoplay %}
+                  <div class="absolute inset-0 z-10 bg-black">
+                    {% render 'featured-hero-video',
+                      video: block_video,
+                      autoplay: block_video_autoplay,
+                      controls: block_video_controls
+                    %}
+                  </div>
+                {% elsif block_video %}
+                  <details class="group" x-data="video">
+                    <summary
+                      class="
+                        group container
+                        absolute bottom-12 md:bottom-28 left-0 right-0 z-20
+                        not-focus-ring pointer-events-none
+                      "
+                      role="button"
+                      aria-controls="featured-hero-video-{{ block.id }}"
+                      :aria-expanded="isOpen"
+                      @click.prevent="toggle()"
+
+                      {% if is_carousel %}
+                        x-bind="bindSlideFocusable"
+                      {% endif %}
+                    >
+                      <span
+                        class="
+                          block w-fit ml-auto p-6 md:p-8 bg-white hover:bg-gold-50 rounded-full
+                          pointer-events-auto group-focus-visible:focus-ring text-black hover:text-white
+                          pointer-events-auto
+
+                          {% if block_video_play_button_inverted %}
+                            invert hover:invert-0
+                          {% endif %}
+                        "
+                      >
+                        {% render 'svg', name: 'play', class: 'group-open:hidden text-[18px] md:text-[26px]' %}
+                        {% render 'svg', name: 'pause', class: 'hidden group-open:block text-[18px] md:text-[26px]' %}
+
+                        <span class="sr-only">
+                          {{ 'featured_hero.video_play' | t }}
+                        </span>
+                      </span>
+                    </summary>
+
+                    <div
+                      class="absolute inset-0 z-10 bg-black transition-opacity"
+                      id="featured-hero-video-{{ block.id }}"
+                      x-show="isOpen"
+                      x-transition:enter-start="opacity-0"
+                      x-transition:enter-end="opacity-100"
+                      x-transition:leave-end="opacity-0"
+                    >
+                      {% render 'featured-hero-video', video: block_video, controls: block_video_controls, class: "is-featured-text-video" %}
+                    </div>
+                  </details>
+                {% endif %}
+                {% if block_image and block_video_autoplay == null %}
+                  {% render 'featured-hero-image',
+                    image: block_image,
                     image_mobile: block_image,
+                    loading: block_image_loading,
+                    preload: block_image_preload
+                  %}
+                {% endif %}
+              </div>
+            {% endif %}
+          {% endcapture %}
+          {% capture block_buttons_html %}
+            {% for i in (1..2) %}
+              {% liquid
+                assign button_style = 'button_' | append: i | append: '_style'
+                assign button_style = block.settings[button_style] | default: null
+
+                assign button_text = 'button_' | append: i | append: '_text'
+                assign button_text = block.settings[button_text] | default: null
+
+                assign button_url = 'button_' | append: i | append: '_url'
+                assign button_url = block.settings[button_url] | default: null
+              %}
+
+              {% if button_text and button_url %}
+                {% render 'section-button',
+                  style: button_style,
+                  text: button_text,
+                  url: button_url,
+                  is_carousel: is_carousel
+                %}
+              {% endif %}
+            {% endfor %}
+          {% endcapture %}
+
+          <div class="snap-start shrink-0 w-full">
+            <div class="main-grid items-center gap-y-12">
+              {% if block_align_content == 'reverse' %}
+                {{ image_html }}
+              {% endif %}
+
+              <div
+                class="
+                  col-span-full md:col-span-4
+                  {% if block_align_content == 'reverse' %}
+                    md:col-start-8
+                  {% else %}
+                    md:col-start-2
+                  {% endif %}
+                "
+              >
+                {% if block_pretitle %}
+                  <p class="font-bold underline mb-4 last:mb-0">
+                    {{ block_pretitle }}
+                  </p>
+                {% endif %}
+              
+                {% if block_title %}
+                  <div class="mb-6 last:mb-0">
+                    {% if block_title %}
+                      <div class="font-display !font-bold text-[38px]/[48px] md:text-[44px]/[51px] mb-2 last:mb-0">
+                        {% render 'heading', tag: block_title_tag, text: block_title %}
+                      </div>
+                    {% endif %}
+                  
+                    {% if block_subtitle %}
+                      <div class="font-display !font-bold text-[25px]/[37px] md:text-[33px]/[40px] text-grey-300">
+                        {% render 'heading', tag: block_subtitle_tag, text: block_subtitle %}
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+
+                {% if block_text %}
+                  <div class="col-span-full md:col-span-6 xl:col-span-4 text-[20px]/[25px] text-grey-300 -tracking-[0.016em] space-y-4 mb-6 last:mb-0">
+                    {{ block_text }}
+                  </div>
+                {% endif %}
+
+                {% if block_buttons_html != blank %}
+                  <div class="flex flex-wrap items-center gap-y-6 gap-x-12">
+                    {{ block_buttons_html }}
+                  </div>
+                {% endif %}
+              </div>
+
+              {% if block_align_content != 'reverse' %}
+                {{ image_html }}
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Text with Image/Video",
+    "presets": [
+      {
+        "name": "Text with Image/Video"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["*"]
+    },
+    "settings": [
+      {
+        "type": "select",
+        "id": "padding_top",
+        "label": "Padding top",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_top_mobile",
+        "label": "Padding top (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "md"
+      },
+      {
+        "type": "select",
+        "id": "padding_bottom_mobile",
+        "label": "Padding bottom (mobile)",
+        "options": [
+          { "value": "", "label": "None" },
+          { "value": "2xs", "label": "2XS" },
+          { "value": "xs", "label": "XS" },
+          { "value": "sm", "label": "SM" },
+          { "value": "md", "label": "MD" },
+          { "value": "lg", "label": "LG" }
+        ],
+        "default": "sm"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text-with-image-video",
+        "name": "Text with image/video",
+        "settings": [
+          {
+            "type": "select",
+            "id": "align_content",
+            "label": "Align content",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "reverse", "label": "Reverse" }
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "image_loading",
+            "label": "Image loading",
+            "options": [
+              { "value": "", "label": "Default" },
+              { "value": "lazy", "label": "Lazy" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "logo",
+            "label": "Logo",
+            "options": [
+              { "value": "", "label": "None" },
+              { "value": "vacmaster", "label": "Vacmaster" },
+              { "value": "lawnmaster", "label": "LawnMaster" }
+            ]
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video (MP4/WebM)",
+            "info": "Upload MP4 or WebM video file"
+          },
+          {
+            "type": "checkbox",
+            "id": "video_show_controls",
+            "label": "Show video controls",
+            "default": false
+          },
+          
+          {
+            "type": "checkbox",
+            "id": "video_autoplay",
+            "label": "Video autoplay"
+          },
+          {
+            "type": "text",
+            "id": "pretitle",
+            "label": "Pretitle"
+          },
+          {
+            "type": "select",
+            "id": "title_tag",
+            "label": "Title tag",
+            "options": [
+              { "value": "h1", "label": "H1" },
+              { "value": "h2", "label": "H2" },
+              { "value": "h3", "label": "H3" }
+            ],
+            "default": "h1"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "select",
+            "id": "subtitle_tag",
+            "label": "Subtitle tag",
+            "options": [
+              { "value": "h1", "label": "H1" },
+              { "value": "h2", "label": "H2" },
+              { "value": "h3", "label": "H3" }
+            ],
+            "default": "h1"
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Button #1"
+          },
+          {
+            "type": "select",
+            "id": "button_1_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_1_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_1_url",
+            "label": "URL"
+          },
+          {
+            "type": "header",
+            "content": "Button #2"
+          },
+          {
+            "type": "select",
+            "id": "button_2_style",
+            "label": "Style",
+            "options": [
+              { "value": "black", "label": "Black" },
+              { "value": "white", "label": "White" },
+              { "value": "transparent-black", "label": "Transparent (black)" },
+              { "value": "transparent-white", "label": "Transparent (white)" },
+              { "value": "link", "label": "Link" }
+            ],
+            "default": "white"
+          },
+          {
+            "type": "text",
+            "id": "button_2_text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "button_2_url",
+            "label": "URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
                     loading: block_image_loading,
                     preload: block_image_preload
                   %}
