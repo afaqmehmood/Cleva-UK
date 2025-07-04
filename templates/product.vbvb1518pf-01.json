@@ -107,30 +107,33 @@
     "featured_text_with_image_aLB9xW": {
       "type": "featured-text-with-image",
       "blocks": {
-        "text_with_image_pRxFRp": {
-          "type": "text-with-image",
+        "text_with_image_video_DqYTdP": {
+          "type": "text-with-image-video",
           "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/feature.jpg",
-            "image_loading": "lazy",
-            "logo": "",
-            "pretitle": "Features",
+            "align_content": "reverse",
+            "image": "shopify://shop_images/Garden_and_Outdoor_Vacmaster_blower.webp",
+            "image_loading": "",
+            "logo": "vacmaster",
+            "video": "shopify://files/videos/WD18+ Blower Assembly Guide.mp4",
+            "video_show_controls": true,
+            "video_autoplay": false,
+            "pretitle": "",
             "title_tag": "h2",
-            "title": "Built to Last",
+            "title": "Detachable Leaf Blower",
             "subtitle_tag": "h1",
             "subtitle": "",
-            "text": "<p>We apply the latest processes<br/>and highest standards of engineering to deliver high performance products that stand the test of time. <strong> </strong></p>",
-            "button_1_style": "black",
-            "button_1_text": "Learn more",
-            "button_1_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
-            "button_2_style": "transparent-black",
+            "text": "<p>With its patented 2-in-1 design, the Vacmaster WD18 AG+ quickly transforms between a versatile wet and dry vacuum cleaner and a powerful detachable handheld garden blower, capable of achieving 180CFM of airflow.</p>",
+            "button_1_style": "white",
+            "button_1_text": "",
+            "button_1_url": "",
+            "button_2_style": "white",
             "button_2_text": "",
             "button_2_url": ""
           }
         }
       },
       "block_order": [
-        "text_with_image_pRxFRp"
+        "text_with_image_video_DqYTdP"
       ],
       "settings": {
         "padding_top": "",
@@ -141,32 +144,6 @@
     },
     "featured_text_with_image_PmFD8q": {
       "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_hRYWwx": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "reverse",
-            "image": "shopify://shop_images/Vacmaster_Guarantee.webp",
-            "image_loading": "lazy",
-            "logo": "",
-            "pretitle": "Features",
-            "title_tag": "h2",
-            "title": "Vacmaster Guarantee",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>We take pride in engineering high quality, durable products. All our Vacmaster® appliances come with a 2-year guarantee.</p>",
-            "button_1_style": "black",
-            "button_1_text": "View guarantee",
-            "button_1_url": "shopify://pages/guarantee",
-            "button_2_style": "white",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_hRYWwx"
-      ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
@@ -249,32 +226,6 @@
     },
     "featured_text_with_image_FXPR6E": {
       "type": "featured-text-with-image",
-      "blocks": {
-        "text_with_image_67Kbzd": {
-          "type": "text-with-image",
-          "settings": {
-            "align_content": "",
-            "image": "shopify://shop_images/feature.jpg",
-            "image_loading": "lazy",
-            "logo": "",
-            "pretitle": "Features",
-            "title_tag": "h2",
-            "title": "Built to Last",
-            "subtitle_tag": "h1",
-            "subtitle": "",
-            "text": "<p>We apply the latest processes<br/>and highest standards of engineering to deliver high performance products that stand the test of time. <strong> </strong></p>",
-            "button_1_style": "black",
-            "button_1_text": "Learn more",
-            "button_1_url": "shopify://pages/frequently-asked-questions-allergenpro-range",
-            "button_2_style": "transparent-black",
-            "button_2_text": "",
-            "button_2_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_with_image_67Kbzd"
-      ],
       "settings": {
         "padding_top": "",
         "padding_top_mobile": "",
@@ -350,7 +301,6 @@
           "settings": {
             "background_color": "#000000",
             "text_color": "#ffffff",
-            "image": "shopify://shop_images/hero.jpg",
             "image_loading": "",
             "video": "shopify://files/videos/CLEVA_Promo_16-9_MASTER_1_2.mp4",
             "video_autoplay": false,
@@ -387,7 +337,8 @@
         "padding_top": "",
         "padding_top_mobile": "",
         "padding_bottom": "md",
-        "padding_bottom_mobile": "sm"
+        "padding_bottom_mobile": "sm",
+        "top_fade_enable": false
       }
     },
     "featured_press_EYE6Rn": {
@@ -396,6 +347,7 @@
         "logo_TiQqqt": {
           "type": "logo",
           "settings": {
+            "text": "",
             "image": "shopify://shop_images/GQ.svg",
             "image_loading": ""
           }
@@ -403,6 +355,7 @@
         "logo_EAe4r7": {
           "type": "logo",
           "settings": {
+            "text": "",
             "image": "shopify://shop_images/Easy-lawn.png",
             "image_loading": ""
           }
@@ -410,6 +363,7 @@
         "logo_3BBPmh": {
           "type": "logo",
           "settings": {
+            "text": "",
             "image": "shopify://shop_images/expert-reviews.svg",
             "image_loading": ""
           }
@@ -452,6 +406,7 @@
         "d7624e53-96f3-43a2-a5b4-052847d8844f": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "Design Excellence",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "white",
@@ -464,6 +419,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -471,6 +428,7 @@
         "80d3ee7d-e860-4a9c-8b84-2c5508cdf136": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "Outstanding Service",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "black",
@@ -483,6 +441,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -490,6 +450,7 @@
         "f65aa26e-6f20-4e9c-a91b-0a269239be79": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "Educate, Inform and Support",
             "text": "<p>To bring pioneering design into the heart of the everyday, by investing in research to evolve the design of products. We listen. We observe. We test and then we test again.</p>",
             "button_1_style": "",
@@ -502,6 +463,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -509,6 +472,7 @@
         "00fe8650-5574-49e9-9e8a-6c283c7e0628": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "Technical Specifications",
             "text": "",
             "button_1_style": "white",
@@ -521,6 +485,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -592,6 +558,7 @@
         "entry_q7pMtc": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "Where is my order?",
             "text": "<p>Orders placed before 12pm, Monday to Friday, are usually dispatched the same day. Orders placed after 12pm will be dispatched the following working day. <br/><br/>Fast 24 hour Delivery - Appliances<br/><br/>As standard, delivery for purchases that include appliances will usually be made 24 hours after dispatch on weekdays. If you place an order for an appliance after 12pm on a Friday, delivery will be made on the following Tuesday.<br/><br/>Standard 48 hour Delivery - Accessories<br/><br/>Delivery for orders of accessories only will usually be made 48 hours after dispatch on weekdays.<br/><br/>Please expect delays around public and bank holidays. See the delivery page for specific information.<br/><br/>To check the delivery status of your order, log into the My Account section of our website and click on the tracking link provided. </p>",
             "button_1_style": "white",
@@ -604,6 +571,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -611,6 +580,7 @@
         "entry_frmLHx": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "My order hasn’t arrived",
             "text": "<p>If your delivery date has passed and you haven't received your order, log into the My Account section of our website, open your orders and click on the tracking link provided to trace where your parcel is up to with our courier partner. Please note that all of our Vacuum Cleaners, Air Movers, Fans and Lawnmaster products require a signature upon delivery. If this can’t be obtained by the courier then your order will be returned to the delivery depot, and you will need to contact them to arrange a collection or a new delivery.</p>",
             "button_1_style": "white",
@@ -623,6 +593,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -735,6 +707,7 @@
         "entry_Kf4exw": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "Vacmaster Guarantee",
             "text": "<p>All Vacmaster appliances, spare parts and accessories carry a 2-year guarantee. </p>",
             "button_1_style": "white",
@@ -747,6 +720,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -754,6 +729,7 @@
         "entry_mbP8Km": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "Delivery and Returns",
             "text": "<p><strong>Free and Fast Delivery:</strong><br/>We offer free delivery on all UK mainland orders* and free next working day delivery on all orders that include an appliance. <br/><br/>Orders for spare parts and accessories are despatched via a 48hr standard delivery service.<br/><br/>* Delivery charges apply for addresses in the Channel Islands, Northern Ireland, Isle of Scilly and Man.<br/><br/><strong>Returns:</strong><br/>We hope that you are happy with your purchase but if that's not the case, unused, undamaged products can be returned for a refund within 30 days of receipt.<br/></p>",
             "button_1_style": "link",
@@ -766,6 +742,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }
@@ -773,6 +751,7 @@
         "entry_Bb8WRF": {
           "type": "entry",
           "settings": {
+            "full_width_enable": false,
             "title": "UK Customer Support",
             "text": "<p>Our aim is to keep it personal. Our friendly UK based customer service team are there if you need a helping hand. </p>",
             "button_1_style": "link",
@@ -785,6 +764,8 @@
             "html": "",
             "collection": "",
             "collection_products_per_page": 8,
+            "products": [],
+            "image_loading": "",
             "video_1": "",
             "video_2": ""
           }

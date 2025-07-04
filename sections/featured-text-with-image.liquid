@@ -63,6 +63,8 @@
             {% if block.settings.video or block_image %}
               <div
                 class="
+                  rounded-2xl
+                  overflow-hidden
                   col-span-full
                   {% if is_carousel %}
                     md:col-span-5
@@ -133,7 +135,7 @@
                       x-transition:enter-end="opacity-100"
                       x-transition:leave-end="opacity-0"
                     >
-                      {% render 'featured-hero-video', video: block_video, controls: block_video_controls %}
+                      {% render 'featured-hero-video', video: block_video, controls: block_video_controls, class: "is-featured-text-video" %}
                     </div>
                   </details>
                 {% endif %}
@@ -289,6 +291,9 @@
                 {% endif %}
               </div>
             {% endif %}
+            {% if block_logo %}
+                {% render 'svg', name: block_logo, class: 'max-md:hidden absolute bottom-0 right-0 w-[186px] h-auto' %}
+              {% endif %}
           {% endcapture %}
           {% capture block_buttons_html %}
             {% for i in (1..2) %}
