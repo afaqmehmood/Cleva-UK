@@ -106,7 +106,9 @@
                   <select id="products-selector-{{ i }}" class="product-select" data-column="{{ i }}" {% if i == 0 and template.name contains 'product' %}disabled{% endif %}>
                     <option value="">Select a product</option>
                     {% for _product in products %}
-                      <option {% if i == 0 and _product.id == product.id %}selected{% endif %} value="{{ _product.handle }}">{{ _product.title |  split: "|" |  first }}</option>
+                      {% unless _product.tags contains 'hide-on-comparison-tool' %}
+                      <option {% if i == 0 and _product.id == product.id %}selected{% endif %} value="{{ _product.handle }}">{{ _product.title }}</option>
+                      {% endunless %}
                     {% endfor %}
                   </select>
                 </div>
@@ -204,10 +206,13 @@
               <div class="product-specifications" data-column="0">
                 {% if product.metafields.custom.specifications.value %}
                   <label class="comparison-metafields">Specifications</label>
-                  {% for specifications in product.metafields.custom.specifications.value limit: 5 %}
-                    <div class="flex items-center row-item">
-                      <p>{{ specifications }}</p>
-                    </div>
+                  {% for specification in product.metafields.custom.specifications.value limit: 5 %}
+                    <div class="flex flex-col items-start row-item">
+                      {%- assign specification_title = specification |  split: "|" | first -%}
+                      {%- assign specification_value = specification |  split: "|" | last -%}
+                      <p class="block"><strong>{{ specification_title }}</strong></p>
+                      <p class="block">{{ specification_value }}</p>
+                  </div>{% unless forloop.last %}<span class="spacer block">&nbsp;</span>{% endunless %}
                   {% endfor %}
                   <hr>
                 {% endif %}
@@ -391,6 +396,10 @@
     .comparison-row hr {
       margin-top: 30px;
       border-color: #f2f2f2;
+    }
+
+    .comparison-row .product-in-the-box {
+      justify-content: flex-start;
     }
   
     .feature-label,
